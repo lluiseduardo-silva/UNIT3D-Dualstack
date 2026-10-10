@@ -1,0 +1,54 @@
+
+  ..................✓
+
+  ───────────────────────────────────────────────────────────────────── PSR 12
+    FIXED   .................................... 19 files, 1 style issue fixed
+  ✓ tests/Integration/DualstackPeerCountTest.php fully_qualified_strict_types…
+
+
+   PASS  Tests\Integration\DualstackPeerCountTest
+  ✓ it resolve auto por seeding depois atividade e nao duplica dualstac… 0.06s
+  ✓ it resolve auto por seeding depois atividade e nao duplica dualstac… 0.03s
+  ✓ it considera somente a familia vigente e respeita escolhas manuais   0.01s
+  ✓ it atualiza um lote com uma consulta sem N mais um                   0.02s
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao with ('ipv6', 'sum', 2, …)
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao with ('auto', 'sum', 3, …)
+  ✓ it mantem modo legado e nao consulta endpoints quando desativado     0.01s
+  ✓ it valida apenas os quatro modos e nao aceita resolucao enviada pel… 0.01s
+  ✓ it salva a escolha separada das configuracoes e resolve auto imedia… 0.02s
+  ✓ it preserva a autorizacao das configuracoes                          0.01s
+  ✓ it mantem totais da API com campos adicionais independentes da pref… 0.01s
+  ✓ it agenda resolucao diaria em ambos os modos de backend              0.01s
+  ✓ it publica as familias no caminho da busca mesmo com indice antigo…  0.02s
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s
+  ✓ it preserva BON por usuario torrent com dois endpoints e varios pee… 0.03s
+  ✓ it preserva BON por usuario torrent com dois endpoints e varios pee… 0.03s
+
+   PASS  Tests\Integration\DualstackExternalTrackerTest
+  ✓ it le um peer com dois endpoints e preserva uint64 sem projecao leg… 0.02s
+  ✓ it recusa contratos novos invalidos with ('familia repetida')
+  ✓ it recusa contratos novos invalidos with ('ip nao corresponde')
+  ✓ it recusa contratos novos invalidos with ('terceiro endpoint')
+  ✓ it recusa contratos novos invalidos with ('contador arredondado')
+  ✓ it recusa contratos novos invalidos with ('overflow')
+  ✓ it recusa contratos novos invalidos with ('schema desconhecido')
+  ✓ it recusa contratos novos invalidos with ('total duplicado')
+  ✓ it recusa contratos novos invalidos with ('ativo sem endpoint')
+  ✓ it aceita tracker legado sem apresenta-lo como dualstack
+  ✓ it funciona sem backend externo configurado e sem fazer requests
+  ✓ it reconhece capacidade explicita e endpoint ausente de backend antigo
+  ✓ it renderiza endpoints apenas quando a permissao de ip permite
+
+  Tests:    36 passed (220 assertions)
+  Duration: 0.52s
+
+
+
+   INFO  Blade templates cached successfully.

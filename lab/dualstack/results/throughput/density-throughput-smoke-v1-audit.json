@@ -1,0 +1,13 @@
+{
+  "series": "density-throughput-smoke-v1",
+  "status": "passed",
+  "accepted": 16000,
+  "measured_samples": 12000,
+  "phases": 2,
+  "sha256": {
+    "rate-1000-r1.json": "168d65f01f2206a9d0ec97607c2e4e4e4785c5a1874645a3351a2c36e20d653e",
+    "rate-1000-r1-samples.json.gz": "f3943c86738af49de05ae2ce4517fba3d29ce588fecb6bf817f46bc55a9d61b7",
+    "rate-3000-r2.json": "8e77c428140816940b2f0635f0f4a6b82e7081eadd2998968be8131e60e5dc2f",
+    "rate-3000-r2-samples.json.gz": "f3f63ea9a954e811a87b67948bdf85da650746c94219d8463791a0573c24fb00"
+  }
+}

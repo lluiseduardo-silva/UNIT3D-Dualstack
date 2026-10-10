@@ -1,0 +1,134 @@
+{
+  "before_sha256": "f9cae45b76ada88129e058f50a93c01b8915c8e494a0ce098f99de849cf615ec",
+  "after_sha256": "2ba8220183490679cb6843fe7930153fc801d784e054e47ec923e740caaddb9e",
+  "archive": {
+    "time": 1791521334.3859496,
+    "closed_files": 13,
+    "closed_bytes": 2613,
+    "active": "binlog.000098",
+    "free_ssd_bytes": 26798268416,
+    "purge_enabled": true,
+    "files": [
+      {
+        "file": "binlog.000085",
+        "bytes": 201,
+        "sha256": "ebbc001e98733addad4db8ac8b442c2b92e0accc122aa7b8d60c643f4923ac5b",
+        "elapsed_seconds": 0.02,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000086",
+        "bytes": 201,
+        "sha256": "aa709ec6f47a4cfb02112a8963e247c9b1910337fffd5d29387a232094a978b7",
+        "elapsed_seconds": 0.054,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000087",
+        "bytes": 201,
+        "sha256": "b4689b1f4a6d81d432501f7da462984b67c8315015a31a831f123f409626117d",
+        "elapsed_seconds": 0.06,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000088",
+        "bytes": 201,
+        "sha256": "ed34b6118cf0dbd59163e26933ecdb804f0a2748dd09105ae6969ddb29b13f19",
+        "elapsed_seconds": 0.009,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000089",
+        "bytes": 201,
+        "sha256": "a80040ab7d4d31ed964a3601225e0f9e8f89fdb8088f740cb42081f87269c1b4",
+        "elapsed_seconds": 0.02,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000090",
+        "bytes": 201,
+        "sha256": "5b17f02e24353213d8613f90d7d66c38ca05006c45399d1dbfe5a239e17e61dd",
+        "elapsed_seconds": 0.037,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000091",
+        "bytes": 201,
+        "sha256": "b13c6a4103473067dd9d29a0d363a0b7767b1b574487f0a74f3357cea9e691b3",
+        "elapsed_seconds": 0.037,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000092",
+        "bytes": 201,
+        "sha256": "b2959dc6d988c359fdf289f7b9d65a83c656513ae5180080309e30d46cf9fc9c",
+        "elapsed_seconds": 0.031,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000093",
+        "bytes": 201,
+        "sha256": "f523ef63766b865710f4fb52fb548f0ebcc5d7db4e7c440f2266e927d79b8721",
+        "elapsed_seconds": 0.017,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000094",
+        "bytes": 201,
+        "sha256": "f36806d6025aca5e822840debb3e602fcf00e7ffdf83798da13aa7f14eb4e96f",
+        "elapsed_seconds": 0.011,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000095",
+        "bytes": 201,
+        "sha256": "143f32d49f8199ef03f662c91a56c83236243a7378d2a1e7ea9a4b17eea55c7c",
+        "elapsed_seconds": 0.007,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000096",
+        "bytes": 201,
+        "sha256": "ffafdc9817b5445bb5248bafcab7112b616f6f5ef81377cc1aa0cda3ac4128c6",
+        "elapsed_seconds": 0.017,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      },
+      {
+        "file": "binlog.000097",
+        "bytes": 201,
+        "sha256": "b755f0a7c7441a90fc8a1c0898503349bc64cc530bec8bb41bb82e388ca3050a",
+        "elapsed_seconds": 0.008,
+        "copied_bytes": 201,
+        "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6",
+        "purged": true
+      }
+    ],
+    "remaining_closed_bytes": 0,
+    "free_ssd_bytes_after": 26798321664
+  },
+  "status": "installed_and_drained"
+}

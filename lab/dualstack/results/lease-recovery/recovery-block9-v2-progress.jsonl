@@ -1,0 +1,12 @@
+{"at": 1791556282.4898524, "accepted": 0, "errors": {}, "elapsed": 0, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556283.4910326, "accepted": 18, "errors": {}, "elapsed": 0.852435091001098, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556284.4924424, "accepted": 38, "errors": {}, "elapsed": 1.8538447449973319, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556285.4938385, "accepted": 58, "errors": {}, "elapsed": 2.8552409859985346, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556286.4953887, "accepted": 78, "errors": {}, "elapsed": 3.8567910760029918, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556287.4964366, "accepted": 98, "errors": {}, "elapsed": 4.857839014999627, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556288.49817, "accepted": 118, "errors": {}, "elapsed": 5.859572241999558, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556289.500549, "accepted": 138, "errors": {}, "elapsed": 6.861951364000561, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556290.5024338, "accepted": 158, "errors": {}, "elapsed": 7.8638361300036195, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724}}
+{"at": 1791556291.504818, "accepted": 178, "errors": {}, "elapsed": 8.866220235002402, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724, "released_at": 1791556291.4898047}}
+{"at": 1791556292.506764, "accepted": 198, "errors": {}, "elapsed": 9.868166576998192, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724, "released_at": 1791556291.4898047}}
+{"at": 1791556293.5080407, "accepted": 218, "errors": {}, "elapsed": 10.869445527001517, "blocker": {"connection": 34036, "acquired_at": 1791556282.4885724, "released_at": 1791556291.4898047}}

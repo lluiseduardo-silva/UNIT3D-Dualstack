@@ -1,0 +1,72 @@
+{
+  "backend": "rust",
+  "variant": "original",
+  "rate": 1000.0,
+  "seconds": 60,
+  "warmup": 30,
+  "numwant": 25,
+  "monitor_interval": 5,
+  "load": "same-requests",
+  "status": "passed",
+  "population": {
+    "peers": 1000,
+    "dual_percent": 50,
+    "distribution": "popular",
+    "torrents": 1,
+    "seeders": 800,
+    "leechers": 200,
+    "created_at": "2026-10-08T20:03:31"
+  },
+  "effective_rate": 1000.0,
+  "traffic": "seeders completed; resident leechers; increment 100 per logical round",
+  "source_addresses": 144,
+  "started_at_epoch": 1791489814.5026546,
+  "measured_at_epoch": 1791489844.5026546,
+  "expected_upload": 6000000,
+  "drain_seconds": 0.004000460990937427,
+  "transition_versions_confirmed": null,
+  "identity_check": {
+    "rows": 1000,
+    "mismatch_count": 0,
+    "examples": []
+  },
+  "accepted": 90000,
+  "measured_accepted": 60000,
+  "measured_requests": 60000,
+  "achieved_rps": 1000.0,
+  "errors": {},
+  "generator_dropped": 0,
+  "latency_ms": {
+    "p50": 0.1920220092870295,
+    "p95": 0.24877900432329625,
+    "p99": 0.3508609952405095,
+    "max": 4.937627003528178
+  },
+  "end_to_end_ms": {
+    "p50": 0.7248680049087852,
+    "p95": 1.2254449975444004,
+    "p99": 1.297768991207704,
+    "max": 5.463424007757567
+  },
+  "response_read_ms": {
+    "p50": 0.1705109898466617,
+    "p95": 0.21838101383764297,
+    "p99": 0.31456300348509103,
+    "max": 4.913761993520893
+  },
+  "validation_ms": {
+    "p50": 0.02043800486717373,
+    "p95": 0.032149997423402965,
+    "p99": 0.047811001422815025,
+    "max": 3.9461900014430285
+  },
+  "payload_bytes": {
+    "p50": 249,
+    "p95": 249,
+    "p99": 249,
+    "max": 249
+  },
+  "result": "/opt/unit3d-dualstack/benchmarks/rust-original-20261008T200504.json",
+  "legacy_flush_override_ms": 100,
+  "fixture_statistics_analyzed": false
+}

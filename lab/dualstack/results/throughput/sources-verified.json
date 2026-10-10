@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "products": {
+    "UNIT3D": "6d8e7437daa652fb02519584c456b15dceacffa4",
+    "UNIT3D-Announce": "a9ab263de2fe6473c86eeabfd0b6ca1c019f6070"
+  },
+  "reference_files": 58,
+  "experimental_changes": [
+    "src/dualstack/coordinator.rs",
+    "src/dualstack/lab_metrics.rs",
+    "src/dualstack/mod.rs",
+    "src/dualstack/persistence.rs",
+    "src/dualstack/response.rs"
+  ],
+  "description": "Hashes normalizados para LF; produtos limpos e preservados. Experimento em copia isolada."
+}

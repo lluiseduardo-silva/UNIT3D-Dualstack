@@ -1,0 +1,23 @@
+{
+  "unit3d_commit": "0ff60498700dcf1bb54577151f75501631164722",
+  "announce_commit": "4074ee4fba815a7e2dc9769f6d8f4e1cd41c9547",
+  "stage": 5,
+  "status": "consumer_connectivity_criterion_failed",
+  "deletion_php_tests": 57,
+  "deletion_php_assertions": 746,
+  "deletion_rust_blocks": 6,
+  "endpoint_and_regression_tests": 54,
+  "endpoint_and_regression_assertions": 568,
+  "consumer_checks_passed": 18,
+  "consumer_checks_failed": 2,
+  "consumer_result": "results/site-consumers.json",
+  "consumer_transaction_rolled_back": true,
+  "production": false,
+  "next": "corrigir elegibilidade de conectividade vigente no BON existente e na exibicao de ganhos",
+  "pending": [
+    "demais consumidores e seedtime consolidado",
+    "rollback original",
+    "clientes reais",
+    "benchmarks"
+  ]
+}

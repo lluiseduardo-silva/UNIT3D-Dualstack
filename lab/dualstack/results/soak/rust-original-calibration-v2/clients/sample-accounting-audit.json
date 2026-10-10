@@ -1,0 +1,1 @@
+{"audit": {"credit": 72000000, "mismatches": 0, "peer_ips_role": "static_compatibility_fixture", "peers": 10000, "users": 250}, "name": "rust-original-calibration-v2", "records": 720000, "source": "replay_of_accepted_samples_against_mysql", "status": "passed"}

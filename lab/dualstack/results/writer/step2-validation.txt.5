@@ -1,0 +1,61 @@
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 21.06s
+     Running tests/dualstack_mysql.rs (target/release/deps/dualstack_mysql-52949dc0059ff934)
+
+running 1 test
+PASS reconciliacao legada bloqueia aquisicao Rust sem alterar geracao
+PASS contabilidade 1000/1000/1100/1050/1200, reentrega, restart, geracao e stop parcial
+PASS backlog cheio sem avancar referencia
+PASS falha SQL entre endpoints e historico deixa zero efeitos parciais
+PASS quatro threads, 401 transicoes, credito 4000 e zero SQL durante publish
+PASS expiracao independente por familia
+PASS tres peers dualstack e quarto peer recusado
+PASS uint64 maximo exato em memoria e MySQL
+PASS TIMESTAMP e DATETIME preenchidos, probe e conclusao restaurados, seedtime 30 e credito 100/100 sem duplicacao
+PASS selecao por torrent, uniao de peers, numwant 0/1/2, ambos endpoints, payload, bencode, TTL, conectividade e restart sem SQL na leitura
+PASS retencao somente confirmada, lote limitado, preserva recente/ativo/historico e reconexao sem duplicar credito ou conclusao
+PASS retencao bloqueada no SQL recusa somente a identidade reservada e preserva announces de outros peers
+PASS cancelamento da retencao fecha entrada, rollback preserva referencia e bootstrap permite concluir limpeza
+PASS API logica com endpoints, identidade entre usuarios, uint64 exato, contadores correntes e inativos preservados apos restart
+PASS aquisicao bloqueada termina em 3 s sem abrir entrada
+PASS renovacao bloqueada termina em 3 s e fecha entrada
+PASS liberacao bloqueada termina em 3 s
+PASS lock wait 1205 repetido duas vezes, terceiro lote confirma credito 100 uma vez
+PASS retry esgotado em tres tentativas preserva fila, fecha entrada e permite drenagem
+PASS deadlock 1213 real, espera InnoDB observada, retry confirma credito 100 uma vez
+PASS supervisor renova por 12 s, encerra, drena e libera lease
+PASS supervisor interrompe escritor bloqueado quando renovacao falha, preserva duas transicoes e credito unico
+PASS supervisor falha fechada, sem retry de erro permanente, preserva fila e drena depois da correcao
+PASS 100 lotes de uma transicao drenados em menos de 3 s, encerramento e credito unico
+PASS lotes 500/500/1 confirmam 1001 versoes sem duplicar credito; limites 0/501 recusados antes da lease
+INFO comandos SQL durante remocao do CHECK: [0, 0]
+
+thread 'mysql_coordinator_contract' (29) panicked at tests/support/dualstack_endpoints.rs:98:5:
+assertion `left == right` failed
+  left: [4, 1]
+ right: [3, 1]
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test mysql_coordinator_contract ... FAILED
+
+failures:
+
+failures:
+    mysql_coordinator_contract
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 31.62s
+
+error: test failed, to rerun pass `--test dualstack_mysql`

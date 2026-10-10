@@ -1,0 +1,97 @@
+PASS schema aditivo de remocao aplicado duas vezes
+
+   PASS  Tests\Integration\DualstackDeletionTest
+  ✓ it confirma credito pendente antes de remover e ignora reentrega an… 5.11s
+  ✓ it confirma credito pendente antes de remover e ignora reentrega an… 5.07s
+  ✓ it preserva outros recursos e deduz peers logicos sem duplicar fami… 0.09s
+  ✓ it retoma remocao selada depois de rollback SQL e restart sem recre… 0.35s
+  ✓ it remove no maximo duzentos peers por lote                          0.25s
+  ✓ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.10s
+  ✓ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.08s
+  ✓ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.12s
+  ✓ it bloqueia announce concorrente antes de esperar lock SQL sem aume… 0.09s
+  ✓ it recusa backend externo sem capacidade antes de alterar usuario o… 0.03s
+  ✓ it recusa backend externo sem capacidade antes de alterar usuario o… 0.04s
+  ✓ it recusa backend externo sem capacidade antes de alterar usuario o… 0.04s
+  ✓ it deduz somente endpoints publicaveis quando a conectividade posit… 0.09s
+
+   PASS  Tests\Integration\DualstackCleanupTest
+  ✓ it enfileira pelo controller sem escrever no swarm e consome cota u… 0.06s
+  ✓ it preserva endpoint recente e outro peer do mesmo usuario torrent   0.06s
+  ✓ it revalida o endpoint renovado no journal antes do flush mesmo com… 0.06s
+  ✓ it mantem corte estrito por usuario e limite administrativo de duas… 0.11s
+  ✓ it recusa admissao sem proprietario ou com outro backend sem gastar… 0.02s
+  ✓ it recusa admissao sem proprietario ou com outro backend sem gastar… 0.01s
+  ✓ it recusa admissao sem proprietario ou com outro backend sem gastar… 0.01s
+  ✓ it limita backlog e recusa cota esgotada sem perder solicitacao pen… 0.04s
+  ✓ it reverte cota quando a persistencia da solicitacao falha           0.07s
+  ✓ it preserva solicitacao e credito confirmado ao recuperar nova gera… 0.09s
+  ✓ it drena tarefas com entrada fechada e impede certificar handoff pr… 0.19s
+  ✓ it deduplica admissao concorrente em quatro processos sem debitar q… 0.06s
+  ✓ it serializa limpeza e announce real em processos separados sem cre… 0.08s
+  ✓ it impede admissao tardia de certificar drenagem falsa durante ence… 0.06s
+  ✓ it processa solicitacoes em lotes limitados preservando todas as re… 0.14s
+
+   PASS  Tests\Integration\DualstackJournalTest
+  ✓ it certifica drenagem somente depois de fechar produtores e reconhe… 0.07s
+  ✓ it nao permite que uma geracao antiga certifique a nova como drenad… 0.03s
+  ✓ it nao certifica drenagem enquanto houver filas legadas              0.02s
+  ✓ it confirma referencias e credito juntos e tolera reentrega depois…  0.03s
+  ✓ it recusa fila cheia antes de avancar a referencia e preserva uint6… 0.04s
+  ✓ it aplica limites ao peer logico e ao endpoint separadamente         0.03s
+  ✓ it deduplica conclusao por usuario torrent e preserva historico no…  0.03s
+  ✓ it recusa dois proprietarios e recupera ambos endpoints e credito e… 0.08s
+  ✓ it calcula credito com quatro processos disputando a mesma referenc… 0.08s
+  ✓ it recupera um lote interrompido antes do commit sem avancar SQL pa… 0.04s
+  ✓ it expira somente a familia vencida depois da recuperacao            0.08s
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.04s
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.05s
+  ✓ it persiste lotes sobrepostos em dois processos sem deadlock ou cre… 0.07s
+  ✓ it limita peers logicos na resposta sem truncar contadores ou perde… 0.04s
+  ✓ it retira somente peers confirmados e preserva uma reativacao pende… 0.08s
+  ✓ it verifica TCP por familia sem desconectar o caminho valido         0.05s
+  ✓ it limita o cache de conectividade durante rotacao de portas         0.12s
+  ✓ it recupera mensagens nao confirmadas e bloqueia o proprietario ven… 0.06s
+  ✓ it recusa announce sem heartbeat antes de alterar referencia ou jou… 0.02s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.03s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.08s
+
+  Tests:    55 passed (729 assertions)
+  Duration: 14.07s
+
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 38.16s
+     Running tests/dualstack_deletion.rs (target/release/deps/dualstack_deletion-f1e8d277758d1268)
+
+running 1 test
+PASS remocao users, dois endpoints, credito pendente 100, reentrega e restart sem ressurreicao
+PASS remocao torrents, dois endpoints, credito pendente 100, reentrega e restart sem ressurreicao
+PASS preserva outro usuario no torrent e contadores logicos por familia
+PASS falha CHECK reverte remocao, preserva credito e nova geracao retoma estado selado
+PASS remocao sob lock bloqueia alvo, preserva outro recurso e cancelamento fecha entrada
+PASS lotes de 200, contencao real sem aumento de deadlocks/timeouts
+RUST_DELETION_PASSED
+test deletion_contract ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.85s
+
+

@@ -1,0 +1,19 @@
+
+   PASS  Tests\Integration\DualstackPeerContractTest
+  ✓ it executa o contrato compartilhado de peer with dataset "contabili… 0.01s  
+  ✓ it executa o contrato compartilhado de peer with dataset "ordem ipv6 ipv4"
+  ✓ it executa o contrato compartilhado de peer with dataset "stop parcial repetido e porta zero"
+  ✓ it executa o contrato compartilhado de peer with dataset "substituicao de ipv6 e stop antigo"
+  ✓ it executa o contrato compartilhado de peer with dataset "limite um nao expulsa endpoint"
+  ✓ it executa o contrato compartilhado de peer with dataset "reinicio somente apos ultimo stop"
+  ✓ it executa o contrato compartilhado de peer with dataset "ipv4 nao renova prazo ipv6"
+  ✓ it executa o contrato compartilhado de peer with dataset "conclusao duplicada"
+  ✓ it executa o contrato compartilhado de peer with dataset "intervalo por familia sobrevive troca ip"
+  ✓ it executa o contrato compartilhado de peer with dataset "precisao acima de dois elevado a 53"
+  ✓ it executa o contrato compartilhado de peer with dataset "stop desconhecido nao cria peer"
+  ✓ it executa o contrato compartilhado de peer with dataset "checagem atrasada e falha independente"
+  ✓ it mantem precisao uint64 e fatores financeiros sem floats
+
+  Tests:    13 passed (251 assertions)
+  Duration: 0.05s
+

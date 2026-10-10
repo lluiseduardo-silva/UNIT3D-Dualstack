@@ -1,0 +1,16 @@
+{
+  "120": {
+    "name": "unit3d-ds-tracker",
+    "cores": "4",
+    "memory": "8192",
+    "balloon": "0",
+    "scsi0": "local-lvm:vm-120-disk-0,discard=on,size=24G"
+  },
+  "121": {
+    "name": "unit3d-ds-data",
+    "cores": "4",
+    "memory": "8192",
+    "balloon": "0",
+    "scsi0": "local-lvm:vm-121-disk-0,discard=on,size=32G"
+  }
+}

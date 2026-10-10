@@ -1,0 +1,19 @@
+{
+  "unit3d_commit": "b949d3944226cf37eac599f0a8171752ed58ebe1",
+  "announce_commit": "1fabed68f88ddd754074d4f3ae7bd185a9412225",
+  "stage": 5,
+  "status": "site_writer_criterion_failed",
+  "preference_tests_passed": 36,
+  "preference_assertions": 220,
+  "failed_checks": ["user_flush", "staff_flush"],
+  "diagnostic_exit_code": 1,
+  "mysql_real": true,
+  "transaction_rolled_back": true,
+  "production": false,
+  "next": [
+    "corrigir limpeza manual para respeitar o coordenador proprietario",
+    "revisar exclusoes de torrents e usuarios que alteram o swarm",
+    "telas locais de endpoints e demais consumidores",
+    "rollback, clientes reais e benchmarks"
+  ]
+}

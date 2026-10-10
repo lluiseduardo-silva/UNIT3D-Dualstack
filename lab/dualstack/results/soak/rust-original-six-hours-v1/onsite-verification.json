@@ -1,0 +1,9 @@
+{
+  "accounting_snapshot_sha256": "069b969a92f1511045ea67169e12bd5842ee6c0f3e0b20c86b1add0d8103d0ee",
+  "matches_proof": true,
+  "clock_ticks_per_second": {
+    "tracker": 100,
+    "data": 100,
+    "clients": 100
+  }
+}

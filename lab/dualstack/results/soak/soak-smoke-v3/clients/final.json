@@ -1,0 +1,1 @@
+{"accepted": 153222, "audit": {"credit": 7350200, "endpoints": 1000, "peers": 500, "users": 250}, "elapsed_seconds": 160.402877688, "errors": 0, "expiry_checked": true, "main_accepted": 147004, "reason": null, "restored": true, "rss_peak_kib": 35708, "sample_count": 153222, "sample_queue_peak": 2, "status": "passed", "windows": 30}

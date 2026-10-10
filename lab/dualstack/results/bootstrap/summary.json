@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "cases": 6,
+  "opens": 18,
+  "source_fingerprint": "a0b448b667f756318200f17fda3e4fc6f2c3b75528c24a9ec9c0dfab80174659",
+  "results": [
+    {
+      "peers": 1000,
+      "torrents": 4,
+      "layout": "distributed",
+      "bootstrap_min_seconds": 0.045924644,
+      "bootstrap_max_seconds": 0.083420544,
+      "query_seconds": 0.003053072,
+      "legacy_seconds": 0.130655643,
+      "legacy_interrupted_at_2s": false,
+      "candidate_handler_reads": {
+        "Handler_read_key": 2008,
+        "Handler_read_next": 2004,
+        "Handler_read_rnd_next": 1013
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 3008,
+        "Handler_read_next": 374504,
+        "Handler_read_rnd_next": 7
+      }
+    },
+    {
+      "peers": 1000,
+      "torrents": 1,
+      "layout": "concentrated",
+      "bootstrap_min_seconds": 0.048733306,
+      "bootstrap_max_seconds": 0.050225979,
+      "query_seconds": 0.003076427,
+      "legacy_seconds": 0.514147345,
+      "legacy_interrupted_at_2s": false,
+      "candidate_handler_reads": {
+        "Handler_read_key": 2005,
+        "Handler_read_next": 2001,
+        "Handler_read_rnd_next": 1007
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 3005,
+        "Handler_read_next": 1499501,
+        "Handler_read_rnd_next": 4
+      }
+    },
+    {
+      "peers": 54000,
+      "torrents": 216,
+      "layout": "distributed",
+      "bootstrap_min_seconds": 1.707486651,
+      "bootstrap_max_seconds": 1.909083067,
+      "query_seconds": 0.128201697,
+      "legacy_seconds": 2.002010112,
+      "legacy_interrupted_at_2s": true,
+      "candidate_handler_reads": {
+        "Handler_read_key": 108220,
+        "Handler_read_next": 108216,
+        "Handler_read_rnd_next": 54437
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 46245,
+        "Handler_read_next": 5751387,
+        "Handler_read_rnd_next": 1
+      }
+    },
+    {
+      "peers": 54000,
+      "torrents": 1,
+      "layout": "concentrated",
+      "bootstrap_min_seconds": 1.685637207,
+      "bootstrap_max_seconds": 1.8783026390000002,
+      "query_seconds": 0.12420261,
+      "legacy_seconds": 2.001221864,
+      "legacy_interrupted_at_2s": true,
+      "candidate_handler_reads": {
+        "Handler_read_key": 108005,
+        "Handler_read_next": 108001,
+        "Handler_read_rnd_next": 54007
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 6043,
+        "Handler_read_next": 6080085,
+        "Handler_read_rnd_next": 1
+      }
+    },
+    {
+      "peers": 100000,
+      "torrents": 400,
+      "layout": "distributed",
+      "bootstrap_min_seconds": 3.109381458,
+      "bootstrap_max_seconds": 3.379686077,
+      "query_seconds": 0.247248844,
+      "legacy_seconds": 2.00157655,
+      "legacy_interrupted_at_2s": true,
+      "candidate_handler_reads": {
+        "Handler_read_key": 200404,
+        "Handler_read_next": 200400,
+        "Handler_read_rnd_next": 100805
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 42501,
+        "Handler_read_next": 5284389,
+        "Handler_read_rnd_next": 1
+      }
+    },
+    {
+      "peers": 100000,
+      "torrents": 1,
+      "layout": "concentrated",
+      "bootstrap_min_seconds": 2.8073803809999998,
+      "bootstrap_max_seconds": 2.92123943,
+      "query_seconds": 0.237498832,
+      "legacy_seconds": 2.002232591,
+      "legacy_interrupted_at_2s": true,
+      "candidate_handler_reads": {
+        "Handler_read_key": 200005,
+        "Handler_read_next": 200001,
+        "Handler_read_rnd_next": 100007
+      },
+      "legacy_handler_reads": {
+        "Handler_read_key": 5890,
+        "Handler_read_next": 5776159,
+        "Handler_read_rnd_next": 1
+      }
+    }
+  ],
+  "limits": [
+    "controle antigo com indice adverso forcado, nao baseline tipico",
+    "Handler_read_* mede operacoes de acesso; nao equivale a ROWS_EXAMINED",
+    "sem ANALYZE corretivo; estatisticas automaticas do MySQL preservadas",
+    "ensaio de inicializacao; nao mede throughput nem seis horas"
+  ]
+}

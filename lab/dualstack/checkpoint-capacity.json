@@ -1,0 +1,384 @@
+{
+  "updated_at": "2026-10-10T16:59:35.440255+00:00",
+  "status": "awaiting_decision",
+  "active_phase": "mysql_statement_cache_ab_completed",
+  "active_series": null,
+  "resources_scope": "each_vm",
+  "product": "rust_candidate",
+  "rust_commit": "36823b5fab72940c0dcb90b0ed456b28c18160cc",
+  "binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833",
+  "database": "unit3d_dualstack_capacity_20261010",
+  "host": "root@10.0.1.4",
+  "tracker_vm": 120,
+  "data_vm": 121,
+  "clients_vm": 122,
+  "supervisor_status": "/storage_pool/unit3d-dualstack/supervisor/capacity/capacity-cache-a-repeat-v1/status.json",
+  "supervisor_unit": "unit3d-capacity-cache-a-repeat-v1",
+  "automation_id": "acompanhar-capacidade-do-rust-e-mysql",
+  "calibrations": [
+    {
+      "series": "capacity-smoke-v1",
+      "passed": true,
+      "resources_restored": true,
+      "accepted": 12000,
+      "errors": 0,
+      "accounting_mismatches": 0
+    },
+    {
+      "series": "capacity-resource-smoke-v1",
+      "passed": true,
+      "resources_restored": true,
+      "accepted": 12000,
+      "errors": 0,
+      "accounting_mismatches": 0
+    },
+    {
+      "series": "capacity-smoke-v2",
+      "passed": true,
+      "resources_restored": true,
+      "accepted": 12000,
+      "errors": 0,
+      "accounting_mismatches": 0
+    },
+    {
+      "series": "capacity-alignment-smoke-v1",
+      "passed": true,
+      "resources_restored": true,
+      "accepted": 80000,
+      "errors": 0,
+      "accounting_mismatches": 0,
+      "drain_seconds": 0.7384940460033249
+    },
+    {
+      "series": "capacity-memory-calibration-v1",
+      "passed": true,
+      "resources_restored": true,
+      "accepted": 40000,
+      "credit_bytes": 2003200,
+      "errors": 0,
+      "accounting_mismatches": 0,
+      "drain_seconds": 0.7402022000169381,
+      "probe_samples": 25,
+      "probe_failures": 0,
+      "probe_max_sql_ms": 207.32951164245605
+    },
+    {
+      "passed": true,
+      "series": "capacity-cache-b-calibration-v2",
+      "variant": "b",
+      "trials": 1,
+      "accepted": 40000,
+      "credit_bytes": 2003200,
+      "errors": 0,
+      "accounting_mismatches": 0,
+      "all_drains_exit_zero": true,
+      "max_drain_seconds": 0.7312348379928153,
+      "resources_restored": true,
+      "observer_samples": 107,
+      "memory_samples": 25,
+      "scope": "integridade e restaura\u00e7\u00e3o; n\u00e3o aprova desempenho ou teto sustentado"
+    }
+  ],
+  "original_resources": {
+    "120": {
+      "cores": 4,
+      "memory_mib": 8192,
+      "balloon": 0
+    },
+    "121": {
+      "cores": 4,
+      "memory_mib": 8192,
+      "balloon": 0
+    },
+    "122": {
+      "cores": 4,
+      "memory_mib": 8192,
+      "balloon": 0
+    }
+  },
+  "fixture": {
+    "logical_peers": 10000,
+    "endpoints": 20000,
+    "torrents": 40,
+    "max_peers_per_torrent": 250,
+    "dualstack_percent": 100
+  },
+  "scripts_sha256": {
+    "capacity-admin.py": "c63e3b8d36af3022f6fcbd4e8375d7133e4dffa87df61c243fc4cc1006cc2b8b",
+    "capacity-load.py": "22dbc861b128705f1c1f83b9c4b3ede1193e60400ed01bdb3cce54755b5145b9",
+    "capacity-observer.py": "9fc63cecf6d34063141b8dfbc95d13e26a6e4c58165a77d4276572f7f567ba98",
+    "capacity-series.py": "96d7cd90dd0a48c6e4669c27adf5f3b40d75071965e489f10d2d71b7da171cfd",
+    "summarize-capacity.py": "f5f265403421a8a61f293d26bcc6cf56dab6728cd72f54595df5268aa50c9453",
+    "export-capacity.py": "0c8bd00d5c156da96b37cf50c70a28d3d0252951ef6f561e2bc91181bfa03c87",
+    "capacity_metrics.py": "ea083e7139b8c0a5d6092cbfb2618a4a46fe95037e51e975f28bed28dbcfd88b",
+    "capacity-memory-probe.py": "b535aab53cf638e6264575dd6c4b26c3acc75affa7282f4d059cff5246c8f1b1",
+    "capacity-memory-series.py": "012f82e105ce247ae057e149f36c0d70113103578809d9e683d20a0333d09713",
+    "summarize-capacity-memory.py": "ec78b971e810ecf8e930bdfc85c54251b1f79967ee09617d29d5b3af39fee794",
+    "capacity-cache-admin.py": "35d976d6457a548b11d075132fe7dce6ea10a63c9d60705e1bb40a2be966110d",
+    "capacity-cache-series.py": "dd2076f91b95d214a8d5f72e6c7fec0cca8cacd7ad2a83063ab36918ed565b21",
+    "build-capacity-cache.sh": "bc3e64588225ecd7d2414d8bc3c4187e8c96988a20b4a5280b76b1eefb89af55",
+    "verify-capacity-cache.py": "c44336aa5b8c3789cf513040835e932a7a1329e85f09033f3c30d7e73aa754b1",
+    "compare-capacity-cache.py": "f4ff105220adb60bfcf797642ea7ee768e011b56dd2bec8d62969de31dfd00b6"
+  },
+  "completed_phases": [
+    "isolated_database",
+    "instrumentation_smoke",
+    "real_vm_resize_restore_smoke",
+    "lag_alignment_regression_and_real_mysql_validation",
+    "mysql_memory_allocation_diagnostic_4g",
+    "mysql_statement_cache_ab"
+  ],
+  "pending_phases": [
+    "remaining_cpu_ram_profiles_and_lower_rate_confirmations",
+    "cpu_ram_matrix_analysis",
+    "population_and_buffer_pool_controls",
+    "vm_disk_io_controls",
+    "capacity_and_iops_report"
+  ],
+  "completion_checks": [
+    "all_trial_accounting_passed",
+    "all_tracker_drain_exit_zero",
+    "resources_restored",
+    "window_series_examined",
+    "long_confirmations_examined",
+    "generator_limits_reported"
+  ],
+  "constraints": [
+    "no_concurrent_test",
+    "only_isolated_8_dynamic_query_cache_changes_authorized",
+    "preserve_prior_evidence",
+    "no_private_exports",
+    "no_auto_restart_after_failure",
+    "no_php_or_original_approval",
+    "do_not_infer_faster_ssd_capacity_from_iops_caps"
+  ],
+  "interrupted_series": [
+    {
+      "series": "capacity-cpu-ram-v1",
+      "reason": "sampling_alignment_false_saturation",
+      "product_failure": false,
+      "resources_restored": true,
+      "all_collected_accounting_passed": true
+    },
+    {
+      "series": "capacity-cpu-ram-v2",
+      "reason": "data_vm_memory_guard",
+      "product_failure_confirmed": false,
+      "resources_restored": true,
+      "all_collected_accounting_passed": true,
+      "completed_trials": 40
+    }
+  ],
+  "lag_method": "time_aligned_interpolation_with_batch_and_sql_time_detection_resolution",
+  "last_run_status": "completed",
+  "automation_status": "PAUSED",
+  "resources_restored": true,
+  "failure": {
+    "series": "capacity-cpu-ram-v2",
+    "trial": "capacity-cpu-ram-v2-database1-confirm-2",
+    "reason": "protecao_acionada_guard_data",
+    "guard": "memory_low",
+    "at_utc": "2026-10-10T09:11:57.976886+00:00",
+    "data_vm": {
+      "vcpus": 1,
+      "memory_mib": 2048
+    },
+    "memory_available_mib": 251.421875,
+    "minimum_required_mib": 256,
+    "mysql_rss_mib": 1376.94140625,
+    "accepted": 38646,
+    "credit_bytes": 1932800,
+    "drain_seconds": 0.7346791279996978,
+    "accounting_passed": true,
+    "tracker_exit_code": 0,
+    "oom_killed": false,
+    "measured_window_started": false,
+    "product_changed": false,
+    "restarted": false
+  },
+  "partial_results": {
+    "trials_collected_and_audited": 40,
+    "all_accounting_endpoints_counters_and_drains_passed": true,
+    "http_errors": 0,
+    "matrix_completed": false,
+    "tracker1_three_300s_confirmations_rate": 6500,
+    "tracker1_transient_lag_peak": 46014.14144713525,
+    "tracker2_7000_confirmations_passed": 2,
+    "tracker2_7000_third_confirmation": "capacity_backlog",
+    "reference_8000_long_confirmation": "capacity_backlog",
+    "database1_5500_long_confirmations_passed": 1,
+    "unexecuted_profiles": [
+      "database2",
+      "database1ram4",
+      "database2ram2",
+      "balanced1",
+      "balanced2"
+    ],
+    "scope": "capacity-cpu-ram-v2_only; database1ram4 diagnostic completed separately without formal ceiling approval"
+  },
+  "next_decision": {
+    "recommendation": "Considerar B quando RAM for restri\u00e7\u00e3o, reservando CPU; validar taxa sustent\u00e1vel antes da ado\u00e7\u00e3o. Incorpora\u00e7\u00e3o e novos ensaios dependem de decis\u00e3o.",
+    "measured_finding": "B reduziu pico RSS MySQL de 1245.75/1389.38 para 559.86 MiB; CPU MySQL subiu de 62.98-65.44 para 70.46-70.91% de um nucleo nas confirmacoes.",
+    "hypothesis": "Cache dinamico contribui para alocacao; retencao/fragmentacao plausivel, sem prova retrospectiva de toda a causa do evento em 2 GiB.",
+    "risk_to_measure": "B nao aprovou estabilidade em uma confirmacao de 5500 req/s e na rampa de 6000; nao ha teto sustentado ou validacao 2 GiB.",
+    "no_automatic_restart": true,
+    "product_or_cache_change_requires_decision": "incorporacao permanente; experimento isolado autorizado",
+    "memory_snapshot_before_restore_available": true,
+    "full_report": "docs/dualstack-capacidade-recursos.md",
+    "evidence_directory": "lab/dualstack/results/capacity/capacity-cache-a-repeat-v1",
+    "experiment_authorized": true,
+    "experiment_completed": true
+  },
+  "diagnostic": {
+    "data_vm": {
+      "vcpus": 1,
+      "memory_mib": 4096
+    },
+    "tracker_vm": {
+      "vcpus": 4,
+      "memory_mib": 8192
+    },
+    "product_changed": false,
+    "calibration_series": "capacity-memory-calibration-v1",
+    "planned_series": "capacity-memory-4g-v1",
+    "prior_failure_preserved": true,
+    "calibration_passed": true,
+    "previous_database_copy": {
+      "preserved_locally": true,
+      "bytes": 7972038,
+      "sha256": "c33a4f581f53143eae6959f041032b6c58387e607a3e26a57cccb8a81887b07b",
+      "exported": false
+    },
+    "started_at_utc": "2026-10-10T14:50:14.629957+00:00",
+    "next_action": "A/B de cache conclu\u00eddo; decis\u00e3o sobre incorpora\u00e7\u00e3o e campanha geral pendente.",
+    "completed_at_utc": "2026-10-10T15:18:08.033806+00:00",
+    "status": "completed",
+    "trials": 9,
+    "accepted": 5550000,
+    "credit_bytes": 277523200,
+    "errors": 0,
+    "accounting_mismatches": 0,
+    "all_drains_exit_zero": true,
+    "resources_restored": true,
+    "probe_samples": 317,
+    "probe_failures": 0,
+    "mysql_same_process": true,
+    "mysql_peak_rss_mib": 1245.75,
+    "mysql_final_rss_mib": 1215.85546875,
+    "prepared_peak_mib": 488.13793182373047,
+    "prepared_final_mib": 0,
+    "prepared_peak_count": 301,
+    "minimum_available_mib": 2193.640625,
+    "peak_aligned_lag": 47573.29690971412,
+    "memory_retention_hypothesis": "freed instrumented statements with high anonymous RSS; allocator retention/fragmentation plausible, unbounded leak not proven",
+    "evidence_directory": "lab/dualstack/results/capacity/capacity-memory-4g-v1/supervisor/capacity/capacity-memory-4g-v1"
+  },
+  "cache_ab": {
+    "authorized": true,
+    "baseline_a1": "capacity-memory-4g-v1",
+    "calibration": "capacity-cache-b-calibration-v2",
+    "sequence": [
+      "capacity-cache-b-v1",
+      "capacity-cache-a-repeat-v1"
+    ],
+    "mode": "isolated_experiment_no_product_promotion",
+    "next_action": "Aguardar decis\u00e3o do usu\u00e1rio sobre incorpora\u00e7\u00e3o e novos ensaios; n\u00e3o retomar matriz automaticamente.",
+    "preparation_failure": {
+      "series": "capacity-cache-b-calibration-v1",
+      "cause": "missing_empty_env_mountpoint",
+      "product_started": false,
+      "generator_started": false,
+      "announces": 0,
+      "credit": 0,
+      "failed_container_preserved": true,
+      "binary_changed": false,
+      "manual_resources_restored": true
+    },
+    "baseline_a_binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833",
+    "candidate_b_binary_sha256": "93ed97a5a50c3633452ba9eab56169b6eadadce53d5ccd4e2422edf3958c6057",
+    "manifest": "lab/dualstack/capacity-cache-manifest.json",
+    "calibration_passed": true,
+    "b_result": {
+      "passed": true,
+      "series": "capacity-cache-b-v1",
+      "variant": "b",
+      "trials": 9,
+      "accepted": 5550000,
+      "credit_bytes": 277523200,
+      "errors": 0,
+      "accounting_mismatches": 0,
+      "all_drains_exit_zero": true,
+      "max_drain_seconds": 1.436068591021467,
+      "resources_restored": true,
+      "observer_samples": 2662,
+      "memory_samples": 319,
+      "scope": "integridade e restaura\u00e7\u00e3o; n\u00e3o aprova desempenho ou teto sustentado"
+    },
+    "b_recovery_verified": true,
+    "b_performance_unstable_trials": [
+      "capacity-cache-b-v1-6000",
+      "capacity-cache-b-v1-confirm-1"
+    ],
+    "b_mysql_peak_rss_mib": 559.85546875,
+    "a2_started_at_utc": "2026-10-10T16:27:37.952955+00:00",
+    "a2_preflight_passed": true,
+    "status": "completed",
+    "a2_result": {
+      "passed": true,
+      "series": "capacity-cache-a-repeat-v1",
+      "variant": "a",
+      "trials": 9,
+      "accepted": 5550000,
+      "credit_bytes": 277523200,
+      "errors": 0,
+      "accounting_mismatches": 0,
+      "all_drains_exit_zero": true,
+      "max_drain_seconds": 0.7736963969946373,
+      "resources_restored": true,
+      "observer_samples": 2659,
+      "memory_samples": 319,
+      "scope": "integridade e restaura\u00e7\u00e3o; n\u00e3o aprova desempenho ou teto sustentado"
+    },
+    "a2_recovery_verified": true,
+    "completed_at_utc": "2026-10-10T16:55:49.881230+00:00",
+    "trials_total": 27,
+    "accepted_total": 16650000,
+    "credit_bytes_total": 832569600,
+    "product_promoted": false,
+    "sustained_ceiling_approved": false,
+    "two_gib_approved": false,
+    "comparison": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+    "conclusions": {
+      "mysql_peak_rss_mib": {
+        "a1": 1245.75,
+        "b": 559.85546875,
+        "a2": 1389.375
+      },
+      "b_mysql_peak_savings_percent_range": [
+        55.05876229179209,
+        59.704509671614936
+      ],
+      "b_mysql_extra_cpu_one_core_percentage_points_range": [
+        5.012679329183598,
+        7.932568761091154
+      ],
+      "b_rust_extra_cpu_one_core_percentage_points_range": [
+        3.3522314816805903,
+        3.8252937861201275
+      ],
+      "mysql_prepares_ratio_range": [
+        2.3246965857037165,
+        2.4123393064244762
+      ],
+      "disk_write_reduction_demonstrated": false,
+      "http_p99_within_a1_a2_observed_range": true,
+      "b_performance_unstable_trials": [
+        "capacity-cache-b-v1-6000",
+        "capacity-cache-b-v1-confirm-1"
+      ],
+      "a1_a2_all_detector_stable": true,
+      "shared_host_temporal_variation_remains": true
+    }
+  },
+  "last_completed_series": "capacity-cache-a-repeat-v1"
+}

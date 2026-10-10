@@ -1,0 +1,15 @@
+# Preservar os bytes, finais de linha e espacos das evidencias e seus hashes.
+# Sao saidas brutas do laboratorio, nao codigo sujeito a formatacao.
+lab/dualstack/results/density/** -text -whitespace
+lab/dualstack/results/throughput/** -text -whitespace
+lab/dualstack/results/writer/** -text -whitespace
+lab/dualstack/results/bootstrap/** -text -whitespace
+lab/dualstack/results/rust-crash/** -text -whitespace
+lab/dualstack/results/tls-memory/** -text -whitespace
+lab/dualstack/results/storage/** -text -whitespace
+lab/dualstack/results/soak/** -text -whitespace
+
+# Snapshot publico: preservar tambem as demais series e os pacotes binarios.
+lab/dualstack/results/** -text -whitespace
+packages/*.tar.gz -text -diff
+*.patch -text

@@ -1,0 +1,62 @@
+{
+  "accepted": 28800000,
+  "current_run": null,
+  "measurement_seconds": 900,
+  "peers": 10000,
+  "series": "rust-original-formal-v1",
+  "status": "passed",
+  "monitor": "acompanhar-baseline-rust-original",
+  "warmup_seconds": 300,
+  "scope": "baseline Rust original IPv4 aprovado; comparação com candidato e PHP pendentes",
+  "torrents": 40,
+  "report": "docs/dualstack-rust-original.md",
+  "observed_at_epoch": 1791586229.4682217,
+  "repeats": 3,
+  "original_commit": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "preserved_database": "unit3d_dualstack_soak_v3_evidence",
+  "users": 250,
+  "peers_per_torrent": 250,
+  "calibration": "rust-original-calibration-v2",
+  "families": [
+    4
+  ],
+  "errors": 0,
+  "calibration_status": "passed",
+  "original_binary_sha256": "648e22b58f40b91f1760cab415fdf66c830161646aa4fbfe1056268102ee364d",
+  "preexisting_report": "docs/dualstack-problemas-preexistentes.md",
+  "target_rps": 8000,
+  "monitor_status": "PAUSED",
+  "completed_repeats": 3,
+  "measured_requests": 21600000,
+  "finished_at_epoch": 1791586229.4682217,
+  "analysis": "lab/dualstack/results/soak/rust-original-formal-v1/analysis.json",
+  "evidence_manifest": "lab/dualstack/results/soak/rust-original-formal-v1/evidence-manifest.json",
+  "individual_credit_mismatches": 0,
+  "tracker_drains": [
+    "passed",
+    "passed",
+    "passed"
+  ],
+  "accepted_per_run": 9600000,
+  "credit_bytes_per_run": 960000000,
+  "credit_sum_across_independent_runs": 2880000000,
+  "measured_rps": [
+    7999.997777777778,
+    7999.998888888889,
+    7999.998888888889
+  ],
+  "response_p95_ms": [
+    0.19860736560190154,
+    0.19940699350713167,
+    0.20758158917128594
+  ],
+  "response_p99_ms": [
+    0.3113512682346205,
+    0.3119762831223577,
+    0.3189345431536139
+  ],
+  "sample_integrity": "passed",
+  "sample_accounting_replay": "passed_before_each_reset",
+  "sample_compressed_bytes": 626987528,
+  "verification_heartbeat_at_utc": "2026-10-09T23:02:45.482Z"
+}

@@ -1,0 +1,789 @@
+{
+  "status": "passed",
+  "rust_commit": "9e8b54626334db11940e3ebf939cbf40ba4426a3",
+  "steps": [
+    {
+      "label": "referencia-inicial-4",
+      "at": "2026-10-09T00:21:39.582584+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "started",
+        "uploaded": "1000",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 2483,
+        "duration_seconds": 0.00152
+      }
+    },
+    {
+      "label": "referencia-inicial-6",
+      "at": "2026-10-09T00:21:39.833181+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "started",
+        "uploaded": "1000",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 2807,
+        "duration_seconds": 0.001407
+      }
+    },
+    {
+      "label": "referencia-confirmada",
+      "at": "2026-10-09T00:21:40.100449+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1899,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1000,
+            "state_version": 2
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 0,
+            "actual_uploaded": 0,
+            "state_version": 2
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 0
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "delta-antes-da-queda",
+      "at": "2026-10-09T00:21:40.365361+00:00",
+      "result": {
+        "accepted": 1,
+        "uploaded": 1100,
+        "duration_seconds": 0.0014257270086091012,
+        "families": [
+          4
+        ]
+      }
+    },
+    {
+      "label": "credito-confirmado",
+      "at": "2026-10-09T00:21:40.631413+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1899,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 3
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100,
+            "state_version": 3
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "queda-depois-do-commit",
+      "at": "2026-10-09T00:21:40.886134+00:00",
+      "result": {
+        "signal": "SIGKILL",
+        "exit_code": 137
+      }
+    },
+    {
+      "label": "credito-preservado-apos-sigkill",
+      "at": "2026-10-09T00:21:41.366507+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1899,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 3
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100,
+            "state_version": 3
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "restart-depois-do-commit",
+      "at": "2026-10-09T00:22:10.302752+00:00",
+      "result": {
+        "natural_lease_wait_seconds": 26.969000000011874
+      }
+    },
+    {
+      "label": "credito-restaurado",
+      "at": "2026-10-09T00:22:10.567570+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1900,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 3
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100,
+            "state_version": 3
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "reenvio-nas-duas-familias",
+      "at": "2026-10-09T00:22:10.830138+00:00",
+      "result": {
+        "accepted": 2,
+        "uploaded": 1100,
+        "duration_seconds": 0.0020160900021437556,
+        "families": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "label": "reenvio-sem-duplicacao",
+      "at": "2026-10-09T00:22:11.099039+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1900,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 5
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100,
+            "state_version": 5
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "novo-delta",
+      "at": "2026-10-09T00:22:11.362425+00:00",
+      "result": {
+        "accepted": 1,
+        "uploaded": 1200,
+        "duration_seconds": 0.0014638180000474676,
+        "families": [
+          4
+        ]
+      }
+    },
+    {
+      "label": "referencia-antes-do-bloqueio",
+      "at": "2026-10-09T00:22:11.632614+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1900,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1200,
+            "state_version": 6
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 200,
+            "actual_uploaded": 200,
+            "state_version": 6
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 200
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "rajada-com-escritor-bloqueado",
+      "at": "2026-10-09T00:22:12.180071+00:00",
+      "result": {
+        "accepted": 100,
+        "uploaded": 11200,
+        "duration_seconds": 0.019345289998454973,
+        "families": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "label": "sql-antes-da-queda-bloqueada",
+      "at": "2026-10-09T00:22:12.460285+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1900,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1200,
+            "state_version": 6
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 200,
+            "actual_uploaded": 200,
+            "state_version": 6
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 200
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "queda-antes-do-commit",
+      "at": "2026-10-09T00:22:12.711002+00:00",
+      "result": {
+        "signal": "SIGKILL",
+        "exit_code": 137
+      }
+    },
+    {
+      "label": "bloqueio-liberado",
+      "at": "2026-10-09T00:22:12.931230+00:00",
+      "result": {
+        "seconds": 1.0460000000020955
+      }
+    },
+    {
+      "label": "rollback-sem-efeitos-parciais",
+      "at": "2026-10-09T00:22:13.188626+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1900,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1200,
+            "state_version": 6
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 200,
+            "actual_uploaded": 200,
+            "state_version": 6
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 200
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "pendencia-perdida-na-memoria",
+      "at": "2026-10-09T00:22:13.188626+00:00",
+      "result": {
+        "acknowledged_transitions": 100,
+        "confirmed_transitions": 0,
+        "cumulative_bytes_not_yet_credited": 10000
+      }
+    },
+    {
+      "label": "restart-depois-do-rollback",
+      "at": "2026-10-09T00:22:41.497702+00:00",
+      "result": {
+        "natural_lease_wait_seconds": 26.437999999994645
+      }
+    },
+    {
+      "label": "referencia-antiga-restaurada",
+      "at": "2026-10-09T00:22:41.759609+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1901,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1200,
+            "state_version": 6
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 200,
+            "actual_uploaded": 200,
+            "state_version": 6
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 200
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "contador-cumulativo-reenviado",
+      "at": "2026-10-09T00:22:42.025004+00:00",
+      "result": {
+        "accepted": 2,
+        "uploaded": 11200,
+        "duration_seconds": 0.0019461569900158793,
+        "families": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "label": "delta-recuperado-uma-vez",
+      "at": "2026-10-09T00:22:42.288167+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1901,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 11200,
+            "state_version": 8
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 10200,
+            "actual_uploaded": 10200,
+            "state_version": 8
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 10200
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "delta-apos-recuperacao",
+      "at": "2026-10-09T00:22:42.550352+00:00",
+      "result": {
+        "accepted": 1,
+        "uploaded": 11300,
+        "duration_seconds": 0.0014605430042138323,
+        "families": [
+          4
+        ]
+      }
+    },
+    {
+      "label": "credito-final-unico",
+      "at": "2026-10-09T00:22:42.990192+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1901,
+            "live": 1
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 11300,
+            "state_version": 9
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 10300,
+            "actual_uploaded": 10300,
+            "state_version": 9
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 10300
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "encerramento",
+      "at": "2026-10-09T00:22:43.831595+00:00",
+      "result": {
+        "owner": [
+          {
+            "generation": 1901,
+            "live": 0
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 11300,
+            "state_version": 9
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 10300,
+            "actual_uploaded": 10300,
+            "state_version": 9
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 10300
+          }
+        ],
+        "endpoints": [
+          {
+            "family": 4,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "revision": 2
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ],
+        "queries": [
+          {
+            "n": 0
+          }
+        ]
+      }
+    }
+  ]
+}

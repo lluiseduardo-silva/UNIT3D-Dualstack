@@ -1,0 +1,50 @@
+{
+  "name": "density-interleave-smoke-v1",
+  "sizes": [
+    50,
+    250,
+    250
+  ],
+  "phases": [
+    {
+      "name": "interleaved-r1",
+      "warmup": 2,
+      "seconds": 5,
+      "groups": {
+        "probe": {
+          "torrents": [
+            0
+          ],
+          "rate": 200
+        },
+        "background": {
+          "torrents": [
+            1,
+            2
+          ],
+          "rate": 800
+        }
+      }
+    },
+    {
+      "name": "interleaved-r2",
+      "warmup": 2,
+      "seconds": 5,
+      "groups": {
+        "probe": {
+          "torrents": [
+            0
+          ],
+          "rate": 200
+        },
+        "background": {
+          "torrents": [
+            1,
+            2
+          ],
+          "rate": 800
+        }
+      }
+    }
+  ]
+}

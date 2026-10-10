@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-08",
+  "status": "legacy_reconciliation_and_original_tag_roundtrips_passed",
+  "production": false,
+  "php_commit": "8071ac42ec844490c81c3805ce8cd1b6e3824262",
+  "rust_commit": "859aa88f71f505e48401a4d7436a84d122af89a6",
+  "original_php": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+  "original_rust": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "php_tests": 40,
+  "php_assertions": 593,
+  "php_evidence": "results/legacy-final-tests.txt",
+  "rust_mysql_contract": {
+    "status": "passed",
+    "command": "lab/run-rust-mysql.sh",
+    "test": "mysql_coordinator_contract",
+    "tests": 1,
+    "duration_seconds": 30.76,
+    "added_check": "maintenance marker refuses acquisition without incrementing generation",
+    "evidence_kind": "tool output observed in this run; not a saved raw transcript"
+  },
+  "roundtrip": [
+    {"backend": "new_php", "credited_upload": 100, "endpoints": 2},
+    {"backend": "original_php_job_and_consumers", "credited_upload": 200, "reconciled_endpoints": 1},
+    {"backend": "new_php", "credited_upload": 300, "endpoints": 2},
+    {"backend": "original_rust_http", "credited_upload": 400, "reconciled_endpoints": 1},
+    {"backend": "new_rust", "credited_upload": 500, "endpoints": 2}
+  ],
+  "evidence": ["results/legacy-php-roundtrip.txt", "results/legacy-original-http.json", "results/legacy-rust-roundtrip.txt"],
+  "harness_corrections": ["create env mountpoint before read-only mount", "remove inherited proxy header configuration for direct Rust connection"],
+  "scope_limits": ["original PHP exercised via CLI job and consumers", "one peer in original tag roundtrip", "not a performance benchmark", "no real BitTorrent file transfer in this increment"],
+  "remaining": ["real BitTorrent clients and hash-verified transfer", "full original-vs-candidate performance matrix", "six-hour churn and asynchronous loss window measurement", "close documentation of site consumer coverage"]
+}

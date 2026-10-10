@@ -1,0 +1,9 @@
+Result=success
+Id=unit3d-binlog-archive.timer
+ActiveState=active
+SubState=waiting
+
+Result=success
+Id=unit3d-binlog-archive.service
+ActiveState=inactive
+SubState=dead

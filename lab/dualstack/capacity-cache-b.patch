@@ -1,0 +1,70 @@
+--- a/src/dualstack/persistence.rs
++++ b/src/dualstack/persistence.rs
+@@ -284,7 +284,7 @@
+         let mut q = QueryBuilder::<MySql>::new(format!("SELECT id,(deleted_at IS NOT NULL AND tracker_removal_state>0) AS sealed FROM {table} WHERE id IN ("));
+         { let mut values = q.separated(","); for id in ids { values.push_bind(*id); } }
+         q.push(") ORDER BY id FOR UPDATE");
+-        let rows=q.build().fetch_all(&mut *tx).await?;
++        let rows=q.build().persistent(false).fetch_all(&mut *tx).await?;
+         if rows.len() != ids.len() { return Err(Error::StoredState); }
+         for row in rows { if row.try_get::<i64,_>("sealed")?!=0 {
+             if table=="users" { sealed_users.insert(row.try_get::<u32,_>("id")?); }
+@@ -295,11 +295,11 @@
+     { let mut tuples = q.separated(","); for (user,torrent) in groups { tuples.push("(").push_bind_unseparated(user).push_unseparated(",").push_bind_unseparated(torrent).push_unseparated(")"); } }
+     q.push(") ORDER BY user_id,torrent_id FOR UPDATE");
+     let mut histories = BTreeMap::new();
+-    for row in q.build().fetch_all(&mut *tx).await? { let h = History::row(row)?; histories.insert((h.user,h.torrent),h); }
++    for row in q.build().persistent(false).fetch_all(&mut *tx).await? { let h = History::row(row)?; histories.insert((h.user,h.torrent),h); }
+     let mut q = QueryBuilder::<MySql>::new("SELECT user_id,torrent_id,peer_id,state_version FROM peers WHERE (user_id,torrent_id,peer_id) IN (");
+     peer_tuples(&mut q, identities.iter().copied()); q.push(") ORDER BY user_id,torrent_id,peer_id FOR UPDATE");
+     let mut versions = BTreeMap::new();
+-    for row in q.build().fetch_all(&mut *tx).await? { versions.insert(identity(&row)?, row.try_get::<u64,_>("state_version")?); }
++    for row in q.build().persistent(false).fetch_all(&mut *tx).await? { versions.insert(identity(&row)?, row.try_get::<u64,_>("state_version")?); }
+     let mut final_peers = BTreeMap::new();
+     let mut endpoint_changes = BTreeMap::new();
+     let mut changed_histories = BTreeSet::new();
+@@ -345,7 +345,7 @@
+             .push_bind(json!({"last_announces":p.last_announces,"session_started_at":p.session_started_at}));
+     });
+     q.push(" ON DUPLICATE KEY UPDATE agent=VALUES(agent),uploaded=VALUES(uploaded),downloaded=VALUES(downloaded),`left`=VALUES(`left`),seeder=VALUES(seeder),active=VALUES(active),visible=VALUES(visible),ip=VALUES(ip),port=VALUES(port),connectable=VALUES(connectable),updated_at=VALUES(updated_at),state_version=VALUES(state_version),session_generation=VALUES(session_generation),completion_reported=VALUES(completion_reported),protocol_state=VALUES(protocol_state)");
+-    q.build().execute(&mut *tx).await?;
++    q.build().persistent(false).execute(&mut *tx).await?;
+     // Persistir somente familias alteradas nas transicoes ainda nao confirmadas.
+     let removed:Vec<_>=endpoint_changes.iter().filter(|(_, (endpoint,_))| endpoint.is_none()).map(|(key,_)| key).collect();
+     if !removed.is_empty() {
+@@ -358,7 +358,7 @@
+                     .push_unseparated(",").push_bind_unseparated(*family).push_unseparated(")");
+             }
+         }
+-        q.push(")"); q.build().execute(&mut *tx).await?;
++        q.push(")"); q.build().persistent(false).execute(&mut *tx).await?;
+     }
+     let endpoints:Vec<_>=endpoint_changes.iter().filter_map(|((id,_),(endpoint,at))| endpoint.map(|e| (id,e,*at))).collect();
+     if !endpoints.is_empty() {
+@@ -370,7 +370,7 @@
+                 .push_bind(e.revision).push_bind(date(e.created_at).unwrap()).push_bind(date(at).unwrap());
+         });
+         q.push(" ON DUPLICATE KEY UPDATE ip=VALUES(ip),port=VALUES(port),connectable=VALUES(connectable),last_announced_at=VALUES(last_announced_at),connectivity_checked_at=VALUES(connectivity_checked_at),revision=VALUES(revision),created_at=VALUES(created_at),updated_at=VALUES(updated_at)");
+-        q.build().execute(&mut *tx).await?;
++        q.build().persistent(false).execute(&mut *tx).await?;
+     }
+     let mut q = QueryBuilder::<MySql>::new("INSERT INTO history (user_id,torrent_id,agent,uploaded,downloaded,actual_uploaded,actual_downloaded,client_uploaded,client_downloaded,active,seeder,immune,seedtime,created_at,updated_at,completed_at,state_version,swarm_updated_at) ");
+     q.push_values(changed_histories.iter().map(|key| &histories[key]), |mut b,h| {
+@@ -380,7 +380,7 @@
+             .push_bind(h.updated_at).push_bind(h.completed_at).push_bind(h.version).push_bind(h.swarm_at);
+     });
+     q.push(" ON DUPLICATE KEY UPDATE agent=VALUES(agent),uploaded=VALUES(uploaded),downloaded=VALUES(downloaded),actual_uploaded=VALUES(actual_uploaded),actual_downloaded=VALUES(actual_downloaded),client_uploaded=VALUES(client_uploaded),client_downloaded=VALUES(client_downloaded),active=VALUES(active),seeder=VALUES(seeder),immune=VALUES(immune),seedtime=VALUES(seedtime),updated_at=VALUES(updated_at),completed_at=VALUES(completed_at),state_version=VALUES(state_version),swarm_updated_at=VALUES(swarm_updated_at)");
+-    q.build().execute(&mut *tx).await?;
++    q.build().persistent(false).execute(&mut *tx).await?;
+     for (table, fields, deltas) in [
+         ("users",vec!["uploaded","downloaded"], user_deltas.into_iter().map(|(id,values)| (id,values.iter().map(ToString::to_string).collect::<Vec<_>>())).collect::<BTreeMap<_,_>>()),
+         ("torrents",vec!["seeders","leechers","seeders_ipv4","seeders_ipv6","leechers_ipv4","leechers_ipv6","times_completed","balance"],torrent_deltas.into_iter().map(|(id,values)| (id,values.iter().map(ToString::to_string).collect::<Vec<_>>())).collect())] {
+@@ -392,7 +392,7 @@
+             q.push(" ELSE 0 END");
+         }
+         q.push(" WHERE id IN ("); { let mut ids=q.separated(","); for id in deltas.keys() { ids.push_bind(*id); } } q.push(")");
+-        q.build().execute(&mut *tx).await?;
++        q.build().persistent(false).execute(&mut *tx).await?;
+     }
+     tx.commit().await?;
+     Ok(applied)

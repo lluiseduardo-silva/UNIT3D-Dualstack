@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-08",
+  "source": "consultas de leitura executadas durante esta sessao",
+  "NTPSynchronized": {"unit3d-ds-tracker": true, "unit3d-ds-data": true, "unit3d-ds-clients": true},
+  "data_guest_CLK_TCK": 100,
+  "commands": ["timedatectl show -p NTPSynchronized --value", "getconf CLK_TCK"],
+  "limit": "sincronizacao declarada pelo sistema; nao e medicao de erro de relogio em microssegundos"
+}

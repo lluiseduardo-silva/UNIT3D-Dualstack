@@ -1,0 +1,13 @@
+{
+  "unit3d_commit": "c4d1a266d30e9e9e26b5b598ede2f5bda51413df",
+  "announce_commit": "3894750cb95729c7410bc2f55c978492e9beab81",
+  "stage": 4,
+  "status": "http_and_process_lifecycle_passed",
+  "mysql_scenario_blocks": 18,
+  "binary_tests": 19,
+  "contract_cases": 12,
+  "contract_operations": 51,
+  "http_steps": 30,
+  "production": false,
+  "next": "retencao de peers inativos e cobertura HTTP de conectividade/proxy"
+}

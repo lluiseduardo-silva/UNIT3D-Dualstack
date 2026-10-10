@@ -1,0 +1,861 @@
+{
+  "status": "failed",
+  "backend": "php-standalone",
+  "started_at": "2026-10-08T08:17:27.582105+00:00",
+  "steps": [
+    {
+      "label": "primeiro-ipv4",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "started",
+      "uploaded": "1000",
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 0,
+        "interval": 3419,
+        "min interval": 1771,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 1,
+          "uploaded": 1000,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          }
+        ],
+        "credit": {
+          "uploaded": 0,
+          "downloaded": 0
+        }
+      }
+    },
+    {
+      "label": "segunda-familia",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "started",
+      "uploaded": "1000",
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 2072,
+        "min interval": 1787,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 2,
+          "uploaded": 1000,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 0,
+          "downloaded": 0
+        }
+      }
+    },
+    {
+      "label": "primeiro-delta",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "completed",
+      "uploaded": "1100",
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 2309,
+        "min interval": 1727,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 3,
+          "uploaded": 1100,
+          "downloaded": 100,
+          "active": 1,
+          "seeder": 1
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 100,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "contador-atrasado",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1050",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 0,
+        "interval": 3189,
+        "min interval": 1762,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 4,
+          "uploaded": 1100,
+          "downloaded": 100,
+          "active": 1,
+          "seeder": 1
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 100,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "segundo-delta",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1200",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 0,
+        "interval": 2322,
+        "min interval": 1776,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 5,
+          "uploaded": 1200,
+          "downloaded": 100,
+          "active": 1,
+          "seeder": 1
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 200,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "numwant-um-peer-dois-caminhos",
+      "user_id": 12002,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303032",
+      "source_family": 4,
+      "event": "started",
+      "uploaded": "0",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 0,
+        "interval": 3547,
+        "min interval": 1723,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 1,
+          "uploaded": 0,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          }
+        ],
+        "credit": {
+          "uploaded": 0,
+          "downloaded": 0
+        }
+      }
+    },
+    {
+      "label": "numwant-zero",
+      "user_id": 12002,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303032",
+      "source_family": 6,
+      "event": "started",
+      "uploaded": "0",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 3019,
+        "min interval": 1795,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 2,
+          "uploaded": 0,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 0,
+          "downloaded": 0
+        }
+      }
+    },
+    {
+      "label": "stop-ipv4-porta-zero",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "stopped",
+      "uploaded": "1200",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 2378,
+        "min interval": 1765,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 6,
+          "uploaded": 1200,
+          "downloaded": 100,
+          "active": 1,
+          "seeder": 1
+        },
+        "endpoints": [
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 200,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "stop-repetido",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "stopped",
+      "uploaded": "9999",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 3543,
+        "min interval": 1733,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 6,
+          "uploaded": 1200,
+          "downloaded": 100,
+          "active": 1,
+          "seeder": 1
+        },
+        "endpoints": [
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 2
+          }
+        ],
+        "credit": {
+          "uploaded": 200,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "origem-forjada-ignorada",
+      "user_id": 12003,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303033",
+      "source_family": 4,
+      "event": "started",
+      "uploaded": "0",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 1922,
+        "min interval": 1771,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          },
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 36
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 1,
+          "uploaded": 0,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 1
+          }
+        ],
+        "credit": {
+          "uploaded": 0,
+          "downloaded": 0
+        }
+      }
+    },
+    {
+      "label": "ordem-inversa-ipv6",
+      "user_id": 12001,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d4453393230302d303030303030303030303034",
+      "source_family": 6,
+      "event": "started",
+      "uploaded": "1000",
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 0,
+        "interval": 2625,
+        "min interval": 1732,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 1,
+          "uploaded": 1000,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 1
+          }
+        ],
+        "credit": {
+          "uploaded": 200,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "ordem-inversa-ipv4",
+      "user_id": 12001,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d4453393230302d303030303030303030303034",
+      "source_family": 4,
+      "event": "started",
+      "uploaded": "1000",
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 2309,
+        "min interval": 1769,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      },
+      "persisted": {
+        "peer": {
+          "state_version": 2,
+          "uploaded": 1000,
+          "downloaded": 0,
+          "active": 1,
+          "seeder": 0
+        },
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "revision": 2
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "revision": 1
+          }
+        ],
+        "credit": {
+          "uploaded": 200,
+          "downloaded": 100
+        }
+      }
+    },
+    {
+      "label": "concorrente-1",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "completed",
+      "uploaded": "1400",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2815,
+        "min interval": 1768,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-0",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1300",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 3540,
+        "min interval": 1718,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-2",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1500",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2323,
+        "min interval": 1721,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-5",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "completed",
+      "uploaded": "1800",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2151,
+        "min interval": 1726,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-3",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "completed",
+      "uploaded": "1600",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2186,
+        "min interval": 1752,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-4",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1700",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2146,
+        "min interval": 1774,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-6",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 4,
+      "event": "completed",
+      "uploaded": "1900",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2549,
+        "min interval": 1773,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    },
+    {
+      "label": "concorrente-7",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d4453393230302d303030303030303030303031",
+      "source_family": 6,
+      "event": "completed",
+      "uploaded": "2000",
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2285,
+        "min interval": 1760,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          },
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 12,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      }
+    }
+  ],
+  "concurrent_final": {
+    "peer": {
+      "state_version": 14,
+      "uploaded": 2000,
+      "downloaded": 100,
+      "active": 1,
+      "seeder": 1
+    },
+    "endpoints": [
+      {
+        "family": 4,
+        "ip": "172.29.92.30",
+        "port": 6881,
+        "revision": 8
+      },
+      {
+        "family": 6,
+        "ip": "fd42:756e:6974:92::30",
+        "port": 6881,
+        "revision": 2
+      }
+    ],
+    "credit": {
+      "uploaded": 1000,
+      "downloaded": 100
+    }
+  },
+  "error_type": "OSError",
+  "error": "Falha de infraestrutura; consultar diagnostico local sem credenciais.",
+  "finished_at": "2026-10-08T08:17:32.223182+00:00"
+}

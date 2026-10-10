@@ -1,0 +1,13 @@
+{"vm": 121, "name": "unit3d-ds-data", "pool_free_before": 20213891072, "old_gib": 24, "new_gib": 32}
+  Size of logical volume pve/vm-121-disk-0 changed from 24.00 GiB (6144 extents) to 32.00 GiB (8192 extents).
+  WARNING: You have not turned on protection against thin pools running out of space.
+  WARNING: Set activation/thin_pool_autoextend_threshold below 100 to trigger automatic extension of thin pools before they get full.
+  Logical volume pve/vm-121-disk-0 successfully resized.
+  WARNING: Sum of all thin volume sizes (216.01 GiB) exceeds the size of thin pool pve/data and the amount of free space in volume group (16.00 GiB).
+CHANGED: partition=1 start=2099200 old: size=48232415 end=50331614 new: size=65009631 end=67108830
+Filesystem at /dev/sda1 is mounted on /; on-line resizing required
+old_desc_blocks = 3, new_desc_blocks = 4
+The filesystem on /dev/sda1 is now 8126203 (4k) blocks long.
+
+Filesystem       1B-blocks        Used  Available Use% Mounted on
+/dev/sda1      32162967552 22406156288 9740034048  70% /

@@ -1,0 +1,23 @@
+tls-verificado-4-TLSv1.2
+tls-verificado-4-TLSv1.3
+tls-verificado-6-TLSv1.2
+tls-verificado-6-TLSv1.3
+origens-reais-headers-forjados-ignorados
+certificado-recusado-unknown-ca
+certificado-recusado-wrong-name
+backend-loopback-4
+backend-loopback-6
+falha-ipv6-isolada
+lista-ipv4-preservada
+lista-dualstack
+falha-ipv4-isolada
+lista-ipv6-preservada
+lista-restaurada
+probe-atrasado-nao-altera-substituto
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/network-client.py", line 241, in <module>
+    main()
+  File "/opt/unit3d-dualstack/network-client.py", line 213, in main
+    assert temporary.count > 0
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError

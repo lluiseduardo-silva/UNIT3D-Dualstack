@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-08",
+  "status": "completed_informational",
+  "php_commit": "6d8e7437daa652fb02519584c456b15dceacffa4",
+  "rust_commit": "a9ab263de2fe6473c86eeabfd0b6ca1c019f6070",
+  "operator_max_expected_peers_per_torrent": 250,
+  "product_modified": false,
+  "series": [
+    "density-smoke-v1",
+    "density-curve-v1",
+    "density-interleave-smoke-v1",
+    "density-interference-v1",
+    "density-refinement-v1"
+  ],
+  "phases": 101,
+  "accepted_requests": 2139000,
+  "measured_request_samples": 1671000,
+  "errors": 0,
+  "generator_drops": 0,
+  "financial_mismatches": 0,
+  "new_deadlocks_or_lock_timeouts_during_load": 0,
+  "conditions": {
+    "dual_percent": 100,
+    "resident_seed_percent": 80,
+    "numwant": 10,
+    "single_torrent_rate": 1000,
+    "maximum_total_rate": 1800
+  },
+  "conclusions": {
+    "first_consistent_p99_increase_over_10_percent_peers": 2500,
+    "reference_250_peers_p99_ms": [
+      0.2483179996488616,
+      0.24209600815083832
+    ],
+    "largest_point_below_large_degradation_on_median": 25000,
+    "first_point_above_large_degradation": 30000,
+    "boundary_is_marginal": true,
+    "point_with_greater_absolute_margin": 20000,
+    "large_degradation_rule": "p99 >= 1.5 times matched control and >= 0.5 ms above control",
+    "maximum_tested_250_peer_torrents_at_fixed_1000_rps": 128,
+    "maximum_tested_250_peer_torrents_at_50_rps_each": 32,
+    "ceiling_for_number_of_250_peer_torrents_found": false,
+    "first_measurable_interference_with_10000_peer_torrents": 1
+  },
+  "final_state": {
+    "peers": {
+      "n": 115300,
+      "uploaded": 31500000,
+      "versions": 630000
+    },
+    "history": {
+      "n": 115300,
+      "actual_uploaded": 31500000,
+      "uploaded": 31500000
+    },
+    "users": {
+      "n": 40000,
+      "uploaded": 31500000
+    },
+    "peer_ips": {
+      "n": 230600
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 193,
+      "lock_timeouts": 71
+    },
+    "ownership": {
+      "backend": "rust",
+      "generation": 1191,
+      "live": 0
+    },
+    "series": "density-refinement-v1",
+    "mismatches": {
+      "peers": 0,
+      "users": 0,
+      "endpoints": 0,
+      "torrents": 0
+    },
+    "active_test_queries": 0
+  },
+  "environment": {
+    "tracker_containers_running": 0,
+    "tracker_listeners": 0,
+    "temporary_source_addresses": 0,
+    "namespaces": 0,
+    "lease_live": false,
+    "active_test_queries": 0
+  },
+  "host_time_counter_anomaly_unresolved": true,
+  "bootstrap_robustness_unresolved": true,
+  "full_performance_acceptance": false,
+  "production_changed": false,
+  "pushed": false,
+  "documentation": "docs/dualstack-densidade.md",
+  "results": "lab/dualstack/results/density"
+}

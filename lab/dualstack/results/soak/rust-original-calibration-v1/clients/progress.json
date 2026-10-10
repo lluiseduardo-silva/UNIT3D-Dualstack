@@ -1,0 +1,1 @@
+{"accepted": 720000, "elapsed_seconds": 96.12121544299589, "error_details": [{"elapsed_seconds": 95.08676329599984, "error_type": "AssertionError", "phase": "comparison"}], "errors": 0, "expected_upload": 72000000, "main_accepted": 720000, "reason": "legacy_endpoint", "rss_peak_kib": 62780, "sample_count": 720000, "sample_queue": 0, "sequence": 51, "status": "failed"}

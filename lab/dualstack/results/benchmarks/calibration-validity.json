@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "invalid_for_performance": {
+    "php-original-20261008T151056": "backend not started; zero accepted requests",
+    "rust-original-20261008T153254": "duplicate environment keys preserved original peer-list rate limits; empty measured lists",
+    "rust-candidate-20261008T153530": "duplicate environment keys preserved original peer-list rate limits; empty measured lists",
+    "rust-original-20261008T153910": "same configuration defect in popular-torrent profile",
+    "rust-candidate-20261008T160106": "diagnostic run with CPU profiler",
+    "rust-candidate-20261008T161125": "diagnostic counts-only run with CPU profiler"
+  },
+  "original_accounting_defect": "php-original-20261008T151512",
+  "php_calibration_valid": ["php-legacy-fixed-20261008T152541", "php-candidate-20261008T152922"],
+  "rust_distributed_pair": ["rust-original-20261008T154501", "rust-candidate-20261008T155221"],
+  "rust_concentrated_pair_before": ["rust-original-20261008T155458", "rust-candidate-20261008T155719"],
+  "rust_concentrated_pair_after": ["rust-original-20261008T155458", "rust-candidate-20261008T160804"],
+  "rust_counts_only_pair": ["rust-original-20261008T161402", "rust-candidate-20261008T161624"],
+  "concentrated_performance_gate": "failed after localized optimization; structural decision pending",
+  "full_performance_acceptance": false,
+  "raw_results_are_immutable": true
+}

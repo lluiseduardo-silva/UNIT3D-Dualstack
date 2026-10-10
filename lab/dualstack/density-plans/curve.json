@@ -1,0 +1,447 @@
+{
+  "name": "density-curve-v1",
+  "sizes": [
+    50,
+    100,
+    150,
+    250,
+    500,
+    1000,
+    2500,
+    5000,
+    10000,
+    20000,
+    40000
+  ],
+  "phases": [
+    {
+      "name": "curve-n50-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n100-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n150-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n250-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n500-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n1000-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n2500-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            6
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n5000-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            7
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n10000-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            8
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n20000-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            9
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n40000-r1",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            10
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n40000-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            10
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n20000-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            9
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n10000-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            8
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n5000-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            7
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n2500-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            6
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n1000-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n500-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n250-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n150-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n100-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n50-r2",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n100-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n500-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n20000-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            9
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n1000-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n150-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n5000-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            7
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n2500-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            6
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n40000-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            10
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n50-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n250-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "curve-n10000-r3",
+      "warmup": 5,
+      "seconds": 15,
+      "groups": {
+        "target": {
+          "torrents": [
+            8
+          ],
+          "rate": 1000
+        }
+      }
+    }
+  ]
+}

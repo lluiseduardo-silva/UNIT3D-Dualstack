@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/network-client.py", line 238, in <module>
+    main()
+  File "/opt/unit3d-dualstack/network-client.py", line 150, in main
+    result = client.announce(family, version=version)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/network-client.py", line 76, in announce
+    result = bdecode(response.read())
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/baseline.py", line 35, in bdecode
+    result, end = parse(0)
+                  ^^^^^^^^
+  File "/opt/unit3d-dualstack/baseline.py", line 33, in parse
+    size = int(data[pos:end])
+           ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: b'<br />\n<b>Warning</b>'

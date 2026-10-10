@@ -1,0 +1,75 @@
+{
+  "name": "capacity-cpu-ram-v2-database1-confirm-2",
+  "start_epoch": 1791623513.5717201,
+  "measured_at": 1791623543.5717201,
+  "finish_epoch": 1791623843.5717201,
+  "rate": 5500,
+  "seconds": 300,
+  "warmup": 30,
+  "accepted": 38646,
+  "expected_credit": 1932800,
+  "completed_rps": 0.0,
+  "errors": {},
+  "stop_reason": "supervisor_stop",
+  "max_generator_lag": 0.003460983993136324,
+  "metrics": {
+    "response_ms": {
+      "count": 0,
+      "max": null,
+      "p50": null,
+      "p95": null,
+      "p99": null
+    },
+    "latency_ms": {
+      "count": 0,
+      "max": null,
+      "p50": null,
+      "p95": null,
+      "p99": null
+    },
+    "queue_ms": {
+      "count": 0,
+      "max": null,
+      "p50": null,
+      "p95": null,
+      "p99": null
+    },
+    "total_ms": {
+      "count": 0,
+      "max": null,
+      "p50": null,
+      "p95": null,
+      "p99": null
+    }
+  },
+  "after": {
+    "peers": 10000,
+    "versions": 38646,
+    "credit": 1932800,
+    "history_credit": 1932800,
+    "actual_credit": 1932800,
+    "user_credit": 1932800,
+    "endpoints": {
+      "n": 20000,
+      "v4": 10000,
+      "v6": 10000,
+      "invalid": 0
+    },
+    "over_limit": 0,
+    "bad_torrent_counts": 0,
+    "mismatches": 0
+  },
+  "drained": true,
+  "drain_seconds": 0.7346791279996978,
+  "accounting_passed": true,
+  "status": "limited",
+  "supervisor_reason": "guard_data",
+  "aligned_lag_trend": {
+    "sufficient_samples": false,
+    "samples": 0,
+    "growing": null
+  },
+  "observed_lag_slope_per_second": null,
+  "max_observed_lag": 9342,
+  "stable": false
+}

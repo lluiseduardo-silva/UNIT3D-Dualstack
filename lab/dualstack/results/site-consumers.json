@@ -1,0 +1,127 @@
+{
+    "status": "failed",
+    "production": false,
+    "checks": [
+        {
+            "name": "reseed_ipv4_unique_2",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_ipv4_unique_3",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_ipv4_unique_1",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_ipv4_unique_0",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_ipv6_unique_2",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_ipv6_unique_3",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_ipv6_unique_1",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_ipv6_unique_0",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_sum_unique_2",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_sum_unique_3",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_sum_unique_1",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_sum_unique_0",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_auto_unique_2",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "reseed_auto_unique_3",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_auto_unique_1",
+            "expected": false,
+            "actual": false,
+            "passed": true
+        },
+        {
+            "name": "resurrection_auto_unique_0",
+            "expected": true,
+            "actual": true,
+            "passed": true
+        },
+        {
+            "name": "bon_current_positive_php",
+            "expected": 10,
+            "actual": 10,
+            "passed": true
+        },
+        {
+            "name": "bon_expired_positive_only_php",
+            "expected": 0,
+            "actual": 10,
+            "passed": false
+        },
+        {
+            "name": "bon_current_positive_rust",
+            "expected": 10,
+            "actual": 10,
+            "passed": true
+        },
+        {
+            "name": "bon_expired_positive_only_rust",
+            "expected": 0,
+            "actual": 10,
+            "passed": false
+        }
+    ],
+    "rolled_back": true
+}

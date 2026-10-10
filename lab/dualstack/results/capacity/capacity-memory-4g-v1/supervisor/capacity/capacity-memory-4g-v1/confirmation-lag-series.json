@@ -1,0 +1,3006 @@
+{
+  "capacity-memory-4g-v1-confirm-1": [
+    {
+      "at": 1791644724.7511034,
+      "seconds_measured": 0.46144914627075195,
+      "lag": 945.8848212092998,
+      "cpu_busy_percent": 78.60696517412936,
+      "cpu_iowait_percent": 5.970149253731344,
+      "write_iops": 1598.916705298398,
+      "write_await_ms": 0.32301438398999377,
+      "flush_await_ms": 0.4372586872586873
+    },
+    {
+      "at": 1791644726.8103704,
+      "seconds_measured": 2.5207161903381348,
+      "lag": 1771.8685414551,
+      "cpu_busy_percent": 71.85929648241206,
+      "cpu_iowait_percent": 8.040201005025125,
+      "write_iops": 1566.4434194140335,
+      "write_await_ms": 0.3220555378231727,
+      "flush_await_ms": 0.4426877470355731
+    },
+    {
+      "at": 1791644728.755938,
+      "seconds_measured": 4.466283798217773,
+      "lag": 974.6986999810615,
+      "cpu_busy_percent": 83.83838383838383,
+      "cpu_iowait_percent": 6.0606060606060606,
+      "write_iops": 1664.3301665040817,
+      "write_await_ms": 0.3298287774106338,
+      "flush_await_ms": 0.44311926605504587
+    },
+    {
+      "at": 1791644730.7345257,
+      "seconds_measured": 6.444871425628662,
+      "lag": 856.312129267928,
+      "cpu_busy_percent": 78.0,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1709.437846834268,
+      "write_await_ms": 0.3261187481719801,
+      "flush_await_ms": 0.447841726618705
+    },
+    {
+      "at": 1791644732.7501323,
+      "seconds_measured": 8.460478067398071,
+      "lag": 940.1959453672462,
+      "cpu_busy_percent": 79.89949748743719,
+      "cpu_iowait_percent": 8.040201005025125,
+      "write_iops": 1581.9411623903911,
+      "write_await_ms": 0.3274336283185841,
+      "flush_await_ms": 0.44796828543111994
+    },
+    {
+      "at": 1791644734.740718,
+      "seconds_measured": 10.451063632965088,
+      "lag": 1389.7295541070052,
+      "cpu_busy_percent": 71.85929648241206,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1595.438948642908,
+      "write_await_ms": 0.3252898777812598,
+      "flush_await_ms": 0.43992248062015504
+    },
+    {
+      "at": 1791644736.796463,
+      "seconds_measured": 12.506808757781982,
+      "lag": 1695.9575702104776,
+      "cpu_busy_percent": 76.0,
+      "cpu_iowait_percent": 5.5,
+      "write_iops": 1531.2324005723906,
+      "write_await_ms": 0.31831537708129287,
+      "flush_await_ms": 0.4438614900314795
+    },
+    {
+      "at": 1791644738.7565813,
+      "seconds_measured": 14.46692705154419,
+      "lag": 977.3989995523298,
+      "cpu_busy_percent": 86.4321608040201,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1641.954784923158,
+      "write_await_ms": 0.33160779537149815,
+      "flush_await_ms": 0.4490960989533777
+    },
+    {
+      "at": 1791644740.758665,
+      "seconds_measured": 16.469010829925537,
+      "lag": 988.3665238212852,
+      "cpu_busy_percent": 72.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1598.9348121040177,
+      "write_await_ms": 0.3258286429018136,
+      "flush_await_ms": 0.4458536585365854
+    },
+    {
+      "at": 1791644742.7485707,
+      "seconds_measured": 18.458916425704956,
+      "lag": 1433.6070446157828,
+      "cpu_busy_percent": 80.40201005025126,
+      "cpu_iowait_percent": 8.040201005025125,
+      "write_iops": 1647.4467780498444,
+      "write_await_ms": 0.3189681335356601,
+      "flush_await_ms": 0.4368471035137702
+    },
+    {
+      "at": 1791644744.7150896,
+      "seconds_measured": 20.425435304641724,
+      "lag": 748.8525904841372,
+      "cpu_busy_percent": 80.90452261306532,
+      "cpu_iowait_percent": 7.035175879396985,
+      "write_iops": 1613.433259327294,
+      "write_await_ms": 0.3294081189959715,
+      "flush_await_ms": 0.4415954415954416
+    },
+    {
+      "at": 1791644746.8060057,
+      "seconds_measured": 22.516351461410522,
+      "lag": 1249.4698638868285,
+      "cpu_busy_percent": 70.55837563451777,
+      "cpu_iowait_percent": 7.614213197969543,
+      "write_iops": 1483.3823224958803,
+      "write_await_ms": 0.3217654986522911,
+      "flush_await_ms": 0.4429028815368196
+    },
+    {
+      "at": 1791644748.7513022,
+      "seconds_measured": 24.461647987365723,
+      "lag": 947.7127635044162,
+      "cpu_busy_percent": 80.5,
+      "cpu_iowait_percent": 6.0,
+      "write_iops": 1629.9281080484416,
+      "write_await_ms": 0.3328220858895706,
+      "flush_await_ms": 0.44294003868471954
+    },
+    {
+      "at": 1791644750.8153956,
+      "seconds_measured": 26.52574133872986,
+      "lag": 2800.911171717511,
+      "cpu_busy_percent": 86.0,
+      "cpu_iowait_percent": 4.5,
+      "write_iops": 1532.472588495852,
+      "write_await_ms": 0.3310502283105023,
+      "flush_await_ms": 0.44813695871097686
+    },
+    {
+      "at": 1791644752.824811,
+      "seconds_measured": 28.535156726837158,
+      "lag": 7852.400142083003,
+      "cpu_busy_percent": 100.0,
+      "cpu_iowait_percent": 0.0,
+      "write_iops": 1464.9551184814632,
+      "write_await_ms": 0.31604095563139933,
+      "flush_await_ms": 0.432712215320911
+    },
+    {
+      "at": 1791644754.8022828,
+      "seconds_measured": 30.51262855529785,
+      "lag": 12228.388478770677,
+      "cpu_busy_percent": 100.0,
+      "cpu_iowait_percent": 0.0,
+      "write_iops": 1490.219316182188,
+      "write_await_ms": 0.32405233143240525,
+      "flush_await_ms": 0.42885973763874874
+    },
+    {
+      "at": 1791644756.7981312,
+      "seconds_measured": 32.508476972579956,
+      "lag": 16704.334049145575,
+      "cpu_busy_percent": 98.00995024875621,
+      "cpu_iowait_percent": 1.9900497512437811,
+      "write_iops": 1408.4286438614058,
+      "write_await_ms": 0.40454222853087296,
+      "flush_await_ms": 0.6208791208791209
+    },
+    {
+      "at": 1791644758.7567666,
+      "seconds_measured": 34.46711230278015,
+      "lag": 13978.793246419868,
+      "cpu_busy_percent": 90.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1787.9170899691585,
+      "write_await_ms": 0.32550335570469796,
+      "flush_await_ms": 0.4456048738033072
+    },
+    {
+      "at": 1791644760.7562046,
+      "seconds_measured": 36.46655035018921,
+      "lag": 10475.515672569105,
+      "cpu_busy_percent": 90.0,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 2063.8789514965847,
+      "write_await_ms": 0.3333333333333333,
+      "flush_await_ms": 0.44840667678300455
+    },
+    {
+      "at": 1791644762.763863,
+      "seconds_measured": 38.47420883178711,
+      "lag": 8516.533083983872,
+      "cpu_busy_percent": 90.95477386934674,
+      "cpu_iowait_percent": 7.035175879396985,
+      "write_iops": 1944.8894080820494,
+      "write_await_ms": 0.3365038560411311,
+      "flush_await_ms": 0.4301242236024845
+    },
+    {
+      "at": 1791644764.7542272,
+      "seconds_measured": 40.46457290649414,
+      "lag": 4964.256210811087,
+      "cpu_busy_percent": 90.4040404040404,
+      "cpu_iowait_percent": 7.575757575757576,
+      "write_iops": 2009.4154420314983,
+      "write_await_ms": 0.32296591191838764,
+      "flush_await_ms": 0.4281368821292776
+    },
+    {
+      "at": 1791644766.8036118,
+      "seconds_measured": 42.513957500457764,
+      "lag": 1735.910160470521,
+      "cpu_busy_percent": 89.94974874371859,
+      "cpu_iowait_percent": 7.5376884422110555,
+      "write_iops": 2059.57966799836,
+      "write_await_ms": 0.3274271844660194,
+      "flush_await_ms": 0.4318862275449102
+    },
+    {
+      "at": 1791644768.7091894,
+      "seconds_measured": 44.4195351600647,
+      "lag": 716.5978462300263,
+      "cpu_busy_percent": 81.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1735.9178457993528,
+      "write_await_ms": 0.3381336405529954,
+      "flush_await_ms": 0.4327956989247312
+    },
+    {
+      "at": 1791644770.709969,
+      "seconds_measured": 46.42031478881836,
+      "lag": 719.7293067177525,
+      "cpu_busy_percent": 71.21212121212122,
+      "cpu_iowait_percent": 7.070707070707071,
+      "write_iops": 1502.4383880131868,
+      "write_await_ms": 0.34775374376039936,
+      "flush_await_ms": 0.4356020942408377
+    },
+    {
+      "at": 1791644772.8085759,
+      "seconds_measured": 48.51892161369324,
+      "lag": 3262.0024648063118,
+      "cpu_busy_percent": 83.83838383838383,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1496.8099681596648,
+      "write_await_ms": 0.38877755511022044,
+      "flush_await_ms": 0.4300202839756592
+    },
+    {
+      "at": 1791644774.7536333,
+      "seconds_measured": 50.4639790058136,
+      "lag": 1959.2514952565543,
+      "cpu_busy_percent": 90.5,
+      "cpu_iowait_percent": 7.5,
+      "write_iops": 1663.910096570587,
+      "write_await_ms": 0.399819765695404,
+      "flush_await_ms": 0.44434050514499535
+    },
+    {
+      "at": 1791644776.8185582,
+      "seconds_measured": 52.52890396118164,
+      "lag": 1317.7203018160071,
+      "cpu_busy_percent": 74.12935323383084,
+      "cpu_iowait_percent": 16.915422885572138,
+      "write_iops": 1584.4644900173994,
+      "write_await_ms": 0.4288419059640265,
+      "flush_await_ms": 0.5198807157057654
+    },
+    {
+      "at": 1791644778.7673492,
+      "seconds_measured": 54.47769498825073,
+      "lag": 1036.367367844563,
+      "cpu_busy_percent": 84.18367346938776,
+      "cpu_iowait_percent": 9.183673469387756,
+      "write_iops": 1644.41962766083,
+      "write_await_ms": 0.41289145636971725,
+      "flush_await_ms": 0.43690248565965584
+    },
+    {
+      "at": 1791644780.7185402,
+      "seconds_measured": 56.42888593673706,
+      "lag": 769.1460454379558,
+      "cpu_busy_percent": 74.74747474747475,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1598.9277599309667,
+      "write_await_ms": 0.38461538461538464,
+      "flush_await_ms": 0.43037974683544306
+    },
+    {
+      "at": 1791644782.7521927,
+      "seconds_measured": 58.46253848075867,
+      "lag": 953.1710411973181,
+      "cpu_busy_percent": 71.64179104477611,
+      "cpu_iowait_percent": 13.432835820895523,
+      "write_iops": 1496.9411117354782,
+      "write_await_ms": 0.41015364061456244,
+      "flush_await_ms": 0.4699049630411827
+    },
+    {
+      "at": 1791644784.715367,
+      "seconds_measured": 60.4257128238678,
+      "lag": 749.6079959120252,
+      "cpu_busy_percent": 75.25252525252525,
+      "cpu_iowait_percent": 13.131313131313131,
+      "write_iops": 1510.9398405663073,
+      "write_await_ms": 0.40900066181336864,
+      "flush_await_ms": 0.4355329949238579
+    },
+    {
+      "at": 1791644786.8157897,
+      "seconds_measured": 62.52613544464111,
+      "lag": 1301.1327847546781,
+      "cpu_busy_percent": 66.66666666666667,
+      "cpu_iowait_percent": 14.141414141414142,
+      "write_iops": 1445.2565772377513,
+      "write_await_ms": 0.40110650069156295,
+      "flush_await_ms": 0.44516829533116176
+    },
+    {
+      "at": 1791644788.7822275,
+      "seconds_measured": 64.49257326126099,
+      "lag": 1118.791994447005,
+      "cpu_busy_percent": 80.0,
+      "cpu_iowait_percent": 12.5,
+      "write_iops": 1692.421921815426,
+      "write_await_ms": 0.3453471196454948,
+      "flush_await_ms": 0.43783783783783786
+    },
+    {
+      "at": 1791644790.7671769,
+      "seconds_measured": 66.47752261161804,
+      "lag": 3035.7079820582876,
+      "cpu_busy_percent": 95.5,
+      "cpu_iowait_percent": 4.0,
+      "write_iops": 1670.2730418591705,
+      "write_await_ms": 0.3659485338120886,
+      "flush_await_ms": 0.46096654275092935
+    },
+    {
+      "at": 1791644792.759892,
+      "seconds_measured": 68.4702377319336,
+      "lag": 1996.1172793142032,
+      "cpu_busy_percent": 85.5,
+      "cpu_iowait_percent": 12.0,
+      "write_iops": 1666.4225253123197,
+      "write_await_ms": 0.4071407140714071,
+      "flush_await_ms": 0.4606741573033708
+    },
+    {
+      "at": 1791644794.762795,
+      "seconds_measured": 70.47314071655273,
+      "lag": 1011.0769944762578,
+      "cpu_busy_percent": 79.5,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1696.4411506206,
+      "write_await_ms": 0.38697318007662834,
+      "flush_await_ms": 0.4588785046728972
+    },
+    {
+      "at": 1791644796.80125,
+      "seconds_measured": 72.51159572601318,
+      "lag": 1223.3324733265908,
+      "cpu_busy_percent": 71.57360406091371,
+      "cpu_iowait_percent": 8.629441624365482,
+      "write_iops": 1630.9230092153966,
+      "write_await_ms": 0.36725935009196814,
+      "flush_await_ms": 0.4355769230769231
+    },
+    {
+      "at": 1791644798.764731,
+      "seconds_measured": 74.47507667541504,
+      "lag": 1022.2753469432937,
+      "cpu_busy_percent": 77.5,
+      "cpu_iowait_percent": 6.5,
+      "write_iops": 1554.4036443358596,
+      "write_await_ms": 0.33772917336764235,
+      "flush_await_ms": 0.44455544455544455
+    },
+    {
+      "at": 1791644800.7200513,
+      "seconds_measured": 76.4303970336914,
+      "lag": 775.8609759777319,
+      "cpu_busy_percent": 74.37185929648241,
+      "cpu_iowait_percent": 11.055276381909549,
+      "write_iops": 1614.4407234498474,
+      "write_await_ms": 0.35831526788479406,
+      "flush_await_ms": 0.43816942551119764
+    },
+    {
+      "at": 1791644802.764699,
+      "seconds_measured": 78.47504472732544,
+      "lag": 1021.027902275906,
+      "cpu_busy_percent": 71.71717171717172,
+      "cpu_iowait_percent": 11.616161616161616,
+      "write_iops": 1549.9351468996333,
+      "write_await_ms": 0.3461290322580645,
+      "flush_await_ms": 0.43329989969909727
+    },
+    {
+      "at": 1791644804.7638617,
+      "seconds_measured": 80.47420740127563,
+      "lag": 1017.4934755703434,
+      "cpu_busy_percent": 71.64179104477611,
+      "cpu_iowait_percent": 7.960199004975125,
+      "write_iops": 1575.4122956345009,
+      "write_await_ms": 0.3484608060933037,
+      "flush_await_ms": 0.4297435897435897
+    },
+    {
+      "at": 1791644806.8258324,
+      "seconds_measured": 82.53617811203003,
+      "lag": 2858.5627326893155,
+      "cpu_busy_percent": 89.44723618090453,
+      "cpu_iowait_percent": 3.5175879396984926,
+      "write_iops": 1634.358227729542,
+      "write_await_ms": 0.3357798165137615,
+      "flush_await_ms": 0.4393226716839135
+    },
+    {
+      "at": 1791644808.757135,
+      "seconds_measured": 84.46748065948486,
+      "lag": 1980.8877688234206,
+      "cpu_busy_percent": 91.58415841584159,
+      "cpu_iowait_percent": 5.9405940594059405,
+      "write_iops": 1783.9085568571747,
+      "write_await_ms": 0.3304372197309417,
+      "flush_await_ms": 0.44947735191637633
+    },
+    {
+      "at": 1791644810.763517,
+      "seconds_measured": 86.47386264801025,
+      "lag": 1014.9962239512242,
+      "cpu_busy_percent": 71.93877551020408,
+      "cpu_iowait_percent": 10.204081632653061,
+      "write_iops": 1662.931410042301,
+      "write_await_ms": 0.3418520745640409,
+      "flush_await_ms": 0.42951127819548873
+    },
+    {
+      "at": 1791644812.759882,
+      "seconds_measured": 88.47022771835327,
+      "lag": 993.5149500680855,
+      "cpu_busy_percent": 78.7128712871287,
+      "cpu_iowait_percent": 12.376237623762377,
+      "write_iops": 1640.473990554721,
+      "write_await_ms": 0.3980493751904907,
+      "flush_await_ms": 0.4574468085106383
+    },
+    {
+      "at": 1791644814.7557864,
+      "seconds_measured": 90.46613216400146,
+      "lag": 972.2647050287342,
+      "cpu_busy_percent": 72.36180904522612,
+      "cpu_iowait_percent": 11.557788944723619,
+      "write_iops": 1482.4323163536592,
+      "write_await_ms": 0.4057335581787521,
+      "flush_await_ms": 0.4309978768577495
+    },
+    {
+      "at": 1791644816.8198059,
+      "seconds_measured": 92.53015160560608,
+      "lag": 1325.2815660531633,
+      "cpu_busy_percent": 65.15151515151516,
+      "cpu_iowait_percent": 12.121212121212121,
+      "write_iops": 1529.7776573537853,
+      "write_await_ms": 0.38157464880757924,
+      "flush_await_ms": 0.4380081300813008
+    },
+    {
+      "at": 1791644818.7662444,
+      "seconds_measured": 94.47659015655518,
+      "lag": 1029.5600999341113,
+      "cpu_busy_percent": 78.5,
+      "cpu_iowait_percent": 10.0,
+      "write_iops": 1593.4321871649245,
+      "write_await_ms": 0.36711641041732035,
+      "flush_await_ms": 0.4278704612365064
+    },
+    {
+      "at": 1791644820.762067,
+      "seconds_measured": 96.47241282463074,
+      "lag": 1007.3059979069512,
+      "cpu_busy_percent": 73.9795918367347,
+      "cpu_iowait_percent": 10.204081632653061,
+      "write_iops": 1519.4362419179492,
+      "write_await_ms": 0.40309312273774267,
+      "flush_await_ms": 0.43550051599587203
+    },
+    {
+      "at": 1791644822.7755342,
+      "seconds_measured": 98.48587989807129,
+      "lag": 1080.4036318212748,
+      "cpu_busy_percent": 75.87939698492463,
+      "cpu_iowait_percent": 14.07035175879397,
+      "write_iops": 1622.924934521366,
+      "write_await_ms": 0.41250770178681456,
+      "flush_await_ms": 0.4359961501443696
+    },
+    {
+      "at": 1791644824.7604637,
+      "seconds_measured": 100.47080945968628,
+      "lag": 2999.043585386011,
+      "cpu_busy_percent": 92.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1570.9402606555045,
+      "write_await_ms": 0.3901973265436028,
+      "flush_await_ms": 0.45226130653266333
+    },
+    {
+      "at": 1791644826.8130708,
+      "seconds_measured": 102.52341651916504,
+      "lag": 1286.033767004381,
+      "cpu_busy_percent": 83.33333333333333,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1705.930856646149,
+      "write_await_ms": 0.3909730363423212,
+      "flush_await_ms": 0.43370165745856354
+    },
+    {
+      "at": 1791644828.7213974,
+      "seconds_measured": 104.43174314498901,
+      "lag": 783.5991392110009,
+      "cpu_busy_percent": 81.90954773869346,
+      "cpu_iowait_percent": 10.552763819095478,
+      "write_iops": 1734.927613179134,
+      "write_await_ms": 0.3818443804034582,
+      "flush_await_ms": 0.4364791288566243
+    },
+    {
+      "at": 1791644830.7593594,
+      "seconds_measured": 106.46970510482788,
+      "lag": 991.8381510949694,
+      "cpu_busy_percent": 70.05076142131979,
+      "cpu_iowait_percent": 14.213197969543147,
+      "write_iops": 1493.43679880338,
+      "write_await_ms": 0.3853364579845999,
+      "flush_await_ms": 0.4276923076923077
+    },
+    {
+      "at": 1791644832.7402678,
+      "seconds_measured": 108.45061349868774,
+      "lag": 889.4931532855844,
+      "cpu_busy_percent": 74.0,
+      "cpu_iowait_percent": 12.5,
+      "write_iops": 1569.442188544719,
+      "write_await_ms": 0.41510035043007326,
+      "flush_await_ms": 0.4560878243512974
+    },
+    {
+      "at": 1791644834.7177467,
+      "seconds_measured": 110.42809247970581,
+      "lag": 763.3313631296623,
+      "cpu_busy_percent": 70.55837563451777,
+      "cpu_iowait_percent": 10.65989847715736,
+      "write_iops": 1608.9345962169994,
+      "write_await_ms": 0.362958359229335,
+      "flush_await_ms": 0.5107421875
+    },
+    {
+      "at": 1791644836.79754,
+      "seconds_measured": 112.50788569450378,
+      "lag": 1203.0456011195201,
+      "cpu_busy_percent": 69.5,
+      "cpu_iowait_percent": 10.5,
+      "write_iops": 1494.939051967171,
+      "write_await_ms": 0.3311036789297659,
+      "flush_await_ms": 0.43070362473347545
+    },
+    {
+      "at": 1791644838.7219353,
+      "seconds_measured": 114.43228101730347,
+      "lag": 785.527371028671,
+      "cpu_busy_percent": 81.31313131313131,
+      "cpu_iowait_percent": 6.565656565656566,
+      "write_iops": 1714.9133201542204,
+      "write_await_ms": 0.3349854227405248,
+      "flush_await_ms": 0.43462578899909826
+    },
+    {
+      "at": 1791644840.793726,
+      "seconds_measured": 116.5040717124939,
+      "lag": 3180.49260346964,
+      "cpu_busy_percent": 86.5,
+      "cpu_iowait_percent": 4.5,
+      "write_iops": 1577.4601338448078,
+      "write_await_ms": 0.34136291600633917,
+      "flush_await_ms": 0.42115572967678744
+    },
+    {
+      "at": 1791644842.7678192,
+      "seconds_measured": 118.47816491127014,
+      "lag": 1539.3029480320401,
+      "cpu_busy_percent": 91.91919191919192,
+      "cpu_iowait_percent": 6.565656565656566,
+      "write_iops": 1817.927617570845,
+      "write_await_ms": 0.349009900990099,
+      "flush_await_ms": 0.43316412859560066
+    },
+    {
+      "at": 1791644844.7670774,
+      "seconds_measured": 120.47742319107056,
+      "lag": 1035.3398123283405,
+      "cpu_busy_percent": 71.64179104477611,
+      "cpu_iowait_percent": 7.960199004975125,
+      "write_iops": 1576.422763138336,
+      "write_await_ms": 0.37900412305740566,
+      "flush_await_ms": 0.437190900098912
+    },
+    {
+      "at": 1791644846.8024049,
+      "seconds_measured": 122.51275062561035,
+      "lag": 1229.150611999794,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 7.5376884422110555,
+      "write_iops": 1574.4275530534412,
+      "write_await_ms": 0.36932359479199744,
+      "flush_await_ms": 0.4494494494494494
+    },
+    {
+      "at": 1791644848.7150948,
+      "seconds_measured": 124.42544054985046,
+      "lag": 747.8448725071503,
+      "cpu_busy_percent": 79.69543147208122,
+      "cpu_iowait_percent": 8.121827411167512,
+      "write_iops": 1633.9405918263785,
+      "write_await_ms": 0.34791921664626685,
+      "flush_await_ms": 0.45689655172413796
+    },
+    {
+      "at": 1791644850.7567434,
+      "seconds_measured": 126.46708917617798,
+      "lag": 1478.104170280043,
+      "cpu_busy_percent": 69.6969696969697,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1549.9198120595893,
+      "write_await_ms": 0.3412903225806452,
+      "flush_await_ms": 0.4291497975708502
+    },
+    {
+      "at": 1791644852.7237473,
+      "seconds_measured": 128.43409299850464,
+      "lag": 798.0035898991628,
+      "cpu_busy_percent": 80.0,
+      "cpu_iowait_percent": 8.5,
+      "write_iops": 1691.9209364644178,
+      "write_await_ms": 0.3552009456264775,
+      "flush_await_ms": 0.432808155699722
+    },
+    {
+      "at": 1791644854.768188,
+      "seconds_measured": 130.478533744812,
+      "lag": 1040.4255415743683,
+      "cpu_busy_percent": 73.09644670050761,
+      "cpu_iowait_percent": 15.228426395939087,
+      "write_iops": 1552.9350213775035,
+      "write_await_ms": 0.4169349645846748,
+      "flush_await_ms": 0.4336734693877551
+    },
+    {
+      "at": 1791644856.8612301,
+      "seconds_measured": 132.57157588005066,
+      "lag": 1553.2562747971388,
+      "cpu_busy_percent": 72.8643216080402,
+      "cpu_iowait_percent": 9.045226130653266,
+      "write_iops": 1531.5720380714847,
+      "write_await_ms": 0.4073107049608355,
+      "flush_await_ms": 0.4431818181818182
+    },
+    {
+      "at": 1791644858.7697194,
+      "seconds_measured": 134.48006510734558,
+      "lag": 4048.8729215414496,
+      "cpu_busy_percent": 94.02985074626865,
+      "cpu_iowait_percent": 4.975124378109452,
+      "write_iops": 1575.3794324880055,
+      "write_await_ms": 0.4052681688352904,
+      "flush_await_ms": 0.425531914893617
+    },
+    {
+      "at": 1791644860.7595801,
+      "seconds_measured": 136.46992588043213,
+      "lag": 1993.3896428762237,
+      "cpu_busy_percent": 86.86868686868686,
+      "cpu_iowait_percent": 11.11111111111111,
+      "write_iops": 1745.4821053193739,
+      "write_await_ms": 0.44800916642795763,
+      "flush_await_ms": 0.49049773755656106
+    },
+    {
+      "at": 1791644862.7739234,
+      "seconds_measured": 138.48426914215088,
+      "lag": 1071.659537369851,
+      "cpu_busy_percent": 77.77777777777777,
+      "cpu_iowait_percent": 15.656565656565656,
+      "write_iops": 1690.6563709840145,
+      "write_await_ms": 0.4039030159668835,
+      "flush_await_ms": 0.4336448598130841
+    },
+    {
+      "at": 1791644864.7199497,
+      "seconds_measured": 140.4302954673767,
+      "lag": 775.2349662696943,
+      "cpu_busy_percent": 75.86206896551724,
+      "cpu_iowait_percent": 12.31527093596059,
+      "write_iops": 1647.4322457164797,
+      "write_await_ms": 0.3960546282245827,
+      "flush_await_ms": 0.42911153119092627
+    },
+    {
+      "at": 1791644866.817193,
+      "seconds_measured": 142.5275387763977,
+      "lag": 1309.5995534876129,
+      "cpu_busy_percent": 73.09644670050761,
+      "cpu_iowait_percent": 14.720812182741117,
+      "write_iops": 1525.7310058244914,
+      "write_await_ms": 0.4113986243039633,
+      "flush_await_ms": 0.4212152420185376
+    },
+    {
+      "at": 1791644868.7739418,
+      "seconds_measured": 144.48428750038147,
+      "lag": 1572.7590368525125,
+      "cpu_busy_percent": 81.4070351758794,
+      "cpu_iowait_percent": 12.06030150753769,
+      "write_iops": 1685.577963381981,
+      "write_await_ms": 0.388312073568674,
+      "flush_await_ms": 0.4643510054844607
+    },
+    {
+      "at": 1791644870.720682,
+      "seconds_measured": 146.43102765083313,
+      "lag": 776.8494342339691,
+      "cpu_busy_percent": 78.28282828282828,
+      "cpu_iowait_percent": 14.646464646464647,
+      "write_iops": 1686.436270678305,
+      "write_await_ms": 0.3705899792469612,
+      "flush_await_ms": 0.4389782403027436
+    },
+    {
+      "at": 1791644872.7682145,
+      "seconds_measured": 148.4785602092743,
+      "lag": 1041.2166801496642,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 13.5678391959799,
+      "write_iops": 1520.8516968860563,
+      "write_await_ms": 0.3879026955950033,
+      "flush_await_ms": 0.4595701125895599
+    },
+    {
+      "at": 1791644874.7980711,
+      "seconds_measured": 150.50841689109802,
+      "lag": 3202.161126932595,
+      "cpu_busy_percent": 87.0,
+      "cpu_iowait_percent": 4.0,
+      "write_iops": 1576.3372664364892,
+      "write_await_ms": 0.3380907072629242,
+      "flush_await_ms": 0.42814667988107036
+    },
+    {
+      "at": 1791644876.7833717,
+      "seconds_measured": 152.4937174320221,
+      "lag": 1123.7650089536328,
+      "cpu_busy_percent": 90.4040404040404,
+      "cpu_iowait_percent": 7.575757575757576,
+      "write_iops": 1844.3742832743687,
+      "write_await_ms": 0.34028718504470334,
+      "flush_await_ms": 0.43394648829431437
+    },
+    {
+      "at": 1791644878.7281065,
+      "seconds_measured": 154.43845224380493,
+      "lag": 821.1156590232858,
+      "cpu_busy_percent": 76.38190954773869,
+      "cpu_iowait_percent": 10.552763819095478,
+      "write_iops": 1562.433878895401,
+      "write_await_ms": 0.34976,
+      "flush_await_ms": 0.4436548223350254
+    },
+    {
+      "at": 1791644880.775269,
+      "seconds_measured": 156.48561477661133,
+      "lag": 1078.2198610347696,
+      "cpu_busy_percent": 72.8643216080402,
+      "cpu_iowait_percent": 9.045226130653266,
+      "write_iops": 1559.9351003944828,
+      "write_await_ms": 0.3580128205128205,
+      "flush_await_ms": 0.43820224719101125
+    },
+    {
+      "at": 1791644882.767345,
+      "seconds_measured": 158.4776906967163,
+      "lag": 1535.4211244225735,
+      "cpu_busy_percent": 73.73737373737374,
+      "cpu_iowait_percent": 11.11111111111111,
+      "write_iops": 1586.9248970527494,
+      "write_await_ms": 0.3431001890359168,
+      "flush_await_ms": 0.44433399602385687
+    },
+    {
+      "at": 1791644884.7302766,
+      "seconds_measured": 160.4406223297119,
+      "lag": 831.3513591735391,
+      "cpu_busy_percent": 75.75757575757575,
+      "cpu_iowait_percent": 9.090909090909092,
+      "write_iops": 1643.933369476125,
+      "write_await_ms": 0.3427615571776156,
+      "flush_await_ms": 0.43088655862726405
+    },
+    {
+      "at": 1791644886.8094916,
+      "seconds_measured": 162.51983737945557,
+      "lag": 1267.0146448004525,
+      "cpu_busy_percent": 71.85929648241206,
+      "cpu_iowait_percent": 10.050251256281408,
+      "write_iops": 1575.0711358893818,
+      "write_await_ms": 0.35691624365482233,
+      "flush_await_ms": 0.43208661417322836
+    },
+    {
+      "at": 1791644888.7719622,
+      "seconds_measured": 164.4823079109192,
+      "lag": 1061.1055421056226,
+      "cpu_busy_percent": 74.87437185929649,
+      "cpu_iowait_percent": 11.557788944723619,
+      "write_iops": 1610.2239706433077,
+      "write_await_ms": 0.37100279416330334,
+      "flush_await_ms": 0.4397649363369246
+    },
+    {
+      "at": 1791644890.823045,
+      "seconds_measured": 166.53339076042175,
+      "lag": 843.3936961512081,
+      "cpu_busy_percent": 70.70707070707071,
+      "cpu_iowait_percent": 9.090909090909092,
+      "write_iops": 1590.6226621749724,
+      "write_await_ms": 0.34695160276555626,
+      "flush_await_ms": 0.4312749003984064
+    },
+    {
+      "at": 1791644892.7726803,
+      "seconds_measured": 168.48302602767944,
+      "lag": 3564.1067586566787,
+      "cpu_busy_percent": 97.02970297029702,
+      "cpu_iowait_percent": 1.9801980198019802,
+      "write_iops": 1702.931993220123,
+      "write_await_ms": 0.3367586611861421,
+      "flush_await_ms": 0.4265232974910394
+    },
+    {
+      "at": 1791644894.7763648,
+      "seconds_measured": 170.48671054840088,
+      "lag": 1585.1726103411056,
+      "cpu_busy_percent": 86.86868686868686,
+      "cpu_iowait_percent": 10.606060606060606,
+      "write_iops": 1842.3763492244943,
+      "write_await_ms": 0.3723202170963365,
+      "flush_await_ms": 0.43307757885763
+    },
+    {
+      "at": 1791644896.784841,
+      "seconds_measured": 172.4951868057251,
+      "lag": 1132.0016895649023,
+      "cpu_busy_percent": 80.59701492537313,
+      "cpu_iowait_percent": 13.930348258706468,
+      "write_iops": 1729.446396820167,
+      "write_await_ms": 0.4191962995085285,
+      "flush_await_ms": 0.4367606915377616
+    },
+    {
+      "at": 1791644898.7855325,
+      "seconds_measured": 174.4958782196045,
+      "lag": 1137.147343381308,
+      "cpu_busy_percent": 73.5,
+      "cpu_iowait_percent": 14.0,
+      "write_iops": 1517.8869086125037,
+      "write_await_ms": 0.37582345191040845,
+      "flush_await_ms": 0.46153846153846156
+    },
+    {
+      "at": 1791644900.7664247,
+      "seconds_measured": 176.47677040100098,
+      "lag": 1031.8491363385692,
+      "cpu_busy_percent": 73.73737373737374,
+      "cpu_iowait_percent": 12.626262626262626,
+      "write_iops": 1601.5759606112817,
+      "write_await_ms": 0.465980024968789,
+      "flush_await_ms": 0.42678227360308285
+    },
+    {
+      "at": 1791644902.7261992,
+      "seconds_measured": 178.43654489517212,
+      "lag": 809.3441692092456,
+      "cpu_busy_percent": 75.37688442211055,
+      "cpu_iowait_percent": 13.06532663316583,
+      "write_iops": 1503.2648622353533,
+      "write_await_ms": 0.4138389886892881,
+      "flush_await_ms": 0.44314558979808716
+    },
+    {
+      "at": 1791644904.7733612,
+      "seconds_measured": 180.48370695114136,
+      "lag": 1068.9562861837912,
+      "cpu_busy_percent": 70.85427135678393,
+      "cpu_iowait_percent": 14.07035175879397,
+      "write_iops": 1482.3278871343055,
+      "write_await_ms": 0.4026981450252951,
+      "flush_await_ms": 0.44337606837606836
+    },
+    {
+      "at": 1791644906.8138444,
+      "seconds_measured": 182.52419018745422,
+      "lag": 1291.6815678605344,
+      "cpu_busy_percent": 74.0,
+      "cpu_iowait_percent": 10.0,
+      "write_iops": 1575.9638203688464,
+      "write_await_ms": 0.3970821439898509,
+      "flush_await_ms": 0.45589692765113976
+    },
+    {
+      "at": 1791644908.805925,
+      "seconds_measured": 184.5162706375122,
+      "lag": 3247.0951108809095,
+      "cpu_busy_percent": 90.45226130653266,
+      "cpu_iowait_percent": 4.0201005025125625,
+      "write_iops": 1594.3528922631012,
+      "write_await_ms": 0.3756663530887426,
+      "flush_await_ms": 0.45658536585365855
+    },
+    {
+      "at": 1791644910.7725606,
+      "seconds_measured": 186.48290634155273,
+      "lag": 1564.6228844814468,
+      "cpu_busy_percent": 85.57213930348259,
+      "cpu_iowait_percent": 12.437810945273633,
+      "write_iops": 1723.924167630928,
+      "write_await_ms": 0.42198375870069604,
+      "flush_await_ms": 0.43216531895777177
+    },
+    {
+      "at": 1791644912.778016,
+      "seconds_measured": 188.48836183547974,
+      "lag": 1094.4103314150125,
+      "cpu_busy_percent": 83.0,
+      "cpu_iowait_percent": 12.0,
+      "write_iops": 1710.9341211651401,
+      "write_await_ms": 0.4064874342489772,
+      "flush_await_ms": 0.4666064981949459
+    },
+    {
+      "at": 1791644914.7817721,
+      "seconds_measured": 190.4921178817749,
+      "lag": 1114.8425282279495,
+      "cpu_busy_percent": 71.35678391959799,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1526.4142955382827,
+      "write_await_ms": 0.3609564362921716,
+      "flush_await_ms": 0.4523560209424084
+    },
+    {
+      "at": 1791644916.8212657,
+      "seconds_measured": 192.53161144256592,
+      "lag": 1832.847688704729,
+      "cpu_busy_percent": 76.26262626262626,
+      "cpu_iowait_percent": 12.626262626262626,
+      "write_iops": 1679.9317101582094,
+      "write_await_ms": 0.34672619047619047,
+      "flush_await_ms": 0.43412322274881515
+    },
+    {
+      "at": 1791644918.727066,
+      "seconds_measured": 194.43741178512573,
+      "lag": 815.4875140711665,
+      "cpu_busy_percent": 81.0,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 1696.4205239694213,
+      "write_await_ms": 0.3421750663129973,
+      "flush_await_ms": 0.4489051094890511
+    },
+    {
+      "at": 1791644920.7717566,
+      "seconds_measured": 196.482102394104,
+      "lag": 560.4447141643614,
+      "cpu_busy_percent": 72.22222222222223,
+      "cpu_iowait_percent": 10.606060606060606,
+      "write_iops": 1531.4667731579882,
+      "write_await_ms": 0.3444335618674502,
+      "flush_await_ms": 0.4377551020408163
+    },
+    {
+      "at": 1791644922.7717214,
+      "seconds_measured": 198.4820671081543,
+      "lag": 560.1886393185705,
+      "cpu_busy_percent": 80.0,
+      "cpu_iowait_percent": 9.5,
+      "write_iops": 1707.9346438621665,
+      "write_await_ms": 0.34660421545667447,
+      "flush_await_ms": 0.43223443223443225
+    },
+    {
+      "at": 1791644924.8314853,
+      "seconds_measured": 200.54183101654053,
+      "lag": 1387.6117099709809,
+      "cpu_busy_percent": 71.21212121212122,
+      "cpu_iowait_percent": 12.626262626262626,
+      "write_iops": 1547.6072569469968,
+      "write_await_ms": 0.33968356474007105,
+      "flush_await_ms": 0.44635627530364375
+    },
+    {
+      "at": 1791644926.8361192,
+      "seconds_measured": 202.54646492004395,
+      "lag": 1914.2554299416952,
+      "cpu_busy_percent": 94.5,
+      "cpu_iowait_percent": 4.0,
+      "write_iops": 1736.957966510391,
+      "write_await_ms": 0.3330454807138745,
+      "flush_await_ms": 0.4452488687782805
+    },
+    {
+      "at": 1791644928.7782712,
+      "seconds_measured": 204.48861694335938,
+      "lag": 1096.3677880314644,
+      "cpu_busy_percent": 86.80203045685279,
+      "cpu_iowait_percent": 7.106598984771574,
+      "write_iops": 1755.4309429870623,
+      "write_await_ms": 0.3423526060951296,
+      "flush_await_ms": 0.4357394366197183
+    },
+    {
+      "at": 1791644930.7297492,
+      "seconds_measured": 206.44009494781494,
+      "lag": 829.5024571330287,
+      "cpu_busy_percent": 77.5,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1708.4421599419804,
+      "write_await_ms": 0.32484635645302895,
+      "flush_await_ms": 0.43175487465181056
+    },
+    {
+      "at": 1791644932.7869606,
+      "seconds_measured": 208.4973063468933,
+      "lag": 1145.5874833932612,
+      "cpu_busy_percent": 82.74111675126903,
+      "cpu_iowait_percent": 6.598984771573604,
+      "write_iops": 1683.433173269427,
+      "write_await_ms": 0.3356103356103356,
+      "flush_await_ms": 0.4230055658627087
+    },
+    {
+      "at": 1791644934.7819843,
+      "seconds_measured": 210.4923300743103,
+      "lag": 1116.4682083069347,
+      "cpu_busy_percent": 78.39195979899498,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1618.9401722605942,
+      "write_await_ms": 0.339715873996294,
+      "flush_await_ms": 0.4458536585365854
+    },
+    {
+      "at": 1791644936.8368936,
+      "seconds_measured": 212.54723930358887,
+      "lag": 1416.7160001418088,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1595.4282892420933,
+      "write_await_ms": 0.3408521303258145,
+      "flush_await_ms": 0.43435340572556763
+    },
+    {
+      "at": 1791644938.7834322,
+      "seconds_measured": 214.4937779903412,
+      "lag": 1123.2210856918246,
+      "cpu_busy_percent": 82.08955223880596,
+      "cpu_iowait_percent": 6.965174129353234,
+      "write_iops": 1636.4325182204839,
+      "write_await_ms": 0.3335369578497251,
+      "flush_await_ms": 0.4339080459770115
+    },
+    {
+      "at": 1791644940.7782419,
+      "seconds_measured": 216.48858761787415,
+      "lag": 1096.890202869894,
+      "cpu_busy_percent": 79.29292929292929,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1604.4401343152474,
+      "write_await_ms": 0.3755063882829542,
+      "flush_await_ms": 0.4345703125
+    },
+    {
+      "at": 1791644942.7779784,
+      "seconds_measured": 218.48832416534424,
+      "lag": 1595.1397375154775,
+      "cpu_busy_percent": 79.39698492462311,
+      "cpu_iowait_percent": 14.07035175879397,
+      "write_iops": 1626.922034423609,
+      "write_await_ms": 0.4185617701290719,
+      "flush_await_ms": 0.4349477682811016
+    },
+    {
+      "at": 1791644944.7790704,
+      "seconds_measured": 220.48941612243652,
+      "lag": 1100.2623048457317,
+      "cpu_busy_percent": 78.97435897435898,
+      "cpu_iowait_percent": 10.256410256410257,
+      "write_iops": 1594.974521805534,
+      "write_await_ms": 0.4122257053291536,
+      "flush_await_ms": 0.5759059745347699
+    },
+    {
+      "at": 1791644946.8234255,
+      "seconds_measured": 222.533771276474,
+      "lag": 1345.7053264593706,
+      "cpu_busy_percent": 75.0,
+      "cpu_iowait_percent": 11.0,
+      "write_iops": 1549.389561116756,
+      "write_await_ms": 0.38838709677419353,
+      "flush_await_ms": 0.4274028629856851
+    },
+    {
+      "at": 1791644948.7852454,
+      "seconds_measured": 224.49559116363525,
+      "lag": 1134.2958446803968,
+      "cpu_busy_percent": 78.68020304568527,
+      "cpu_iowait_percent": 10.65989847715736,
+      "write_iops": 1594.6264647241612,
+      "write_await_ms": 0.35078369905956114,
+      "flush_await_ms": 0.43682664054848186
+    },
+    {
+      "at": 1791644950.778412,
+      "seconds_measured": 226.48875784873962,
+      "lag": 597.044547381578,
+      "cpu_busy_percent": 82.0,
+      "cpu_iowait_percent": 7.5,
+      "write_iops": 1714.9349892942196,
+      "write_await_ms": 0.358600583090379,
+      "flush_await_ms": 0.4399633363886343
+    },
+    {
+      "at": 1791644952.7303874,
+      "seconds_measured": 228.4407331943512,
+      "lag": 833.4296535830945,
+      "cpu_busy_percent": 85.57213930348259,
+      "cpu_iowait_percent": 7.462686567164179,
+      "write_iops": 1718.4350614649672,
+      "write_await_ms": 0.3619435554262438,
+      "flush_await_ms": 0.44152311876699907
+    },
+    {
+      "at": 1791644954.7846413,
+      "seconds_measured": 230.4949870109558,
+      "lag": 1131.3895111999009,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 11.11111111111111,
+      "write_iops": 1560.94175734877,
+      "write_await_ms": 0.35874439461883406,
+      "flush_await_ms": 0.4341317365269461
+    },
+    {
+      "at": 1791644956.852416,
+      "seconds_measured": 232.56276178359985,
+      "lag": 1504.1281097235624,
+      "cpu_busy_percent": 77.66497461928934,
+      "cpu_iowait_percent": 11.6751269035533,
+      "write_iops": 1659.7378405763193,
+      "write_await_ms": 0.3394578313253012,
+      "flush_await_ms": 0.43498596819457436
+    },
+    {
+      "at": 1791644958.8628702,
+      "seconds_measured": 234.5732159614563,
+      "lag": 4060.674558856059,
+      "cpu_busy_percent": 95.97989949748744,
+      "cpu_iowait_percent": 3.0150753768844223,
+      "write_iops": 1677.435011103319,
+      "write_await_ms": 0.3284649776453055,
+      "flush_await_ms": 0.43546889507892295
+    },
+    {
+      "at": 1791644960.8475199,
+      "seconds_measured": 236.55786561965942,
+      "lag": 8477.449689057888,
+      "cpu_busy_percent": 99.5049504950495,
+      "cpu_iowait_percent": 0.49504950495049505,
+      "write_iops": 1513.291820197045,
+      "write_await_ms": 0.3657086223984143,
+      "flush_await_ms": 0.47914547304170907
+    },
+    {
+      "at": 1791644962.8190517,
+      "seconds_measured": 238.52939748764038,
+      "lag": 12819.457096831407,
+      "cpu_busy_percent": 100.0,
+      "cpu_iowait_percent": 0.0,
+      "write_iops": 1460.9409605281808,
+      "write_await_ms": 0.3401779603011636,
+      "flush_await_ms": 0.42571127502634354
+    },
+    {
+      "at": 1791644964.784026,
+      "seconds_measured": 240.49437165260315,
+      "lag": 16626.80285721831,
+      "cpu_busy_percent": 97.5,
+      "cpu_iowait_percent": 2.0,
+      "write_iops": 1504.4318499442363,
+      "write_await_ms": 0.4127617148554337,
+      "flush_await_ms": 0.5768025078369906
+    },
+    {
+      "at": 1791644966.825284,
+      "seconds_measured": 242.5356297492981,
+      "lag": 14853.772530671442,
+      "cpu_busy_percent": 89.5,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 1837.0589450937011,
+      "write_await_ms": 0.33931972789115644,
+      "flush_await_ms": 0.4320675105485232
+    },
+    {
+      "at": 1791644968.7788665,
+      "seconds_measured": 244.4892122745514,
+      "lag": 12100.533020756673,
+      "cpu_busy_percent": 89.8989898989899,
+      "cpu_iowait_percent": 7.575757575757576,
+      "write_iops": 1948.4163830402024,
+      "write_await_ms": 0.32075955863484734,
+      "flush_await_ms": 0.4321486268174475
+    },
+    {
+      "at": 1791644970.7823977,
+      "seconds_measured": 246.49274349212646,
+      "lag": 9619.776884460123,
+      "cpu_busy_percent": 88.44221105527639,
+      "cpu_iowait_percent": 9.045226130653266,
+      "write_iops": 1907.4213257099752,
+      "write_await_ms": 0.34888597640891217,
+      "flush_await_ms": 0.43564356435643564
+    },
+    {
+      "at": 1791644972.7769504,
+      "seconds_measured": 248.48729610443115,
+      "lag": 8088.741652770434,
+      "cpu_busy_percent": 88.55721393034825,
+      "cpu_iowait_percent": 8.955223880597014,
+      "write_iops": 1858.9277579249044,
+      "write_await_ms": 0.35502958579881655,
+      "flush_await_ms": 0.4427736006683375
+    },
+    {
+      "at": 1791644974.779686,
+      "seconds_measured": 250.49003171920776,
+      "lag": 7603.2442346618045,
+      "cpu_busy_percent": 73.60406091370558,
+      "cpu_iowait_percent": 25.380710659898476,
+      "write_iops": 1259.949683768265,
+      "write_await_ms": 0.830952380952381,
+      "flush_await_ms": 0.8729139922978177
+    },
+    {
+      "at": 1791644976.8231268,
+      "seconds_measured": 252.53347253799438,
+      "lag": 5342.001421826193,
+      "cpu_busy_percent": 89.44723618090453,
+      "cpu_iowait_percent": 8.040201005025125,
+      "write_iops": 1855.4349715850776,
+      "write_await_ms": 0.35057935866343304,
+      "flush_await_ms": 0.4621212121212121
+    },
+    {
+      "at": 1791644978.790459,
+      "seconds_measured": 254.50080466270447,
+      "lag": 3163.412748672534,
+      "cpu_busy_percent": 89.5,
+      "cpu_iowait_percent": 7.5,
+      "write_iops": 1910.400934170918,
+      "write_await_ms": 0.34153362993980635,
+      "flush_await_ms": 0.4375
+    },
+    {
+      "at": 1791644980.8029108,
+      "seconds_measured": 256.5132565498352,
+      "lag": 4230.269918539096,
+      "cpu_busy_percent": 94.5,
+      "cpu_iowait_percent": 4.5,
+      "write_iops": 1765.3640507248917,
+      "write_await_ms": 0.3370150099122062,
+      "flush_await_ms": 0.42744755244755245
+    },
+    {
+      "at": 1791644982.7658544,
+      "seconds_measured": 258.47620010375977,
+      "lag": 3026.6753263839055,
+      "cpu_busy_percent": 89.84771573604061,
+      "cpu_iowait_percent": 8.629441624365482,
+      "write_iops": 1779.4232111927925,
+      "write_await_ms": 0.349255408822703,
+      "flush_await_ms": 0.4324786324786325
+    },
+    {
+      "at": 1791644984.7769485,
+      "seconds_measured": 260.4872941970825,
+      "lag": 589.8478110332508,
+      "cpu_busy_percent": 85.07462686567165,
+      "cpu_iowait_percent": 12.437810945273633,
+      "write_iops": 1812.9308421767357,
+      "write_await_ms": 0.3979591836734694,
+      "flush_await_ms": 0.4659188955996549
+    },
+    {
+      "at": 1791644986.8266082,
+      "seconds_measured": 262.5369539260864,
+      "lag": 1361.509194605751,
+      "cpu_busy_percent": 74.24242424242425,
+      "cpu_iowait_percent": 14.646464646464647,
+      "write_iops": 1653.6471371203131,
+      "write_await_ms": 0.38724304715840385,
+      "flush_await_ms": 0.4526112185686654
+    },
+    {
+      "at": 1791644988.7376826,
+      "seconds_measured": 264.44802832603455,
+      "lag": 874.5978126800619,
+      "cpu_busy_percent": 77.27272727272727,
+      "cpu_iowait_percent": 13.636363636363637,
+      "write_iops": 1688.9301363519055,
+      "write_await_ms": 0.3925399644760213,
+      "flush_await_ms": 0.44
+    },
+    {
+      "at": 1791644990.7782876,
+      "seconds_measured": 266.48863339424133,
+      "lag": 1096.5242803224828,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 10.606060606060606,
+      "write_iops": 1466.4725537072502,
+      "write_await_ms": 0.40197749744289124,
+      "flush_await_ms": 0.46195069667738475
+    },
+    {
+      "at": 1791644992.78478,
+      "seconds_measured": 268.49512577056885,
+      "lag": 1131.8280250339303,
+      "cpu_busy_percent": 77.8894472361809,
+      "cpu_iowait_percent": 14.07035175879397,
+      "write_iops": 1616.69318204572,
+      "write_await_ms": 0.3930117501546073,
+      "flush_await_ms": 0.4360236220472441
+    },
+    {
+      "at": 1791644994.7320538,
+      "seconds_measured": 270.44239950180054,
+      "lag": 840.1747574340552,
+      "cpu_busy_percent": 70.79207920792079,
+      "cpu_iowait_percent": 12.376237623762377,
+      "write_iops": 1530.4359627934766,
+      "write_await_ms": 0.40476968311009476,
+      "flush_await_ms": 0.48918640576725025
+    },
+    {
+      "at": 1791644996.887401,
+      "seconds_measured": 272.59774684906006,
+      "lag": 1697.6789550967515,
+      "cpu_busy_percent": 70.0,
+      "cpu_iowait_percent": 13.0,
+      "write_iops": 1480.2250806479872,
+      "write_await_ms": 0.375548801080716,
+      "flush_await_ms": 0.4403470715835141
+    },
+    {
+      "at": 1791644998.7832108,
+      "seconds_measured": 274.4935564994812,
+      "lag": 3622.5638321186416,
+      "cpu_busy_percent": 95.97989949748744,
+      "cpu_iowait_percent": 3.5175879396984926,
+      "write_iops": 1623.4312975274775,
+      "write_await_ms": 0.3803510933169079,
+      "flush_await_ms": 0.4804947668886774
+    },
+    {
+      "at": 1791645000.7722006,
+      "seconds_measured": 276.4825463294983,
+      "lag": 1563.4575524628162,
+      "cpu_busy_percent": 82.5,
+      "cpu_iowait_percent": 14.5,
+      "write_iops": 1712.8921862752015,
+      "write_await_ms": 0.4127262113251605,
+      "flush_await_ms": 0.5226641998149861
+    },
+    {
+      "at": 1791645002.7820106,
+      "seconds_measured": 278.492356300354,
+      "lag": 1115.9888397941831,
+      "cpu_busy_percent": 76.76767676767676,
+      "cpu_iowait_percent": 11.616161616161616,
+      "write_iops": 1644.396105535515,
+      "write_await_ms": 0.41714806932198234,
+      "flush_await_ms": 0.4197292069632495
+    },
+    {
+      "at": 1791645004.7825031,
+      "seconds_measured": 280.4928488731384,
+      "lag": 1118.7232346939854,
+      "cpu_busy_percent": 73.5,
+      "cpu_iowait_percent": 10.0,
+      "write_iops": 1573.8429648206766,
+      "write_await_ms": 0.36626429479034306,
+      "flush_await_ms": 0.4430769230769231
+    },
+    {
+      "at": 1791645006.8220954,
+      "seconds_measured": 282.5324411392212,
+      "lag": 1336.5042829902377,
+      "cpu_busy_percent": 75.25252525252525,
+      "cpu_iowait_percent": 8.585858585858587,
+      "write_iops": 1605.5190299365245,
+      "write_await_ms": 0.3770236612702366,
+      "flush_await_ms": 0.4344894026974952
+    },
+    {
+      "at": 1791645008.758905,
+      "seconds_measured": 284.4692506790161,
+      "lag": 989.9848071918823,
+      "cpu_busy_percent": 74.5,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 1597.4268756007873,
+      "write_await_ms": 0.35774647887323946,
+      "flush_await_ms": 0.4620758483033932
+    },
+    {
+      "at": 1791645010.7809029,
+      "seconds_measured": 286.4912486076355,
+      "lag": 609.8072363929823,
+      "cpu_busy_percent": 71.5,
+      "cpu_iowait_percent": 17.5,
+      "write_iops": 1403.9464436934015,
+      "write_await_ms": 0.4967948717948718,
+      "flush_await_ms": 0.5861678004535147
+    },
+    {
+      "at": 1791645012.7843838,
+      "seconds_measured": 288.4947295188904,
+      "lag": 630.6320638251491,
+      "cpu_busy_percent": 78.39195979899498,
+      "cpu_iowait_percent": 6.030150753768845,
+      "write_iops": 1680.9260590415256,
+      "write_await_ms": 0.32510410469958356,
+      "flush_await_ms": 0.4402224281742354
+    },
+    {
+      "at": 1791645014.8068874,
+      "seconds_measured": 290.51723313331604,
+      "lag": 3754.729422867531,
+      "cpu_busy_percent": 85.5,
+      "cpu_iowait_percent": 5.5,
+      "write_iops": 1581.4404269248357,
+      "write_await_ms": 0.32753714827695224,
+      "flush_await_ms": 0.4218436873747495
+    },
+    {
+      "at": 1791645016.8337235,
+      "seconds_measured": 292.54406929016113,
+      "lag": 2902.1090118770953,
+      "cpu_busy_percent": 85.0,
+      "cpu_iowait_percent": 13.0,
+      "write_iops": 1749.417206927401,
+      "write_await_ms": 0.38668190911689054,
+      "flush_await_ms": 0.4366576819407008
+    },
+    {
+      "at": 1791645018.7893558,
+      "seconds_measured": 294.49970149993896,
+      "lag": 1157.64022021438,
+      "cpu_busy_percent": 88.88888888888889,
+      "cpu_iowait_percent": 8.585858585858587,
+      "write_iops": 1857.4127601829157,
+      "write_await_ms": 0.3477792732166891,
+      "flush_await_ms": 0.4342327150084317
+    },
+    {
+      "at": 1791645020.779917,
+      "seconds_measured": 296.4902627468109,
+      "lag": 604.929422111949,
+      "cpu_busy_percent": 73.60406091370558,
+      "cpu_iowait_percent": 10.152284263959391,
+      "write_iops": 1557.9413121396738,
+      "write_await_ms": 0.5333761232349166,
+      "flush_await_ms": 0.4672897196261682
+    },
+    {
+      "at": 1791645022.7787848,
+      "seconds_measured": 298.48913049697876,
+      "lag": 597.7914934596047,
+      "cpu_busy_percent": 76.38190954773869,
+      "cpu_iowait_percent": 12.06030150753769,
+      "write_iops": 1534.9425444651888,
+      "write_await_ms": 0.45732899022801304,
+      "flush_await_ms": 0.4611503531786075
+    }
+  ],
+  "capacity-memory-4g-v1-confirm-2": [
+    {
+      "at": 1791645089.2136128,
+      "seconds_measured": 0.3524494171142578,
+      "lag": 1126.1957914938685,
+      "cpu_busy_percent": 67.17171717171718,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1496.4382772870133,
+      "write_await_ms": 0.3448045439358503,
+      "flush_await_ms": 0.4458464773922187
+    },
+    {
+      "at": 1791645091.1984134,
+      "seconds_measured": 2.337249994277954,
+      "lag": 1042.2066651167115,
+      "cpu_busy_percent": 71.78217821782178,
+      "cpu_iowait_percent": 7.920792079207921,
+      "write_iops": 1557.938526433438,
+      "write_await_ms": 0.3591142490372272,
+      "flush_await_ms": 0.436399217221135
+    },
+    {
+      "at": 1791645093.2061,
+      "seconds_measured": 4.3449366092681885,
+      "lag": 1083.5889873850392,
+      "cpu_busy_percent": 81.81818181818181,
+      "cpu_iowait_percent": 6.565656565656566,
+      "write_iops": 1644.9299955358022,
+      "write_await_ms": 0.3370820668693009,
+      "flush_await_ms": 0.423841059602649
+    },
+    {
+      "at": 1791645095.2102194,
+      "seconds_measured": 6.349056005477905,
+      "lag": 1107.2309628719813,
+      "cpu_busy_percent": 71.64179104477611,
+      "cpu_iowait_percent": 7.960199004975125,
+      "write_iops": 1570.9159167710984,
+      "write_await_ms": 0.3491406747294717,
+      "flush_await_ms": 0.4477317554240631
+    },
+    {
+      "at": 1791645097.2396493,
+      "seconds_measured": 8.378485918045044,
+      "lag": 2768.9324446188984,
+      "cpu_busy_percent": 79.5,
+      "cpu_iowait_percent": 6.0,
+      "write_iops": 1524.4440278100294,
+      "write_await_ms": 0.34076746474253855,
+      "flush_await_ms": 0.43478260869565216
+    },
+    {
+      "at": 1791645099.2142339,
+      "seconds_measured": 10.353070497512817,
+      "lag": 2626.977504635288,
+      "cpu_busy_percent": 94.44444444444444,
+      "cpu_iowait_percent": 4.545454545454546,
+      "write_iops": 1740.9302682196949,
+      "write_await_ms": 0.34003446295232626,
+      "flush_await_ms": 0.4310798946444249
+    },
+    {
+      "at": 1791645101.19587,
+      "seconds_measured": 12.334706544876099,
+      "lag": 1028.5395394816587,
+      "cpu_busy_percent": 83.41708542713567,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1708.4327918504107,
+      "write_await_ms": 0.3520632133450395,
+      "flush_await_ms": 0.43806921675774135
+    },
+    {
+      "at": 1791645103.19747,
+      "seconds_measured": 14.33630657196045,
+      "lag": 1037.4622835317277,
+      "cpu_busy_percent": 73.86934673366834,
+      "cpu_iowait_percent": 9.045226130653266,
+      "write_iops": 1530.902728658393,
+      "write_await_ms": 0.36479425212279554,
+      "flush_await_ms": 0.44782168186423504
+    },
+    {
+      "at": 1791645105.2127786,
+      "seconds_measured": 16.35161519050598,
+      "lag": 1121.3384437477216,
+      "cpu_busy_percent": 72.8643216080402,
+      "cpu_iowait_percent": 7.035175879396985,
+      "write_iops": 1561.4586768357447,
+      "write_await_ms": 0.33493435798911303,
+      "flush_await_ms": 0.4338308457711443
+    },
+    {
+      "at": 1791645107.1711879,
+      "seconds_measured": 18.31002449989319,
+      "lag": 890.9263781218324,
+      "cpu_busy_percent": 80.3030303030303,
+      "cpu_iowait_percent": 7.070707070707071,
+      "write_iops": 1514.4386180484132,
+      "write_await_ms": 0.35028062066688676,
+      "flush_await_ms": 0.4375
+    },
+    {
+      "at": 1791645109.1755738,
+      "seconds_measured": 20.31441044807434,
+      "lag": 917.175984469417,
+      "cpu_busy_percent": 70.0,
+      "cpu_iowait_percent": 14.0,
+      "write_iops": 1433.9488889315378,
+      "write_await_ms": 0.39609483960948394,
+      "flush_await_ms": 0.44143167028199565
+    },
+    {
+      "at": 1791645111.1918368,
+      "seconds_measured": 22.330673456192017,
+      "lag": 1505.6875481574098,
+      "cpu_busy_percent": 66.66666666666667,
+      "cpu_iowait_percent": 13.131313131313131,
+      "write_iops": 1479.4432109935356,
+      "write_await_ms": 0.38323758026360255,
+      "flush_await_ms": 0.43492063492063493
+    },
+    {
+      "at": 1791645113.203659,
+      "seconds_measured": 24.342495679855347,
+      "lag": 1070.9221102933516,
+      "cpu_busy_percent": 80.09950248756219,
+      "cpu_iowait_percent": 9.950248756218905,
+      "write_iops": 1515.4344226484989,
+      "write_await_ms": 0.3965687891784889,
+      "flush_await_ms": 0.43460350154479915
+    },
+    {
+      "at": 1791645115.1927638,
+      "seconds_measured": 26.331600427627563,
+      "lag": 3510.740307852102,
+      "cpu_busy_percent": 90.5,
+      "cpu_iowait_percent": 4.0,
+      "write_iops": 1484.4456733677716,
+      "write_await_ms": 0.42707982485685414,
+      "flush_await_ms": 0.4303534303534304
+    },
+    {
+      "at": 1791645117.1967301,
+      "seconds_measured": 28.335566759109497,
+      "lag": 2031.77712119621,
+      "cpu_busy_percent": 85.20408163265306,
+      "cpu_iowait_percent": 12.755102040816327,
+      "write_iops": 1683.9331534218682,
+      "write_await_ms": 0.4064726840855107,
+      "flush_await_ms": 0.43577981651376146
+    },
+    {
+      "at": 1791645119.2052798,
+      "seconds_measured": 30.34411644935608,
+      "lag": 1080.024084972334,
+      "cpu_busy_percent": 77.77777777777777,
+      "cpu_iowait_percent": 12.626262626262626,
+      "write_iops": 1641.4115564795102,
+      "write_await_ms": 0.37465732561681386,
+      "flush_await_ms": 0.43826578699340246
+    },
+    {
+      "at": 1791645121.1912904,
+      "seconds_measured": 32.330127000808716,
+      "lag": 1000.1951406375156,
+      "cpu_busy_percent": 77.22772277227723,
+      "cpu_iowait_percent": 10.891089108910892,
+      "write_iops": 1542.43729935657,
+      "write_await_ms": 0.4168557536466775,
+      "flush_await_ms": 0.42971887550200805
+    },
+    {
+      "at": 1791645123.2051196,
+      "seconds_measured": 34.34395623207092,
+      "lag": 1079.1483214595937,
+      "cpu_busy_percent": 73.86934673366834,
+      "cpu_iowait_percent": 11.557788944723619,
+      "write_iops": 1502.4383880131868,
+      "write_await_ms": 0.3896838602329451,
+      "flush_await_ms": 0.42665289256198347
+    },
+    {
+      "at": 1791645125.1715722,
+      "seconds_measured": 36.3104088306427,
+      "lag": 892.9816430633655,
+      "cpu_busy_percent": 69.34673366834171,
+      "cpu_iowait_percent": 11.055276381909549,
+      "write_iops": 1524.928558239533,
+      "write_await_ms": 0.4308196721311475,
+      "flush_await_ms": 0.4266666666666667
+    },
+    {
+      "at": 1791645127.208951,
+      "seconds_measured": 38.347787618637085,
+      "lag": 1099.7977405536803,
+      "cpu_busy_percent": 76.88442211055276,
+      "cpu_iowait_percent": 7.035175879396985,
+      "write_iops": 1489.4449577406765,
+      "write_await_ms": 0.3568311513930849,
+      "flush_await_ms": 0.43106995884773663
+    },
+    {
+      "at": 1791645129.2033262,
+      "seconds_measured": 40.34216284751892,
+      "lag": 1069.3461771067232,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 7.070707070707071,
+      "write_iops": 1599.398376544154,
+      "write_await_ms": 0.33948108783994996,
+      "flush_await_ms": 0.4397233201581028
+    },
+    {
+      "at": 1791645131.2273393,
+      "seconds_measured": 42.36617588996887,
+      "lag": 2701.1048609890277,
+      "cpu_busy_percent": 75.87939698492463,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1493.460654401228,
+      "write_await_ms": 0.3552058921995313,
+      "flush_await_ms": 0.45923632610939114
+    },
+    {
+      "at": 1791645133.2053366,
+      "seconds_measured": 44.344173192977905,
+      "lag": 3078.868052238715,
+      "cpu_busy_percent": 93.03482587064677,
+      "cpu_iowait_percent": 4.975124378109452,
+      "write_iops": 1691.9374746540614,
+      "write_await_ms": 0.3433806146572104,
+      "flush_await_ms": 0.4327009936766034
+    },
+    {
+      "at": 1791645135.2038925,
+      "seconds_measured": 46.34272909164429,
+      "lag": 1071.1298132803058,
+      "cpu_busy_percent": 85.42713567839196,
+      "cpu_iowait_percent": 7.035175879396985,
+      "write_iops": 1737.936396303932,
+      "write_await_ms": 0.3457997698504028,
+      "flush_await_ms": 0.4318381706244503
+    },
+    {
+      "at": 1791645137.2062569,
+      "seconds_measured": 48.34509348869324,
+      "lag": 1084.8852333271643,
+      "cpu_busy_percent": 77.66497461928934,
+      "cpu_iowait_percent": 7.614213197969543,
+      "write_iops": 1603.3319949122038,
+      "write_await_ms": 0.3551605862176489,
+      "flush_await_ms": 0.42549019607843136
+    },
+    {
+      "at": 1791645139.211741,
+      "seconds_measured": 50.35057759284973,
+      "lag": 1115.5664596831775,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 9.045226130653266,
+      "write_iops": 1640.3885367553294,
+      "write_await_ms": 0.3383114903992685,
+      "flush_await_ms": 0.4378585086042065
+    },
+    {
+      "at": 1791645141.1974316,
+      "seconds_measured": 52.336268186569214,
+      "lag": 1036.5893270418746,
+      "cpu_busy_percent": 70.85427135678393,
+      "cpu_iowait_percent": 12.06030150753769,
+      "write_iops": 1473.9307717413824,
+      "write_await_ms": 0.5471506105834464,
+      "flush_await_ms": 0.43902439024390244
+    },
+    {
+      "at": 1791645143.2118595,
+      "seconds_measured": 54.350696086883545,
+      "lag": 1115.0140965805622,
+      "cpu_busy_percent": 76.38190954773869,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1502.9573583780177,
+      "write_await_ms": 0.3226879574184963,
+      "flush_await_ms": 0.44282744282744285
+    },
+    {
+      "at": 1791645145.2020664,
+      "seconds_measured": 56.34090304374695,
+      "lag": 1059.5775989699177,
+      "cpu_busy_percent": 70.05076142131979,
+      "cpu_iowait_percent": 6.091370558375634,
+      "write_iops": 1653.9384845725076,
+      "write_await_ms": 0.3264812575574365,
+      "flush_await_ms": 0.4298978644382544
+    },
+    {
+      "at": 1791645147.1772485,
+      "seconds_measured": 58.31608510017395,
+      "lag": 925.1958085274091,
+      "cpu_busy_percent": 77.11442786069652,
+      "cpu_iowait_percent": 6.965174129353234,
+      "write_iops": 1645.4335048248606,
+      "write_await_ms": 0.3220905499848071,
+      "flush_await_ms": 0.43355325164938735
+    },
+    {
+      "at": 1791645149.2044408,
+      "seconds_measured": 60.34327745437622,
+      "lag": 3575.0088446789887,
+      "cpu_busy_percent": 93.03482587064677,
+      "cpu_iowait_percent": 1.492537313432836,
+      "write_iops": 1565.9238375513887,
+      "write_await_ms": 0.32630906768837803,
+      "flush_await_ms": 0.441747572815534
+    },
+    {
+      "at": 1791645151.216599,
+      "seconds_measured": 62.355435609817505,
+      "lag": 1141.8527739836718,
+      "cpu_busy_percent": 85.42713567839196,
+      "cpu_iowait_percent": 7.5376884422110555,
+      "write_iops": 1861.9209828531866,
+      "write_await_ms": 0.322234156820623,
+      "flush_await_ms": 0.43781512605042017
+    },
+    {
+      "at": 1791645153.2022562,
+      "seconds_measured": 64.34109282493591,
+      "lag": 1063.4481851807213,
+      "cpu_busy_percent": 82.32323232323232,
+      "cpu_iowait_percent": 6.565656565656566,
+      "write_iops": 1717.425681886372,
+      "write_await_ms": 0.3321688500727802,
+      "flush_await_ms": 0.4484629294755877
+    },
+    {
+      "at": 1791645155.2084322,
+      "seconds_measured": 66.34726881980896,
+      "lag": 1095.757233856013,
+      "cpu_busy_percent": 74.5,
+      "cpu_iowait_percent": 8.5,
+      "write_iops": 1579.9423667950346,
+      "write_await_ms": 0.320253164556962,
+      "flush_await_ms": 0.44455445544554456
+    },
+    {
+      "at": 1791645157.2145941,
+      "seconds_measured": 68.35343074798584,
+      "lag": 1131.4715931770625,
+      "cpu_busy_percent": 77.8894472361809,
+      "cpu_iowait_percent": 6.030150753768845,
+      "write_iops": 1602.4363885739572,
+      "write_await_ms": 0.3201248049921997,
+      "flush_await_ms": 0.43091787439613527
+    },
+    {
+      "at": 1791645159.2097173,
+      "seconds_measured": 70.34855389595032,
+      "lag": 1104.5351341987262,
+      "cpu_busy_percent": 70.20202020202021,
+      "cpu_iowait_percent": 8.585858585858587,
+      "write_iops": 1578.3974529967447,
+      "write_await_ms": 0.31897370921761165,
+      "flush_await_ms": 0.44532803180914515
+    },
+    {
+      "at": 1791645161.2041159,
+      "seconds_measured": 72.3429524898529,
+      "lag": 1074.5727078318596,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 11.055276381909549,
+      "write_iops": 1667.5843268838507,
+      "write_await_ms": 0.32164268585131894,
+      "flush_await_ms": 0.44372093023255815
+    },
+    {
+      "at": 1791645163.1723344,
+      "seconds_measured": 74.31117105484009,
+      "lag": 898.8716104237828,
+      "cpu_busy_percent": 81.90954773869346,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1632.936345793596,
+      "write_await_ms": 0.3214941824862217,
+      "flush_await_ms": 0.43796992481203006
+    },
+    {
+      "at": 1791645165.2249756,
+      "seconds_measured": 76.36381220817566,
+      "lag": 1687.9658160343533,
+      "cpu_busy_percent": 75.75757575757575,
+      "cpu_iowait_percent": 5.05050505050505,
+      "write_iops": 1553.413705493598,
+      "write_await_ms": 0.32056646282587703,
+      "flush_await_ms": 0.4448938321536906
+    },
+    {
+      "at": 1791645167.2110724,
+      "seconds_measured": 78.34990906715393,
+      "lag": 1610.631643083645,
+      "cpu_busy_percent": 93.0,
+      "cpu_iowait_percent": 5.0,
+      "write_iops": 1787.9759148027454,
+      "write_await_ms": 0.3182326621923937,
+      "flush_await_ms": 0.4376083188908146
+    },
+    {
+      "at": 1791645169.2169492,
+      "seconds_measured": 80.3557858467102,
+      "lag": 1143.6715728208655,
+      "cpu_busy_percent": 78.28282828282828,
+      "cpu_iowait_percent": 6.0606060606060606,
+      "write_iops": 1578.4034737369982,
+      "write_await_ms": 0.3240418118466899,
+      "flush_await_ms": 0.4445534838076546
+    },
+    {
+      "at": 1791645171.2118764,
+      "seconds_measured": 82.35071301460266,
+      "lag": 1115.1112215860048,
+      "cpu_busy_percent": 75.0,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 1605.4301455017198,
+      "write_await_ms": 0.3157894736842105,
+      "flush_await_ms": 0.43336623889437315
+    },
+    {
+      "at": 1791645173.2136145,
+      "seconds_measured": 84.35245108604431,
+      "lag": 1125.2369492187863,
+      "cpu_busy_percent": 77.27272727272727,
+      "cpu_iowait_percent": 6.565656565656566,
+      "write_iops": 1474.3458622311143,
+      "write_await_ms": 0.323499491353001,
+      "flush_await_ms": 0.4385593220338983
+    },
+    {
+      "at": 1791645175.2203999,
+      "seconds_measured": 86.35923647880554,
+      "lag": 1661.1652513804147,
+      "cpu_busy_percent": 74.5,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1582.4302030592999,
+      "write_await_ms": 0.32701421800947866,
+      "flush_await_ms": 0.44412050534499514
+    },
+    {
+      "at": 1791645177.2058396,
+      "seconds_measured": 88.34467625617981,
+      "lag": 1082.272700206493,
+      "cpu_busy_percent": 84.07960199004975,
+      "cpu_iowait_percent": 4.975124378109452,
+      "write_iops": 1643.9535540351503,
+      "write_await_ms": 0.3239051094890511,
+      "flush_await_ms": 0.43490304709141275
+    },
+    {
+      "at": 1791645179.2115896,
+      "seconds_measured": 90.350426197052,
+      "lag": 1114.701784051489,
+      "cpu_busy_percent": 77.8894472361809,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1643.9323896557771,
+      "write_await_ms": 0.3290754257907543,
+      "flush_await_ms": 0.44370860927152317
+    },
+    {
+      "at": 1791645181.2191033,
+      "seconds_measured": 92.35793995857239,
+      "lag": 1655.019987420179,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 9.090909090909092,
+      "write_iops": 1624.4359025616945,
+      "write_await_ms": 0.3290243151738997,
+      "flush_await_ms": 0.43797709923664124
+    },
+    {
+      "at": 1791645183.2222543,
+      "seconds_measured": 94.3610908985138,
+      "lag": 1173.1975417274516,
+      "cpu_busy_percent": 87.56218905472637,
+      "cpu_iowait_percent": 4.975124378109452,
+      "write_iops": 1728.9332220120511,
+      "write_await_ms": 0.32764603817235394,
+      "flush_await_ms": 0.4338952972493345
+    },
+    {
+      "at": 1791645185.2112224,
+      "seconds_measured": 96.35005903244019,
+      "lag": 1110.7886981021147,
+      "cpu_busy_percent": 75.0,
+      "cpu_iowait_percent": 6.0,
+      "write_iops": 1623.903207826148,
+      "write_await_ms": 0.32450738916256155,
+      "flush_await_ms": 0.43888354186718
+    },
+    {
+      "at": 1791645187.206861,
+      "seconds_measured": 98.34569764137268,
+      "lag": 1088.6751365539385,
+      "cpu_busy_percent": 80.20304568527919,
+      "cpu_iowait_percent": 5.0761421319796955,
+      "write_iops": 1678.4613829795223,
+      "write_await_ms": 0.32350312779267204,
+      "flush_await_ms": 0.43502304147465437
+    },
+    {
+      "at": 1791645189.2132463,
+      "seconds_measured": 100.35208296775818,
+      "lag": 1123.8052255740622,
+      "cpu_busy_percent": 79.39698492462311,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1590.467578654772,
+      "write_await_ms": 0.3281986796604841,
+      "flush_await_ms": 0.44
+    },
+    {
+      "at": 1791645191.2101226,
+      "seconds_measured": 102.34895920753479,
+      "lag": 1104.7355730427662,
+      "cpu_busy_percent": 78.39195979899498,
+      "cpu_iowait_percent": 6.030150753768845,
+      "write_iops": 1613.4199887853463,
+      "write_await_ms": 0.31949178803842576,
+      "flush_await_ms": 0.43737769080234834
+    },
+    {
+      "at": 1791645193.189615,
+      "seconds_measured": 104.32845163345337,
+      "lag": 994.5601949212141,
+      "cpu_busy_percent": 83.0,
+      "cpu_iowait_percent": 6.5,
+      "write_iops": 1722.9379721560965,
+      "write_await_ms": 0.3226929773650609,
+      "flush_await_ms": 0.4294642857142857
+    },
+    {
+      "at": 1791645195.218451,
+      "seconds_measured": 106.35728764533997,
+      "lag": 1151.273051480297,
+      "cpu_busy_percent": 78.89447236180905,
+      "cpu_iowait_percent": 6.030150753768845,
+      "write_iops": 1621.435827649262,
+      "write_await_ms": 0.3262411347517731,
+      "flush_await_ms": 0.4465832531280077
+    },
+    {
+      "at": 1791645197.2151275,
+      "seconds_measured": 108.35396409034729,
+      "lag": 1633.9141687506344,
+      "cpu_busy_percent": 79.1044776119403,
+      "cpu_iowait_percent": 6.965174129353234,
+      "write_iops": 1564.4097377880705,
+      "write_await_ms": 0.3205496963886226,
+      "flush_await_ms": 0.43737574552683894
+    },
+    {
+      "at": 1791645199.2787738,
+      "seconds_measured": 110.41761040687561,
+      "lag": 3483.9277491094545,
+      "cpu_busy_percent": 96.98492462311557,
+      "cpu_iowait_percent": 2.0100502512562812,
+      "write_iops": 1758.7159171023757,
+      "write_await_ms": 0.31949971574758385,
+      "flush_await_ms": 0.43056768558951963
+    },
+    {
+      "at": 1791645201.293875,
+      "seconds_measured": 112.43271160125732,
+      "lag": 7063.68741716689,
+      "cpu_busy_percent": 99.0,
+      "cpu_iowait_percent": 1.0,
+      "write_iops": 1699.5800292624901,
+      "write_await_ms": 0.31568108267137396,
+      "flush_await_ms": 0.43778383287920075
+    },
+    {
+      "at": 1791645203.2422996,
+      "seconds_measured": 114.38113617897034,
+      "lag": 11284.116453811293,
+      "cpu_busy_percent": 100.0,
+      "cpu_iowait_percent": 0.0,
+      "write_iops": 1564.429691553865,
+      "write_await_ms": 0.31799296899968044,
+      "flush_await_ms": 0.43737769080234834
+    },
+    {
+      "at": 1791645205.2119431,
+      "seconds_measured": 116.35077977180481,
+      "lag": 13616.274549847818,
+      "cpu_busy_percent": 97.02970297029702,
+      "cpu_iowait_percent": 1.9801980198019802,
+      "write_iops": 1580.9449687086508,
+      "write_await_ms": 0.4282099936748893,
+      "flush_await_ms": 0.6578690127077224
+    },
+    {
+      "at": 1791645207.203563,
+      "seconds_measured": 118.34239959716797,
+      "lag": 11570.843449588283,
+      "cpu_busy_percent": 91.37055837563452,
+      "cpu_iowait_percent": 6.091370558375634,
+      "write_iops": 1871.920781627002,
+      "write_await_ms": 0.33092948717948717,
+      "flush_await_ms": 0.4384678076609617
+    },
+    {
+      "at": 1791645209.2225177,
+      "seconds_measured": 120.3613543510437,
+      "lag": 8673.60157591221,
+      "cpu_busy_percent": 89.44723618090453,
+      "cpu_iowait_percent": 8.040201005025125,
+      "write_iops": 1922.9649270017348,
+      "write_await_ms": 0.33229329173166927,
+      "flush_await_ms": 0.4500805152979066
+    },
+    {
+      "at": 1791645211.2135837,
+      "seconds_measured": 122.35242033004761,
+      "lag": 5125.56855084328,
+      "cpu_busy_percent": 89.0,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 2053.8582382297595,
+      "write_await_ms": 0.3240019474196689,
+      "flush_await_ms": 0.4308510638297872
+    },
+    {
+      "at": 1791645213.2183242,
+      "seconds_measured": 124.35716080665588,
+      "lag": 2651.627474961919,
+      "cpu_busy_percent": 90.95477386934674,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1900.4279575240025,
+      "write_await_ms": 0.32017890028939755,
+      "flush_await_ms": 0.4342532467532468
+    },
+    {
+      "at": 1791645215.207522,
+      "seconds_measured": 126.34635853767395,
+      "lag": 1091.848825927591,
+      "cpu_busy_percent": 79.5,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1855.427893937418,
+      "write_await_ms": 0.34060900026946916,
+      "flush_await_ms": 0.4314214463840399
+    },
+    {
+      "at": 1791645217.2085114,
+      "seconds_measured": 128.34734797477722,
+      "lag": 1096.5724639715627,
+      "cpu_busy_percent": 77.27272727272727,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1641.9357992479618,
+      "write_await_ms": 0.3440925700365408,
+      "flush_await_ms": 0.43412322274881515
+    },
+    {
+      "at": 1791645219.2126384,
+      "seconds_measured": 130.35147500038147,
+      "lag": 1119.9461104174843,
+      "cpu_busy_percent": 69.5,
+      "cpu_iowait_percent": 11.0,
+      "write_iops": 1627.4297702816914,
+      "write_await_ms": 0.3225806451612903,
+      "flush_await_ms": 0.4322274881516588
+    },
+    {
+      "at": 1791645221.2171345,
+      "seconds_measured": 132.35597109794617,
+      "lag": 3142.9756503388053,
+      "cpu_busy_percent": 95.5,
+      "cpu_iowait_percent": 2.0,
+      "write_iops": 1705.9204856264735,
+      "write_await_ms": 0.3757327080890973,
+      "flush_await_ms": 0.4528985507246377
+    },
+    {
+      "at": 1791645223.20513,
+      "seconds_measured": 134.3439667224884,
+      "lag": 1079.639535731054,
+      "cpu_busy_percent": 88.38383838383838,
+      "cpu_iowait_percent": 9.090909090909092,
+      "write_iops": 1784.9140375529323,
+      "write_await_ms": 0.3476190476190476,
+      "flush_await_ms": 0.43852106620808257
+    },
+    {
+      "at": 1791645225.2073398,
+      "seconds_measured": 136.34617638587952,
+      "lag": 1089.708329625195,
+      "cpu_busy_percent": 78.39195979899498,
+      "cpu_iowait_percent": 10.050251256281408,
+      "write_iops": 1716.430021874013,
+      "write_await_ms": 0.3670259248470725,
+      "flush_await_ms": 0.4273743016759777
+    },
+    {
+      "at": 1791645227.206846,
+      "seconds_measured": 138.3456826210022,
+      "lag": 1588.169782422483,
+      "cpu_busy_percent": 69.65174129353234,
+      "cpu_iowait_percent": 28.855721393034827,
+      "write_iops": 1322.9358135609484,
+      "write_await_ms": 0.7244897959183674,
+      "flush_await_ms": 0.7763157894736842
+    },
+    {
+      "at": 1791645229.1998563,
+      "seconds_measured": 140.33869290351868,
+      "lag": 1549.1802741896827,
+      "cpu_busy_percent": 75.0,
+      "cpu_iowait_percent": 23.0,
+      "write_iops": 1083.392805096122,
+      "write_await_ms": 0.9224734656206738,
+      "flush_await_ms": 1.1270310192023634
+    },
+    {
+      "at": 1791645231.2062526,
+      "seconds_measured": 142.3450891971588,
+      "lag": 1085.2789354578126,
+      "cpu_busy_percent": 75.1269035532995,
+      "cpu_iowait_percent": 12.690355329949238,
+      "write_iops": 1547.9264894093176,
+      "write_await_ms": 0.4772360348724572,
+      "flush_await_ms": 0.5135135135135135
+    },
+    {
+      "at": 1791645233.213855,
+      "seconds_measured": 144.35269165039062,
+      "lag": 1127.0177907116013,
+      "cpu_busy_percent": 75.5,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1523.9425928760352,
+      "write_await_ms": 0.33661417322834647,
+      "flush_await_ms": 0.4343329886246122
+    },
+    {
+      "at": 1791645235.1797001,
+      "seconds_measured": 146.31853675842285,
+      "lag": 939.3976060289424,
+      "cpu_busy_percent": 70.85427135678393,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1633.4371051567834,
+      "write_await_ms": 0.349862258953168,
+      "flush_await_ms": 0.4324065196548418
+    },
+    {
+      "at": 1791645237.2360091,
+      "seconds_measured": 148.37484574317932,
+      "lag": 2749.8082265747944,
+      "cpu_busy_percent": 76.26262626262626,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1381.8099078376717,
+      "write_await_ms": 0.43017366136034735,
+      "flush_await_ms": 0.45979614949037373
+    },
+    {
+      "at": 1791645239.1960843,
+      "seconds_measured": 150.3349208831787,
+      "lag": 3528.6895356803434,
+      "cpu_busy_percent": 92.03980099502488,
+      "cpu_iowait_percent": 6.467661691542289,
+      "write_iops": 1710.9222920664217,
+      "write_await_ms": 0.3793103448275862,
+      "flush_await_ms": 0.4443438914027149
+    },
+    {
+      "at": 1791645241.2138247,
+      "seconds_measured": 152.35266137123108,
+      "lag": 1126.1112078711158,
+      "cpu_busy_percent": 81.0,
+      "cpu_iowait_percent": 13.0,
+      "write_iops": 1746.9356504540456,
+      "write_await_ms": 0.4341728677733257,
+      "flush_await_ms": 0.4353680430879713
+    },
+    {
+      "at": 1791645243.1965156,
+      "seconds_measured": 154.3353521823883,
+      "lag": 1032.250207162113,
+      "cpu_busy_percent": 81.81818181818181,
+      "cpu_iowait_percent": 11.11111111111111,
+      "write_iops": 1626.4435788295937,
+      "write_await_ms": 0.40977559176145095,
+      "flush_await_ms": 0.436046511627907
+    },
+    {
+      "at": 1791645245.2158995,
+      "seconds_measured": 156.35473608970642,
+      "lag": 1138.374985098024,
+      "cpu_busy_percent": 73.86934673366834,
+      "cpu_iowait_percent": 14.07035175879397,
+      "write_iops": 1574.4256762781374,
+      "write_await_ms": 0.40901873610670053,
+      "flush_await_ms": 0.4452191235059761
+    },
+    {
+      "at": 1791645247.1915774,
+      "seconds_measured": 158.33041405677795,
+      "lag": 1003.6351424021414,
+      "cpu_busy_percent": 76.5,
+      "cpu_iowait_percent": 8.0,
+      "write_iops": 1616.9009267000765,
+      "write_await_ms": 0.3555967841682127,
+      "flush_await_ms": 0.42787996127783157
+    },
+    {
+      "at": 1791645249.1856594,
+      "seconds_measured": 160.3244960308075,
+      "lag": 971.3375342309009,
+      "cpu_busy_percent": 74.37185929648241,
+      "cpu_iowait_percent": 9.547738693467336,
+      "write_iops": 1577.4345603910665,
+      "write_await_ms": 0.34136291600633917,
+      "flush_await_ms": 0.43731490621915103
+    },
+    {
+      "at": 1791645251.2152674,
+      "seconds_measured": 162.35410404205322,
+      "lag": 1134.6730846452992,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 10.552763819095478,
+      "write_iops": 1520.4434496931667,
+      "write_await_ms": 0.39066096678724105,
+      "flush_await_ms": 0.46288659793814435
+    },
+    {
+      "at": 1791645253.1809244,
+      "seconds_measured": 164.31976103782654,
+      "lag": 946.0971172701102,
+      "cpu_busy_percent": 78.78787878787878,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1555.9358232265906,
+      "write_await_ms": 0.37146529562982006,
+      "flush_await_ms": 0.491353001017294
+    },
+    {
+      "at": 1791645255.2192898,
+      "seconds_measured": 166.35812640190125,
+      "lag": 2155.919274373213,
+      "cpu_busy_percent": 92.5,
+      "cpu_iowait_percent": 5.0,
+      "write_iops": 1642.3014815208599,
+      "write_await_ms": 0.37534246575342467,
+      "flush_await_ms": 0.4266917293233083
+    },
+    {
+      "at": 1791645257.1743975,
+      "seconds_measured": 168.31323409080505,
+      "lag": 911.6737989101093,
+      "cpu_busy_percent": 85.92964824120602,
+      "cpu_iowait_percent": 12.06030150753769,
+      "write_iops": 1859.9288276250759,
+      "write_await_ms": 0.37526881720430105,
+      "flush_await_ms": 0.4538590604026846
+    },
+    {
+      "at": 1791645259.208449,
+      "seconds_measured": 170.3472855091095,
+      "lag": 1094.5686339456588,
+      "cpu_busy_percent": 75.63451776649747,
+      "cpu_iowait_percent": 8.629441624365482,
+      "write_iops": 1628.9100940974274,
+      "write_await_ms": 0.3425414364640884,
+      "flush_await_ms": 0.4402332361516035
+    },
+    {
+      "at": 1791645261.2255578,
+      "seconds_measured": 172.36439442634583,
+      "lag": 1192.1011567730457,
+      "cpu_busy_percent": 64.9746192893401,
+      "cpu_iowait_percent": 9.137055837563452,
+      "write_iops": 1492.411045369782,
+      "write_await_ms": 0.3403685092127303,
+      "flush_await_ms": 0.43683083511777304
+    },
+    {
+      "at": 1791645263.210702,
+      "seconds_measured": 174.349538564682,
+      "lag": 1110.1453132876195,
+      "cpu_busy_percent": 75.87939698492463,
+      "cpu_iowait_percent": 10.050251256281408,
+      "write_iops": 1606.9532584434676,
+      "write_await_ms": 0.3749222153080274,
+      "flush_await_ms": 0.4990118577075099
+    },
+    {
+      "at": 1791645265.2142076,
+      "seconds_measured": 176.35304427146912,
+      "lag": 1128.172063568607,
+      "cpu_busy_percent": 74.6268656716418,
+      "cpu_iowait_percent": 9.45273631840796,
+      "write_iops": 1493.369152745334,
+      "write_await_ms": 0.4081017743555407,
+      "flush_await_ms": 0.558288770053476
+    },
+    {
+      "at": 1791645267.1750855,
+      "seconds_measured": 178.31392216682434,
+      "lag": 2413.1978616826236,
+      "cpu_busy_percent": 67.33668341708542,
+      "cpu_iowait_percent": 23.115577889447238,
+      "write_iops": 1216.4862234364477,
+      "write_await_ms": 0.5754212905877517,
+      "flush_await_ms": 0.9174311926605505
+    },
+    {
+      "at": 1791645269.1994896,
+      "seconds_measured": 180.33832621574402,
+      "lag": 8546.770158671308,
+      "cpu_busy_percent": 34.343434343434346,
+      "cpu_iowait_percent": 65.65656565656566,
+      "write_iops": 372.98634972460684,
+      "write_await_ms": 5.250670241286863,
+      "flush_await_ms": 4.289592760180995
+    },
+    {
+      "at": 1791645271.2539341,
+      "seconds_measured": 182.3927707672119,
+      "lag": 9346.19291471201,
+      "cpu_busy_percent": 80.3030303030303,
+      "cpu_iowait_percent": 19.19191919191919,
+      "write_iops": 1215.9763722242508,
+      "write_await_ms": 0.8865131578947368,
+      "flush_await_ms": 1.082010582010582
+    },
+    {
+      "at": 1791645273.1799104,
+      "seconds_measured": 184.31874704360962,
+      "lag": 10940.055253433296,
+      "cpu_busy_percent": 85.42713567839196,
+      "cpu_iowait_percent": 13.5678391959799,
+      "write_iops": 1116.4548818820765,
+      "write_await_ms": 0.8481862964621585,
+      "flush_await_ms": 1.1741573033707866
+    },
+    {
+      "at": 1791645275.1846335,
+      "seconds_measured": 186.32347011566162,
+      "lag": 13965.781676829327,
+      "cpu_busy_percent": 55.27638190954774,
+      "cpu_iowait_percent": 43.21608040201005,
+      "write_iops": 826.9758471152135,
+      "write_await_ms": 1.2636033857315598,
+      "flush_await_ms": 1.5452793834296725
+    },
+    {
+      "at": 1791645277.1645331,
+      "seconds_measured": 188.3033697605133,
+      "lag": 20854.284175344743,
+      "cpu_busy_percent": 37.37373737373738,
+      "cpu_iowait_percent": 62.62626262626262,
+      "write_iops": 452.48171433196563,
+      "write_await_ms": 6.096132596685083,
+      "flush_await_ms": 5.444
+    },
+    {
+      "at": 1791645279.165142,
+      "seconds_measured": 190.30397868156433,
+      "lag": 26858.24200801435,
+      "cpu_busy_percent": 32.994923857868024,
+      "cpu_iowait_percent": 67.00507614213198,
+      "write_iops": 336.9842125421132,
+      "write_await_ms": 7.507418397626113,
+      "flush_await_ms": 6.608040201005025
+    },
+    {
+      "at": 1791645281.1938305,
+      "seconds_measured": 192.33266711235046,
+      "lag": 29516.346495614387,
+      "cpu_busy_percent": 56.28140703517588,
+      "cpu_iowait_percent": 42.71356783919598,
+      "write_iops": 1098.9559820640118,
+      "write_await_ms": 1.2465878070973613,
+      "flush_await_ms": 1.264792899408284
+    },
+    {
+      "at": 1791645283.1814752,
+      "seconds_measured": 194.32031178474426,
+      "lag": 35949.23842363688,
+      "cpu_busy_percent": 36.86868686868687,
+      "cpu_iowait_percent": 63.13131313131313,
+      "write_iops": 330.9857167208847,
+      "write_await_ms": 5.675226586102719,
+      "flush_await_ms": 3.3165829145728645
+    },
+    {
+      "at": 1791645285.2152286,
+      "seconds_measured": 196.35406517982483,
+      "lag": 38134.66202168004,
+      "cpu_busy_percent": 60.101010101010104,
+      "cpu_iowait_percent": 38.888888888888886,
+      "write_iops": 1201.453881722699,
+      "write_await_ms": 1.1647940074906367,
+      "flush_await_ms": 0.8561917443408789
+    },
+    {
+      "at": 1791645287.1663837,
+      "seconds_measured": 198.3052203655243,
+      "lag": 42864.51984913298,
+      "cpu_busy_percent": 46.96969696969697,
+      "cpu_iowait_percent": 52.02020202020202,
+      "write_iops": 690.4704505334208,
+      "write_await_ms": 1.8559015206372194,
+      "flush_await_ms": 1.8541666666666667
+    },
+    {
+      "at": 1791645289.204039,
+      "seconds_measured": 200.34287571907043,
+      "lag": 47573.29690971412,
+      "cpu_busy_percent": 82.23350253807106,
+      "cpu_iowait_percent": 17.258883248730964,
+      "write_iops": 1087.331234780826,
+      "write_await_ms": 1.2772413793103448,
+      "flush_await_ms": 1.2105263157894737
+    },
+    {
+      "at": 1791645291.2054982,
+      "seconds_measured": 202.34433484077454,
+      "lag": 44581.013227471616,
+      "cpu_busy_percent": 88.0,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1794.9287472638084,
+      "write_await_ms": 0.34233983286908076,
+      "flush_await_ms": 0.4427083333333333
+    },
+    {
+      "at": 1791645293.2020688,
+      "seconds_measured": 204.34090542793274,
+      "lag": 43061.94984058128,
+      "cpu_busy_percent": 85.27918781725889,
+      "cpu_iowait_percent": 12.182741116751268,
+      "write_iops": 1792.9529779368465,
+      "write_await_ms": 0.420803123257111,
+      "flush_await_ms": 0.4446412754650133
+    },
+    {
+      "at": 1791645295.208826,
+      "seconds_measured": 206.34766268730164,
+      "lag": 41099.29518449586,
+      "cpu_busy_percent": 84.0,
+      "cpu_iowait_percent": 13.5,
+      "write_iops": 1685.3051230943915,
+      "write_await_ms": 0.4360723820824681,
+      "flush_await_ms": 0.45288197621225984
+    },
+    {
+      "at": 1791645297.2225661,
+      "seconds_measured": 208.36140275001526,
+      "lag": 39675.28323507728,
+      "cpu_busy_percent": 83.5,
+      "cpu_iowait_percent": 14.0,
+      "write_iops": 1775.9423589499625,
+      "write_await_ms": 0.40641711229946526,
+      "flush_await_ms": 0.46079295154185024
+    },
+    {
+      "at": 1791645299.217808,
+      "seconds_measured": 210.35664463043213,
+      "lag": 37649.101487462875,
+      "cpu_busy_percent": 87.37373737373737,
+      "cpu_iowait_percent": 10.1010101010101,
+      "write_iops": 1787.4103842258476,
+      "write_await_ms": 0.3878007834359261,
+      "flush_await_ms": 0.43382997370727433
+    },
+    {
+      "at": 1791645301.2211156,
+      "seconds_measured": 212.35995221138,
+      "lag": 36166.84377803863,
+      "cpu_busy_percent": 84.92462311557789,
+      "cpu_iowait_percent": 12.56281407035176,
+      "write_iops": 1724.422912288653,
+      "write_await_ms": 0.4108437228182082,
+      "flush_await_ms": 0.4543795620437956
+    },
+    {
+      "at": 1791645303.2140198,
+      "seconds_measured": 214.35285639762878,
+      "lag": 34628.102531821234,
+      "cpu_busy_percent": 87.0,
+      "cpu_iowait_percent": 10.5,
+      "write_iops": 1768.8964633746723,
+      "write_await_ms": 0.38044092707744487,
+      "flush_await_ms": 0.43157894736842106
+    },
+    {
+      "at": 1791645305.2392502,
+      "seconds_measured": 216.37808680534363,
+      "lag": 34266.817627070006,
+      "cpu_busy_percent": 89.0,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1682.9797746472764,
+      "write_await_ms": 0.3961983961983962,
+      "flush_await_ms": 0.43148148148148147
+    },
+    {
+      "at": 1791645307.2090206,
+      "seconds_measured": 218.34785723686218,
+      "lag": 35100.33388180286,
+      "cpu_busy_percent": 91.5,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1634.9372422943093,
+      "write_await_ms": 0.39021406727828745,
+      "flush_await_ms": 0.4306083650190114
+    },
+    {
+      "at": 1791645309.2124758,
+      "seconds_measured": 220.35131239891052,
+      "lag": 33619.235397215234,
+      "cpu_busy_percent": 83.91959798994975,
+      "cpu_iowait_percent": 13.5678391959799,
+      "write_iops": 1858.926871553944,
+      "write_await_ms": 0.3797740720817644,
+      "flush_await_ms": 0.43956953642384106
+    },
+    {
+      "at": 1791645311.2132525,
+      "seconds_measured": 222.35208916664124,
+      "lag": 31122.65234414488,
+      "cpu_busy_percent": 88.94472361809045,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1922.8835534041966,
+      "write_await_ms": 0.3627145085803432,
+      "flush_await_ms": 0.43595863166268894
+    },
+    {
+      "at": 1791645313.2087374,
+      "seconds_measured": 224.3475739955902,
+      "lag": 29597.947242314694,
+      "cpu_busy_percent": 90.0,
+      "cpu_iowait_percent": 7.5,
+      "write_iops": 1840.9249462686034,
+      "write_await_ms": 0.3636610537751222,
+      "flush_await_ms": 0.43686868686868685
+    },
+    {
+      "at": 1791645315.213098,
+      "seconds_measured": 226.35193467140198,
+      "lag": 26622.233315301826,
+      "cpu_busy_percent": 88.88888888888889,
+      "cpu_iowait_percent": 8.080808080808081,
+      "write_iops": 1823.9302051549132,
+      "write_await_ms": 0.35334429824561403,
+      "flush_await_ms": 0.44473007712082263
+    },
+    {
+      "at": 1791645317.220718,
+      "seconds_measured": 228.35955452919006,
+      "lag": 24662.761493538273,
+      "cpu_busy_percent": 89.5,
+      "cpu_iowait_percent": 7.5,
+      "write_iops": 1811.3292015315997,
+      "write_await_ms": 0.36075075903947007,
+      "flush_await_ms": 0.45266781411359724
+    },
+    {
+      "at": 1791645319.2161055,
+      "seconds_measured": 230.35494208335876,
+      "lag": 23637.289674350293,
+      "cpu_busy_percent": 88.38383838383838,
+      "cpu_iowait_percent": 8.585858585858587,
+      "write_iops": 1828.9304498656384,
+      "write_await_ms": 0.3548387096774194,
+      "flush_await_ms": 0.4413024850042845
+    },
+    {
+      "at": 1791645321.2096653,
+      "seconds_measured": 232.34850192070007,
+      "lag": 21103.97253263183,
+      "cpu_busy_percent": 88.0,
+      "cpu_iowait_percent": 9.5,
+      "write_iops": 1832.4228900337002,
+      "write_await_ms": 0.365075034106412,
+      "flush_await_ms": 0.447434819175778
+    },
+    {
+      "at": 1791645323.2158425,
+      "seconds_measured": 234.35467910766602,
+      "lag": 24136.30340917292,
+      "cpu_busy_percent": 97.48743718592965,
+      "cpu_iowait_percent": 1.5075376884422111,
+      "write_iops": 1654.4232803993136,
+      "write_await_ms": 0.3393774554245996,
+      "flush_await_ms": 0.4438202247191011
+    },
+    {
+      "at": 1791645325.216425,
+      "seconds_measured": 236.35526156425476,
+      "lag": 21140.794299130328,
+      "cpu_busy_percent": 88.0,
+      "cpu_iowait_percent": 9.0,
+      "write_iops": 1839.4164560234851,
+      "write_await_ms": 0.34465887469421036,
+      "flush_await_ms": 0.4431438127090301
+    },
+    {
+      "at": 1791645327.2107854,
+      "seconds_measured": 238.3496220111847,
+      "lag": 19609.455258019967,
+      "cpu_busy_percent": 87.43718592964824,
+      "cpu_iowait_percent": 10.552763819095478,
+      "write_iops": 1928.43861995798,
+      "write_await_ms": 0.3824215711693026,
+      "flush_await_ms": 0.4282218597063622
+    },
+    {
+      "at": 1791645329.2142224,
+      "seconds_measured": 240.35305905342102,
+      "lag": 17628.655952085974,
+      "cpu_busy_percent": 87.37373737373737,
+      "cpu_iowait_percent": 9.595959595959595,
+      "write_iops": 1810.9274645295045,
+      "write_await_ms": 0.3856985091109884,
+      "flush_await_ms": 0.4578313253012048
+    },
+    {
+      "at": 1791645331.207003,
+      "seconds_measured": 242.34583973884583,
+      "lag": 14588.311737324344,
+      "cpu_busy_percent": 86.06965174129353,
+      "cpu_iowait_percent": 11.442786069651742,
+      "write_iops": 1842.9103656495588,
+      "write_await_ms": 0.36543678784590344,
+      "flush_await_ms": 0.43319148936170215
+    },
+    {
+      "at": 1791645333.2014678,
+      "seconds_measured": 244.34030437469482,
+      "lag": 14058.821252137655,
+      "cpu_busy_percent": 83.248730964467,
+      "cpu_iowait_percent": 14.213197969543147,
+      "write_iops": 1698.4143565567942,
+      "write_await_ms": 0.40741831027377096,
+      "flush_await_ms": 0.4272644098810613
+    },
+    {
+      "at": 1791645335.2093053,
+      "seconds_measured": 246.34814190864563,
+      "lag": 12602.40396781452,
+      "cpu_busy_percent": 85.5,
+      "cpu_iowait_percent": 12.5,
+      "write_iops": 1841.9356642783125,
+      "write_await_ms": 0.38327904451682954,
+      "flush_await_ms": 0.4329470198675497
+    },
+    {
+      "at": 1791645337.2243223,
+      "seconds_measured": 248.36315894126892,
+      "lag": 10685.12047211267,
+      "cpu_busy_percent": 85.92964824120602,
+      "cpu_iowait_percent": 11.557788944723619,
+      "write_iops": 1801.4087335214917,
+      "write_await_ms": 0.414654454621149,
+      "flush_await_ms": 0.46048109965635736
+    },
+    {
+      "at": 1791645339.2433095,
+      "seconds_measured": 250.3821461200714,
+      "lag": 10288.283295617905,
+      "cpu_busy_percent": 90.95477386934674,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1772.5140096876285,
+      "write_await_ms": 0.36068809926677947,
+      "flush_await_ms": 0.436056838365897
+    },
+    {
+      "at": 1791645341.214208,
+      "seconds_measured": 252.3530445098877,
+      "lag": 10627.93094621133,
+      "cpu_busy_percent": 90.5,
+      "cpu_iowait_percent": 8.5,
+      "write_iops": 1670.9368563910155,
+      "write_await_ms": 0.40754039497307004,
+      "flush_await_ms": 0.4628252788104089
+    },
+    {
+      "at": 1791645343.2088532,
+      "seconds_measured": 254.34768986701965,
+      "lag": 9599.826776104514,
+      "cpu_busy_percent": 85.5,
+      "cpu_iowait_percent": 12.5,
+      "write_iops": 1802.417921585316,
+      "write_await_ms": 0.39029126213592236,
+      "flush_await_ms": 0.4436741767764298
+    },
+    {
+      "at": 1791645345.2166007,
+      "seconds_measured": 256.35543727874756,
+      "lag": 7141.584500194527,
+      "cpu_busy_percent": 86.0,
+      "cpu_iowait_percent": 11.0,
+      "write_iops": 1764.92278496479,
+      "write_await_ms": 0.5138810198300283,
+      "flush_await_ms": 0.46755555555555556
+    },
+    {
+      "at": 1791645347.2125003,
+      "seconds_measured": 258.35133695602417,
+      "lag": 3619.9583124010824,
+      "cpu_busy_percent": 89.39393939393939,
+      "cpu_iowait_percent": 8.585858585858587,
+      "write_iops": 1942.4312279135358,
+      "write_await_ms": 0.3724581724581725,
+      "flush_await_ms": 0.43397745571658614
+    },
+    {
+      "at": 1791645349.203617,
+      "seconds_measured": 260.3424537181854,
+      "lag": 1570.6855241740122,
+      "cpu_busy_percent": 87.93969849246231,
+      "cpu_iowait_percent": 9.547738693467336,
+      "write_iops": 1839.9282769505307,
+      "write_await_ms": 0.3551630434782609,
+      "flush_await_ms": 0.4423076923076923
+    },
+    {
+      "at": 1791645351.2220058,
+      "seconds_measured": 262.36084246635437,
+      "lag": 1171.0119079048745,
+      "cpu_busy_percent": 72.58883248730965,
+      "cpu_iowait_percent": 10.152284263959391,
+      "write_iops": 1642.934780921692,
+      "write_await_ms": 0.34966524650030434,
+      "flush_await_ms": 0.44401913875598087
+    },
+    {
+      "at": 1791645353.170055,
+      "seconds_measured": 264.3088915348053,
+      "lag": 884.974061753368,
+      "cpu_busy_percent": 78.5,
+      "cpu_iowait_percent": 8.5,
+      "write_iops": 1675.930873861032,
+      "write_await_ms": 0.35531026252983294,
+      "flush_await_ms": 0.4361602982292637
+    },
+    {
+      "at": 1791645355.2125688,
+      "seconds_measured": 266.3514053821564,
+      "lag": 619.5174871294294,
+      "cpu_busy_percent": 74.37185929648241,
+      "cpu_iowait_percent": 13.5678391959799,
+      "write_iops": 1559.439024925211,
+      "write_await_ms": 0.3382494389227316,
+      "flush_await_ms": 0.45194274028629855
+    },
+    {
+      "at": 1791645357.2077396,
+      "seconds_measured": 268.34657621383667,
+      "lag": 2092.7263139563147,
+      "cpu_busy_percent": 91.5,
+      "cpu_iowait_percent": 3.0,
+      "write_iops": 1772.3280197372358,
+      "write_await_ms": 0.3528913963328632,
+      "flush_await_ms": 0.4343257443082312
+    },
+    {
+      "at": 1791645359.1683507,
+      "seconds_measured": 270.3071873188019,
+      "lag": 875.4979361551814,
+      "cpu_busy_percent": 80.3030303030303,
+      "cpu_iowait_percent": 12.626262626262626,
+      "write_iops": 1785.0346852128137,
+      "write_await_ms": 0.3366946778711485,
+      "flush_await_ms": 0.4517543859649123
+    },
+    {
+      "at": 1791645361.1659322,
+      "seconds_measured": 272.3047688007355,
+      "lag": 863.3676753505133,
+      "cpu_busy_percent": 76.88442211055276,
+      "cpu_iowait_percent": 9.547738693467336,
+      "write_iops": 1641.9361907007494,
+      "write_await_ms": 0.32247259439707676,
+      "flush_await_ms": 0.44868035190615835
+    },
+    {
+      "at": 1791645363.219944,
+      "seconds_measured": 274.3587806224823,
+      "lag": 1160.3913771170191,
+      "cpu_busy_percent": 78.60696517412936,
+      "cpu_iowait_percent": 6.467661691542289,
+      "write_iops": 1622.8841157453858,
+      "write_await_ms": 0.33117683302526185,
+      "flush_await_ms": 0.4355300859598854
+    },
+    {
+      "at": 1791645365.2233768,
+      "seconds_measured": 276.3622133731842,
+      "lag": 1179.1601480236277,
+      "cpu_busy_percent": 78.39195979899498,
+      "cpu_iowait_percent": 6.030150753768845,
+      "write_iops": 1663.0200229909804,
+      "write_await_ms": 0.32200841852074563,
+      "flush_await_ms": 0.43909348441926344
+    },
+    {
+      "at": 1791645367.2134268,
+      "seconds_measured": 278.35226345062256,
+      "lag": 1124.2597903730348,
+      "cpu_busy_percent": 80.40201005025126,
+      "cpu_iowait_percent": 5.025125628140704,
+      "write_iops": 1708.437272229213,
+      "write_await_ms": 0.32162715832601696,
+      "flush_await_ms": 0.4420955882352941
+    },
+    {
+      "at": 1791645369.1697352,
+      "seconds_measured": 280.3085718154907,
+      "lag": 884.6359320066404,
+      "cpu_busy_percent": 81.59203980099502,
+      "cpu_iowait_percent": 5.970149253731344,
+      "write_iops": 1711.4338979026174,
+      "write_await_ms": 0.32515337423312884,
+      "flush_await_ms": 0.43608340888485947
+    },
+    {
+      "at": 1791645371.215434,
+      "seconds_measured": 282.35427069664,
+      "lag": 636.2417524338234,
+      "cpu_busy_percent": 73.23232323232324,
+      "cpu_iowait_percent": 7.070707070707071,
+      "write_iops": 1596.43891037819,
+      "write_await_ms": 0.3191356091450047,
+      "flush_await_ms": 0.43812375249500995
+    },
+    {
+      "at": 1791645373.1752067,
+      "seconds_measured": 284.3140432834625,
+      "lag": 914.0414454161655,
+      "cpu_busy_percent": 78.89447236180905,
+      "cpu_iowait_percent": 8.542713567839195,
+      "write_iops": 1689.9292892002452,
+      "write_await_ms": 0.3174556213017751,
+      "flush_await_ms": 0.43940795559666973
+    },
+    {
+      "at": 1791645375.210587,
+      "seconds_measured": 286.3494236469269,
+      "lag": 609.1889754168224,
+      "cpu_busy_percent": 77.27272727272727,
+      "cpu_iowait_percent": 7.070707070707071,
+      "write_iops": 1572.9261220822214,
+      "write_await_ms": 0.3178639542275906,
+      "flush_await_ms": 0.44747474747474747
+    },
+    {
+      "at": 1791645377.1758182,
+      "seconds_measured": 288.3146548271179,
+      "lag": 918.0039046481252,
+      "cpu_busy_percent": 73.36683417085428,
+      "cpu_iowait_percent": 6.532663316582915,
+      "write_iops": 1601.9333530974113,
+      "write_await_ms": 0.3155430711610487,
+      "flush_await_ms": 0.42956349206349204
+    },
+    {
+      "at": 1791645379.22296,
+      "seconds_measured": 290.36179661750793,
+      "lag": 1175.8872977888677,
+      "cpu_busy_percent": 74.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1651.0172089083849,
+      "write_await_ms": 0.32758098698153193,
+      "flush_await_ms": 0.432793136320305
+    },
+    {
+      "at": 1791645381.2230282,
+      "seconds_measured": 292.36186480522156,
+      "lag": 1177.4658683151938,
+      "cpu_busy_percent": 78.68020304568527,
+      "cpu_iowait_percent": 8.121827411167512,
+      "write_iops": 1655.4179060639235,
+      "write_await_ms": 0.32376925400181217,
+      "flush_await_ms": 0.44751908396946566
+    },
+    {
+      "at": 1791645383.2167957,
+      "seconds_measured": 294.35563230514526,
+      "lag": 643.0614958303049,
+      "cpu_busy_percent": 80.59701492537313,
+      "cpu_iowait_percent": 7.960199004975125,
+      "write_iops": 1715.3068110836061,
+      "write_await_ms": 0.3123543123543124,
+      "flush_await_ms": 0.4411764705882353
+    },
+    {
+      "at": 1791645385.1857572,
+      "seconds_measured": 296.3245937824249,
+      "lag": 971.5110849088524,
+      "cpu_busy_percent": 76.0,
+      "cpu_iowait_percent": 7.0,
+      "write_iops": 1599.4250681338576,
+      "write_await_ms": 0.32666458268208814,
+      "flush_await_ms": 0.43980582524271844
+    },
+    {
+      "at": 1791645387.2263632,
+      "seconds_measured": 298.36519980430603,
+      "lag": 1195.597396853147,
+      "cpu_busy_percent": 78.5,
+      "cpu_iowait_percent": 6.0,
+      "write_iops": 1565.4371108643577,
+      "write_await_ms": 0.32385819227084,
+      "flush_await_ms": 0.44388270980788674
+    }
+  ]
+}

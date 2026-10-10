@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "endpoint_ttl": 120,
+  "seedtime_max_interval": 5400,
+  "operations": [
+    {"at":0,"peer":"A","family":4,"event":"started","seedtime":0,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":10,"peer":"A","family":6,"event":"started","seedtime":10,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":20,"peer":"B","family":4,"event":"started","seedtime":20,"seeders":2,"leechers":0,"endpoints":3,"completed":0},
+    {"at":20,"peer":"B","family":6,"event":"started","seedtime":20,"seeders":2,"leechers":0,"endpoints":4,"completed":0},
+    {"at":30,"peer":"A","family":4,"event":"stopped","seedtime":30,"seeders":2,"leechers":0,"endpoints":3,"completed":0},
+    {"at":40,"peer":"A","family":6,"event":"stopped","seedtime":40,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":50,"peer":"B","family":4,"event":"stopped","seedtime":50,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":60,"peer":"B","family":6,"event":"stopped","seedtime":60,"seeders":0,"leechers":0,"endpoints":0,"completed":0},
+    {"at":70,"peer":"B","family":6,"event":"stopped","ignored":true,"seedtime":60,"seeders":0,"leechers":0,"endpoints":0,"completed":0},
+    {"at":90,"peer":"A","family":6,"event":"started","seedtime":60,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":120,"peer":"A","family":6,"event":"completed","seedtime":90,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":120,"peer":"A","family":4,"event":"completed","seedtime":90,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":130,"peer":"A","family":6,"kind":"probe","seedtime":90,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":150,"peer":"A","family":4,"event":"","seedtime":120,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":5551,"peer":"A","family":4,"event":"started","seedtime":120,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":5552,"peer":"A","family":6,"event":"started","seedtime":121,"seeders":1,"leechers":0,"endpoints":2,"completed":0},
+    {"at":5671,"peer":"A","kind":"expire","seedtime":240,"seeders":1,"leechers":0,"endpoints":1,"completed":0},
+    {"at":5672,"peer":"A","kind":"expire","seedtime":241,"seeders":0,"leechers":0,"endpoints":0,"completed":0},
+    {"at":5680,"peer":"A","kind":"expire","ignored":true,"seedtime":241,"seeders":0,"leechers":0,"endpoints":0,"completed":0},
+    {"at":5690,"peer":"C","family":4,"event":"started","left":"1000","seedtime":241,"seeders":0,"leechers":1,"endpoints":1,"completed":0},
+    {"at":5700,"peer":"C","family":6,"event":"started","left":"1000","seedtime":241,"seeders":0,"leechers":1,"endpoints":2,"completed":0},
+    {"at":5710,"peer":"C","family":6,"event":"completed","seedtime":241,"seeders":1,"leechers":0,"endpoints":2,"completed":1},
+    {"at":5720,"peer":"C","family":4,"event":"completed","seedtime":251,"seeders":1,"leechers":0,"endpoints":2,"completed":1}
+  ]
+}

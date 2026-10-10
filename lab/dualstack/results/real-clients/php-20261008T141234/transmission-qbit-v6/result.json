@@ -1,0 +1,2234 @@
+{
+  "case": {
+    "label": "transmission-qbit-v6",
+    "seeder": "transmission",
+    "downloader": "qbit",
+    "network": "ipv6",
+    "failure_family": null,
+    "torrent_id": 12104,
+    "info_hash": "b964087b3f986cf5f4857ff1951f423d96d530e1"
+  },
+  "status": "failed",
+  "progress": [
+    {
+      "at": 1791468756.4314299,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791468756.9646146,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791468757.4977212,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791468758.0308812,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468758.5639622,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468759.0969234,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468759.6300151,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468760.1631556,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468760.695694,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468761.2284107,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468761.761158,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468762.294065,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468762.8271382,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468763.360127,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468763.8934875,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468764.4275668,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468764.9606593,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468765.4945147,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468766.0292935,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468766.5622456,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468767.0955694,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468767.628692,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468768.1619308,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468768.694906,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468769.2278762,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468769.7607753,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468770.2941241,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468770.8274968,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468771.361066,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468771.8942738,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468772.4270253,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468772.9607608,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468773.4940233,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468774.0276415,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468774.5604255,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468775.0936327,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468775.6270242,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468776.160545,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468776.6944842,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468777.2277765,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468777.761143,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468778.2942042,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468778.8271484,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468779.36039,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468779.8939023,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468780.4270854,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468780.9601276,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468781.4933758,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468782.026503,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468782.559307,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468783.0925868,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468783.6255276,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468784.1584976,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468784.69161,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468785.2251394,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468785.759104,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468786.2925,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468786.8256855,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468787.3591583,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468787.892552,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468788.4264407,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468788.9593043,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468789.4923985,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468790.0258532,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468790.559386,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468791.092656,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468791.6266682,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468792.160265,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468792.693454,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468793.226463,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468793.7591665,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468794.2923589,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468794.825467,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468795.3583655,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468795.8916087,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468796.424738,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468796.957871,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468797.4920824,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468798.0254583,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468798.5585816,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468799.091935,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468799.625127,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468800.15799,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468800.69142,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468801.2250354,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468801.7580097,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468802.2914972,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468802.8249197,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468803.3595333,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468803.8924353,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468804.425851,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468804.9593241,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468805.4928534,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468806.0259187,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468806.558636,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468807.0918448,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468807.6247876,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468808.1581502,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468808.6913996,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468809.2243092,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468809.7573297,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468810.2902436,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468810.824095,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468811.3574147,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468811.8903704,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468812.4234695,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468812.9567122,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468813.4896462,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468814.022866,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468814.5561433,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468815.0893707,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468815.6226637,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468816.1573296,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468816.692435,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468817.2284584,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468817.7641554,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468818.2985432,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468818.8315196,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468819.3650155,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468819.898082,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468820.431623,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468820.9650745,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468821.4985926,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468822.033983,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468822.567561,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468823.1013389,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468823.634984,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468824.1682727,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468824.7018003,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468825.2354808,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468825.7687578,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468826.301899,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468826.835645,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468827.3691022,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468827.9023204,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468828.4371035,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468828.9721847,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468829.5063155,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468830.0412538,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468830.5763283,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468831.1104329,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468831.644441,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468832.1791108,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468832.7131164,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468833.247474,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468833.7820292,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468834.3159244,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468834.8511684,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468835.3851907,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468835.919355,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468836.4540598,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468836.9882252,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468837.5225768,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468838.0569317,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468838.592387,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468839.1265373,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468839.660564,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468840.1948318,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468840.7297733,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468841.2646825,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468841.798488,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468842.33257,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468842.866574,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468843.3997982,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468843.932899,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468844.466062,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468844.9997792,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468845.5327566,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468846.0665152,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468846.5998378,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468847.1331468,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468847.6663735,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468848.199643,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468848.732897,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468849.266187,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468849.7994974,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468850.332756,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468850.8659904,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468851.3989391,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468851.9321728,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468852.465265,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468852.9997425,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468853.5327199,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468854.0658555,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468854.598969,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468855.1323307,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468855.6649315,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468856.1976304,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468856.7308145,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468857.2639964,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468857.7969341,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468858.3299618,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468858.8629491,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468859.3957913,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468859.9287746,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468860.462332,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468860.9947639,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468861.5274496,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468862.060735,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468862.5938535,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468863.1267445,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468863.659756,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468864.193353,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468864.7264643,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468865.259118,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468865.7923222,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468866.324988,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468866.857842,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468867.3910146,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468867.9241467,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468868.457201,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468868.9901497,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468869.5230646,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468870.0559857,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468870.5887232,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468871.121966,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468871.655638,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468872.1884217,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468872.7211413,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468873.253733,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468873.7873464,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468874.3201988,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468874.8533428,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468875.386281,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468875.9193048,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468876.4528017,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468876.9861033,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468877.519483,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468878.0531943,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468878.5864892,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468879.1198566,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468879.6526005,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468880.1859555,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468880.718917,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468881.2516682,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468881.7844577,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468882.3176804,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468882.8509128,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468883.383566,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468883.9170275,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468884.4503067,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468884.985116,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468885.518329,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468886.050759,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468886.58382,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468887.1165125,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468887.6504333,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468888.1830628,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468888.7163477,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468889.2490563,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468889.7822664,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468890.3152509,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468890.8487356,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468891.381871,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468891.9150646,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468892.4480927,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468892.9814632,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468893.5147228,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468894.0481384,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468894.582851,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468895.1158602,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468895.649305,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468896.1827474,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468896.7153049,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468897.248923,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468897.781093,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468898.31392,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468898.8472462,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468899.3804574,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468899.9136832,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468900.4469662,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468900.9804866,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468901.5136719,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468902.0470092,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468902.580196,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468903.1132798,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468903.646722,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468904.1801083,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468904.713796,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468905.2468326,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468905.7810757,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468906.3151724,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468906.8489943,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468907.3849277,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468907.920322,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468908.4539528,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468908.9869673,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468909.5201285,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468910.0530558,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468910.5866659,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468911.1193674,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468911.6532493,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468912.1867409,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468912.7192566,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468913.252673,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468913.7854283,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468914.3185265,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468914.8516622,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468915.3860276,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468915.918925,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468916.452315,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468916.9856868,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468917.5185063,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468918.0512018,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468918.583835,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468919.1171339,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468919.6499565,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468920.1833885,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468920.7159817,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468921.2490394,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468921.781674,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468922.3148253,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468922.8473194,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468923.3806713,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468923.9136922,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468924.4473884,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468924.9809163,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468925.51483,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468926.048018,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468926.5806978,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468927.1139402,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468927.6466932,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468928.1792748,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468928.711881,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468929.2445824,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468929.7773697,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468930.3103538,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468930.8431864,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468931.3765697,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468931.909994,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468932.4434311,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468932.9761863,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468933.5088024,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468934.0431268,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468934.5770702,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468935.110571,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468935.643537,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791468936.1770232,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    }
+  ],
+  "before_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12104,
+        "peer_id": "2D5452343035302D6F6667393431637278747963",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 0,
+        "seeder": 1
+      },
+      {
+        "user_id": 12001,
+        "torrent_id": 12104,
+        "peer_id": "2D5452343035302D7632643932346D7465376875",
+        "state_version": 1,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12104,
+        "peer_id": "2D7142343633302D742A372E4B5254582E435035",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 16777216,
+        "active": 0,
+        "seeder": 0
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D5452343035302D7632643932346D7465376875",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 1
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 3,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 182,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 0,
+        "seeder": 0
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 1,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 1,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ]
+  },
+  "error": "Transferencia nao concluiu em 180 segundos",
+  "seed_wire": {
+    "announces": [
+      {
+        "at": 1791468755.364577,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d7632643932346d7465376875",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791468755.583283,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 3588,
+          "min interval": 1745,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      }
+    }
+  },
+  "down_wire": {
+    "announces": [
+      {
+        "at": 1791468756.575085,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d4f513068744672462830766f",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791468756.601765,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2151,
+          "min interval": 1717,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      }
+    ],
+    "handshakes": [],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      }
+    }
+  }
+}

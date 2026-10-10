@@ -1,0 +1,29 @@
+{"role": "clients", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 6550454272, "free_archive_bytes": 319290998784, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "data", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 26507624448, "free_archive_bytes": 319290998784, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "tracker", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 6776754176, "free_archive_bytes": 319290998784, "storage_preflight": "passed", "six_hour_test_started": false}
+{"file": "binlog.000003", "bytes": 1073870562, "sha256": "1743b7f74d50778dee766cd37210e113ee294c4045bf4de8227cc7bb7eb57964", "elapsed_seconds": 2.774, "copied_bytes": 0}
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"name": "soak-copy-comparison-v1", "sizes": [250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250], "peers": 10000, "users": 250, "torrents": 40, "dual_percent": 100, "created_at": "2026-10-09T02:15:35", "statistics_analyzed": true}
+{"action": "add", "addresses": 176}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.12s
+ed077bf111468297e8955b4d98fe2585e1c4f202a7bee432834c8cd109be0ec0
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.25192199100001744}
+Supervisor iniciado: soak-copy-comparison-v1

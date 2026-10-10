@@ -1,0 +1,5 @@
+
+   INFO  Application cache cleared successfully.  
+
+f17fcd8914c9b3e709d399ed6dd7b69b8d999f158705839cfec27e6a3288c15c
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.

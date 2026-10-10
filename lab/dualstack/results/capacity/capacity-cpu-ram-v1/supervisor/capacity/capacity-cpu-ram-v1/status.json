@@ -1,0 +1,46 @@
+{
+  "name": "capacity-cpu-ram-v1",
+  "status": "failed",
+  "started_at": 1791616836.4119747,
+  "results": [
+    {
+      "trial": "capacity-cpu-ram-v1-reference-500",
+      "profile": "reference",
+      "rate": 500,
+      "stable": true,
+      "rps": 500.0,
+      "drain_seconds": 0.12174797800253145,
+      "reason": null,
+      "errors": {}
+    },
+    {
+      "trial": "capacity-cpu-ram-v1-reference-1000",
+      "profile": "reference",
+      "rate": 1000,
+      "stable": false,
+      "rps": 1000.0,
+      "drain_seconds": 0.7323656379885506,
+      "reason": null,
+      "errors": {}
+    }
+  ],
+  "mode": "cpu-ram",
+  "profile": "reference",
+  "stage": "refinement",
+  "resources": {
+    "tracker": [
+      4,
+      8192
+    ],
+    "data": [
+      4,
+      8192
+    ]
+  },
+  "trial": "capacity-cpu-ram-v1-reference-refine-700",
+  "rate": 700,
+  "error": "AssertionError",
+  "reason": "protecao_acionada_cancelled",
+  "resources_restored": true,
+  "finished_at": 1791617147.544873
+}

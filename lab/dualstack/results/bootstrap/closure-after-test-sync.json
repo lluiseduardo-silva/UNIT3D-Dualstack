@@ -1,0 +1,62 @@
+{
+  "runtime": [
+    {
+      "db": "unit3d_dualstack_journal_test",
+      "version": "8.0.46",
+      "isolation_level": "REPEATABLE-READ",
+      "lock_wait_seconds": 10,
+      "at": "2026-10-09 00:11:45.390000"
+    }
+  ],
+  "owner": [
+    {
+      "generation": 1895,
+      "backend": "rust",
+      "live": 0
+    }
+  ],
+  "peers": [
+    {
+      "total": 6,
+      "changed": "6"
+    }
+  ],
+  "endpoints": [
+    {
+      "family": 4,
+      "total": 6
+    },
+    {
+      "family": 6,
+      "total": 6
+    }
+  ],
+  "endpoint_limit": [
+    {
+      "maximum": 2
+    }
+  ],
+  "history": [
+    {
+      "total": 6,
+      "changed": "6"
+    }
+  ],
+  "users": [
+    {
+      "total": 0,
+      "changed": null
+    }
+  ],
+  "counts": [
+    {
+      "seeders": "6",
+      "leechers": "0",
+      "seeders_ipv4": "6",
+      "seeders_ipv6": "6",
+      "leechers_ipv4": "0",
+      "leechers_ipv6": "0"
+    }
+  ],
+  "active_queries": []
+}

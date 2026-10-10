@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "backend": "php-standalone",
+  "steps": [
+    {
+      "torrent_id": 12001,
+      "family": 4,
+      "rejected": true
+    },
+    {
+      "torrent_id": 12001,
+      "family": 6,
+      "rejected": true
+    },
+    {
+      "torrent_id": 12002,
+      "family": 4,
+      "rejected": false
+    },
+    {
+      "torrent_id": 12002,
+      "family": 6,
+      "rejected": false
+    }
+  ],
+  "other_torrent_logical_peers": 1,
+  "other_torrent_endpoints": 2
+}

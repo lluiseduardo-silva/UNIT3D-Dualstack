@@ -1,0 +1,1 @@
+{"status": "expected_limit_reached", "reason": "queue.Full", "profile": "synthetic producer without rate limit", "resolution": "measure 20000 samples/s using fixed 16-block queue; no queue increase"}

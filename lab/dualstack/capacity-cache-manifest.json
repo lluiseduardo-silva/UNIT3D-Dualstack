@@ -1,0 +1,38 @@
+{
+  "source": {
+    "commit": "36823b5fab72940c0dcb90b0ed456b28c18160cc",
+    "dynamic_queries_changed": 8,
+    "archive_sha256": "2165b22b69d77584e27cc58b865ff605940e6d6c74f9c3915f83e4ce2e2ad42e",
+    "persistence_a_sha256": "0d32c454de0901ecc9be1d5d3fb87b7be69c6ead4f475f7a6c05f14f884c99cf",
+    "persistence_b_sha256": "a05f3c4cc9db027df4e8e3c5a6b735690593873acfaeda61e398a50742673675"
+  },
+  "variants": {
+    "a": {
+      "runtime_path": "/opt/unit3d-dualstack/experiments/lease-recovery",
+      "binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833"
+    },
+    "b": {
+      "runtime_path": "/opt/unit3d-dualstack/experiments/statement-cache-b",
+      "binary_sha256": "93ed97a5a50c3633452ba9eab56169b6eadadce53d5ccd4e2422edf3958c6057"
+    }
+  },
+  "rust_image": "rust:1-bookworm@sha256:114c7a4425406451c2866b6aafe69fe29b1b298832db1277d411ac73c82d04d6",
+  "profile": "release",
+  "sqlx_offline": true,
+  "locked": true,
+  "build_validation": {
+    "unit_passed": 25,
+    "unit_ignored": 2,
+    "contract_passed_including_ignored": 5,
+    "shared_cases": 12,
+    "shared_operations": 51,
+    "bootstrap_mysql_scale_not_executed": true,
+    "source_diff_verified": true,
+    "product_checkout_unchanged": true,
+    "at": "2026-10-10T15:43:08.480682+00:00",
+    "temporary_exec_bind_only": true,
+    "initial_archive_crlf_corrected": true,
+    "initial_nfs_noexec_diagnosed": true,
+    "clean_build": true
+  }
+}

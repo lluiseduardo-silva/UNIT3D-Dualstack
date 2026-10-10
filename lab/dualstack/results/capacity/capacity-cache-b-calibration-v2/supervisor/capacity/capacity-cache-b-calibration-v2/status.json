@@ -1,0 +1,32 @@
+{
+  "name": "capacity-cache-b-calibration-v2",
+  "status": "completed",
+  "started_at": 1791647277.1385207,
+  "mode": "calibration",
+  "results": [
+    {
+      "trial": "capacity-cache-b-calibration-v2-calibration",
+      "rate": 1000,
+      "accepted": 40000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    }
+  ],
+  "stage": "restore",
+  "resources": {
+    "tracker": [
+      4,
+      8192
+    ],
+    "data": [
+      1,
+      4096
+    ]
+  },
+  "trial": "capacity-cache-b-calibration-v2-calibration",
+  "rate": 1000,
+  "probe_failures": [],
+  "resources_restored": true,
+  "finished_at": 1791647500.5179565
+}

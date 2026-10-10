@@ -1,0 +1,1087 @@
+{
+  "case": {
+    "label": "transmission-qbit-dual",
+    "seeder": "transmission",
+    "downloader": "qbit",
+    "network": "dual",
+    "failure_family": null,
+    "torrent_id": 12106,
+    "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+  },
+  "status": "passed",
+  "progress": [
+    {
+      "at": 1791471690.1569118,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791471690.6894503,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791471691.226273,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "checkingResumeData"
+    },
+    {
+      "at": 1791471691.7589395,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471692.2924023,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471692.8257823,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471693.3584256,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471693.8944292,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471694.4285822,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471694.9619365,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471695.4959028,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471696.029541,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471696.5643036,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471697.0985072,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471697.6335385,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471698.1685658,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471698.702431,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471699.2364073,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471699.7696235,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471700.3034582,
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    {
+      "at": 1791471700.8372083,
+      "progress": 0.00390625,
+      "downloaded": 65536,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471701.3703043,
+      "progress": 0.00390625,
+      "downloaded": 65536,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471701.9041114,
+      "progress": 0.00390625,
+      "downloaded": 65536,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471702.4368265,
+      "progress": 0.05859375,
+      "downloaded": 458752,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471702.970206,
+      "progress": 0.05859375,
+      "downloaded": 458752,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471703.5034637,
+      "progress": 0.2431640625,
+      "downloaded": 2129092,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471704.0367424,
+      "progress": 0.2431640625,
+      "downloaded": 2129092,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471704.5703,
+      "progress": 0.2431640625,
+      "downloaded": 2129092,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471705.1033316,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471705.635894,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471706.1696143,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471706.7024791,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471707.235737,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471707.769633,
+      "progress": 0.2548828125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471708.303085,
+      "progress": 0.5126953125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471708.8366964,
+      "progress": 0.5126953125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471709.3692262,
+      "progress": 0.5126953125,
+      "downloaded": 4290922,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471709.9031487,
+      "progress": 0.5791015625,
+      "downloaded": 8614582,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471710.4368134,
+      "progress": 0.5791015625,
+      "downloaded": 8614582,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471710.9702978,
+      "progress": 0.5791015625,
+      "downloaded": 8614582,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471711.5036244,
+      "progress": 0.6298828125,
+      "downloaded": 10582479,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471712.0363574,
+      "progress": 0.6298828125,
+      "downloaded": 10582479,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471712.5695608,
+      "progress": 0.794921875,
+      "downloaded": 12957577,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471713.101958,
+      "progress": 0.794921875,
+      "downloaded": 12957577,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471713.6347742,
+      "progress": 0.794921875,
+      "downloaded": 12957577,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471714.167967,
+      "progress": 0.794921875,
+      "downloaded": 13350793,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471714.7018573,
+      "progress": 0.794921875,
+      "downloaded": 13350793,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471715.2357175,
+      "progress": 0.794921875,
+      "downloaded": 13350793,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471715.7685666,
+      "progress": 0.9326171875,
+      "downloaded": 15660989,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471716.3010304,
+      "progress": 0.9326171875,
+      "downloaded": 15660989,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471716.8343031,
+      "progress": 0.9326171875,
+      "downloaded": 15660989,
+      "state": "downloading"
+    },
+    {
+      "at": 1791471717.367144,
+      "progress": 1,
+      "downloaded": 16774529,
+      "state": "stalledUP"
+    }
+  ],
+  "before_start": {
+    "peers": [],
+    "endpoints": [],
+    "history": [],
+    "torrent": [
+      {
+        "seeders": 0,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 0,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 83912704,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 83886080
+      }
+    ]
+  },
+  "before_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12106,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "family": 4,
+        "ip": "172.29.92.40",
+        "port": 6881,
+        "revision": 2
+      },
+      {
+        "user_id": 12001,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 1
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 1,
+        "leechers": 0,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 1,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 83912704,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 83886080
+      }
+    ]
+  },
+  "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+  "after_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12106,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12106,
+        "peer_id": "2D7142343633302D7A476B2E58662E3876744A42",
+        "state_version": 4,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "family": 4,
+        "ip": "172.29.92.40",
+        "port": 6881,
+        "revision": 2
+      },
+      {
+        "user_id": 12001,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 1
+      },
+      {
+        "user_id": 12002,
+        "peer_id": "2D7142343633302D7A476B2E58662E3876744A42",
+        "family": 4,
+        "ip": "172.29.92.41",
+        "port": 6881,
+        "revision": 2
+      },
+      {
+        "user_id": 12002,
+        "peer_id": "2D7142343633302D7A476B2E58662E3876744A42",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::41",
+        "port": 6881,
+        "revision": 1
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "state_version": 4,
+        "actual_uploaded": 0,
+        "actual_downloaded": 16777216,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 2,
+        "leechers": 0,
+        "seeders_ipv4": 2,
+        "seeders_ipv6": 2,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 1
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 83912704,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 100663296
+      }
+    ]
+  },
+  "after_stop": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12106,
+        "peer_id": "2D5452343035302D6C786A35706731736D306874",
+        "state_version": 4,
+        "uploaded": 16790528,
+        "downloaded": 0,
+        "left": 0,
+        "active": 0,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12106,
+        "peer_id": "2D7142343633302D7A476B2E58662E3876744A42",
+        "state_version": 6,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "left": 0,
+        "active": 0,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 4,
+        "actual_uploaded": 16790528,
+        "actual_downloaded": 0,
+        "uploaded": 16790528,
+        "downloaded": 0,
+        "seedtime": 31,
+        "active": 0,
+        "seeder": 0
+      },
+      {
+        "user_id": 12002,
+        "state_version": 6,
+        "actual_uploaded": 0,
+        "actual_downloaded": 16777216,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "seedtime": 2,
+        "active": 0,
+        "seeder": 0
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 0,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 0,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 1
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 100703232,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 100663296
+      }
+    ]
+  },
+  "seed_wire": {
+    "announces": [
+      {
+        "at": 1791471689.101828,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471689.101927,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "1",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471719.130482,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "event": "stopped",
+        "uploaded": 16790528,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471719.130532,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "1",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "event": "stopped",
+        "uploaded": 16790528,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791471689.102135,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2210,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471689.10217,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2196,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471719.130988,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 2061,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471719.130988,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 2212,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791471690.304898,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "2",
+        "peer_id": "2d7142343633302d594b4d537972566c28414d48",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.304921,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.40",
+        "stream": "3",
+        "peer_id": "2d7142343633302d6b4354427977286256386a4c",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.501136,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "3",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.501178,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "2",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471701.001225,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "4",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 549,
+        "tcp_bytes": 11818520,
+        "first_at": 1791471700.001038,
+        "last_at": 1791471712.543151
+      }
+    }
+  },
+  "seed_capture": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n3404 packets captured\n3438 packets received by filter\n34 packets dropped by kernel\n",
+  "down_wire": {
+    "announces": [
+      {
+        "at": 1791471690.304306,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471690.304328,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.10",
+        "stream": "1",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471716.807266,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.10",
+        "stream": "5",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "completed",
+        "uploaded": 0,
+        "downloaded": 16777216
+      },
+      {
+        "at": 1791471716.807288,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "6",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "completed",
+        "uploaded": 0,
+        "downloaded": 16777216
+      },
+      {
+        "at": 1791471718.409725,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.10",
+        "stream": "7",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "stopped",
+        "uploaded": 0,
+        "downloaded": 16777216
+      },
+      {
+        "at": 1791471718.409751,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "8",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d7a476b2e58662e3876744a42",
+        "event": "stopped",
+        "uploaded": 0,
+        "downloaded": 16777216
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791471690.304548,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 3028,
+          "min interval": 1800,
+          "peers": [
+            {
+              "ip": "172.29.92.40",
+              "port": 6881
+            }
+          ],
+          "peers_bytes": 6,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791471690.30459,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.41",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 3139,
+          "min interval": 1800,
+          "peers": [
+            {
+              "ip": "172.29.92.40",
+              "port": 6881
+            }
+          ],
+          "peers_bytes": 6,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791471716.807568,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "6",
+        "status": 200,
+        "body": {
+          "complete": 2,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 3433,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471716.807568,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.41",
+        "stream": "5",
+        "status": 200,
+        "body": {
+          "complete": 2,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 2637,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471718.409999,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "8",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 1822,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471718.409999,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.41",
+        "stream": "7",
+        "status": 200,
+        "body": {
+          "complete": 2,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 2043,
+          "min interval": 1800,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791471690.304893,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "2",
+        "peer_id": "2d7142343633302d594b4d537972566c28414d48",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.304918,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.40",
+        "stream": "3",
+        "peer_id": "2d7142343633302d6b4354427977286256386a4c",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.501144,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "3",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471690.501186,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "2",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      },
+      {
+        "at": 1791471701.001234,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "4",
+        "peer_id": "2d5452343035302d6c786a35706731736d306874",
+        "info_hash": "b1b652cfb9b9a22eb131f743555e84bab2337d3b"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 531,
+        "tcp_bytes": 11582916,
+        "first_at": 1791471700.001068,
+        "last_at": 1791471712.543174
+      }
+    }
+  },
+  "down_capture": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n3415 packets captured\n3472 packets received by filter\n57 packets dropped by kernel\n",
+  "accounting": [
+    {
+      "user_id": 12001,
+      "peer_id": "2D5452343035302D6C786A35706731736D306874",
+      "state_version": 4,
+      "uploaded": 16790528,
+      "downloaded": 0
+    },
+    {
+      "user_id": 12002,
+      "peer_id": "2D7142343633302D7A476B2E58662E3876744A42",
+      "state_version": 6,
+      "uploaded": 0,
+      "downloaded": 16777216
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "format_version": 1,
+  "evidence_cutoff": "2026-10-10",
+  "status": "passed",
+  "scope": "Validação da montagem; não executa nova carga, testes de infraestrutura ou replay de amostras privadas.",
+  "integrity": {
+    "status": "passed",
+    "files_checked": 7580,
+    "canonical_bytes": 591213767,
+    "checkout_bytes": 591656491,
+    "files_with_only_crlf_conversion": 3889,
+    "candidate_source_files": 4353,
+    "public_evidence_files": 2854,
+    "local_links_checked": 265,
+    "failures": [],
+    "scope": "Integridade da entrega; não executa testes do produto ou benchmarks."
+  },
+  "offline_reanalysis_and_patches": {
+    "candidate_soak": {
+      "status": "passed",
+      "matched_fields": [
+        "load",
+        "windows",
+        "completed_rps",
+        "window_metrics_median",
+        "roles",
+        "max_observed_persistence_lag"
+      ],
+      "accepted": 171427236
+    },
+    "original_soak": {
+      "status": "passed",
+      "matched_fields": [
+        "load",
+        "windows",
+        "completed_rps",
+        "window_metrics_median",
+        "roles",
+        "max_observed_persistence_lag"
+      ],
+      "accepted": 175346000
+    },
+    "original_hourly_analysis": {
+      "status": "passed",
+      "exact_json_match": true
+    },
+    "cache_ab_analysis": {
+      "status": "passed",
+      "exact_json_match": true,
+      "series": 3,
+      "trials": 27
+    },
+    "UNIT3D_patch": {
+      "status": "passed",
+      "reconstructed_tree": "972a82fde8f23846e3d0765b74ce570b53b785ab",
+      "matches_candidate_tree": true,
+      "base": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+      "candidate": "7c45115fc8b7ad83d12b0a44a5e656c12240ede4"
+    },
+    "UNIT3D-Announce_patch": {
+      "status": "passed",
+      "reconstructed_tree": "f0033aea1b3f33bc3eefbf104106d313730c6f6c",
+      "matches_candidate_tree": true,
+      "base": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+      "candidate": "36823b5fab72940c0dcb90b0ed456b28c18160cc"
+    }
+  },
+  "sensitive_material_review": {
+    "scanned_files": 7580,
+    "pattern_candidate_files": 13,
+    "reviewed_categories": [
+      "Duas atribuições api_token=None nos geradores públicos.",
+      "Sete arquivos com exemplos, referências de ambiente/CI ou constante pública já presentes nas bases upstream.",
+      "Quatro arquivos compactados repetem esses mesmos fontes públicos."
+    ],
+    "operational_lab_secrets_identified": 0,
+    "scope": "Varredura por padrões e revisão dos candidatos; não equivale a auditoria de segurança completa."
+  },
+  "source_snapshots_unchanged": true,
+  "delivery_layout": {
+    "gitlinks": 0,
+    "nested_git_metadata_tracked": false,
+    "requested_history": "Um commit inicial sem pais"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "git": "git version 2.55.0.windows.5"
+  },
+  "packaging_repairs": [
+    {
+      "issue": "Git archive no Windows converteu texto para CRLF.",
+      "resolution": "Gerar os arquivos com core.autocrlf=false; membros conferidos contra blobs canônicos."
+    },
+    {
+      "issue": "A base contém arquivos rastreados abrangidos pelo próprio .gitignore.",
+      "resolution": "Forçar inclusão dos arquivos extraídos ao reconstruir a árvore no teste de patch."
+    },
+    {
+      "issue": "O clone converteu o patch experimental do laboratório para CRLF.",
+      "resolution": "Preservar os bytes de todos os arquivos .patch com .gitattributes."
+    }
+  ]
+}

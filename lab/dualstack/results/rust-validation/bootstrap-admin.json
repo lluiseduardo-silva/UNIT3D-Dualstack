@@ -1,0 +1,156 @@
+[
+  {
+    "at": 1791489695.447391,
+    "indexes": [
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "PRIMARY",
+        "COUNT_READ": "108006",
+        "COUNT_FETCH": "108006"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_idx_seeder_user_id",
+        "COUNT_READ": "54002",
+        "COUNT_FETCH": "54002"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_torrent_id_foreign",
+        "COUNT_READ": "54000",
+        "COUNT_FETCH": "54000"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_active_index",
+        "COUNT_READ": "54000",
+        "COUNT_FETCH": "54000"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "NULL",
+        "COUNT_READ": "0",
+        "COUNT_FETCH": "0"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "PRIMARY",
+        "COUNT_READ": "388778",
+        "COUNT_FETCH": "388778"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "peer_ips_torrent_family_live",
+        "COUNT_READ": "1052923105",
+        "COUNT_FETCH": "1052923105"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "peer_ips_expiration",
+        "COUNT_READ": "81000",
+        "COUNT_FETCH": "81000"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "NULL",
+        "COUNT_READ": "0",
+        "COUNT_FETCH": "0"
+      }
+    ],
+    "statement": [
+      {
+        "THREAD_ID": "24110",
+        "EVENT_NAME": "statement/com/Execute",
+        "TIMER_WAIT": "336992455576000",
+        "LOCK_TIME": "1000000",
+        "ROWS_EXAMINED": "1053175514",
+        "ROWS_AFFECTED": "0",
+        "NO_INDEX_USED": "1"
+      }
+    ],
+    "locks": [
+      {
+        "trx_state": "RUNNING",
+        "trx_rows_locked": "230076",
+        "trx_rows_modified": "0"
+      }
+    ]
+  },
+  {
+    "at": 1791489697.6301217,
+    "indexes": [
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "PRIMARY",
+        "COUNT_READ": "108006",
+        "COUNT_FETCH": "108006"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_idx_seeder_user_id",
+        "COUNT_READ": "54002",
+        "COUNT_FETCH": "54002"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_torrent_id_foreign",
+        "COUNT_READ": "54000",
+        "COUNT_FETCH": "54000"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "peers_active_index",
+        "COUNT_READ": "54000",
+        "COUNT_FETCH": "54000"
+      },
+      {
+        "OBJECT_NAME": "peers",
+        "INDEX_NAME": "NULL",
+        "COUNT_READ": "0",
+        "COUNT_FETCH": "0"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "PRIMARY",
+        "COUNT_READ": "389068",
+        "COUNT_FETCH": "389068"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "peer_ips_torrent_family_live",
+        "COUNT_READ": "1059587595",
+        "COUNT_FETCH": "1059587595"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "peer_ips_expiration",
+        "COUNT_READ": "81000",
+        "COUNT_FETCH": "81000"
+      },
+      {
+        "OBJECT_NAME": "peer_ips",
+        "INDEX_NAME": "NULL",
+        "COUNT_READ": "0",
+        "COUNT_FETCH": "0"
+      }
+    ],
+    "statement": [
+      {
+        "THREAD_ID": "24110",
+        "EVENT_NAME": "statement/com/Execute",
+        "TIMER_WAIT": "339169889784000",
+        "LOCK_TIME": "1000000",
+        "ROWS_EXAMINED": "1059886858",
+        "ROWS_AFFECTED": "0",
+        "NO_INDEX_USED": "1"
+      }
+    ],
+    "locks": [
+      {
+        "trx_state": "RUNNING",
+        "trx_rows_locked": "230805",
+        "trx_rows_modified": "0"
+      }
+    ]
+  }
+]

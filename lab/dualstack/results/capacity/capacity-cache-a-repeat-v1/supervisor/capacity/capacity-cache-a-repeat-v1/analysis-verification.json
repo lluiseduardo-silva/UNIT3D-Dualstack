@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "series": "capacity-cache-a-repeat-v1",
+  "variant": "a",
+  "trials": 9,
+  "accepted": 5550000,
+  "credit_bytes": 277523200,
+  "errors": 0,
+  "accounting_mismatches": 0,
+  "all_drains_exit_zero": true,
+  "max_drain_seconds": 0.7736963969946373,
+  "resources_restored": true,
+  "observer_samples": 2659,
+  "memory_samples": 319,
+  "scope": "integridade e restauração; não aprova desempenho ou teto sustentado"
+}

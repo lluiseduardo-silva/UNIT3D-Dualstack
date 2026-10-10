@@ -1,0 +1,78 @@
+{
+  "name": "soak-rehearsal-v3",
+  "snapshot": {
+    "peers": {
+      "n": 10000,
+      "uploaded": 118636200,
+      "versions": 2392759
+    },
+    "history": {
+      "n": 10000,
+      "actual_uploaded": 118636200,
+      "uploaded": 118636200
+    },
+    "users": {
+      "n": 250,
+      "uploaded": 118636200
+    },
+    "peer_ips": {
+      "n": 20000
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 3,
+      "lock_timeouts": 18
+    }
+  },
+  "checks": {
+    "sample_count": 2392759,
+    "credit_from_accepted_samples": 118636200,
+    "mismatches": {
+      "peer_credit": 0,
+      "peer_version": 0,
+      "seedtime_bound": 0,
+      "user_credit": 0,
+      "bon": 0
+    },
+    "version_extras_per_peer": {
+      "0": 10000
+    },
+    "families": [
+      {
+        "family": 4,
+        "n": 10000
+      },
+      {
+        "family": 6,
+        "n": 10000
+      }
+    ],
+    "endpoint_limit_violations": 0,
+    "torrents": {
+      "n": 40,
+      "seeders": "8000",
+      "leechers": "2000",
+      "seeders_ipv4": "8000",
+      "seeders_ipv6": "8000",
+      "leechers_ipv4": "2000",
+      "leechers_ipv6": "2000",
+      "times_completed": "0"
+    },
+    "owner": {
+      "backend": "rust",
+      "generation": 1952,
+      "live": 0
+    },
+    "aliases_removed": true,
+    "last_accepted_response_seconds": 300.10074460099713,
+    "sample_iteration_seconds": 2.0256370429997332,
+    "all_accepted_credit_persisted": true,
+    "all_expected_peers_present": true
+  }
+}

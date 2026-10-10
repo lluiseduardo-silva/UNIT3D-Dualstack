@@ -1,0 +1,17 @@
+{
+  "series": "density-throughput-fast-ramp-v1",
+  "status": "passed",
+  "accepted": 364000,
+  "measured_samples": 280000,
+  "phases": 4,
+  "sha256": {
+    "rate-10000-r4.json": "33deb51f55052ef18f0ad62d9192611c77b4fbf06f9f05ce156982f550a8264f",
+    "rate-10000-r4-samples.json.gz": "c3416c9acbf3a24e37c534eb9d2d5f173be59480c4e74b756add691d1ec7d1d5",
+    "rate-4000-r1.json": "d960c7b85aae37a85cf1600167f8e07f46882be71b1f64320e3ab304389011c8",
+    "rate-4000-r1-samples.json.gz": "617a191c41a6207db71b0d0c57b73885771d45d0c2d2c196b87f0b56aa7b1107",
+    "rate-6000-r2.json": "0736864960abf268abe99271dd9af1d7397a2de20831428479b96f0b6992d4b9",
+    "rate-6000-r2-samples.json.gz": "f3c96cde0d686a0edf949ba07d71bae7d05f1dc9e33d6f7995ccec2ff1b09d63",
+    "rate-8000-r3.json": "fa3f7c25d0acff6d9e777b5c152165e327066c2857be5c2ed943ebd8e1e8ee23",
+    "rate-8000-r3-samples.json.gz": "636219651cefcd7a41888d5d87998940aea7716fa27e9d4511aa875055ee66f3"
+  }
+}

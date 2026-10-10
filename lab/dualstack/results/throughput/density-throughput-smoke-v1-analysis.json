@@ -1,0 +1,394 @@
+{
+  "series": "density-throughput-smoke-v1",
+  "accepted": 16000,
+  "phases": [
+    {
+      "name": "rate-1000-r1",
+      "rate": 1000,
+      "accepted": 4000,
+      "http_rps": 999.6666666666666,
+      "response_ms": {
+        "p50": 0.16325000615324825,
+        "p95": 0.20960799884051085,
+        "p99": 0.43583501246757805,
+        "max": 6.031470009475015
+      },
+      "generator_queue_ms": {
+        "p50": 0.5664289928972721,
+        "p95": 1.0420440084999427,
+        "p99": 1.078871006029658,
+        "max": 5.768203001935035
+      },
+      "generator_cpu": 13.14702411989547,
+      "drain_seconds": 0.2711123439949006,
+      "writer": {
+        "committed_rps": 1000.8375255298286,
+        "backlog_first": 101,
+        "backlog_last": 100,
+        "backlog_peak": 101,
+        "backlog_per_second": -0.5001686784257015,
+        "retries": 0,
+        "observed_seconds": 1.9993255138397217,
+        "batch_mean": 100.05
+      },
+      "spans": {
+        "apply": {
+          "count": 20,
+          "mean_us": 38.83615,
+          "seconds_per_second": 0.0003884925164128461
+        },
+        "begin": {
+          "count": 20,
+          "mean_us": 404.0724,
+          "seconds_per_second": 0.004042087165926028
+        },
+        "commit": {
+          "count": 20,
+          "mean_us": 6577.95105,
+          "seconds_per_second": 0.0658017016685491
+        },
+        "deltas": {
+          "count": 20,
+          "mean_us": 2004.93645,
+          "seconds_per_second": 0.020056128290480348
+        },
+        "endpoints": {
+          "count": 20,
+          "mean_us": 4512.84275,
+          "seconds_per_second": 0.04514365188421016
+        },
+        "fence_and_reads": {
+          "count": 20,
+          "mean_us": 2812.02915,
+          "seconds_per_second": 0.02812977807300097
+        },
+        "history": {
+          "count": 20,
+          "mean_us": 1450.89725,
+          "seconds_per_second": 0.01451386720127969
+        },
+        "peers": {
+          "count": 20,
+          "mean_us": 1930.4020500000001,
+          "seconds_per_second": 0.019310532843575295
+        },
+        "persist": {
+          "count": 20,
+          "mean_us": 19754.8596,
+          "seconds_per_second": 0.1976152403723456
+        },
+        "publish_hold": {
+          "count": 2000,
+          "mean_us": 2.6595745,
+          "seconds_per_second": 0.002660471725679391
+        },
+        "publish_wait": {
+          "count": 2000,
+          "mean_us": 0.0369845,
+          "seconds_per_second": 3.699697697447071e-05
+        },
+        "select_hold": {
+          "count": 2000,
+          "mean_us": 5.900277,
+          "seconds_per_second": 0.005902267498871124
+        },
+        "select_wait": {
+          "count": 2000,
+          "mean_us": 0.031605,
+          "seconds_per_second": 3.1615662163288585e-05
+        }
+      },
+      "rust_cpu_percent": {
+        "mean": 8.9,
+        "max": 8.9
+      },
+      "io": {}
+    },
+    {
+      "name": "rate-3000-r2",
+      "rate": 3000,
+      "accepted": 12000,
+      "http_rps": 3000.0,
+      "response_ms": {
+        "p50": 0.15964200429152697,
+        "p95": 0.2054189972113818,
+        "p99": 0.26977200468536466,
+        "max": 6.452257002820261
+      },
+      "generator_queue_ms": {
+        "p50": 0.5556183314183727,
+        "p95": 1.0396690049674362,
+        "p99": 1.08351866947487,
+        "max": 6.458619667682797
+      },
+      "generator_cpu": 22.562348132675428,
+      "drain_seconds": 2.094813161995262,
+      "writer": {
+        "committed_rps": 2000.1175472677712,
+        "backlog_first": 1520,
+        "backlog_last": 3522,
+        "backlog_peak": 3522,
+        "backlog_per_second": 1001.0588324075195,
+        "retries": 0,
+        "observed_seconds": 1.999882459640503,
+        "batch_mean": 200.0
+      },
+      "spans": {
+        "apply": {
+          "count": 20,
+          "mean_us": 100.15735000000001,
+          "seconds_per_second": 0.0010016323661141985
+        },
+        "begin": {
+          "count": 20,
+          "mean_us": 405.47315000000003,
+          "seconds_per_second": 0.004054969811304685
+        },
+        "commit": {
+          "count": 20,
+          "mean_us": 7484.16385,
+          "seconds_per_second": 0.0748460372150606
+        },
+        "deltas": {
+          "count": 20,
+          "mean_us": 2198.4265,
+          "seconds_per_second": 0.02198555709514235
+        },
+        "endpoints": {
+          "count": 20,
+          "mean_us": 7439.347049999999,
+          "seconds_per_second": 0.07439784287459864
+        },
+        "fence_and_reads": {
+          "count": 20,
+          "mean_us": 3758.6602000000003,
+          "seconds_per_second": 0.03758881110118495
+        },
+        "history": {
+          "count": 20,
+          "mean_us": 2373.5872000000004,
+          "seconds_per_second": 0.02373726704345088
+        },
+        "peers": {
+          "count": 20,
+          "mean_us": 3142.3791,
+          "seconds_per_second": 0.031425637890387534
+        },
+        "persist": {
+          "count": 20,
+          "mean_us": 26942.24915,
+          "seconds_per_second": 0.269438326438876
+        },
+        "publish_hold": {
+          "count": 6002,
+          "mean_us": 2.693220426524492,
+          "seconds_per_second": 0.008082829529344316
+        },
+        "publish_wait": {
+          "count": 6002,
+          "mean_us": 0.030476674441852716,
+          "seconds_per_second": 9.146587546594199e-05
+        },
+        "select_hold": {
+          "count": 6002,
+          "mean_us": 4.836688103965344,
+          "seconds_per_second": 0.014515754093477258
+        },
+        "select_wait": {
+          "count": 6002,
+          "mean_us": 0.03162395868043985,
+          "seconds_per_second": 9.490907782356347e-05
+        }
+      },
+      "rust_cpu_percent": {
+        "mean": 17.14,
+        "max": 17.14
+      },
+      "io": {
+        "data": {
+          "host": "unit3d-ds-data",
+          "samples": 2,
+          "observed_seconds": 2.071220636367798,
+          "devices": {
+            "sda": {
+              "read_iops": 0.0,
+              "write_iops": 723.2450148946816,
+              "read_mib_per_second": 0.0,
+              "write_mib_per_second": 12.979212367806031,
+              "read_mean_ms": null,
+              "write_mean_ms": 0.43658210947930576,
+              "flush_iops": 236.09266507576726,
+              "flush_mean_ms": 0.4867075664621677,
+              "busy_percent": 24.574880679665753,
+              "highest_interval_busy_percent": 24.574880679665753,
+              "average_queue_depth": 0.4311467278377508,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            }
+          },
+          "io_pressure_percent": {
+            "some": 7.446671653024768,
+            "full": 7.1891423533286245
+          },
+          "cpu_iowait_percent": 7.168894289185905,
+          "mysql_deltas": {
+            "Innodb_buffer_pool_read_requests": 254473,
+            "Innodb_buffer_pool_reads": 0,
+            "Innodb_buffer_pool_wait_free": 0,
+            "Innodb_data_fsyncs": 527,
+            "Innodb_log_waits": 0,
+            "Innodb_log_write_requests": 58547,
+            "Innodb_log_writes": 1094,
+            "Innodb_os_log_written": 6031360,
+            "Innodb_row_lock_time": 0,
+            "Innodb_row_lock_waits": 0
+          },
+          "mysql_peaks": {
+            "Innodb_data_pending_fsyncs": 0,
+            "Innodb_data_pending_reads": 0,
+            "Innodb_data_pending_writes": 0,
+            "Threads_running": 2
+          },
+          "mysql_file_waits": {
+            "wait/io/file/sql/binlog": {
+              "events": 395,
+              "total_wait_ms": 56.534329995,
+              "mean_wait_ms": 0.14312488606329113
+            },
+            "wait/io/file/innodb/innodb_dblwr_file": {
+              "events": 178,
+              "total_wait_ms": 152.80755468,
+              "mean_wait_ms": 0.8584694083146068
+            },
+            "wait/io/file/innodb/innodb_data_file": {
+              "events": 529,
+              "total_wait_ms": 250.925089965,
+              "mean_wait_ms": 0.47433854435727785
+            },
+            "wait/io/file/innodb/innodb_log_file": {
+              "events": 1400,
+              "total_wait_ms": 346.957489395,
+              "mean_wait_ms": 0.24782677813928572
+            }
+          },
+          "process_cpu_percent": {
+            "mysqld": 23.174740130136662,
+            "redis-server": 0.0
+          }
+        },
+        "host": {
+          "host": "proxmox",
+          "samples": 2,
+          "observed_seconds": 2.0255837440490723,
+          "devices": {
+            "nvme0n1": {
+              "read_iops": 0.0,
+              "write_iops": 1072.2834868620375,
+              "read_mib_per_second": 0.0,
+              "write_mib_per_second": 14.241650751172857,
+              "read_mean_ms": null,
+              "write_mean_ms": 0.44567219152854515,
+              "flush_iops": 264.6150777891584,
+              "flush_mean_ms": 0.3787313432835821,
+              "busy_percent": 21.22844840472726,
+              "highest_interval_busy_percent": 21.22844840472726,
+              "average_queue_depth": 0.5781049553938516,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            },
+            "sdd": {
+              "read_iops": 0.0,
+              "write_iops": 0.0,
+              "read_mib_per_second": 0.0,
+              "write_mib_per_second": 0.0,
+              "read_mean_ms": null,
+              "write_mean_ms": null,
+              "flush_iops": 0.0,
+              "flush_mean_ms": null,
+              "busy_percent": 0.0,
+              "highest_interval_busy_percent": 0.0,
+              "average_queue_depth": 0.0,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            },
+            "sdb": {
+              "read_iops": 1.4810545398646926,
+              "write_iops": 0.0,
+              "read_mib_per_second": 1.4810545398646926,
+              "write_mib_per_second": 0.0,
+              "read_mean_ms": 13.0,
+              "write_mean_ms": null,
+              "flush_iops": 0.0,
+              "flush_mean_ms": null,
+              "busy_percent": 1.974739386486257,
+              "highest_interval_busy_percent": 1.974739386486257,
+              "average_queue_depth": 0.019253709018241003,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            },
+            "sde": {
+              "read_iops": 0.4936848466215642,
+              "write_iops": 0.0,
+              "read_mib_per_second": 0.4936848466215642,
+              "write_mib_per_second": 0.0,
+              "read_mean_ms": 18.0,
+              "write_mean_ms": null,
+              "flush_iops": 0.0,
+              "flush_mean_ms": null,
+              "busy_percent": 0.8886327239188155,
+              "highest_interval_busy_percent": 0.8886327239188155,
+              "average_queue_depth": 0.00839264239256659,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            },
+            "sdc": {
+              "read_iops": 0.0,
+              "write_iops": 0.0,
+              "read_mib_per_second": 0.0,
+              "write_mib_per_second": 0.0,
+              "read_mean_ms": null,
+              "write_mean_ms": null,
+              "flush_iops": 0.0,
+              "flush_mean_ms": null,
+              "busy_percent": 0.0,
+              "highest_interval_busy_percent": 0.0,
+              "average_queue_depth": 0.0,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            },
+            "sda": {
+              "read_iops": 0.0,
+              "write_iops": 0.0,
+              "read_mib_per_second": 0.0,
+              "write_mib_per_second": 0.0,
+              "read_mean_ms": null,
+              "write_mean_ms": null,
+              "flush_iops": 0.0,
+              "flush_mean_ms": null,
+              "busy_percent": 0.0,
+              "highest_interval_busy_percent": 0.0,
+              "average_queue_depth": 0.0,
+              "sampled_peak_in_flight": 0,
+              "large_write_time_intervals": [],
+              "write_time_requires_investigation": false
+            }
+          },
+          "io_pressure_percent": {
+            "some": 0.6472702024055328,
+            "full": 0.6274240715713459
+          },
+          "cpu_iowait_percent": 0.4837702871410737,
+          "process_cpu_percent": {
+            "redis-server": 0.4936848466215642
+          }
+        }
+      }
+    }
+  ]
+}

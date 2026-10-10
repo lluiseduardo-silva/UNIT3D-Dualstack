@@ -1,0 +1,272 @@
+{
+  "name": "rust-original-calibration-v2",
+  "status": "passed",
+  "reason": null,
+  "load": {
+    "accepted": 720000,
+    "audit": {
+      "credit": 72000000,
+      "mismatches": 0,
+      "peer_ips_role": "static_compatibility_fixture",
+      "peers": 10000,
+      "users": 250
+    },
+    "drain_seconds": 3.8101556559995515,
+    "elapsed_seconds": 94.12615270000242,
+    "error_details": [],
+    "errors": 0,
+    "numwant": 10,
+    "phases": [
+      {
+        "accepted": 240000,
+        "at": 1791582266.6654298,
+        "completed_rps": 7999.966666666666,
+        "elapsed": 30.0008966329915,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 240000,
+            "max": 16.620852999039926,
+            "p50": 0.14454861576256625,
+            "p95": 0.20925609386433452,
+            "p99": 0.31354429743212886
+          },
+          "queue_ms": {
+            "count": 240000,
+            "max": 15.711332991486415,
+            "p50": 0.07874315914494368,
+            "p95": 0.14252613658448327,
+            "p99": 0.8493327538373704
+          },
+          "response_ms": {
+            "count": 240000,
+            "max": 16.607216995907947,
+            "p50": 0.13057284151324722,
+            "p95": 0.1917453241167874,
+            "p99": 0.2934643357027359
+          },
+          "total_ms": {
+            "count": 240000,
+            "max": 17.777054992620833,
+            "p50": 0.2313573098709273,
+            "p95": 0.3182956325927957,
+            "p99": 2.3092894092648044
+          }
+        },
+        "phase": "warmup",
+        "seconds": 30,
+        "window": 0
+      },
+      {
+        "accepted": 480000,
+        "at": 1791582326.8078067,
+        "completed_rps": 7999.966666666666,
+        "elapsed": 60.00088322800002,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 480000,
+            "max": 16.70284499414265,
+            "p50": 0.14469416437832883,
+            "p95": 0.21393062242499297,
+            "p99": 0.3244171598040113
+          },
+          "queue_ms": {
+            "count": 480000,
+            "max": 16.97341600083746,
+            "p50": 0.07732132792851788,
+            "p95": 0.14181065378022353,
+            "p99": 1.2584512369957477
+          },
+          "response_ms": {
+            "count": 480000,
+            "max": 16.668388998368755,
+            "p50": 0.13017891111199906,
+            "p95": 0.19544063224497682,
+            "p99": 0.30455793693614425
+          },
+          "total_ms": {
+            "count": 480000,
+            "max": 18.231235997518525,
+            "p50": 0.23112518468624105,
+            "p95": 0.32279494389552615,
+            "p99": 2.935601270007855
+          }
+        },
+        "phase": "measurement",
+        "seconds": 60,
+        "window": 1
+      }
+    ],
+    "reason": null,
+    "sample_count": 720000,
+    "sample_queue_peak": 1,
+    "source_families": [
+      4
+    ],
+    "status": "passed",
+    "variant": "original"
+  },
+  "windows": 1,
+  "roles": {
+    "tracker": {
+      "samples": 20,
+      "failures": [],
+      "processes": {
+        "102908": {
+          "name": "unit3d-announce",
+          "first_pss": 10719232,
+          "first_rss": 10223616,
+          "first_cpu_ticks": 7,
+          "first_at": 1791582234.7301004,
+          "max_pss": 32133120,
+          "max_rss": 31641600,
+          "last_pss": 28745728,
+          "last_rss": 28459008,
+          "last_cpu_ticks": 2844,
+          "last_at": 1791582330.2098923
+        },
+        "102930": {
+          "name": "python3",
+          "first_pss": 10104832,
+          "first_rss": 14811136,
+          "first_cpu_ticks": 3,
+          "first_at": 1791582234.7301004,
+          "max_pss": 10184704,
+          "max_rss": 14811136,
+          "last_pss": 10184704,
+          "last_rss": 14811136,
+          "last_cpu_ticks": 15,
+          "last_at": 1791582330.2098923
+        }
+      },
+      "min_ssd_free": 4367241216,
+      "min_archive_free": 280476647424,
+      "min_memory_available": 7680475136
+    },
+    "data": {
+      "samples": 20,
+      "failures": [],
+      "processes": {
+        "1502": {
+          "name": "mysqld",
+          "first_pss": 1677365248,
+          "first_rss": 1677074432,
+          "first_cpu_ticks": 3272058,
+          "first_at": 1791582235.5386114,
+          "max_pss": 1677365248,
+          "max_rss": 1677074432,
+          "last_pss": 1677365248,
+          "last_rss": 1677074432,
+          "last_cpu_ticks": 3273182,
+          "last_at": 1791582335.8961506
+        },
+        "1581": {
+          "name": "redis-server",
+          "first_pss": 10858496,
+          "first_rss": 10616832,
+          "first_cpu_ticks": 7686,
+          "first_at": 1791582235.5386114,
+          "max_pss": 10858496,
+          "max_rss": 10616832,
+          "last_pss": 10858496,
+          "last_rss": 10616832,
+          "last_cpu_ticks": 7696,
+          "last_at": 1791582335.8961506
+        },
+        "1743663": {
+          "name": "python3",
+          "first_pss": 11630592,
+          "first_rss": 18743296,
+          "first_cpu_ticks": 5,
+          "first_at": 1791582235.5386114,
+          "max_pss": 11843584,
+          "max_rss": 18743296,
+          "last_pss": 11843584,
+          "last_rss": 18743296,
+          "last_cpu_ticks": 60,
+          "last_at": 1791582335.8961506
+        },
+        "1745025": {
+          "name": "python3",
+          "first_pss": 12535808,
+          "first_rss": 20701184,
+          "first_cpu_ticks": 10,
+          "first_at": 1791582283.06079,
+          "max_pss": 12662784,
+          "max_rss": 20828160,
+          "last_pss": 12662784,
+          "last_rss": 20828160,
+          "last_cpu_ticks": 295,
+          "last_at": 1791582314.7463346
+        }
+      },
+      "min_ssd_free": 25280970752,
+      "min_archive_free": 280476647424,
+      "min_memory_available": 5969129472,
+      "max_archive_age": 50.30892324447632,
+      "max_closed_binlog_bytes": 1074205968
+    },
+    "clients": {
+      "samples": 21,
+      "failures": [],
+      "processes": {
+        "27105": {
+          "name": "python3",
+          "first_pss": 45649920,
+          "first_rss": 53817344,
+          "first_cpu_ticks": 106,
+          "first_at": 1791582237.757577,
+          "max_pss": 47752192,
+          "max_rss": 55914496,
+          "last_pss": 47752192,
+          "last_rss": 55914496,
+          "last_cpu_ticks": 6730,
+          "last_at": 1791582327.9123137
+        },
+        "27110": {
+          "name": "python3",
+          "first_pss": 9223168,
+          "first_rss": 14811136,
+          "first_cpu_ticks": 3,
+          "first_at": 1791582237.757577,
+          "max_pss": 10147840,
+          "max_rss": 14811136,
+          "last_pss": 10147840,
+          "last_rss": 14811136,
+          "last_cpu_ticks": 14,
+          "last_at": 1791582337.9282966
+        }
+      },
+      "min_ssd_free": 6451535872,
+      "min_archive_free": 280476647424,
+      "min_memory_available": 7762542592
+    }
+  },
+  "metric_scope": "measurement_only_excludes_warmup",
+  "backlog_unit": "estimated_100_byte_credit_steps_including_observer_delay",
+  "completed_rps": {
+    "min": 7999.966666666666,
+    "median": 7999.966666666666
+  },
+  "window_metrics_median": {
+    "response_ms": {
+      "p95": 0.19544063224497682,
+      "p99": 0.30455793693614425
+    },
+    "latency_ms": {
+      "p95": 0.21393062242499297,
+      "p99": 0.3244171598040113
+    },
+    "queue_ms": {
+      "p95": 0.14181065378022353,
+      "p99": 1.2584512369957477
+    },
+    "total_ms": {
+      "p95": 0.32279494389552615,
+      "p99": 2.935601270007855
+    }
+  },
+  "min_thin_free": 32845733455,
+  "max_observed_persistence_lag": 63980
+}

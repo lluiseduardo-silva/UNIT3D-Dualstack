@@ -1,0 +1,11 @@
+{"at": 1791554071.2530622, "accepted": 0, "errors": {}, "elapsed": 0, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645}}
+{"at": 1791554072.2540793, "accepted": 18, "errors": {}, "elapsed": 0.8522941650007851, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554073.2560947, "accepted": 38, "errors": {}, "elapsed": 1.8543095689965412, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554074.2578588, "accepted": 58, "errors": {}, "elapsed": 2.856073880000622, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554075.2595525, "accepted": 78, "errors": {}, "elapsed": 3.8577698439985397, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554076.2608757, "accepted": 98, "errors": {}, "elapsed": 4.859090883997851, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554077.263638, "accepted": 118, "errors": {}, "elapsed": 5.8618529140003375, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554078.2654858, "accepted": 138, "errors": {}, "elapsed": 6.863700805995904, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554079.267881, "accepted": 158, "errors": {}, "elapsed": 7.866095888995915, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554080.2688808, "accepted": 178, "errors": {}, "elapsed": 8.8670957860013, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}
+{"at": 1791554081.2706723, "accepted": 198, "errors": {}, "elapsed": 9.86888747500052, "blocker": {"connection": 32250, "acquired_at": 1791554071.2517645, "released_at": 1791554072.2532363}}

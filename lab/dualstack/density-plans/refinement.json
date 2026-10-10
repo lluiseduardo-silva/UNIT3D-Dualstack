@@ -1,0 +1,247 @@
+{
+  "name": "density-refinement-v1",
+  "sizes": [
+    50,
+    250,
+    20000,
+    25000,
+    30000,
+    40000
+  ],
+  "phases": [
+    {
+      "name": "refine-n50-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n250-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n20000-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n25000-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n30000-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n40000-r1",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n40000-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n30000-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n25000-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n20000-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n250-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n50-r2",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n40000-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            5
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n20000-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            2
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n25000-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            3
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n50-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            0
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n250-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            1
+          ],
+          "rate": 1000
+        }
+      }
+    },
+    {
+      "name": "refine-n30000-r3",
+      "warmup": 5,
+      "seconds": 30,
+      "groups": {
+        "target": {
+          "torrents": [
+            4
+          ],
+          "rate": 1000
+        }
+      }
+    }
+  ]
+}

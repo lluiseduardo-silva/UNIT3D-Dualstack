@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08",
+  "rust_commit": "a9ab263de2fe6473c86eeabfd0b6ca1c019f6070",
+  "database": "unit3d_dualstack_journal_test",
+  "status": "passed",
+  "library_tests": {"passed": 2, "failed": 0, "ignored": 0},
+  "mysql_contract": {"passed": 1, "failed": 0, "ignored": 0, "duration_seconds": 30.95},
+  "rust_deletion_contract": {"passed": 1, "failed": 0, "ignored": 0, "duration_seconds": 0.82},
+  "shared_contract": {"passed": 5, "failed": 0, "ignored": 0, "fixture_cases": 12, "fixture_operations": 51},
+  "network_and_protocol": {"passed": 19, "failed": 0, "ignored": 0},
+  "php_deletion_cleanup_journal": {"passed": 57, "failed": 0, "assertions": 746},
+  "checks": [
+    "identity and single accounting reference",
+    "out-of-order counters, retries, restart and partial stop",
+    "real SQL rollback and four concurrent publisher threads",
+    "endpoint expiry, bounded peers and zero SQL in response",
+    "retention, deletion, administrative views and generation fencing",
+    "real lock wait timeout and deadlock recovery",
+    "ordered maintenance and bounded identity index during replacements"
+  ],
+  "known_warning": "fetch_update deprecation in unchanged stats.rs",
+  "final_product_review": "diff matches approved direct per-torrent access; maintenance order and invariants preserved",
+  "full_performance_acceptance": false
+}

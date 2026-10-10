@@ -1,0 +1,21 @@
+{
+  "series": "density-throughput-writer-cadence200-v1",
+  "status": "failed_environment",
+  "mysql_error_at_utc": "2026-10-08T22:44:02.297889Z",
+  "mysql_error": "Disk is full writing './binlog.000013' (OS errno 28 - No space left on device)",
+  "rust_error": "Tempo limite de renovacao da lease excedido",
+  "vm": 121,
+  "host": "unit3d-ds-data",
+  "disk_before_gib": 16,
+  "disk_after_gib": 24,
+  "filesystem_usage_before_percent": 100,
+  "filesystem_free_after_gib_rounded": 7.8,
+  "mysql_volume_gib_rounded": 11,
+  "mysql_restarted": false,
+  "mysql_oom_killed": false,
+  "durability_settings_changed": false,
+  "logs_purged": false,
+  "first_phase_passed": true,
+  "final_accounting_certified": false,
+  "repeat": "density-throughput-writer-cadence200-v2"
+}

@@ -1,0 +1,12 @@
+{
+  "role": "data",
+  "redirects": [
+    {
+      "directory": "results",
+      "files_verified": 4,
+      "backup": "/opt/unit3d-dualstack/results.before-zfs",
+      "destination": "/mnt/unit3d-archive/results"
+    }
+  ]
+}
+{"role":"data","ssd_fallback_blocked":true,"remounted":true}

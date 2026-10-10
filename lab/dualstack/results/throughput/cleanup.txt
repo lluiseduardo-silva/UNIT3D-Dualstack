@@ -1,0 +1,3 @@
+Aliases deste ensaio removidos.
+{"remaining_temporary_addresses": 0, "namespaces": 0, "source_state_file_exists": false}
+State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess

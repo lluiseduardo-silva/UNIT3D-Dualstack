@@ -1,0 +1,10 @@
+{
+  "status": "rotation_recovered_without_io",
+  "inventory_attempts": 2,
+  "queries": [
+    "SHOW BINARY LOGS;",
+    "SHOW MASTER STATUS;",
+    "SHOW BINARY LOGS;",
+    "SHOW MASTER STATUS;"
+  ]
+}

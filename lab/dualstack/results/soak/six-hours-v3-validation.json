@@ -1,0 +1,33 @@
+{
+  "name": "soak-rust-six-hours-v3",
+  "status": "passed",
+  "scope": "Rust candidato no perfil de seis horas; nao aprova PHP, producao ou comparativo original/candidato",
+  "checks": {
+    "supervisor_and_drain_passed": true,
+    "duration_at_least_six_hours": true,
+    "zero_response_errors": true,
+    "all_samples_verified": true,
+    "all_sample_segments": true,
+    "all_accepted_credit_persisted": true,
+    "zero_individual_mismatches": true,
+    "expected_peers_and_endpoint_bound": true,
+    "one_endpoint_per_family_final": true,
+    "expiry_and_restoration": true,
+    "expiry_extra_version_restricted": true,
+    "owner_released_and_aliases_removed": true,
+    "all_windows_at_least_95_percent_offered_rate": true,
+    "observer_guards_clear": true,
+    "mysql_no_restart_or_failed_jobs": true,
+    "archive_healthy": true,
+    "final_observed_lag_zero": true
+  },
+  "caveats": [
+    "89.007 versoes de diferenca amostrada transitoria; inclui defasagem do observador, nao mede backlog interno exato",
+    "pico Rust RSS 125,31 MiB retornou a 32,89 MiB; sem crescimento sustentado observado",
+    "janela 20 com p99 de espera no gerador 211,05 ms; p99 de resposta 0,626 ms",
+    "checagem de conectividade desativada; nao avalia seu cache",
+    "causa fisica da pausa historica de IO nao isolada",
+    "fila de transicoes permanece volatil antes do commit"
+  ],
+  "automation_status": "PAUSED"
+}

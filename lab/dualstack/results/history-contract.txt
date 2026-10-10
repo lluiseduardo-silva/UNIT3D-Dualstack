@@ -1,0 +1,29 @@
+
+   PASS  Tests\Integration\DualstackHistoryContractTest
+  ✓ it executa contrato compartilhado de historico e seedtime sem multi… 0.31s
+
+  Tests:    1 passed (258 assertions)
+  Duration: 0.43s
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+     Running tests/dualstack_history.rs (target/release/deps/dualstack_history-51d38028c9b2a77a)
+
+running 1 test
+PASS contrato compartilhado: 23 operacoes, seedtime 251, uma conclusao e historico unico
+test shared_history_contract ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.21s

@@ -1,0 +1,190 @@
+{
+  "recorded_at_utc": "2026-10-08T14:28:24.138588+00:00",
+  "root_cause": "libtorrent 2.0.10 binds AF_INET 0.0.0.0 to AF_INET6 peer socket after SO_BINDTODEVICE succeeds for interface name; kernel returns EINVAL before connect",
+  "diagnostics": [
+    {
+      "run": "diagnosis-explicit-20261008T141912",
+      "variant": "explicit",
+      "last_status": {
+        "progress": 1,
+        "downloaded": 16775127,
+        "state": "stalledUP"
+      },
+      "elapsed_to_complete": 26.856577894999646,
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "fd42:756e:6974:92::41",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "manual_handshake": {
+        "at": 1791469175.216598,
+        "diagnostic_only": true,
+        "tcp_connected": true,
+        "bittorrent_handshake": true,
+        "remote_peer_id": "2d5452343035302d79667330356a70306c363072"
+      },
+      "invalid_ipv4_bind": [],
+      "ipv6_peer_connects": [
+        "22977 connect(15, {sa_family=AF_INET6, sin6_port=htons(6881), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::40\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)"
+      ]
+    },
+    {
+      "run": "diagnosis-original-20261008T141705",
+      "variant": "original",
+      "last_status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "elapsed_to_complete": null,
+      "sha256": null,
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "manual_handshake": {
+        "at": 1791469047.3716445,
+        "diagnostic_only": true,
+        "tcp_connected": true,
+        "bittorrent_handshake": true,
+        "remote_peer_id": "2d5452343035302d327636656d6c366e3776796a"
+      },
+      "invalid_ipv4_bind": [
+        "22301 bind(15, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr(\"0.0.0.0\")}, 16) = -1 EINVAL (Invalid argument)"
+      ],
+      "ipv6_peer_connects": []
+    },
+    {
+      "run": "diagnosis-original-20261008T142417",
+      "variant": "original",
+      "last_status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "elapsed_to_complete": null,
+      "sha256": null,
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "manual_handshake": {
+        "at": 1791469479.752283,
+        "diagnostic_only": true,
+        "tcp_connected": true,
+        "bittorrent_handshake": true,
+        "remote_peer_id": "2d5452343035302d6478787a6463383378733779"
+      },
+      "invalid_ipv4_bind": [
+        "24202 bind(13, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr(\"0.0.0.0\")}, 16) = -1 EINVAL (Invalid argument)"
+      ],
+      "ipv6_peer_connects": []
+    },
+    {
+      "run": "diagnosis-unbound-20261008T141810",
+      "variant": "unbound",
+      "last_status": {
+        "progress": 1,
+        "downloaded": 16777216,
+        "state": "stalledUP"
+      },
+      "elapsed_to_complete": 27.89546616000007,
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+      "preferences": {
+        "current_network_interface": "",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "manual_handshake": {
+        "at": 1791469112.8945503,
+        "diagnostic_only": true,
+        "tcp_connected": true,
+        "bittorrent_handshake": true,
+        "remote_peer_id": "2d5452343035302d337038393665746535377278"
+      },
+      "invalid_ipv4_bind": [],
+      "ipv6_peer_connects": [
+        "22686 connect(19, {sa_family=AF_INET6, sin6_port=htons(6881), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::40\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)"
+      ]
+    },
+    {
+      "run": "diagnosis-unbound-20261008T142648",
+      "variant": "unbound",
+      "last_status": {
+        "progress": 1,
+        "downloaded": 16775283,
+        "state": "stalledUP"
+      },
+      "elapsed_to_complete": 27.906443113999558,
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+      "preferences": {
+        "current_network_interface": "",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "manual_handshake": {
+        "at": 1791469631.008359,
+        "diagnostic_only": true,
+        "tcp_connected": true,
+        "bittorrent_handshake": true,
+        "remote_peer_id": "2d5452343035302d356961366930306d32646c74"
+      },
+      "invalid_ipv4_bind": [],
+      "ipv6_peer_connects": [
+        "24568 connect(18, {sa_family=AF_INET6, sin6_port=htons(6881), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::40\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)"
+      ]
+    }
+  ],
+  "regression": [
+    {
+      "case": "qbit-transmission-v4",
+      "status": "passed",
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020"
+    },
+    {
+      "case": "qbit-transmission-v6",
+      "status": "passed",
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020"
+    },
+    {
+      "case": "transmission-qbit-v4",
+      "status": "passed",
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020"
+    },
+    {
+      "case": "transmission-qbit-v6",
+      "status": "passed",
+      "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020"
+    }
+  ],
+  "namespaces_after_cleanup": [],
+  "client_processes_after_cleanup": []
+}

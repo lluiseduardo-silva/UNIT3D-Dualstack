@@ -1,0 +1,47 @@
+{
+  "name": "density-smoke-v1",
+  "sizes": [
+    50,
+    150
+  ],
+  "phases": [
+    {
+      "name": "mixed-r1",
+      "warmup": 2,
+      "seconds": 5,
+      "groups": {
+        "probe": {
+          "torrents": [
+            0
+          ],
+          "rate": 100
+        },
+        "dense": {
+          "torrents": [
+            1
+          ],
+          "rate": 400
+        }
+      }
+    },
+    {
+      "name": "mixed-r2",
+      "warmup": 2,
+      "seconds": 5,
+      "groups": {
+        "probe": {
+          "torrents": [
+            0
+          ],
+          "rate": 100
+        },
+        "dense": {
+          "torrents": [
+            1
+          ],
+          "rate": 400
+        }
+      }
+    }
+  ]
+}

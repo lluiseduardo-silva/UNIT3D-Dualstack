@@ -1,0 +1,140 @@
+
+refund {"torrents":1,"families":[4],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":1,"families":[6],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":1,"families":[4,6],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":2,"families":[4],"expected_downloaded":8000,"actual_downloaded":9000,"history_refunded":2000}
+
+refund {"torrents":2,"families":[6],"expected_downloaded":8000,"actual_downloaded":9000,"history_refunded":2000}
+
+refund {"torrents":2,"families":[4,6],"expected_downloaded":8000,"actual_downloaded":9000,"history_refunded":2000}
+
+   FAIL  Tests\Integration\DualstackSiteConsumersTest
+  ⨯ it mantem estatisticas por peer e torrent independentemente das fam… 0.04s
+  ⨯ it mantem estatisticas por peer e torrent independentemente das fam… 0.01s
+  ⨯ it mantem estatisticas por peer e torrent independentemente das fam… 0.01s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.05s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.02s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.01s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.01s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.01s
+  ⨯ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.01s
+  ⨯ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.01s
+  ⨯ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it…  QueryException
+  SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'unit3d_dualstack_journal_test.peers.agent' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by (Connection: mysql, SQL: select `agent`, SUBSTRING_INDEX(SUBSTRING_INDEX(agent, '/', 1), ' ', 1) AS prefix, COUNT(DISTINCT torrent_id) AS single_seed_count from `peers` where `active` = 1 and `visible` = 1 and `torrent_id` in (select `torrent_id` from `peers` where `active` = 1 and `visible` = 1 group by `torrent_id` having COUNT(*) = 1) group by `prefix` order by `prefix` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:406
+    402▕             // For select statements, we'll simply execute the query and return an array
+    403▕             // of the database result set. Each element in the array will be a single
+    404▕             // row from the database table, and will either be an array or objects.
+    405▕             $statement = $this->prepared(
+  ➜ 406▕                 $this->getPdoForSelect($useReadPdo)->prepare($query)
+    407▕             );
+    408▕
+    409▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+    410▕
+
+      [2m+10 vendor frames [22m
+  11  app/Http/Controllers/StatsController.php:377
+      [2m+3 vendor frames [22m
+  15  app/Http/Controllers/StatsController.php:355
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it…  QueryException
+  SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'unit3d_dualstack_journal_test.peers.agent' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by (Connection: mysql, SQL: select `agent`, SUBSTRING_INDEX(SUBSTRING_INDEX(agent, '/', 1), ' ', 1) AS prefix, COUNT(DISTINCT torrent_id) AS single_seed_count from `peers` where `active` = 1 and `visible` = 1 and `torrent_id` in (select `torrent_id` from `peers` where `active` = 1 and `visible` = 1 group by `torrent_id` having COUNT(*) = 1) group by `prefix` order by `prefix` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:406
+    402▕             // For select statements, we'll simply execute the query and return an array
+    403▕             // of the database result set. Each element in the array will be a single
+    404▕             // row from the database table, and will either be an array or objects.
+    405▕             $statement = $this->prepared(
+  ➜ 406▕                 $this->getPdoForSelect($useReadPdo)->prepare($query)
+    407▕             );
+    408▕
+    409▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+    410▕
+
+      [2m+10 vendor frames [22m
+  11  app/Http/Controllers/StatsController.php:377
+      [2m+3 vendor frames [22m
+  15  app/Http/Controllers/StatsController.php:355
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it…  QueryException
+  SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'unit3d_dualstack_journal_test.peers.agent' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by (Connection: mysql, SQL: select `agent`, SUBSTRING_INDEX(SUBSTRING_INDEX(agent, '/', 1), ' ', 1) AS prefix, COUNT(DISTINCT torrent_id) AS single_seed_count from `peers` where `active` = 1 and `visible` = 1 and `torrent_id` in (select `torrent_id` from `peers` where `active` = 1 and `visible` = 1 group by `torrent_id` having COUNT(*) = 1) group by `prefix` order by `prefix` asc)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:406
+    402▕             // For select statements, we'll simply execute the query and return an array
+    403▕             // of the database result set. Each element in the array will be a single
+    404▕             // row from the database table, and will either be an array or objects.
+    405▕             $statement = $this->prepared(
+  ➜ 406▕                 $this->getPdoForSelect($useReadPdo)->prepare($query)
+    407▕             );
+    408▕
+    409▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+    410▕
+
+      [2m+10 vendor frames [22m
+  11  app/Http/Controllers/StatsController.php:377
+      [2m+3 vendor frames [22m
+  15  app/Http/Controllers/StatsController.php:355
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it reembolsa o his…
+  Failed asserting that 9000 is identical to 8000.
+
+  at tests/Integration/DualstackSiteConsumersTest.php:131
+    127▕     $actual = (int) $this->user->fresh()->downloaded;
+    128▕     $refunded = (int) DB::table('history')->sum('refunded_download');
+    129▕     fwrite(STDOUT, "\nrefund ".json_encode(['torrents' => $torrents, 'families' => $families,
+    130▕         'expected_downloaded'                          => $expected, 'actual_downloaded' => $actual, 'history_refunded' => $refunded])."\n");
+  ➜ 131▕     expect($actual)->toBe($expected)->and($refunded)->toBe($torrents * 1000);
+    132▕     expect(app(Kernel::class)->call('auto:refund_download'))->toBe(0);
+    133▕     expect((int) $this->user->fresh()->downloaded)->toBe($expected);
+    134▕ })->with(['um torrent' => 1, 'dois torrents' => 2])->with(['ipv4' => [[4]], 'ipv6' => [[6]], 'dualstack' => [[4, 6]]]);
+    135▕
+
+  1   tests/Integration/DualstackSiteConsumersTest.php:131
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it reembolsa o his…
+  Failed asserting that 9000 is identical to 8000.
+
+  at tests/Integration/DualstackSiteConsumersTest.php:131
+    127▕     $actual = (int) $this->user->fresh()->downloaded;
+    128▕     $refunded = (int) DB::table('history')->sum('refunded_download');
+    129▕     fwrite(STDOUT, "\nrefund ".json_encode(['torrents' => $torrents, 'families' => $families,
+    130▕         'expected_downloaded'                          => $expected, 'actual_downloaded' => $actual, 'history_refunded' => $refunded])."\n");
+  ➜ 131▕     expect($actual)->toBe($expected)->and($refunded)->toBe($torrents * 1000);
+    132▕     expect(app(Kernel::class)->call('auto:refund_download'))->toBe(0);
+    133▕     expect((int) $this->user->fresh()->downloaded)->toBe($expected);
+    134▕ })->with(['um torrent' => 1, 'dois torrents' => 2])->with(['ipv4' => [[4]], 'ipv6' => [[6]], 'dualstack' => [[4, 6]]]);
+    135▕
+
+  1   tests/Integration/DualstackSiteConsumersTest.php:131
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackSiteConsumersTest > it reembolsa o his…
+  Failed asserting that 9000 is identical to 8000.
+
+  at tests/Integration/DualstackSiteConsumersTest.php:131
+    127▕     $actual = (int) $this->user->fresh()->downloaded;
+    128▕     $refunded = (int) DB::table('history')->sum('refunded_download');
+    129▕     fwrite(STDOUT, "\nrefund ".json_encode(['torrents' => $torrents, 'families' => $families,
+    130▕         'expected_downloaded'                          => $expected, 'actual_downloaded' => $actual, 'history_refunded' => $refunded])."\n");
+  ➜ 131▕     expect($actual)->toBe($expected)->and($refunded)->toBe($torrents * 1000);
+    132▕     expect(app(Kernel::class)->call('auto:refund_download'))->toBe(0);
+    133▕     expect((int) $this->user->fresh()->downloaded)->toBe($expected);
+    134▕ })->with(['um torrent' => 1, 'dois torrents' => 2])->with(['ipv4' => [[4]], 'ipv6' => [[6]], 'dualstack' => [[4, 6]]]);
+    135▕
+
+  1   tests/Integration/DualstackSiteConsumersTest.php:131
+
+
+  Tests:    6 failed, 6 passed (108 assertions)
+  Duration: 0.36s

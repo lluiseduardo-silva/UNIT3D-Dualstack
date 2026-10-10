@@ -1,0 +1,3 @@
+{"dependency_versions_verified": {"composer.lock": {"original": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2", "candidate": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2"}, "Cargo.lock": {"original": "5063cac010a332a09bbf43d0f17d2cae102a4a45146c3e03e034850f431d1668", "candidate": "6339fdcf4144d74bb42038892cf8c9814c4f7ba663afac9d9e641780f2f7378e"}}, "rust_change": "existing serde_json becomes direct"}
+unit3d-ds-rust
+unit3d-ds-rust

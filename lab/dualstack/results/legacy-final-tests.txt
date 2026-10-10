@@ -1,0 +1,51 @@
+PASS preflight sem journal de handoff pendente
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+
+   PASS  Tests\Integration\DualstackLegacyTest
+  ✓ it exige preparacao offline explicita e preserva o bloqueio ao repe… 0.09s
+  ✓ it recusa proprietario ativo e journal ainda nao certificado         0.05s
+  ✓ it preserva filas legadas pendentes e recusa manutencao with ('peer… 0.04s
+  ✓ it preserva filas legadas pendentes e recusa manutencao with ('hist… 0.04s
+  ✓ it preserva filas legadas pendentes e recusa manutencao with ('anno… 0.03s
+  ✓ it recusa journal e remocoes pendentes sem apagar trabalho           0.04s
+  ✓ it recusa jobs prontos reservados e atrasados na fila real with (''… 0.03s
+  ✓ it recusa jobs prontos reservados e atrasados na fila real with (':… 0.03s
+  ✓ it recusa jobs prontos reservados e atrasados na fila real with (':… 0.04s
+  ✓ it exclui outra manutencao em conexao MySQL independente             0.04s
+  ✓ it reconstroi peers versionados sem alterar contabilidade e retoma…  0.15s
+  ✓ it mantem bloqueio apos falha parcial e retoma em lotes sem ressusc… 0.09s
+  ✓ it interrompe a reconciliacao se perder a conexao que possui a excl… 0.07s
+
+   PASS  Tests\Integration\DualstackJournalTest
+  ✓ it certifica drenagem somente depois de fechar produtores e reconhe… 0.08s
+  ✓ it nao permite que uma geracao antiga certifique a nova como drenad… 0.03s
+  ✓ it nao certifica drenagem enquanto houver filas legadas              0.02s
+  ✓ it confirma referencias e credito juntos e tolera reentrega depois…  0.03s
+  ✓ it recusa fila cheia antes de avancar a referencia e preserva uint6… 0.04s
+  ✓ it aplica limites ao peer logico e ao endpoint separadamente         0.04s
+  ✓ it deduplica conclusao por usuario torrent e preserva historico no…  0.03s
+  ✓ it recusa dois proprietarios e recupera ambos endpoints e credito e… 0.08s
+  ✓ it calcula credito com quatro processos disputando a mesma referenc… 0.08s
+  ✓ it recupera um lote interrompido antes do commit sem avancar SQL pa… 0.04s
+  ✓ it expira somente a familia vencida depois da recuperacao            0.08s
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.05s
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.05s
+  ✓ it persiste lotes sobrepostos em dois processos sem deadlock ou cre… 0.07s
+  ✓ it limita peers logicos na resposta sem truncar contadores ou perde… 0.04s
+  ✓ it retira somente peers confirmados e preserva uma reativacao pende… 0.08s
+  ✓ it verifica TCP por familia sem desconectar o caminho valido         0.05s
+  ✓ it limita o cache de conectividade durante rotacao de portas         0.12s
+  ✓ it recupera mensagens nao confirmadas e bloqueia o proprietario ven… 0.07s
+  ✓ it recusa announce sem heartbeat antes de alterar referencia ou jou… 0.02s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.08s
+
+  Tests:    40 passed (593 assertions)
+  Duration: 2.30s
+
+DUALSTACK_LEGACY_RECONCILIATION_PASSED

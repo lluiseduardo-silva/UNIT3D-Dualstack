@@ -1,0 +1,39 @@
+{
+  "rust_config": {
+    "LISTENING_IP_ADDRESS": "127.0.0.1",
+    "LISTENING_PORT": "6969",
+    "DUALSTACK_ENABLED": "true",
+    "DUALSTACK_TRUSTED_PROXIES": "127.0.0.1/32",
+    "REVERSE_PROXY_CLIENT_IP_HEADER_NAME": "X-Real-IP",
+    "DUALSTACK_CONNECTIVITY_CACHE_ENTRIES": "16",
+    "DUALSTACK_CONNECTIVITY_CACHE_TTL": "2",
+    "PEER_EXPIRY_INTERVAL": "3",
+    "IS_CONNECTIVITY_CHECK_ENABLED": "true",
+    "REQUIRE_PEER_CONNECTIVITY": "true",
+    "IS_ANNOUNCE_LOGGING_ENABLED": "false"
+  },
+  "observer": {
+    "product": "a0b448b667f756318200f17fda3e4fc6f2c3b75528c24a9ec9c0dfab80174659",
+    "observed": "8cae998eb9ef751ab76193e8d0e010ef811a87cd64775cd1af3f954c4479ac93",
+    "changed": [
+      "src/dualstack_network.rs",
+      "src/main.rs"
+    ],
+    "product_binary": "8b825a1afb418f237803d5306abb0b57c2340ecb4b9f5871bc61dd290f3e4ace"
+  },
+  "product_sources": "a0b448b667f756318200f17fda3e4fc6f2c3b75528c24a9ec9c0dfab80174659",
+  "php_hashes_lf": {
+    "app/Http/Kernel.php": "2b8c2bb2bd116cbef229aca032de7d50603e1831cd4a77deb9b0787df602e516",
+    "app/Http/Middleware/TrustProxies.php": "983e11ef76767e11f233f7e9c9bb5695a5369920728a4f5b0bf00cff7e767de6",
+    "tests/Integration/DualstackProxyTest.php": "819cc681619df6687912119fa21c2b4287298a005d131c973de056964dc91f16"
+  },
+  "binaries": {
+    "repos/UNIT3D-Announce/target/release/unit3d-announce": "8b825a1afb418f237803d5306abb0b57c2340ecb4b9f5871bc61dd290f3e4ace",
+    "experiments/network-memory/target/release/unit3d-announce": "f425b7dbea781695e3b4981bd4303c5e6fa95d1a9ca59c8a3341e92205027f5e"
+  },
+  "certificate": [
+    "sha256 Fingerprint=99:88:87:43:06:03:1B:35:2D:AC:D8:3B:ED:EF:00:2D:0F:9D:04:23:3B:BA:46:5D:12:5F:C9:90:FC:44:6E:D0",
+    "notBefore=Oct  9 00:44:10 2026 GMT",
+    "notAfter=Oct 16 00:44:10 2026 GMT"
+  ]
+}

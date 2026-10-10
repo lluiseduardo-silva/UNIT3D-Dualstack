@@ -1,0 +1,6 @@
+# Preserve os bytes das novas evidências; saídas de ferramentas podem acabar em linha vazia.
+v3-* -text whitespace=-blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+rehearsal-v3-* -text whitespace=-blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+six-hours-v3-* -text whitespace=-blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+soak-rehearsal-v3/** -text whitespace=-blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+six-hours-v2-checkpoint-preserved.json -text whitespace=-blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof

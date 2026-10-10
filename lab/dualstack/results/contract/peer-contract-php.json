@@ -1,0 +1,4542 @@
+{
+    "version": 1,
+    "steps": [
+        {
+            "case": "contabilidade alternada sem regressao",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "contabilidade alternada sem regressao",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "contabilidade alternada sem regressao",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "contabilidade alternada sem regressao",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1003
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1003,
+                        "6": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1003
+                    },
+                    "state_version": 4,
+                    "updated_at": 1003,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "contabilidade alternada sem regressao",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1200",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1004
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1004,
+                        "6": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1004
+                    },
+                    "state_version": 5,
+                    "updated_at": 1004,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ordem ipv6 ipv4",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "6": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ordem ipv6 ipv4",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "6": 1000,
+                        "4": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop parcial repetido e porta zero",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop parcial repetido e porta zero",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop parcial repetido e porta zero",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop parcial repetido e porta zero",
+            "operation": 3,
+            "transition": {
+                "outcome": "ignored",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop parcial repetido e porta zero",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1200",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {},
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1004
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 4,
+                    "updated_at": 1004,
+                    "active": false,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "substituicao de ipv6 e stop antigo",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "substituicao de ipv6 e stop antigo",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "substituicao de ipv6 e stop antigo",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 3,
+                            "created_at": 1002,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "substituicao de ipv6 e stop antigo",
+            "operation": 3,
+            "transition": {
+                "outcome": "ignored",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 3,
+                            "created_at": 1002,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "substituicao de ipv6 e stop antigo",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6999,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 4,
+                            "created_at": 1004,
+                            "last_announced_at": 1004
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1004
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 4,
+                    "updated_at": 1004,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "limite um nao expulsa endpoint",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "limite um nao expulsa endpoint",
+            "operation": 1,
+            "transition": {
+                "outcome": "rejected",
+                "reason": "endpoint_limit",
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "limite um nao expulsa endpoint",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1002,
+                            "last_announced_at": 1002
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.2",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1002,
+                        "last_announced_at": 1002
+                    },
+                    "state_version": 2,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {},
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 6,
+                        "ip": "2001:db8::1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 2,
+                        "created_at": 1001,
+                        "last_announced_at": 1001
+                    },
+                    "state_version": 4,
+                    "updated_at": 1003,
+                    "active": false,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 5,
+                            "created_at": 1004,
+                            "last_announced_at": 1004
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1004
+                    },
+                    "session_generation": 2,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1004,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 5,
+                        "created_at": 1004,
+                        "last_announced_at": 1004
+                    },
+                    "state_version": 5,
+                    "updated_at": 1004,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 5,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 5,
+                            "created_at": 1004,
+                            "last_announced_at": 1004
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 6,
+                            "created_at": 1005,
+                            "last_announced_at": 1005
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1004,
+                        "6": 1005
+                    },
+                    "session_generation": 2,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1004,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 5,
+                        "created_at": 1004,
+                        "last_announced_at": 1004
+                    },
+                    "state_version": 6,
+                    "updated_at": 1005,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "reinicio somente apos ultimo stop",
+            "operation": 6,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "200",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 5,
+                            "created_at": 1004,
+                            "last_announced_at": 1004
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 6,
+                            "created_at": 1005,
+                            "last_announced_at": 1006
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1004,
+                        "6": 1006
+                    },
+                    "session_generation": 2,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1004,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 5,
+                        "created_at": 1004,
+                        "last_announced_at": 1004
+                    },
+                    "state_version": 7,
+                    "updated_at": 1006,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ipv4 nao renova prazo ipv6",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ipv4 nao renova prazo ipv6",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ipv4 nao renova prazo ipv6",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 7000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 7000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 7000
+                    },
+                    "state_version": 3,
+                    "updated_at": 7000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ipv4 nao renova prazo ipv6",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 7000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 7000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 7000
+                    },
+                    "state_version": 4,
+                    "updated_at": 8201,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "ipv4 nao renova prazo ipv6",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {},
+                    "last_announces": {
+                        "4": 7000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 7000
+                    },
+                    "state_version": 5,
+                    "updated_at": 14200,
+                    "active": false,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "conclusao duplicada",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "conclusao duplicada",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "conclusao duplicada",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "1000",
+                    "left": "0",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1002
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": true,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1002
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": true,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "1000",
+                "completed_delta": 1
+            },
+            "counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "conclusao duplicada",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "1000",
+                    "left": "0",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1002
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1003
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": true,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1002
+                    },
+                    "state_version": 4,
+                    "updated_at": 1003,
+                    "active": true,
+                    "seeder": true,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "conclusao duplicada",
+            "operation": 4,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "1000",
+                    "left": "0",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1004
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1003
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1004,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": true,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1004
+                    },
+                    "state_version": 5,
+                    "updated_at": 1004,
+                    "active": true,
+                    "seeder": true,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 1,
+                "leechers": 0,
+                "seeders_ipv4": 1,
+                "seeders_ipv6": 1,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "intervalo por familia sobrevive troca ip",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "intervalo por familia sobrevive troca ip",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "intervalo por familia sobrevive troca ip",
+            "operation": 2,
+            "transition": {
+                "outcome": "rejected",
+                "reason": "interval",
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "intervalo por familia sobrevive troca ip",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1100",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 3,
+                            "created_at": 2800,
+                            "last_announced_at": 2800
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 2800,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.2",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 3,
+                        "created_at": 2800,
+                        "last_announced_at": 2800
+                    },
+                    "state_version": 3,
+                    "updated_at": 2800,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "100",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "precisao acima de dois elevado a 53",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "9007199254740993",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "precisao acima de dois elevado a 53",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "9007199254741000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "7",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "precisao acima de dois elevado a 53",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "9007199254741000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1002
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1002,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1002
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "stop desconhecido nao cria peer",
+            "operation": 0,
+            "transition": {
+                "outcome": "ignored",
+                "reason": null,
+                "peer": null,
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 0,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 1,
+                    "updated_at": 1000,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 1,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": null,
+                        "connectivity_checked_at": null,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 2,
+                    "updated_at": 1001,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": false
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 0,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 0,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 2,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": true,
+                            "connectivity_checked_at": 1002,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::1",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 2,
+                            "created_at": 1001,
+                            "last_announced_at": 1001
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1001
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": true,
+                        "connectivity_checked_at": 1002,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 3,
+                    "updated_at": 1002,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": true
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 3,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": true,
+                            "connectivity_checked_at": 1002,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 4,
+                            "created_at": 1003,
+                            "last_announced_at": 1003
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": true,
+                        "connectivity_checked_at": 1002,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 4,
+                    "updated_at": 1003,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": true
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 4,
+            "transition": {
+                "outcome": "ignored",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": true,
+                            "connectivity_checked_at": 1002,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6881,
+                            "connectable": null,
+                            "connectivity_checked_at": null,
+                            "revision": 4,
+                            "created_at": 1003,
+                            "last_announced_at": 1003
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": true,
+                        "connectivity_checked_at": 1002,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 4,
+                    "updated_at": 1003,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": true
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            }
+        },
+        {
+            "case": "checagem atrasada e falha independente",
+            "operation": 5,
+            "transition": {
+                "outcome": "accepted",
+                "reason": null,
+                "peer": {
+                    "uploaded": "1000",
+                    "downloaded": "0",
+                    "left": "1000",
+                    "agent": "fixture",
+                    "visible": true,
+                    "endpoints": {
+                        "4": {
+                            "family": 4,
+                            "ip": "192.0.2.1",
+                            "port": 6881,
+                            "connectable": true,
+                            "connectivity_checked_at": 1002,
+                            "revision": 1,
+                            "created_at": 1000,
+                            "last_announced_at": 1000
+                        },
+                        "6": {
+                            "family": 6,
+                            "ip": "2001:db8::2",
+                            "port": 6881,
+                            "connectable": false,
+                            "connectivity_checked_at": 1005,
+                            "revision": 4,
+                            "created_at": 1003,
+                            "last_announced_at": 1003
+                        }
+                    },
+                    "last_announces": {
+                        "4": 1000,
+                        "6": 1003
+                    },
+                    "session_generation": 1,
+                    "completion_reported": false,
+                    "created_at": 1000,
+                    "session_started_at": 1000,
+                    "legacy_endpoint": {
+                        "family": 4,
+                        "ip": "192.0.2.1",
+                        "port": 6881,
+                        "connectable": true,
+                        "connectivity_checked_at": 1002,
+                        "revision": 1,
+                        "created_at": 1000,
+                        "last_announced_at": 1000
+                    },
+                    "state_version": 5,
+                    "updated_at": 1005,
+                    "active": true,
+                    "seeder": false,
+                    "connectable": true
+                },
+                "upload_delta": "0",
+                "download_delta": "0",
+                "completed_delta": 0
+            },
+            "counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            },
+            "current_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 1
+            },
+            "current_connectable_counts": {
+                "seeders": 0,
+                "leechers": 1,
+                "seeders_ipv4": 0,
+                "seeders_ipv6": 0,
+                "leechers_ipv4": 1,
+                "leechers_ipv6": 0
+            }
+        }
+    ]
+}

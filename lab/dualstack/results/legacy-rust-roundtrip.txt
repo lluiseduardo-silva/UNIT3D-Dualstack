@@ -1,0 +1,27 @@
+Graceful shutdown succeeded
+PASS rust-reconcile: credito 400, referencias e historico preservados; endpoints 2 -> 1
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 17.29s
+     Running tests/dualstack_legacy.rs (target/release/deps/dualstack_legacy-be0ab796170ec841)
+
+running 1 test
+PASS Rust novo restaura referencia 1400 e um endpoint; duas familias geram somente 100 de credito novo (saldo 500)
+test resumes_original_legacy_projection ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+LEGACY_RUST_ROUNDTRIP_PASSED

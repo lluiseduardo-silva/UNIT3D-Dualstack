@@ -1,0 +1,15 @@
+{
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "ExitCode": 1,
+    "StartedAt": "2026-10-09T04:56:33.465301513Z",
+    "FinishedAt": "2026-10-09T07:22:06.932695797Z"
+  },
+  "coordinator_error_lines": [
+    "2026-10-09T07:22:06.925183689Z Error: Coordenador dualstack: Tempo limite de renovacao da lease excedido"
+  ],
+  "filtered_log_lines": 301
+}

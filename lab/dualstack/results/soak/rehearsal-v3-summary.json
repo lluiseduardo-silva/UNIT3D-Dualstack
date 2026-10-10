@@ -1,0 +1,277 @@
+{
+  "name": "soak-rehearsal-v3",
+  "status": "passed",
+  "reason": null,
+  "load": {
+    "accepted": 2392759,
+    "audit": {
+      "credit": 118636200,
+      "endpoints": 20000,
+      "peers": 10000,
+      "users": 250
+    },
+    "elapsed_seconds": 302.2986610119988,
+    "error_details": [],
+    "errors": 0,
+    "expiry_checked": false,
+    "main_accepted": 2372724,
+    "reason": null,
+    "restored": false,
+    "rss_peak_kib": 63432,
+    "sample_count": 2392759,
+    "sample_queue_peak": 2,
+    "status": "passed",
+    "windows": 5
+  },
+  "windows": 5,
+  "roles": {
+    "tracker": {
+      "samples": 62,
+      "failures": [],
+      "processes": {
+        "57087": {
+          "name": "unit3d-announce",
+          "first_pss": 21487616,
+          "first_rss": 21102592,
+          "first_cpu_ticks": 19,
+          "first_at": 1791558239.1329923,
+          "max_pss": 68091904,
+          "max_rss": 67780608,
+          "last_pss": 32980992,
+          "last_rss": 32796672,
+          "last_cpu_ticks": 12554,
+          "last_at": 1791558545.717971
+        },
+        "57108": {
+          "name": "python3",
+          "first_pss": 10108928,
+          "first_rss": 14811136,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558239.1329923,
+          "max_pss": 10192896,
+          "max_rss": 14811136,
+          "last_pss": 10192896,
+          "last_rss": 14811136,
+          "last_cpu_ticks": 47,
+          "last_at": 1791558545.717971
+        }
+      },
+      "min_ssd_free": 4367564800,
+      "min_archive_free": 301570457600,
+      "min_memory_available": 7671255040
+    },
+    "data": {
+      "samples": 59,
+      "failures": [],
+      "processes": {
+        "1502": {
+          "name": "mysqld",
+          "first_pss": 1565405184,
+          "first_rss": 1565007872,
+          "first_cpu_ticks": 1528284,
+          "first_at": 1791558239.970429,
+          "max_pss": 1565405184,
+          "max_rss": 1565007872,
+          "last_pss": 1565405184,
+          "last_rss": 1565007872,
+          "last_cpu_ticks": 1551760,
+          "last_at": 1791558547.4333522
+        },
+        "1581": {
+          "name": "redis-server",
+          "first_pss": 10919936,
+          "first_rss": 10616832,
+          "first_cpu_ticks": 4969,
+          "first_at": 1791558239.970429,
+          "max_pss": 10919936,
+          "max_rss": 10616832,
+          "last_pss": 10919936,
+          "last_rss": 10616832,
+          "last_cpu_ticks": 5004,
+          "last_at": 1791558547.4333522
+        },
+        "1015145": {
+          "name": "python3",
+          "first_pss": 11633664,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 4,
+          "first_at": 1791558239.970429,
+          "max_pss": 11908096,
+          "max_rss": 18743296,
+          "last_pss": 11908096,
+          "last_rss": 18743296,
+          "last_cpu_ticks": 172,
+          "last_at": 1791558547.4333522
+        },
+        "1019176": {
+          "name": "python3",
+          "first_pss": 12547072,
+          "first_rss": 20881408,
+          "first_cpu_ticks": 15,
+          "first_at": 1791558367.0605764,
+          "max_pss": 12547072,
+          "max_rss": 20881408,
+          "last_pss": 10700800,
+          "last_rss": 19046400,
+          "last_cpu_ticks": 329,
+          "last_at": 1791558398.870259
+        },
+        "1020579": {
+          "name": "python3",
+          "first_pss": 10454016,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558414.8386962,
+          "max_pss": 10454016,
+          "max_rss": 18612224,
+          "last_pss": 10454016,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791558414.8386962
+        },
+        "1021105": {
+          "name": "python3",
+          "first_pss": 10451968,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558430.720064,
+          "max_pss": 10451968,
+          "max_rss": 18612224,
+          "last_pss": 10451968,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791558430.720064
+        },
+        "1021635": {
+          "name": "python3",
+          "first_pss": 10448896,
+          "first_rss": 18743296,
+          "first_cpu_ticks": 2,
+          "first_at": 1791558446.6014872,
+          "max_pss": 10448896,
+          "max_rss": 18743296,
+          "last_pss": 10448896,
+          "last_rss": 18743296,
+          "last_cpu_ticks": 2,
+          "last_at": 1791558446.6014872
+        },
+        "1022162": {
+          "name": "python3",
+          "first_pss": 10451968,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558462.5343325,
+          "max_pss": 10451968,
+          "max_rss": 18612224,
+          "last_pss": 10451968,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791558462.5343325
+        },
+        "1022694": {
+          "name": "python3",
+          "first_pss": 10452992,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558478.510348,
+          "max_pss": 10452992,
+          "max_rss": 18612224,
+          "last_pss": 10452992,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791558478.510348
+        },
+        "1023231": {
+          "name": "python3",
+          "first_pss": 10446848,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 2,
+          "first_at": 1791558494.465886,
+          "max_pss": 10446848,
+          "max_rss": 18612224,
+          "last_pss": 10446848,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 2,
+          "last_at": 1791558494.465886
+        },
+        "1023766": {
+          "name": "python3",
+          "first_pss": 10443776,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791558510.3486366,
+          "max_pss": 12550144,
+          "max_rss": 20701184,
+          "last_pss": 12550144,
+          "last_rss": 20701184,
+          "last_cpu_ticks": 116,
+          "last_at": 1791558542.1358852
+        }
+      },
+      "min_ssd_free": 25074761728,
+      "min_archive_free": 301566525440,
+      "min_memory_available": 6044024832,
+      "max_archive_age": 51.42775821685791,
+      "max_closed_binlog_bytes": 1073986689
+    },
+    "clients": {
+      "samples": 63,
+      "failures": [],
+      "processes": {
+        "18427": {
+          "name": "python3",
+          "first_pss": 46331904,
+          "first_rss": 54476800,
+          "first_cpu_ticks": 117,
+          "first_at": 1791558243.7211986,
+          "max_pss": 56824832,
+          "max_rss": 64954368,
+          "last_pss": 56824832,
+          "last_rss": 64954368,
+          "last_cpu_ticks": 24939,
+          "last_at": 1791558544.2524586
+        },
+        "18432": {
+          "name": "python3",
+          "first_pss": 9184256,
+          "first_rss": 14811136,
+          "first_cpu_ticks": 4,
+          "first_at": 1791558243.7211986,
+          "max_pss": 10159104,
+          "max_rss": 14811136,
+          "last_pss": 10159104,
+          "last_rss": 14811136,
+          "last_cpu_ticks": 40,
+          "last_at": 1791558554.267398
+        }
+      },
+      "min_ssd_free": 6462337024,
+      "min_archive_free": 301566525440,
+      "min_memory_available": 7785476096
+    }
+  },
+  "completed_rps": {
+    "min": 7999.566666666667,
+    "median": 7999.966666666666
+  },
+  "window_metrics_median": {
+    "response_ms": {
+      "p95": 0.23843005436852974,
+      "p99": 0.31638654616511874
+    },
+    "latency_ms": {
+      "p95": 0.2654556627962576,
+      "p99": 0.34765170741408824
+    },
+    "queue_ms": {
+      "p95": 0.2681322419597484,
+      "p99": 0.5205849126724366
+    },
+    "total_ms": {
+      "p95": 0.4941684797465143,
+      "p99": 0.8804865643973785
+    }
+  },
+  "min_thin_free": 32654341911,
+  "max_observed_persistence_lag": 41610
+}

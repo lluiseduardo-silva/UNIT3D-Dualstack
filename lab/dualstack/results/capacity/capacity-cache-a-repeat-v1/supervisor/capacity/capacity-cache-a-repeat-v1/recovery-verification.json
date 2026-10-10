@@ -1,0 +1,74 @@
+{
+  "at": 1791651389.9842174,
+  "resources_restored": true,
+  "tracker_stopped": true,
+  "lock_available": true,
+  "archive_active": true,
+  "baseline_verified": {
+    "variant": "a",
+    "binary_verified": true,
+    "runtime_path": "/opt/unit3d-dualstack/experiments/lease-recovery",
+    "binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833"
+  },
+  "resources": {
+    "120": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-tracker",
+        "scsi0": "local-lvm:vm-120-disk-0,discard=on,size=24G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131772 kB",
+        "MemAvailable:    7614784 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "121": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-data",
+        "scsi0": "local-lvm:vm-121-disk-0,discard=on,size=32G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131780 kB",
+        "MemAvailable:    7191616 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "122": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-clients",
+        "scsi0": "local-lvm:vm-122-disk-0,discard=on,size=12G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131784 kB",
+        "MemAvailable:    7589404 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "database": {
+      "database": "unit3d_dualstack_capacity_20261010",
+      "rows": [
+        "peers\t10000\t1815000\t90752000",
+        "history\t90752000\t90752000",
+        "users\t90752000",
+        "endpoints\t20000\t10000\t10000",
+        "owner\t2035\t0",
+        "settings\t8.0.46\t134217728\t1\t1\t200\t2000"
+      ]
+    }
+  }
+}

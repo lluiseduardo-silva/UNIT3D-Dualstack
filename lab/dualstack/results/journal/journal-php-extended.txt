@@ -1,0 +1,30 @@
+
+   FAIL  Tests\Integration\DualstackJournalTest
+  ✓ it confirma referencias e credito juntos e tolera reentrega depois…  0.06s  
+  ✓ it recusa fila cheia antes de avancar a referencia e preserva uint6… 0.04s  
+  ✓ it aplica limites ao peer logico e ao endpoint separadamente         0.04s  
+  ✓ it deduplica conclusao por usuario torrent e preserva historico no…  0.04s  
+  ✓ it recusa dois proprietarios e recupera ambos endpoints e credito e… 0.09s  
+  ✓ it calcula credito com quatro processos disputando a mesma referenc… 0.08s  
+  ✓ it recupera um lote interrompido antes do commit sem avancar SQL pa… 0.04s  
+  ✓ it expira somente a familia vencida depois da recuperacao            0.09s  
+  ⨯ it persiste lotes sobrepostos em dois processos sem deadlock ou cre… 0.03s  
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Integration\DualstackJournalTest > it persi…  ErrorException   
+  Attempt to read property "Value" on null
+
+  at tests/Integration/DualstackJournalTest.php:271
+    267▕ it('persiste lotes sobrepostos em dois processos sem deadlock ou credito duplicado', function (): void {
+    268▕     if (!function_exists('pcntl_fork')) {
+    269▕         $this->markTestSkipped('Exige pcntl e dois consumidores reais.');
+    270▕     }
+  ➜ 271▕     $beforeDeadlocks = (int) DB::selectOne("SHOW GLOBAL STATUS LIKE 'Innodb_deadlocks'")->Value;
+    272▕     $messages = [];
+    273▕     foreach ([12001, 12002, 12003] as $user) {
+    274▕         foreach ([12001, 12002] as $torrent) {
+    275▕             $identity = array_replace($this->identity, ['user_id' => $user, 'torrent_id' => $torrent]);
+
+
+  Tests:    1 failed, 8 passed (114 assertions)
+  Duration: 0.65s
+

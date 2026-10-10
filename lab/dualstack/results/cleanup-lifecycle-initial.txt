@@ -1,0 +1,31 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+PASS limpeza pendente bloqueia handoff mesmo com journal vazio
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 15.86s
+     Running tests/dualstack_handoff.rs (target/release/deps/dualstack_handoff-099b772371e4cf4c)
+
+running 1 test
+PASS Rust recusa journal PHP pendente sem alterar geracao ou credito
+test php_rust_handoff ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+{"generation":494,"loaded_peers":1,"replayed_transitions":0,"expired_peers":0}
+PASS verify-once com limpeza drenada, referencia preservada e credito correto
+PASS daemon processa limpeza e novos announces sem perder endpoint IPv6 ou duplicar credito
+
+Coordenador apos SIGTERM: exit=137, OOMKilled=false. Ensaio herdou APP_ENV=testing; Laravel desabilita handlers de sinais nesse ambiente. Ajustar somente o runner para APP_ENV=local e repetir.

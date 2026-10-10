@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "accepted": 2392759,
+  "credit": 118636200,
+  "errors": 0,
+  "samples_verified": true,
+  "accounting_verified": true,
+  "drained": true,
+  "lease_released": true,
+  "fault": {
+    "at": 1791558272.5220284,
+    "held_seconds": 4.007005196006503,
+    "released_at": 1791558276.529032,
+    "seconds": 4,
+    "status": "released"
+  },
+  "fault_samples": [
+    {
+      "at": 1791558269.1203809,
+      "accepted": 209549,
+      "lag": 16049
+    },
+    {
+      "at": 1791558274.147222,
+      "accepted": 241573,
+      "lag": 6073
+    },
+    {
+      "at": 1791558279.170255,
+      "accepted": 289610,
+      "lag": 41610
+    },
+    {
+      "at": 1791558284.210474,
+      "accepted": 321636,
+      "lag": 18636
+    }
+  ],
+  "minimum_window_rps": 7999.566666666667,
+  "response_ms_median_of_windows": {
+    "p95": 0.23843005436852974,
+    "p99": 0.31638654616511874
+  },
+  "scope": "cinco minutos; nao aprova seis horas ou PHP"
+}

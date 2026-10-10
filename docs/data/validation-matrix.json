@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "scope": "Validações históricas nos checkpoints dos relatórios; não cobertura percentual de linhas.",
+  "cases": [
+    {
+      "id": "schema",
+      "requirement": "Identidade e endpoints limitados por família",
+      "test": "repos/UNIT3D/tests/Integration/DualstackSchemaTest.php",
+      "evidence": "lab/dualstack/results/schema",
+      "report": "docs/arquitetura-e-contratos.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "contract",
+      "requirement": "Contadores, repetição e famílias",
+      "test": "repos/UNIT3D-Announce/tests/dualstack_contract.rs",
+      "evidence": "lab/dualstack/results/contract",
+      "report": "docs/plans/2026-10-08-dualstack-execucao.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "mysql",
+      "requirement": "Persistência, recuperação e reentrega",
+      "test": "repos/UNIT3D-Announce/tests/dualstack_mysql.rs",
+      "evidence": "lab/dualstack/results/lease-recovery/mysql.txt",
+      "report": "docs/dualstack-recuperacao-lease.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "refund",
+      "requirement": "Reembolso sob concorrência",
+      "test": "repos/UNIT3D/tests/Integration/DownloadRefundContentionTest.php",
+      "evidence": "lab/dualstack/results/refund-rust-contention.txt",
+      "report": "docs/dualstack-reembolso-concorrencia.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "rollback",
+      "requirement": "Originais e reativação após reconciliação",
+      "test": "repos/UNIT3D-Announce/tests/dualstack_legacy.rs",
+      "evidence": "lab/dualstack/results/legacy-rust-roundtrip.txt",
+      "report": "docs/dualstack-rollback-legado.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "clients",
+      "requirement": "Transferência, handshake e falha de família",
+      "test": "lab/dualstack/real-clients.py",
+      "evidence": "lab/dualstack/results/real-clients",
+      "report": "docs/dualstack-clientes-reais.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "tls",
+      "requirement": "Origem, proxies, conectividade e cache",
+      "test": "lab/dualstack/network-client.py",
+      "evidence": "lab/dualstack/results/tls-memory",
+      "report": "docs/dualstack-tls-memoria.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "bootstrap",
+      "requirement": "Restauração e escala de inicialização",
+      "test": "repos/UNIT3D-Announce/tests/dualstack_bootstrap.rs",
+      "evidence": "lab/dualstack/results/bootstrap/summary.json",
+      "report": "docs/dualstack-bootstrap.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "crash",
+      "requirement": "Crédito confirmado e perda da fila volátil",
+      "test": "lab/dualstack/run-rust-crash.py",
+      "evidence": "lab/dualstack/results/rust-crash",
+      "report": "docs/dualstack-falha-abrupta.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "soak",
+      "requirement": "Seis horas do candidato",
+      "test": "lab/dualstack/audit-soak-samples.py",
+      "evidence": "lab/dualstack/results/soak/six-hours-v3-validation.json",
+      "report": "docs/dualstack-prolongado-v3.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "original",
+      "requirement": "Seis horas do original",
+      "test": "lab/dualstack/audit-rust-comparison-samples.py",
+      "evidence": "lab/dualstack/results/soak/rust-original-six-hours-v1/onsite-verification.json",
+      "report": "docs/dualstack-rust-original-prolongado.md",
+      "status": "validated_with_reported_limits"
+    },
+    {
+      "id": "cache",
+      "requirement": "A1/B/A2 e custo de RAM/CPU",
+      "test": "lab/dualstack/compare-capacity-cache.py",
+      "evidence": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "report": "docs/dualstack-capacidade-recursos.md",
+      "status": "completed_experiment_not_global_approval"
+    }
+  ]
+}

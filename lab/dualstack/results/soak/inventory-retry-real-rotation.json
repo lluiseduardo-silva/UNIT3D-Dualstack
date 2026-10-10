@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5586537919989496,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5486462539993227,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5494431469996925,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.545407604000502,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.531962992001354,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5404225700003735,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5464268760006235,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5511487329986267,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5378984159997344,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5388008389982133,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5422440830006963,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5443383540005016,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5440751860005548,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5413072960000136,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5426999629999045,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5310237069988943,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5326883159996214,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.543730785999287,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5401455219998752,
+      "result": "recovered"
+    },
+    {
+      "rotations": 1,
+      "attempts": 2,
+      "seconds": 0.5411432740002056,
+      "result": "recovered"
+    },
+    {
+      "rotations": 3,
+      "attempts": 3,
+      "seconds": 0.9817055290004646,
+      "result": "exhausted_as_expected"
+    }
+  ],
+  "real_rotations": 23,
+  "accounting_unchanged": true,
+  "sql_accounting": [
+    [
+      "10000",
+      "55270470",
+      "2740483300"
+    ],
+    [
+      "10000",
+      "2740483300",
+      "2740483300"
+    ],
+    [
+      "2740483300"
+    ],
+    [
+      "20000"
+    ],
+    [
+      "0"
+    ]
+  ]
+}

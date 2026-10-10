@@ -1,0 +1,69 @@
+{
+  "backend": "rust",
+  "variant": "original",
+  "rate": 1000.0,
+  "seconds": 60,
+  "warmup": 30,
+  "numwant": 25,
+  "load": "same-requests",
+  "status": "passed",
+  "population": {
+    "peers": 1000,
+    "dual_percent": 50,
+    "distribution": "popular",
+    "torrents": 1,
+    "seeders": 800,
+    "leechers": 200,
+    "created_at": "2026-10-08T19:35:50"
+  },
+  "effective_rate": 1000.0,
+  "traffic": "seeders completed; resident leechers; increment 100 per logical round",
+  "source_addresses": 144,
+  "started_at_epoch": 1791488152.5032156,
+  "measured_at_epoch": 1791488182.5032156,
+  "expected_upload": 6000000,
+  "drain_seconds": 3.019875973004673,
+  "transition_versions_confirmed": null,
+  "identity_check": {
+    "rows": 1000,
+    "mismatch_count": 0,
+    "examples": []
+  },
+  "accepted": 90000,
+  "measured_accepted": 60000,
+  "measured_requests": 60000,
+  "achieved_rps": 1000.0,
+  "errors": {},
+  "generator_dropped": 0,
+  "latency_ms": {
+    "p50": 0.18164100038120523,
+    "p95": 0.2378270000917837,
+    "p99": 0.2791229999274947,
+    "max": 5.234538999502547
+  },
+  "end_to_end_ms": {
+    "p50": 0.712109002051875,
+    "p95": 1.2022930022794753,
+    "p99": 1.2818060058634728,
+    "max": 5.603487996268086
+  },
+  "response_read_ms": {
+    "p50": 0.1600399991730228,
+    "p95": 0.20749899704242125,
+    "p99": 0.24337799550266936,
+    "max": 5.208129005040973
+  },
+  "validation_ms": {
+    "p50": 0.020207997295074165,
+    "p95": 0.03351299528731033,
+    "p99": 0.04929200076730922,
+    "max": 3.64600500324741
+  },
+  "payload_bytes": {
+    "p50": 249,
+    "p95": 249,
+    "p99": 249,
+    "max": 249
+  },
+  "result": "/opt/unit3d-dualstack/benchmarks/rust-original-20261008T193725.json"
+}

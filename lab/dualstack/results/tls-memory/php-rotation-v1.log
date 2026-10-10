@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/memory-client.py", line 97, in <module>
+    main()
+  File "/opt/unit3d-dualstack/memory-client.py", line 31, in main
+    listeners += [network.Listener(6, 47000+i, '::') for i in range(16)]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/network-client.py", line 28, in __init__
+    self.socket.bind((source or SOURCES[family], port))
+OSError: [Errno 98] Address already in use

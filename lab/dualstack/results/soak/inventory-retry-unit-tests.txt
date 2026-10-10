@@ -1,0 +1,20 @@
+test_copy_and_reentry (__main__.ArchiveTests.test_copy_and_reentry) ... ok
+test_existing_corruption_stops (__main__.ArchiveTests.test_existing_corruption_stops) ... ok
+test_inventory_budget_includes_backoff (__main__.ArchiveTests.test_inventory_budget_includes_backoff) ... ok
+test_inventory_budget_includes_queries (__main__.ArchiveTests.test_inventory_budget_includes_queries) ... ok
+test_inventory_does_not_retry_sql_error_or_timeout (__main__.ArchiveTests.test_inventory_does_not_retry_sql_error_or_timeout) ... ok
+test_inventory_recovers_after_rotation (__main__.ArchiveTests.test_inventory_recovers_after_rotation) ... ok
+test_inventory_rejects_empty_encrypted_or_invalid_logs (__main__.ArchiveTests.test_inventory_rejects_empty_encrypted_or_invalid_logs) ... ok
+test_inventory_rejects_missing_master (__main__.ArchiveTests.test_inventory_rejects_missing_master) ... ok
+test_inventory_stops_after_three_rotations (__main__.ArchiveTests.test_inventory_stops_after_three_rotations) ... ok
+test_manifest_atomic (__main__.ArchiveTests.test_manifest_atomic) ... ok
+test_no_mount_rejected (__main__.ArchiveTests.test_no_mount_rejected) ... ok
+test_partial_symlink_rejected (__main__.ArchiveTests.test_partial_symlink_rejected) ... ok
+test_restart_partial_copy (__main__.ArchiveTests.test_restart_partial_copy) ... ok
+test_write_failure_leaves_source (__main__.ArchiveTests.test_write_failure_leaves_source) ... ok
+test_wrong_size_stops (__main__.ArchiveTests.test_wrong_size_stops) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.033s
+
+OK

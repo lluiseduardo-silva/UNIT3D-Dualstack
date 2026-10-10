@@ -1,0 +1,14 @@
+{
+  "name": "soak-guard-v1",
+  "sizes": [
+    250,
+    250
+  ],
+  "seconds": 90,
+  "window_seconds": 5,
+  "rate": 1000,
+  "ttl": 7200,
+  "churn": true,
+  "natural_expiry": false,
+  "inject_observer_failure_at": 10
+}

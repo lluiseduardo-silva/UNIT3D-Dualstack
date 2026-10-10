@@ -1,0 +1,60 @@
+
+   PASS  Tests\Integration\DualstackEndpointViewTest
+  ✓ it carrega pagina de peers com dois endpoints e numero constante de… 0.09s  
+  ✓ it pagina cinquenta peers logicos sem multiplicar endpoints ou carr… 0.07s  
+  ✓ it separa identidades com mesmo peer id em usuarios e torrents dife… 0.01s  
+  ✓ it filtra a familia secundaria e combina ip e porta no mesmo endpoi… 0.01s  
+  ✓ it exibe estado desconhecido e expirado sem reutilizar conectividad… 0.01s  
+  ✓ it continua no modo legado sem consultar peer_ips                    0.01s  
+  ✓ it preserva permissoes de ip na view real do torrent with (12001, f… 0.01s  
+  ✓ it preserva permissoes de ip na view real do torrent with (12002, f… 0.01s  
+  ✓ it preserva permissoes de ip na view real do torrent with (12002, t… 0.01s  
+  ✓ it renderiza a atividade Livewire com ambos endpoints e filtra a se… 0.03s  
+
+   PASS  Tests\Integration\DualstackPeerCountTest
+  ✓ it resolve auto por seeding depois atividade e nao duplica dualstac… 0.07s  
+  ✓ it resolve auto por seeding depois atividade e nao duplica dualstac… 0.02s  
+  ✓ it considera somente a familia vigente e respeita escolhas manuais   0.01s  
+  ✓ it atualiza um lote com uma consulta sem N mais um                   0.02s  
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s  
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s  
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s  
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao with ('auto', 'ipv4', 2, …)
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao wi… 0.01s  
+  ✓ it exibe a preferencia do observador sem mudar atributos e uniao with ('auto', 'sum', 3, …)
+  ✓ it mantem modo legado e nao consulta endpoints quando desativado
+  ✓ it valida apenas os quatro modos e nao aceita resolucao enviada pel… 0.01s  
+  ✓ it salva a escolha separada das configuracoes e resolve auto imedia… 0.02s  
+  ✓ it preserva a autorizacao das configuracoes                          0.01s  
+  ✓ it mantem totais da API com campos adicionais independentes da pref… 0.01s  
+  ✓ it agenda resolucao diaria em ambos os modos de backend              0.01s  
+  ✓ it publica as familias no caminho da busca mesmo com indice antigo…  0.01s  
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s  
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s  
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s  
+  ✓ it carrega contadores nas projecoes das listas sem consultar por en… 0.01s  
+  ✓ it preserva BON por usuario torrent com dois endpoints e varios pee… 0.03s  
+  ✓ it preserva BON por usuario torrent com dois endpoints e varios pee… 0.03s  
+
+   PASS  Tests\Integration\DualstackExternalTrackerTest
+  ✓ it le um peer com dois endpoints e preserva uint64 sem projecao leg… 0.01s  
+  ✓ it recusa contratos novos invalidos with ('familia repetida')
+  ✓ it recusa contratos novos invalidos with ('ip nao corresponde')
+  ✓ it recusa contratos novos invalidos with ('terceiro endpoint')
+  ✓ it recusa contratos novos invalidos with ('contador arredondado')
+  ✓ it recusa contratos novos invalidos with ('overflow')
+  ✓ it recusa contratos novos invalidos with ('schema desconhecido')
+  ✓ it recusa contratos novos invalidos with ('total duplicado')
+  ✓ it recusa contratos novos invalidos with ('ativo sem endpoint')
+  ✓ it aceita tracker legado sem apresenta-lo como dualstack
+  ✓ it funciona sem backend externo configurado e sem fazer requests
+  ✓ it reconhece capacidade explicita e endpoint ausente de backend antigo
+  ✓ it renderiza endpoints apenas quando a permissao de ip permite
+
+  Tests:    46 passed (498 assertions)
+  Duration: 0.76s
+
+
+
+   INFO  Blade templates cached successfully.  
+

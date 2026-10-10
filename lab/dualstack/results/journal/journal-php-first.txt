@@ -1,0 +1,12 @@
+
+   PASS  Tests\Integration\DualstackJournalTest
+  ✓ it confirma referencias e credito juntos e tolera reentrega depois…  0.08s  
+  ✓ it recusa fila cheia antes de avancar a referencia e preserva uint6… 0.05s  
+  ✓ it aplica limites ao peer logico e ao endpoint separadamente         0.04s  
+  ✓ it deduplica conclusao por usuario torrent e preserva historico no…  0.04s  
+  ✓ it recusa dois proprietarios e recupera ambos endpoints e credito e… 0.09s  
+  ✓ it calcula credito com quatro processos disputando a mesma referenc… 0.09s  
+
+  Tests:    6 passed (87 assertions)
+  Duration: 0.53s
+

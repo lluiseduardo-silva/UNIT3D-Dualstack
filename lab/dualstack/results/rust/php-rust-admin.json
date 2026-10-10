@@ -1,0 +1,20 @@
+{
+    "status": "passed",
+    "capabilities": {
+        "dualstack": true,
+        "peer_schema": 1,
+        "peer_count": "unique",
+        "max_endpoints": 2
+    },
+    "logical_peers": 6,
+    "endpoints": 11,
+    "uint64": "18446744073709551615",
+    "user_counts": {
+        "seeding": 1,
+        "leeching": 3
+    },
+    "controller_queries": 4,
+    "peer_users_loaded": 4,
+    "metadata_refresh_preserved_swarm": true,
+    "view_compiled": true
+}

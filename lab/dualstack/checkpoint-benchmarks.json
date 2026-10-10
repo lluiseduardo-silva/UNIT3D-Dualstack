@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-08",
+  "status": "validation_failed_concentrated_latency_and_bootstrap_plan",
+  "php_commit": "6d8e7437daa652fb02519584c456b15dceacffa4",
+  "rust_commit": "a9ab263de2fe6473c86eeabfd0b6ca1c019f6070",
+  "real_client_matrix": "16 of 16 passed, including dualstack, family failover and final accounting",
+  "site_consumer_tests": {
+    "tests": 31,
+    "assertions": 276,
+    "result": "passed"
+  },
+  "legacy_queue_regression": "two tests fail against original consumers and pass with localized fix, 18 assertions",
+  "calibration": {
+    "duration_seconds": {
+      "warmup": 30,
+      "measurement": 60
+    },
+    "population": 1000,
+    "dual_percent": 0,
+    "php_distributed": "within 10 percent at 20 requests/s; original accounting defect recorded separately",
+    "rust_distributed": "passed at 1000 requests/s before localized selection optimization",
+    "rust_concentrated": "0 percent dualstack passed at 1000 requests/s: +6.12 percent p95 and +2.76 percent p99",
+    "rust_counts_only": "1000 peers, 50 percent dualstack, numwant=0 passed short gate: +6.51 percent p95 / +4.65 percent p99",
+    "maximum_throughput_measured": false,
+    "rust_mixed_50_percent": "three 1000-peer pairs fail total latency gate; 54000 distributed pass short gate; 54000 concentrated fail at +235.68/+214.67 percent"
+  },
+  "completed_local_fix": "direct per-torrent state index with ordered maintenance identities; real MySQL, deletion, contract and network suites passed",
+  "proposed_next_change": "first stabilize bootstrap reconciliation and cancellation of SQL after timeout; then incremental counters and expiry-aware indexed selection",
+  "proposal_impacts": [
+    "bootstrap",
+    "atomic publish",
+    "selection",
+    "connectivity",
+    "expiry",
+    "administrative views",
+    "retention",
+    "deletion"
+  ],
+  "proposal_performance_gain": "next proposal not measured; direct index reduced p95 14.75 percent and p99 13.82 percent",
+  "pending": [
+    "bootstrap reconciliation with unfavorable SQL plan and server-side cancellation after timeout",
+    "decision on incremental counters and expiry-aware selection",
+    "pass mixed concentrated latency gate",
+    "100 percent dualstack profile",
+    "HTTP with 100000 peers",
+    "three repetitions with 300s warmup and 900s measured, including 54000 peers",
+    "capacity with completions per window and generator headroom",
+    "sustained backlog at large populations",
+    "six-hour churn and memory bounds",
+    "abrupt-loss window",
+    "host NVMe time-counter anomaly; database IO at higher loads"
+  ],
+  "environment": {
+    "tracker_containers_running": 0,
+    "client_namespaces": 0,
+    "temporary_source_aliases_removed": true,
+    "lease_live": false,
+    "failed_jobs": 0,
+    "financial_mismatches": 0,
+    "baseline_database_preserved": true,
+    "stale_bootstrap_query_cancelled": true
+  },
+  "results": "lab/dualstack/results/benchmarks",
+  "documentation": "docs/dualstack-benchmarks.md",
+  "full_performance_acceptance": false,
+  "production_changed": false,
+  "pushed": false,
+  "io_investigation": {
+    "larger_population_http_tested": true,
+    "durability_changed": false,
+    "status": "no sustained database-VM saturation observed at 1000 requests/s with 1000 or 54000 peers; host write-time counters inconclusive in flagged windows",
+    "buffer_pool_bytes": 134217728,
+    "original_100ms_write_iops": 476.29,
+    "candidate_100ms_write_iops_range": [
+      431.8,
+      496.9
+    ],
+    "original_3000ms_write_iops_range": [
+      118.2,
+      132.9
+    ],
+    "candidate_to_original_100ms_redo_ratio": 2.95,
+    "product_flush_policy_changed": false,
+    "host_counter_anomaly_unresolved": true
+  },
+  "selection_probe": {
+    "diagnostic_only": true,
+    "sql_in_timed_section": false,
+    "median_us_with_25_peers": [
+      [
+        8.51,
+        8.55
+      ],
+      [
+        445,
+        470
+      ]
+    ],
+    "populations": [
+      1000,
+      54000
+    ]
+  },
+  "new_results": "lab/dualstack/results/rust-validation",
+  "complementary_validation": {
+    "successful_load_runs": 13,
+    "accepted_requests": 1170000,
+    "candidate_transitions_confirmed": 540000,
+    "errors": 0,
+    "generator_drops": 0,
+    "financial_mismatches": 0,
+    "new_deadlocks_or_lock_timeouts_during_load": 0,
+    "preload_failures": [
+      "harness readiness race corrected",
+      "bootstrap timeout with more than 1 billion examined rows; product unchanged"
+    ],
+    "statistics_prepared_for_54000_concentrated_pair": true,
+    "full_performance_acceptance": false
+  },
+  "latest_activity": "density_survey_completed_informational",
+  "density_survey": {
+    "checkpoint": "lab/dualstack/checkpoint-density.json",
+    "operator_max_expected_peers_per_torrent": 250,
+    "larger_concentrations": "exploratory, not an added operational gate",
+    "closes_formal_regression_gates": false,
+    "accepted_requests": 2139000
+  }
+}

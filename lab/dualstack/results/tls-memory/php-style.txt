@@ -1,0 +1,8 @@
+
+  ⨯⨯
+
+  ───────────────────────────────────────────────────────────────────── PSR 12  
+    FAIL   ........................................... 2 files, 2 style issues  
+  ⨯ app/Http/Middleware/TrustProxies.php align_multiline_comment, native_func…  
+  ⨯ tests/Integration/DualstackProxyTest.php            binary_operator_spaces  
+

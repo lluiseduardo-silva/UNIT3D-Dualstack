@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "evidence": "resultado da execucao capturado nesta sessao; nao e um novo teste nem um log bruto reconstruido",
+  "source": "copia isolada verificada em rust-experiment-hashes.json",
+  "command": "cargo test --locked --release --test dualstack_mysql -- --include-ignored --nocapture",
+  "environment": {"DS_LAB_DRAIN": "1", "DUALSTACK_MYSQL_TESTS": "1", "SQLX_OFFLINE": "true"},
+  "tests_passed": 1,
+  "tests_failed": 0,
+  "seconds": 57.92,
+  "terminal_marker": "RUST_MYSQL_COORDINATOR_PASSED",
+  "verified_cases": [
+    "reconciliacao legada bloqueia aquisicao sem mudar geracao",
+    "contadores 1000/1000/1100/1050/1200, reentrega, restart e stop parcial",
+    "backlog cheio nao avanca referencia",
+    "falha SQL entre endpoints e historico deixa zero efeitos parciais",
+    "quatro threads, 401 transicoes, credito 4000 e zero SQL em publish",
+    "expiracao independente, limite de tres peers e uint64 exato",
+    "timestamps, conclusao e seedtime preservados",
+    "selecao por torrent, uniao, numwant 0/1/2, payload, TTL e conectividade",
+    "retencao confirmada, concorrente e cancelada",
+    "API logica e endpoints restaurados",
+    "aquisicao, renovacao e liberacao bloqueadas terminam em tres segundos",
+    "lock timeout, retry esgotado e deadlock real sem duplicar credito",
+    "supervisor renova por doze segundos, drena e libera lease",
+    "falhas de renovacao e persistencia fecham entrada e preservam fila"
+  ]
+}

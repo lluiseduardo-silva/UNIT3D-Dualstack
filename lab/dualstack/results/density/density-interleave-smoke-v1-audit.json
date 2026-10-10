@@ -1,0 +1,13 @@
+{
+  "series": "density-interleave-smoke-v1",
+  "status": "passed",
+  "accepted": 14000,
+  "measured_samples": 10000,
+  "phases": 2,
+  "sha256": {
+    "interleaved-r1.json": "6f88d7afa9fb5d8d412ce4c0eb3e72cd53147682bd125c912ecfe3c71c24690e",
+    "interleaved-r1-samples.json.gz": "797ae47d2f7806760e0040c86cbfc22fdcddae149ab3eb2265c4be44d6514274",
+    "interleaved-r2.json": "cd7a581d29f3f9f4aed1c24c80fbddef07b57f02cb977dc6ca48f74a42047d72",
+    "interleaved-r2-samples.json.gz": "957a46ec912e607ccce861a0c85e3bb70d91c5eb42da3f4896e3a31ee1f7c147"
+  }
+}

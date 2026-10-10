@@ -1,0 +1,21 @@
+{
+  "series": "density-throughput-writer-cadence200-v2",
+  "status": "passed",
+  "accepted": 750000,
+  "measured_samples": 600000,
+  "phases": 6,
+  "sha256": {
+    "rate-4000-r1.json": "f9b467e436c98a9b669f29272f594524f1dd867fa0577dd80662990dd889e84f",
+    "rate-4000-r1-samples.json.gz": "017ffc00c220afdbd5c3227478f001bd1457497de4b09f7a5357b46bc34fa684",
+    "rate-4000-r2.json": "8f14b0fd5b2e438aed1a47b010d3222217c64de4fcb346fa017e2a4ef086fb6d",
+    "rate-4000-r2-samples.json.gz": "322f589195ff60bde1507702ef6dcb6fc2242d751db35df2d8d7aeca7299461a",
+    "rate-4000-r3.json": "40e54c905f2a4aa02af30fbf6404561aa8d0200955ef80fc7d3d2653edd31ab8",
+    "rate-4000-r3-samples.json.gz": "03ad2dcfeeebb2cf08810c67bb797d36e4755ce29395e0ddbbc51579e4368da6",
+    "rate-6000-r1.json": "d5aa2cdc071cf800f4214db4068db65431af1edba232fa03beefaa74079916a7",
+    "rate-6000-r1-samples.json.gz": "fb5c98059f0f2c93f43efb325fa242dcd8658d422de67b42e052251a768fa952",
+    "rate-6000-r2.json": "d071bc04a5ae0dddfca57306706ebce87bbe73897c1211048c901d52825b220e",
+    "rate-6000-r2-samples.json.gz": "21794a8ac34ed34597cab9d9ffdcd5931c75f86b3797c3d270174cbc25572277",
+    "rate-6000-r3.json": "e2dca66b94b197565e31cc39e00b7bd8693852c4b71b3391e68ffa812bf701c1",
+    "rate-6000-r3-samples.json.gz": "2ce4a970646534ed3c1d9217960a07ca06f281447738d952a7b22f17c280dab6"
+  }
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/lab/memory-sampler.py", line 54, in <module>
+    main()
+  File "/opt/unit3d-dualstack/lab/memory-sampler.py", line 43, in main
+    row = dict(at=time.time(),processes={name:process_memory(pid) for name,pid in roots.items()})
+                                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/lab/memory-sampler.py", line 32, in process_memory
+    fields = {line.split(':')[0]:int(line.split()[1]) for line in text.splitlines() if ':' in line}
+                                 ^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '---p'

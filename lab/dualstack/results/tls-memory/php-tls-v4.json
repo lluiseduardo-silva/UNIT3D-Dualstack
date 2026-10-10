@@ -1,0 +1,359 @@
+{
+  "status": "failed",
+  "backend": "php",
+  "steps": [
+    {
+      "label": "tls-verificado-4-TLSv1.2",
+      "result": {
+        "tls": "TLSv1.2",
+        "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+        "family": 4,
+        "complete": 0,
+        "incomplete": 0,
+        "peers_bytes": 0,
+        "peers6_bytes": 0,
+        "warning": false
+      }
+    },
+    {
+      "label": "tls-verificado-4-TLSv1.3",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 4,
+        "complete": 0,
+        "incomplete": 0,
+        "peers_bytes": 0,
+        "peers6_bytes": 0,
+        "warning": false
+      }
+    },
+    {
+      "label": "tls-verificado-6-TLSv1.2",
+      "result": {
+        "tls": "TLSv1.2",
+        "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+        "family": 6,
+        "complete": 0,
+        "incomplete": 0,
+        "peers_bytes": 0,
+        "peers6_bytes": 0,
+        "warning": false
+      }
+    },
+    {
+      "label": "tls-verificado-6-TLSv1.3",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 6,
+        "complete": 0,
+        "incomplete": 0,
+        "peers_bytes": 0,
+        "peers6_bytes": 0,
+        "warning": false
+      }
+    },
+    {
+      "label": "origens-reais-headers-forjados-ignorados",
+      "result": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 46881,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 46881,
+            "connectable": 1,
+            "revision": 3
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1000,
+            "state_version": 114,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 0
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 0,
+            "actual_uploaded": 0
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "certificado-recusado-unknown-ca",
+      "result": true
+    },
+    {
+      "label": "certificado-recusado-wrong-name",
+      "result": true
+    },
+    {
+      "label": "backend-loopback-4",
+      "result": "ConnectionRefusedError"
+    },
+    {
+      "label": "backend-loopback-6",
+      "result": "ConnectionRefusedError"
+    },
+    {
+      "label": "falha-ipv6-isolada",
+      "result": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 46881,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 46883,
+            "connectable": 0,
+            "revision": 115
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 186,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "lista-ipv4-preservada",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 4,
+        "complete": 1,
+        "incomplete": 0,
+        "peers_bytes": 6,
+        "peers6_bytes": 0,
+        "warning": false
+      }
+    },
+    {
+      "label": "lista-dualstack",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 4,
+        "complete": 1,
+        "incomplete": 1,
+        "peers_bytes": 6,
+        "peers6_bytes": 18,
+        "warning": false
+      }
+    },
+    {
+      "label": "falha-ipv4-isolada",
+      "result": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 46885,
+            "connectable": 0,
+            "revision": 241
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92::30",
+            "port": 46882,
+            "connectable": 1,
+            "revision": 187
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1100,
+            "state_version": 313,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 100
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 100,
+            "actual_uploaded": 100
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 0,
+            "seeders_ipv6": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "lista-ipv6-preservada",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 4,
+        "complete": 1,
+        "incomplete": 1,
+        "peers_bytes": 0,
+        "peers6_bytes": 18,
+        "warning": false
+      }
+    },
+    {
+      "label": "lista-restaurada",
+      "result": {
+        "tls": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "family": 4,
+        "complete": 1,
+        "incomplete": 1,
+        "peers_bytes": 6,
+        "peers6_bytes": 18,
+        "warning": false
+      }
+    },
+    {
+      "label": "probe-atrasado-nao-altera-substituto",
+      "result": {
+        "dropped_probe_packets": 1,
+        "state": {
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 46881,
+              "connectable": 1,
+              "revision": 385
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 46882,
+              "connectable": 1,
+              "revision": 187
+            }
+          ],
+          "peer": [
+            {
+              "uploaded": 1300,
+              "state_version": 432,
+              "connectable": 1
+            }
+          ],
+          "user": [
+            {
+              "uploaded": 300
+            }
+          ],
+          "history": [
+            {
+              "uploaded": 300,
+              "actual_uploaded": 300
+            }
+          ],
+          "counts": [
+            {
+              "seeders": 1,
+              "seeders_ipv4": 1,
+              "seeders_ipv6": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "error_type": "AssertionError",
+  "error": "",
+  "tcp_accepts": 4,
+  "final": {
+    "endpoints": [
+      {
+        "family": 4,
+        "ip": "172.29.92.30",
+        "port": 46900,
+        "connectable": 1,
+        "revision": 433
+      },
+      {
+        "family": 6,
+        "ip": "fd42:756e:6974:92::30",
+        "port": 46882,
+        "connectable": 1,
+        "revision": 187
+      }
+    ],
+    "peer": [
+      {
+        "uploaded": 1300,
+        "state_version": 506,
+        "connectable": 1
+      }
+    ],
+    "user": [
+      {
+        "uploaded": 300
+      }
+    ],
+    "history": [
+      {
+        "uploaded": 300,
+        "actual_uploaded": 300
+      }
+    ],
+    "counts": [
+      {
+        "seeders": 1,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"audit": {"credit": 17520000000, "mismatches": 0, "peer_ips_role": "static_compatibility_fixture", "peers": 10000, "users": 250}, "name": "rust-original-six-hours-v1", "records": 175346000, "source": "replay_of_accepted_samples_against_mysql", "status": "passed"}

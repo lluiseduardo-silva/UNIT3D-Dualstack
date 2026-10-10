@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "backend": "rust",
+  "profile": "with-refund",
+  "target_rps": 2000,
+  "seconds": 20,
+  "warmup_seconds": 5,
+  "peers": 36,
+  "endpoints": 72,
+  "numwant": 0,
+  "event": "completed",
+  "real_sources": [
+    "172.29.92.30",
+    "fd42:756e:6974:92::30"
+  ],
+  "errors": {},
+  "drain_seconds": 0.002929253001639154,
+  "before_metrics": {
+    "lock_deadlocks": 190,
+    "lock_timeouts": 55,
+    "lock_row_lock_time": 378460,
+    "lock_row_lock_waits": 11686
+  },
+  "after_metrics": {
+    "lock_deadlocks": 190,
+    "lock_timeouts": 55,
+    "lock_row_lock_time": 378523,
+    "lock_row_lock_waits": 11701
+  },
+  "persistence_samples": [
+    {
+      "at": -0.097,
+      "accepted_not_yet_persisted": 72
+    },
+    {
+      "at": 0.406,
+      "accepted_not_yet_persisted": 207
+    },
+    {
+      "at": 0.91,
+      "accepted_not_yet_persisted": 214
+    },
+    {
+      "at": 1.413,
+      "accepted_not_yet_persisted": 221
+    },
+    {
+      "at": 1.917,
+      "accepted_not_yet_persisted": 28
+    },
+    {
+      "at": 2.42,
+      "accepted_not_yet_persisted": 35
+    },
+    {
+      "at": 2.925,
+      "accepted_not_yet_persisted": 41
+    },
+    {
+      "at": 3.428,
+      "accepted_not_yet_persisted": 50
+    },
+    {
+      "at": 3.932,
+      "accepted_not_yet_persisted": 57
+    },
+    {
+      "at": 4.436,
+      "accepted_not_yet_persisted": 65
+    },
+    {
+      "at": 4.939,
+      "accepted_not_yet_persisted": 72
+    },
+    {
+      "at": 5.442,
+      "accepted_not_yet_persisted": 77
+    },
+    {
+      "at": 5.946,
+      "accepted_not_yet_persisted": 86
+    },
+    {
+      "at": 6.45,
+      "accepted_not_yet_persisted": 92
+    },
+    {
+      "at": 6.954,
+      "accepted_not_yet_persisted": 101
+    },
+    {
+      "at": 7.457,
+      "accepted_not_yet_persisted": 106
+    },
+    {
+      "at": 7.961,
+      "accepted_not_yet_persisted": 114
+    },
+    {
+      "at": 8.465,
+      "accepted_not_yet_persisted": 124
+    },
+    {
+      "at": 8.969,
+      "accepted_not_yet_persisted": 132
+    },
+    {
+      "at": 9.474,
+      "accepted_not_yet_persisted": 140
+    },
+    {
+      "at": 9.978,
+      "accepted_not_yet_persisted": 147
+    },
+    {
+      "at": 10.481,
+      "accepted_not_yet_persisted": 155
+    },
+    {
+      "at": 10.985,
+      "accepted_not_yet_persisted": 162
+    },
+    {
+      "at": 11.489,
+      "accepted_not_yet_persisted": 173
+    },
+    {
+      "at": 11.994,
+      "accepted_not_yet_persisted": 179
+    },
+    {
+      "at": 12.497,
+      "accepted_not_yet_persisted": 187
+    },
+    {
+      "at": 13.0,
+      "accepted_not_yet_persisted": 194
+    },
+    {
+      "at": 13.504,
+      "accepted_not_yet_persisted": 201
+    },
+    {
+      "at": 14.008,
+      "accepted_not_yet_persisted": 207
+    },
+    {
+      "at": 14.512,
+      "accepted_not_yet_persisted": 218
+    },
+    {
+      "at": 15.015,
+      "accepted_not_yet_persisted": 23
+    },
+    {
+      "at": 15.519,
+      "accepted_not_yet_persisted": 30
+    },
+    {
+      "at": 16.023,
+      "accepted_not_yet_persisted": 39
+    },
+    {
+      "at": 16.527,
+      "accepted_not_yet_persisted": 48
+    },
+    {
+      "at": 17.03,
+      "accepted_not_yet_persisted": 52
+    },
+    {
+      "at": 17.534,
+      "accepted_not_yet_persisted": 61
+    },
+    {
+      "at": 18.038,
+      "accepted_not_yet_persisted": 68
+    },
+    {
+      "at": 18.541,
+      "accepted_not_yet_persisted": 74
+    },
+    {
+      "at": 19.045,
+      "accepted_not_yet_persisted": 81
+    },
+    {
+      "at": 19.548,
+      "accepted_not_yet_persisted": 90
+    },
+    {
+      "at": 20.052,
+      "accepted_not_yet_persisted": 96
+    },
+    {
+      "at": 20.556,
+      "accepted_not_yet_persisted": 104
+    },
+    {
+      "at": 21.06,
+      "accepted_not_yet_persisted": 112
+    },
+    {
+      "at": 21.563,
+      "accepted_not_yet_persisted": 120
+    },
+    {
+      "at": 22.067,
+      "accepted_not_yet_persisted": 126
+    },
+    {
+      "at": 22.57,
+      "accepted_not_yet_persisted": 132
+    },
+    {
+      "at": 23.074,
+      "accepted_not_yet_persisted": 142
+    },
+    {
+      "at": 23.577,
+      "accepted_not_yet_persisted": 147
+    },
+    {
+      "at": 24.082,
+      "accepted_not_yet_persisted": 157
+    },
+    {
+      "at": 24.585,
+      "accepted_not_yet_persisted": 163
+    }
+  ],
+  "observed_peak_pending": 221,
+  "pending_note": "announces reconhecidos menos versoes persistidas, amostragem a cada 500 ms; nao e instrumentacao interna da fila",
+  "measured_requests": 39999,
+  "achieved_rps": 1999.95,
+  "not_offered_due_to_client_concurrency_limit": 0,
+  "latency_ms": {
+    "p50": 0.18500899750506505,
+    "p95": 0.2509110054234043,
+    "p99": 0.2965579988085665
+  },
+  "credits": [
+    {
+      "id": 12001,
+      "uploaded": 2500800,
+      "downloaded": 1002498800
+    },
+    {
+      "id": 12002,
+      "uploaded": 2500800,
+      "downloaded": 1002498800
+    },
+    {
+      "id": 12003,
+      "uploaded": 2500400,
+      "downloaded": 1002498400
+    },
+    {
+      "id": 12004,
+      "uploaded": 2499600,
+      "downloaded": 1002497600
+    },
+    {
+      "id": 12005,
+      "uploaded": 2499600,
+      "downloaded": 1002497600
+    },
+    {
+      "id": 12006,
+      "uploaded": 2498600,
+      "downloaded": 1002496600
+    }
+  ],
+  "refunds": {
+    "12001": 2000,
+    "12002": 2000,
+    "12003": 2000,
+    "12004": 2000,
+    "12005": 2000,
+    "12006": 2000
+  }
+}

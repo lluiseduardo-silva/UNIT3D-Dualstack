@@ -1,0 +1,28 @@
+{"role": "clients", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 6516355072, "free_archive_bytes": 319311052800, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "data", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 27915653120, "free_archive_bytes": 319311052800, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "tracker", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 6776979456, "free_archive_bytes": 319311052800, "storage_preflight": "passed", "six_hour_test_started": false}
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"name": "soak-smoke-v1", "sizes": [250, 250], "peers": 500, "users": 250, "torrents": 2, "dual_percent": 100, "created_at": "2026-10-09T02:01:52", "statistics_analyzed": true}
+{"action": "add", "addresses": 176}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.73s
+20f39f77dc2565033ee35bf67798365adfbff2a14b2a97906db417bb647b815c
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.0014410679998491105}
+Supervisor iniciado: soak-smoke-v1

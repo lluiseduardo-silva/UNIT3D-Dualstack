@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-08",
+  "branch": "feat/dualstack",
+  "unit3d_head": "c4d1a266d30e9e9e26b5b598ede2f5bda51413df",
+  "announce_head": "9a580bd654928543f0f3dc7d7698270802a93871",
+  "announce_failure_handling_commit": "c3306599484d368a4ffb9bdbccf1ea62bf0baec1",
+  "phase_4": "coordinator_failure_handling_and_handoff_verified_http_pending",
+  "checks": {
+    "rust_mysql_scenario_blocks": 17,
+    "php_journal_tests": 27,
+    "php_journal_assertions": 474,
+    "php_journal_skips_final_run": 0,
+    "handoff_migration_resumed": true,
+    "pending_php_journal_blocks_rust_without_advancing_generation": true,
+    "old_php_generation_cannot_certify_new_generation": true,
+    "legacy_queues_block_drain_confirmation": true,
+    "php_rust_php_rust": "passed",
+    "cumulative_credits": [100, 200, 300],
+    "restored_dualstack_endpoints": 2,
+    "endpoints_after_ipv6_stop_and_restart": 1,
+    "final_reference": 1300,
+    "final_credit": 300
+  },
+  "evidence": [
+    "results/rust/mysql-failures.txt",
+    "results/rust/handoff-initial.txt",
+    "results/rust/mysql-after-handoff.json",
+    "results/journal/handoff-php-full.txt"
+  ],
+  "rust_http_integrated": false,
+  "dependency_versions_changed": false,
+  "performance_approved": false,
+  "production_changed": false,
+  "pushed": false
+}

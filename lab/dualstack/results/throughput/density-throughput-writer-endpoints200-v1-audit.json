@@ -1,0 +1,21 @@
+{
+  "series": "density-throughput-writer-endpoints200-v1",
+  "status": "passed",
+  "accepted": 750000,
+  "measured_samples": 600000,
+  "phases": 6,
+  "sha256": {
+    "rate-4000-r1.json": "9e6d0e29a8f77c91f37c9bed7c4e698ef7feb708669ecb20af96648a3c5d4861",
+    "rate-4000-r1-samples.json.gz": "32bdb3e4a58f71bb12543d5da04f4ac566a0fd741c44c6b5eca1b440ff1237f0",
+    "rate-4000-r2.json": "f4c8c2af4db9406bd1295f5a8151206c29678b0911888c9bc7b0ab0e24c615e8",
+    "rate-4000-r2-samples.json.gz": "2b6f056693fee8368b01f8dc679c789c34f1647756ddaf72869f349472fc830c",
+    "rate-4000-r3.json": "e8e4d156c0de372464687aba35f75d31663f6615d5c25007b509ab7d7fe41d2a",
+    "rate-4000-r3-samples.json.gz": "500bf73a05f84015ca864cca3ff7a1933dfa35b13cad1cdb24c25ec0ad62ae6b",
+    "rate-6000-r1.json": "a404507eee4077ee16adac236de17001f99c8961a166b3f14262a13db6a82f5c",
+    "rate-6000-r1-samples.json.gz": "b70226a8168dbcd340091899a9492e1f44a3bb6d0ff2b9189cf880511728b463",
+    "rate-6000-r2.json": "8e55f60ccbd1d5aa7f0ce491ef5a891c8ea67639771d5acf89481e6094175730",
+    "rate-6000-r2-samples.json.gz": "8d41fac829e32ef85d8ae77ad348526bd4df5d40c6b2598972bace73afd70c56",
+    "rate-6000-r3.json": "baef840682833ff9bf7aa5f582ada66af34310cd7610622f60a8367de2ba19ec",
+    "rate-6000-r3-samples.json.gz": "e330b0ad3d8da1e1e9e9fe6b80928c73d2881fa43812a5f44e7b142e9d85e2d6"
+  }
+}

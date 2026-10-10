@@ -1,0 +1,2 @@
+{"role": "data", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 27915776000, "free_archive_bytes": 319311052800, "storage_preflight": "passed", "six_hour_test_started": false}
+enabled

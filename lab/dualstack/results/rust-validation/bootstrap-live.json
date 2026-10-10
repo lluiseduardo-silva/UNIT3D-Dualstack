@@ -1,0 +1,31 @@
+{
+  "queries": [
+    {
+      "ID": 20903,
+      "TIME": 276,
+      "STATE": "executing",
+      "INFO": "UPDATE torrents t LEFT JOIN (SELECT p.torrent_id,SUM(p.active=1 AND p.visible=1 AND p.seeder=1 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id)) AS seeders,SUM(p.active=1 AND p.visible=1 AND p.seeder=0 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id)) AS leechers,SUM(p.active=1 AND p.visible=1 AND p.seeder=1 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id AND e.family=4)) AS seeders_ipv4,SUM(p.active=1 AND p.visible=1 AND p.seeder=1 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id AND e.family=6)) AS seeders_ipv6,SUM(p.active=1 AND p.visible=1 AND p.seeder=0 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id AND e.family=4)) AS leechers_ipv4,SUM(p.active=1 AND p.visible=1 AND p.seeder=0 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id AND e.family=6)) AS leechers_ipv6 FROM peers p GROUP BY p.torrent_id) c ON c.torrent_id=t.id SET t.seeders=COALESCE(c.seeders,0),t.leechers=COALESCE(c.leechers,0),t.seeders_ipv4=COALESCE(c.seeders_ipv4,0),t.seeders_ipv6=COALESCE(c.seeders_ipv6,0),t.leechers_ipv4=COALESCE(c.leechers_ipv4,0),t.leechers_ipv6=COALESCE(c.leechers_ipv6,0)"
+    }
+  ],
+  "live_plan_error": {
+    "type": "OperationalError",
+    "code": 3012
+  },
+  "waits": {
+    "type": "OperationalError",
+    "code": 1142
+  },
+  "statements": {
+    "type": "OperationalError",
+    "code": 1142
+  },
+  "locks": [
+    {
+      "trx_state": "RUNNING",
+      "trx_started": "2026-10-08 19:55:58",
+      "trx_wait_started": null,
+      "trx_rows_locked": 208116,
+      "trx_rows_modified": 0
+    }
+  ]
+}

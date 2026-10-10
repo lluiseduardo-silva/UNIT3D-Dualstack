@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-09",
+  "status": "implemented_targeted_validation_passed",
+  "plan": "docs/plans/2026-10-09-recuperacao-lease.md",
+  "report": "docs/dualstack-recuperacao-lease.md",
+  "evidence": "lab/dualstack/results/lease-recovery",
+  "rust_base_commit": "9e8b54626334db11940e3ebf939cbf40ba4426a3",
+  "rust_commit": "36823b5fab72940c0dcb90b0ed456b28c18160cc",
+  "evidence_validation": "lab/dualstack/results/lease-recovery/validation.json",
+  "candidate_binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833",
+  "original_binary_preserved": true,
+  "original_database_preserved": true,
+  "database": "unit3d_dualstack_recovery_test",
+  "changes": [
+    "renovacao entre operacoes do escritor, fence SQL preservado",
+    "pausa temporaria separada de fechamento definitivo",
+    "operacao em voo aguardada em parada ou vencimento local",
+    "retry transitorio confirma mesma propriedade e drena antes de reabrir",
+    "perda de propriedade nao readquire geracao nem confirma fila antiga"
+  ],
+  "gates": {
+    "unit_passed": 25,
+    "shared_contract_cases": 12,
+    "shared_contract_operations": 51,
+    "mysql_suite_seconds": 66.10,
+    "mysql_pass_checks": 30,
+    "user_block_9_seconds": "passed",
+    "user_block_12_seconds": "passed",
+    "stop_during_transaction": "passed",
+    "renewal_timeout_recovery": "passed",
+    "new_owner_fencing": "passed",
+    "http_block_9_seconds": {"accepted": 220, "errors": 0, "credit": 11000, "drained": true},
+    "load_4000": {"seconds": 30, "accepted": 120000, "errors": 0, "credit": 6003200, "drained": true,
+      "response_p95_ms": 0.4738120558271804, "response_p99_ms": 0.5806201790723935,
+      "p95_ratio_previous": 1.0672755649867178, "p99_ratio_previous": 1.0758315480858056},
+    "load_8000": {"seconds": 180, "accepted": 1440000, "errors": 0, "credit": 72000000, "drained": true,
+      "response_p95_ms": 0.3781877552489205, "response_p99_ms": 0.6055557441658505,
+      "p95_ratio_previous": 1.0492818464625908, "p99_ratio_previous": 1.027400351984019}
+  },
+  "cleanup": {"candidate_container_removed": true, "candidate_lease_released": true,
+    "connections": 0, "lock_waits": 0, "endpoints": 20000, "invalid_endpoints": 0},
+  "remaining": [
+    "journal continua volatil; falha terminal ou perda de propriedade pode impedir persistencia",
+    "ensaio de seis horas ainda pendente; nenhuma nova execucao iniciada",
+    "causa fisica da pausa historica nao isolada",
+    "comparacao formal original/candidato e campanha PHP nao aprovadas por esta rodada"
+  ]
+}

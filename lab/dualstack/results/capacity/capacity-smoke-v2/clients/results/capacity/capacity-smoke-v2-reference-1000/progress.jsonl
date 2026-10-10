@@ -1,0 +1,17 @@
+{"at": 1791616751.1514368, "start_epoch": 1791616753.1460001, "elapsed": -1.9945605890097795, "accepted": 0, "expected_credit": 0, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616752.1536613, "start_epoch": 1791616753.1460001, "elapsed": -0.9923383970017312, "accepted": 0, "expected_credit": 0, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616753.1551313, "start_epoch": 1791616753.1460001, "elapsed": 0.009131750994129106, "accepted": 9, "expected_credit": 900, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616754.156842, "start_epoch": 1791616753.1460001, "elapsed": 1.0108420129981823, "accepted": 1012, "expected_credit": 51200, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616755.1588938, "start_epoch": 1791616753.1460001, "elapsed": 2.0128942570008803, "accepted": 2014, "expected_credit": 102400, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616756.1607645, "start_epoch": 1791616753.1460001, "elapsed": 3.0147644039971055, "accepted": 3016, "expected_credit": 153600, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616757.162964, "start_epoch": 1791616753.1460001, "elapsed": 4.016964433991234, "accepted": 4017, "expected_credit": 204800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616758.1648421, "start_epoch": 1791616753.1460001, "elapsed": 5.018842521996703, "accepted": 5020, "expected_credit": 256000, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616759.166962, "start_epoch": 1791616753.1460001, "elapsed": 6.020962279988453, "accepted": 6024, "expected_credit": 307200, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616760.1689115, "start_epoch": 1791616753.1460001, "elapsed": 7.022911619991646, "accepted": 7024, "expected_credit": 356800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616761.1708627, "start_epoch": 1791616753.1460001, "elapsed": 8.024862858990673, "accepted": 8026, "expected_credit": 405800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616762.172833, "start_epoch": 1791616753.1460001, "elapsed": 9.026833255993552, "accepted": 9028, "expected_credit": 454800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616763.1751204, "start_epoch": 1791616753.1460001, "elapsed": 10.02912091500184, "accepted": 10030, "expected_credit": 503800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616764.1768043, "start_epoch": 1791616753.1460001, "elapsed": 11.03080440100166, "accepted": 11032, "expected_credit": 552800, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616765.1562402, "start_epoch": 1791616753.1460001, "elapsed": 12.010240301999147, "accepted": 12000, "expected_credit": 601600, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616765.1585145, "start_epoch": 1791616753.1460001, "elapsed": 12.012514488989837, "accepted": 12000, "expected_credit": 601600, "rate": 1000, "warmup": 2, "seconds": 10}
+{"at": 1791616765.1607869, "start_epoch": 1791616753.1460001, "elapsed": 12.014786903993809, "accepted": 12000, "expected_credit": 601600, "rate": 1000, "warmup": 2, "seconds": 10}

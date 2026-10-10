@@ -1,0 +1,132 @@
+{
+  "ownership_statements": [
+    [
+      "SELECT `generation` , `backend` , `php_journal_drained` , COALESCE ( `lease_expires_at` > UTC_TIMESTAMP (?) , ? ) AS `live` FROM `tracker_ownership` WHERE `id` = ?",
+      "1",
+      "0",
+      "0",
+      "0.0053",
+      "0.005",
+      "0.000"
+    ],
+    [
+      "SELECT COALESCE ( `lease_expires_at` > UTC_TIMESTAMP (?) , ? ) AS `live` FROM `tracker_ownership` WHERE `id` = ? FOR UPDATE",
+      "10",
+      "0",
+      "0",
+      "0.0033",
+      "0.006",
+      "0.000"
+    ],
+    [
+      "SELECT `backend` , `generation` , COALESCE ( `lease_expires_at` > UTC_TIMESTAMP (?) , ? ) AS `live` FROM `tracker_ownership` WHERE `id` = ?",
+      "3",
+      "0",
+      "0",
+      "0.0001",
+      "0.000",
+      "0.000"
+    ]
+  ],
+  "binlog_statements": [
+    [
+      "SHOW BINARY LOGS",
+      "5603",
+      "0",
+      "4.1632"
+    ],
+    [
+      "SHOW MASTER STATUS",
+      "5624",
+      "0",
+      "0.1760"
+    ]
+  ],
+  "file_waits": [
+    [
+      "wait/io/file/innodb/innodb_log_file",
+      "39542778",
+      "5.9184",
+      "11045.867"
+    ],
+    [
+      "wait/io/file/innodb/innodb_temp_file",
+      "3568",
+      "5.0493",
+      "11.456"
+    ],
+    [
+      "wait/io/file/innodb/innodb_data_file",
+      "8746600",
+      "0.4740",
+      "3448.894"
+    ],
+    [
+      "wait/io/file/innodb/innodb_dblwr_file",
+      "3090452",
+      "0.3779",
+      "2900.183"
+    ],
+    [
+      "wait/io/file/sql/binlog",
+      "15961918",
+      "0.3299",
+      "1198.111"
+    ],
+    [
+      "wait/io/file/sql/io_cache",
+      "9857814",
+      "0.0829",
+      "220.681"
+    ],
+    [
+      "wait/io/file/sql/binlog_index",
+      "4394",
+      "0.0355",
+      "0.377"
+    ],
+    [
+      "wait/io/file/sql/casetest",
+      "15",
+      "0.0043",
+      "0.004"
+    ],
+    [
+      "wait/io/file/sql/ERRMSG",
+      "5",
+      "0.0005",
+      "0.001"
+    ],
+    [
+      "wait/io/file/sql/misc",
+      "5",
+      "0.0005",
+      "0.001"
+    ]
+  ],
+  "locks": [
+    [
+      "lock_deadlocks",
+      "0"
+    ],
+    [
+      "lock_timeouts",
+      "0"
+    ]
+  ],
+  "history_consumers": [
+    [
+      "events_statements_history",
+      "YES"
+    ],
+    [
+      "events_statements_history_long",
+      "NO"
+    ]
+  ],
+  "current": [
+    [
+      "0"
+    ]
+  ]
+}

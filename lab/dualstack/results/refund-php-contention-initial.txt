@@ -1,0 +1,8 @@
+
+refund contention {"sql_writers":16,"waiting":16,"unique_transitions":600,"persistence_attempts":4800,"refund_commands":160,"before":{"lock_deadlocks":190,"lock_timeouts":55,"lock_row_lock_time":304869,"lock_row_lock_waits":2383},"after":{"lock_deadlocks":190,"lock_timeouts":55,"lock_row_lock_time":374013,"lock_row_lock_waits":11181},"credits":[{"id":12001,"uploaded":20000,"downloaded":1018000},{"id":12002,"uploaded":20000,"downloaded":1018000},{"id":12003,"uploaded":20000,"downloaded":1018000}],"workers":[{"worker":0,"seconds":9.66506314277649},{"worker":1,"seconds":9.684266090393066},{"worker":2,"seconds":9.659910917282104},{"worker":3,"seconds":9.695568084716797},{"worker":4,"seconds":9.688987970352173},{"worker":5,"seconds":9.686484813690186},{"worker":6,"seconds":9.666851997375488},{"worker":7,"seconds":9.699781894683838},{"worker":8,"seconds":1.275650978088379},{"worker":9,"seconds":1.324465036392212},{"worker":10,"seconds":1.286890983581543},{"worker":11,"seconds":1.2675189971923828},{"worker":12,"seconds":1.254716157913208},{"worker":13,"seconds":1.294151782989502},{"worker":14,"seconds":1.273940086364746},{"worker":15,"seconds":1.2455470561981201}]}
+
+   PASS  Tests\Integration\DownloadRefundContentionTest
+  ✓ it preserva reembolsos e trafego com dezesseis processos sobre as…  10.08s
+
+  Tests:    1 passed (1139 assertions)
+  Duration: 10.20s

@@ -1,0 +1,13 @@
+{
+  "name": "soak-smoke-v3",
+  "sizes": [
+    250,
+    250
+  ],
+  "seconds": 160,
+  "window_seconds": 5,
+  "rate": 1000,
+  "ttl": 60,
+  "churn": true,
+  "natural_expiry": true
+}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "scope": "TLS/proxy e memoria/cache em ensaios curtos, antes da carga",
+  "coordination_base": "ad85fe8",
+  "products": {
+    "UNIT3D": "7c45115fc8b7ad83d12b0a44a5e656c12240ede4",
+    "UNIT3D-Announce": "9e8b54626334db11940e3ebf939cbf40ba4426a3"
+  },
+  "product_changes": {
+    "UNIT3D": "ativa middleware de proxies explicitos, preservando modo legado",
+    "UNIT3D-Announce": false
+  },
+  "tls_checks_per_backend": 19,
+  "rotation_per_backend": 2048,
+  "rust_product_control_rotations": 256,
+  "php_auxiliary_cache_rotations": 512,
+  "maximum_request_rate": 20,
+  "regression": {
+    "php_tests": 39,
+    "php_assertions": 493,
+    "rust_tests": 19,
+    "skipped": 0
+  },
+  "validation": {
+    "one_logical_peer_two_endpoints": true,
+    "unique_credit": true,
+    "source_headers_not_forgeable": true,
+    "certificate_checked": true,
+    "stale_probe_ignored": true,
+    "bounded_connectivity_cache": true,
+    "rate_limiter_keys_expired_without_manual_cleanup": true,
+    "journal_drained": true,
+    "lease_inactive": true,
+    "temporary_aliases_and_firewall_removed": true
+  },
+  "report": "docs/dualstack-tls-memoria.md",
+  "results": "lab/dualstack/results/tls-memory",
+  "limits": [
+    "ensaios de rotacao duram cerca de 103 segundos por backend, nao seis horas",
+    "PSS medido em populacao pequena, sem extrapolar custo por peer",
+    "cache Rust observado em copia de diagnostico; controle adicional no produto",
+    "janela PHP principal cobre os primeiros cinco segundos ociosos, com coletas adicionais",
+    "limite e TTL de conectividade reduzidos apenas no perfil de laboratorio",
+    "carga formal, janela de perda sob carga e memoria por populacao permanecem pendentes"
+  ],
+  "push": false,
+  "production": false
+}

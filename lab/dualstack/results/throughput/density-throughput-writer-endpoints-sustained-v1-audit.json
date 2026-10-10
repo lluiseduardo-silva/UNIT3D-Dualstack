@@ -1,0 +1,11 @@
+{
+  "series": "density-throughput-writer-endpoints-sustained-v1",
+  "status": "passed",
+  "accepted": 1520000,
+  "measured_samples": 1440000,
+  "phases": 1,
+  "sha256": {
+    "rate-8000-sustained.json": "a22233f2bbe162a85d4e1197ac35bceefa468e87c2bab7dfa2a3299e8d1efa9a",
+    "rate-8000-sustained-samples.json.gz": "aad01985caca8cc48e37ce95974396388873b9bed44f7bbef3ff3746835d1b02"
+  }
+}

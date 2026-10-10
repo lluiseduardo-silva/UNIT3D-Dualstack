@@ -1,0 +1,18 @@
+{
+  "unit3d_commit": "b949d3944226cf37eac599f0a8171752ed58ebe1",
+  "announce_commit": "1fabed68f88ddd754074d4f3ae7bd185a9412225",
+  "stage": 5,
+  "status": "peer_count_preference_passed",
+  "php_tests": 36,
+  "php_assertions": 220,
+  "mysql_real": true,
+  "search_engine_fixture": true,
+  "blade_compilation": true,
+  "bon_legacy_regression": true,
+  "production": false,
+  "next": [
+    "telas locais de endpoints e demais consumidores do site",
+    "operacoes que ainda escrevem diretamente no swarm",
+    "rollback, clientes reais e benchmarks"
+  ]
+}

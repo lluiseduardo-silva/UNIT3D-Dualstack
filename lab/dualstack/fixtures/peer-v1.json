@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "defaults": {"endpoint_ttl": 7200, "max_endpoints": 2, "min_interval": 0},
+  "request_defaults": {"event": "", "uploaded": "1000", "downloaded": "0", "left": "1000", "port": 6881, "agent": "fixture", "visible": true},
+  "cases": [
+    {
+      "name": "contabilidade alternada sem regressao",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started", "expect": {"families": [4], "upload_delta": "0", "uploaded": "1000"}},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started", "expect": {"families": [4,6], "upload_delta": "0", "session_generation": 1}},
+        {"at": 1002, "ip": "2001:db8::1", "uploaded": "1100", "expect": {"upload_delta": "100", "uploaded": "1100"}},
+        {"at": 1003, "ip": "192.0.2.1", "uploaded": "1050", "expect": {"upload_delta": "0", "uploaded": "1100"}},
+        {"at": 1004, "ip": "192.0.2.1", "uploaded": "1200", "expect": {"upload_delta": "100", "uploaded": "1200", "families": [4,6]}}
+      ]
+    },
+    {
+      "name": "ordem ipv6 ipv4",
+      "operations": [
+        {"at": 1000, "ip": "2001:db8::1", "event": "started", "expect": {"families": [6], "upload_delta": "0"}},
+        {"at": 1001, "ip": "192.0.2.1", "event": "started", "expect": {"families": [4,6], "upload_delta": "0", "session_generation": 1}}
+      ]
+    },
+    {
+      "name": "stop parcial repetido e porta zero",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started"},
+        {"at": 1002, "ip": "192.0.2.1", "event": "stopped", "port": 0, "uploaded": "1100", "expect": {"families": [6], "active": true, "upload_delta": "100", "state_version": 3}},
+        {"at": 1003, "ip": "192.0.2.1", "event": "stopped", "port": 0, "uploaded": "1200", "expect": {"outcome": "ignored", "families": [6], "uploaded": "1100", "upload_delta": "0", "state_version": 3}},
+        {"at": 1004, "ip": "2001:db8::1", "event": "stopped", "port": 0, "uploaded": "1200", "expect": {"families": [], "active": false, "upload_delta": "100"}}
+      ]
+    },
+    {
+      "name": "substituicao de ipv6 e stop antigo",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started"},
+        {"at": 1002, "ip": "2001:db8::2", "uploaded": "1100", "expect": {"families": [4,6], "ipv6": "2001:db8::2", "revision6": 3}},
+        {"at": 1003, "ip": "2001:db8::1", "event": "stopped", "uploaded": "1200", "expect": {"outcome": "ignored", "ipv6": "2001:db8::2", "uploaded": "1100", "upload_delta": "0", "active": true}},
+        {"at": 1004, "ip": "2001:db8::2", "port": 6999, "uploaded": "1100", "expect": {"revision6": 4, "connectable6": null, "families": [4,6]}}
+      ]
+    },
+    {
+      "name": "limite um nao expulsa endpoint",
+      "config": {"max_endpoints": 1},
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "uploaded": "2000", "expect": {"outcome": "rejected", "reason": "endpoint_limit", "families": [4], "uploaded": "1000", "upload_delta": "0"}},
+        {"at": 1002, "ip": "192.0.2.2", "uploaded": "1100", "expect": {"families": [4], "ipv4": "192.0.2.2", "upload_delta": "100"}}
+      ]
+    },
+    {
+      "name": "reinicio somente apos ultimo stop",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started", "uploaded": "100", "expect": {"uploaded": "1000", "session_generation": 1, "upload_delta": "0"}},
+        {"at": 1002, "ip": "192.0.2.1", "event": "stopped"},
+        {"at": 1003, "ip": "2001:db8::1", "event": "stopped", "expect": {"active": false}},
+        {"at": 1004, "ip": "192.0.2.1", "event": "started", "uploaded": "100", "expect": {"uploaded": "100", "session_generation": 2, "upload_delta": "0"}},
+        {"at": 1005, "ip": "2001:db8::1", "event": "started", "uploaded": "100", "expect": {"session_generation": 2, "families": [4,6], "upload_delta": "0"}},
+        {"at": 1006, "ip": "2001:db8::1", "uploaded": "200", "expect": {"uploaded": "200", "upload_delta": "100"}}
+      ]
+    },
+    {
+      "name": "ipv4 nao renova prazo ipv6",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started"},
+        {"at": 7000, "ip": "192.0.2.1", "expect": {"families": [4,6]}},
+        {"at": 8201, "kind": "expire", "expect": {"families": [4], "active": true}},
+        {"at": 14200, "kind": "expire", "expect": {"families": [], "active": false, "upload_delta": "0"}}
+      ]
+    },
+    {
+      "name": "conclusao duplicada",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started"},
+        {"at": 1002, "ip": "192.0.2.1", "event": "completed", "downloaded": "1000", "left": "0", "expect": {"completed_delta": 1, "download_delta": "1000", "seeder": true}},
+        {"at": 1003, "ip": "2001:db8::1", "event": "completed", "downloaded": "1000", "left": "0", "expect": {"completed_delta": 0, "download_delta": "0", "families": [4,6]}},
+        {"at": 1004, "ip": "192.0.2.1", "downloaded": "900", "left": "100", "expect": {"downloaded": "1000", "seeder": true, "download_delta": "0"}}
+      ]
+    },
+    {
+      "name": "intervalo por familia sobrevive troca ip",
+      "config": {"min_interval": 1800},
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started", "expect": {"families": [4,6]}},
+        {"at": 1002, "ip": "192.0.2.2", "uploaded": "2000", "expect": {"outcome": "rejected", "reason": "interval", "uploaded": "1000", "ipv4": "192.0.2.1"}},
+        {"at": 2800, "ip": "192.0.2.2", "uploaded": "1100", "expect": {"ipv4": "192.0.2.2", "upload_delta": "100"}}
+      ]
+    },
+    {
+      "name": "precisao acima de dois elevado a 53",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started", "uploaded": "9007199254740993"},
+        {"at": 1001, "ip": "2001:db8::1", "uploaded": "9007199254741000", "expect": {"uploaded": "9007199254741000", "upload_delta": "7"}},
+        {"at": 1002, "ip": "192.0.2.1", "uploaded": "9007199254740999", "expect": {"uploaded": "9007199254741000", "upload_delta": "0"}}
+      ]
+    },
+    {
+      "name": "stop desconhecido nao cria peer",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "stopped", "port": 0, "expect": {"outcome": "ignored", "exists": false, "upload_delta": "0"}}
+      ]
+    },
+    {
+      "name": "checagem atrasada e falha independente",
+      "operations": [
+        {"at": 1000, "ip": "192.0.2.1", "event": "started"},
+        {"at": 1001, "ip": "2001:db8::1", "event": "started"},
+        {"at": 1002, "kind": "probe", "family": 4, "ip": "192.0.2.1", "revision": 1, "connectable": true, "expect": {"connectable4": true, "connectable": true}},
+        {"at": 1003, "ip": "2001:db8::2", "expect": {"revision6": 4}},
+        {"at": 1004, "kind": "probe", "family": 6, "ip": "2001:db8::1", "revision": 2, "connectable": true, "expect": {"outcome": "ignored", "connectable6": null}},
+        {"at": 1005, "kind": "probe", "family": 6, "ip": "2001:db8::2", "revision": 4, "connectable": false, "expect": {"connectable6": false, "connectable": true, "families": [4,6]}}
+      ]
+    }
+  ]
+}

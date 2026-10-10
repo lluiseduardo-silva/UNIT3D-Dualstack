@@ -1,0 +1,14 @@
+
+   PASS  Tests\Integration\DualstackSchemaTest
+  ✓ it impoe um endpoint por familia e permite ambos sem duplicar o pee… 0.08s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (5, '… 0.05s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (6, '… 0.05s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (4, '… 0.05s  
+  ✓ it impoe FK composta e remove endpoints em cascata                   0.05s  
+  ✓ it retoma backfill sem duplicar ou sobrescrever endpoints nem totai… 0.10s  
+  ✓ it normaliza IPv4 mapeado e limita enderecos de laboratorio por con… 0.05s  
+  ✓ it preserva auto como escolha separada da resolucao                  0.05s  
+
+  Tests:    8 passed (38 assertions)
+  Duration: 0.61s
+

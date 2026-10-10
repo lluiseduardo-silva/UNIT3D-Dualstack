@@ -1,0 +1,18 @@
+
+   PASS  Tests\Integration\DualstackProxyTest
+  ✓ it usa somente proxies dualstack explicitos e preserva a origem no modo legado with dataset "proxy IPv4 confiavel"
+  ✓ it usa somente proxies dualstack explicitos e preserva a origem no modo legado with dataset "proxy IPv6 confiavel"
+  ✓ it usa somente proxies dualstack explicitos e preserva a origem no modo legado with dataset "origem sem confianca"
+  ✓ it usa somente proxies dualstack explicitos e preserva a origem no modo legado with dataset "lista vazia sem fallback"
+  ✓ it usa somente proxies dualstack explicitos e preserva a origem no modo legado with dataset "legado nao usa headers"
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('*')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('**')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('REMOTE_ADDR')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('tracker.lab')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('127.0.0.1/33')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('::1/129')
+  ✓ it recusa proxies sem endereco explicito ou com prefixo invalido with ('::1/-1')
+
+  Tests:    12 passed (19 assertions)
+  Duration: 0.13s
+

@@ -1,0 +1,28 @@
+
+  .✓✓✓
+
+  ───────────────────────────────────────────────────────────────────── PSR 12  
+    FIXED   .................................... 4 files, 3 style issues fixed  
+  ✓ app/Http/Controllers/ExternalTorrentController.php align_multiline_commen…  
+  ✓ app/Services/Unit3dAnnounce.php method_argument_space, align_multiline_co…  
+  ✓ tests/Integration/DualstackExternalTrackerTest.php no_multiple_statements…  
+
+
+   PASS  Tests\Integration\DualstackExternalTrackerTest
+  ✓ it le um peer com dois endpoints e preserva uint64 sem projecao leg… 0.02s  
+  ✓ it recusa contratos novos invalidos with ('familia repetida')
+  ✓ it recusa contratos novos invalidos with ('ip nao corresponde')
+  ✓ it recusa contratos novos invalidos with ('terceiro endpoint')
+  ✓ it recusa contratos novos invalidos with ('contador arredondado')
+  ✓ it recusa contratos novos invalidos with ('overflow')
+  ✓ it recusa contratos novos invalidos with ('schema desconhecido')
+  ✓ it recusa contratos novos invalidos with ('total duplicado')
+  ✓ it recusa contratos novos invalidos with ('ativo sem endpoint')
+  ✓ it aceita tracker legado sem apresenta-lo como dualstack
+  ✓ it funciona sem backend externo configurado e sem fazer requests
+  ✓ it reconhece capacidade explicita e endpoint ausente de backend antigo
+  ✓ it renderiza endpoints apenas quando a permissao de ip permite
+
+  Tests:    13 passed (27 assertions)
+  Duration: 0.15s
+

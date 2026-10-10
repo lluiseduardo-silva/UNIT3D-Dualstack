@@ -1,0 +1,33 @@
+{
+  "series": "density-throughput-writer-endpoints500-v1",
+  "status": "passed",
+  "accepted": 2700000,
+  "measured_samples": 2160000,
+  "phases": 12,
+  "sha256": {
+    "rate-10000-r1.json": "e5a8967b8f7f57f69e7cf093ee6bd477963bc5c461d88bfd4e871a456ee701ef",
+    "rate-10000-r1-samples.json.gz": "791cd1e368c5a609493de5c11169886335302570ce63caa4ff7d3fafa5c7176d",
+    "rate-10000-r2.json": "76732a9ddac77a9746f3ee1e86b785758c2b89aa526e2c84559283740c1bc410",
+    "rate-10000-r2-samples.json.gz": "b0004505eceebbe22e6fc1148426f754ae7f0252c8becbcd177d9600be804b3b",
+    "rate-10000-r3.json": "e51614757f7a3db814b1e95c5a9f5510e3bfe28ed794775db0c9e570ffe2221e",
+    "rate-10000-r3-samples.json.gz": "7b0a0090483164546a7729f1b8638b35695a44fd0111b3cc6329d74e20474fc0",
+    "rate-12000-r1.json": "4852079270176ce526469672ff82384290b1c0f337f8ad6a5b0de58c7fec0457",
+    "rate-12000-r1-samples.json.gz": "271126609c3ce70871fd76a179d11da54ee1a8a97555322b66f88d0edd58ada8",
+    "rate-12000-r2.json": "9c219fc2b2a905b2484243157ec523d3e9ef9da0c9c81b6db84b093656250683",
+    "rate-12000-r2-samples.json.gz": "06a7dc1ab17d423ab35648571c881f53cffb62c3618e4779db6dcdb3064e09e7",
+    "rate-12000-r3.json": "e86ec5af4914aa441a5e66681cc19f7f5c39ed0af79d193ec85f7aa1534b850e",
+    "rate-12000-r3-samples.json.gz": "d9bbd38fa2ad536a1fdfc0dcc50966d5b9f8be631c8cbe47fe8b04582ae0c4e9",
+    "rate-6000-r1.json": "2b2595900113c53663654fd4061f8d8724842d886820066cbb04bd747f83dd31",
+    "rate-6000-r1-samples.json.gz": "34da1902e9ac52d0bef4b055967d6e4a4a0621094e058e181ba2a1be015cfe47",
+    "rate-6000-r2.json": "04de2b5da986e2036984b47d440bc5bcef06fd83bd65fd881f16310d077a91ee",
+    "rate-6000-r2-samples.json.gz": "3afb85cf5f349fe4fe0cb6959851edf234785fe46b1e91c18c2b2c6587196d53",
+    "rate-6000-r3.json": "9491d0b8b1f722b342171e7d73b489e492ce2dd80a0d74724b9701e106921544",
+    "rate-6000-r3-samples.json.gz": "e9492c978024081efd71bf342d1b1269f334c56bc9b147cec50b5cf1acfa20b6",
+    "rate-8000-r1.json": "3a90676a7a99644b62947218e627f85d987b15f7cd596ec5470aec1224df3783",
+    "rate-8000-r1-samples.json.gz": "f52470645dc778c0463cf21703f0a17c0ffc25c147967ab725b68cb9654e1dba",
+    "rate-8000-r2.json": "938427a8726d903e61a7bcb1b332e729eb0df6c3a0f7181db4eb5d9dfb8130c9",
+    "rate-8000-r2-samples.json.gz": "645d783b439e6a2c7d7a7846aa85457c728b3a199a41f1d1c626d7a7328bcac2",
+    "rate-8000-r3.json": "31ebd1fdc4df5c8a9be1f513ef651fd630a38cffddd7ab6f19b7c6dac254d055",
+    "rate-8000-r3-samples.json.gz": "bcac9b2ddc237f782e772188ef5a3fed00a4f0e46745593b7ac3d81cb12661cf"
+  }
+}

@@ -1,0 +1,782 @@
+{
+  "backend": "rust",
+  "variant": "candidate",
+  "rate": 1000.0,
+  "seconds": 60,
+  "warmup": 30,
+  "numwant": 25,
+  "load": "same-requests",
+  "status": "passed",
+  "population": {
+    "peers": 1000,
+    "dual_percent": 0,
+    "distribution": "popular",
+    "torrents": 1,
+    "seeders": 800,
+    "leechers": 200,
+    "created_at": "2026-10-08T16:05:13"
+  },
+  "effective_rate": 1000.0,
+  "traffic": "seeders completed; resident leechers; increment 100 per logical round",
+  "source_addresses": 144,
+  "before": {
+    "peers": {
+      "n": 1000,
+      "uploaded": 0,
+      "versions": 0
+    },
+    "history": {
+      "n": 1000,
+      "actual_uploaded": 0,
+      "uploaded": 0
+    },
+    "users": {
+      "n": 1000,
+      "uploaded": 0
+    },
+    "peer_ips": {
+      "n": 1000
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 192,
+      "lock_timeouts": 65
+    }
+  },
+  "started_at_epoch": 1791475592.9947026,
+  "measured_at_epoch": 1791475622.9947026,
+  "after": {
+    "peers": {
+      "n": 1000,
+      "uploaded": 9000000,
+      "versions": 90000
+    },
+    "history": {
+      "n": 1000,
+      "actual_uploaded": 9000000,
+      "uploaded": 9000000
+    },
+    "users": {
+      "n": 1000,
+      "uploaded": 9000000
+    },
+    "peer_ips": {
+      "n": 1000
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 192,
+      "lock_timeouts": 65
+    }
+  },
+  "expected_upload": 9000000,
+  "drain_seconds": 1.0090872920045513,
+  "identity_check": {
+    "rows": 1000,
+    "mismatch_count": 0,
+    "examples": []
+  },
+  "accepted": 90000,
+  "measured_accepted": 60000,
+  "measured_requests": 60000,
+  "achieved_rps": 1000.0,
+  "errors": {},
+  "generator_dropped": 0,
+  "latency_ms": {
+    "p50": 0.23764700017636642,
+    "p95": 0.3068719961447641,
+    "p99": 0.3441890003159642,
+    "max": 4.734489004476927
+  },
+  "end_to_end_ms": {
+    "p50": 0.7253440053318627,
+    "p95": 1.2935610066051595,
+    "p99": 1.364164003462065,
+    "max": 5.553062008402776
+  },
+  "payload_bytes": {
+    "p50": 259,
+    "p95": 259,
+    "p99": 259,
+    "max": 259
+  },
+  "samples": [
+    {
+      "at": -0.19590658499510027,
+      "accepted": 0,
+      "pending_bytes": 0,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 0,
+          "versions": 0
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 0,
+          "uploaded": 0
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 0
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 4.808777923004527,
+      "accepted": 4808,
+      "pending_bytes": 8000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 472800,
+          "versions": 4728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 472800,
+          "uploaded": 472800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 472800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 9.813479189004283,
+      "accepted": 9813,
+      "pending_bytes": 8600,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 972700,
+          "versions": 9727
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 972700,
+          "uploaded": 972700
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 972700
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 14.8186729500012,
+      "accepted": 14818,
+      "pending_bytes": 9000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 1472800,
+          "versions": 14728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 1472800,
+          "uploaded": 1472800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 1472800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 19.823376637003093,
+      "accepted": 19823,
+      "pending_bytes": 9500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 1972800,
+          "versions": 19728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 1972800,
+          "uploaded": 1972800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 1972800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 24.82860944600543,
+      "accepted": 24828,
+      "pending_bytes": 10000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 2472800,
+          "versions": 24728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 2472800,
+          "uploaded": 2472800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 2472800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 29.833708792000834,
+      "accepted": 29833,
+      "pending_bytes": 10500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 2972800,
+          "versions": 29728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 2972800,
+          "uploaded": 2972800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 2972800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 34.838842340002884,
+      "accepted": 34838,
+      "pending_bytes": 11000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 3472800,
+          "versions": 34728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 3472800,
+          "uploaded": 3472800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 3472800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 39.84386503600399,
+      "accepted": 39844,
+      "pending_bytes": 11600,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 3972800,
+          "versions": 39728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 3972800,
+          "uploaded": 3972800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 3972800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 44.849297721004405,
+      "accepted": 44849,
+      "pending_bytes": 12100,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 4472800,
+          "versions": 44728
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 4472800,
+          "uploaded": 4472800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 4472800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 49.853739828999096,
+      "accepted": 49853,
+      "pending_bytes": 2500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 4982800,
+          "versions": 49828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 4982800,
+          "uploaded": 4982800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 4982800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 54.85835411800508,
+      "accepted": 54858,
+      "pending_bytes": 3000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 5482800,
+          "versions": 54828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 5482800,
+          "uploaded": 5482800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 5482800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 59.86240637300216,
+      "accepted": 59862,
+      "pending_bytes": 3400,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 5982800,
+          "versions": 59828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 5982800,
+          "uploaded": 5982800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 5982800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 64.86787399500463,
+      "accepted": 64867,
+      "pending_bytes": 3900,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 6482800,
+          "versions": 64828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 6482800,
+          "uploaded": 6482800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 6482800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 69.873352265,
+      "accepted": 69873,
+      "pending_bytes": 4500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 6982800,
+          "versions": 69828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 6982800,
+          "uploaded": 6982800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 6982800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 74.87847760799923,
+      "accepted": 74878,
+      "pending_bytes": 5000,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 7482800,
+          "versions": 74828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 7482800,
+          "uploaded": 7482800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 7482800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 79.88366613800463,
+      "accepted": 79883,
+      "pending_bytes": 5500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 7982800,
+          "versions": 79828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 7982800,
+          "uploaded": 7982800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 7982800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 84.88836155000172,
+      "accepted": 84888,
+      "pending_bytes": 5900,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 8482900,
+          "versions": 84829
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 8482900,
+          "uploaded": 8482900
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 8482900
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    },
+    {
+      "at": 89.89316345100087,
+      "accepted": 89893,
+      "pending_bytes": 6500,
+      "state": {
+        "peers": {
+          "n": 1000,
+          "uploaded": 8982800,
+          "versions": 89828
+        },
+        "history": {
+          "n": 1000,
+          "actual_uploaded": 8982800,
+          "uploaded": 8982800
+        },
+        "users": {
+          "n": 1000,
+          "uploaded": 8982800
+        },
+        "peer_ips": {
+          "n": 1000
+        },
+        "failed_jobs": {
+          "n": 0
+        },
+        "database": {
+          "version": "8.0.46",
+          "isolation": "REPEATABLE-READ"
+        },
+        "locks": {
+          "lock_deadlocks": 192,
+          "lock_timeouts": 65
+        }
+      }
+    }
+  ]
+}

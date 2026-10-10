@@ -1,0 +1,2 @@
+PASS instrumentacao temporaria removida
+{"status": "prepared", "changed": ["coordinator.rs", "mod.rs", "persistence.rs", "response.rs"], "files": 57}

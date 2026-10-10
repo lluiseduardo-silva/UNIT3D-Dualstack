@@ -1,0 +1,66 @@
+{
+  "name": "capacity-cpu-ram-v2-database1-confirm-1",
+  "start_epoch": 1791623156.1019592,
+  "measured_at": 1791623186.1019592,
+  "finish_epoch": 1791623486.1019592,
+  "rate": 5500,
+  "seconds": 300,
+  "warmup": 30,
+  "accepted": 1815000,
+  "expected_credit": 90752000,
+  "completed_rps": 5500.0,
+  "errors": {},
+  "stop_reason": null,
+  "max_generator_lag": 0.009226988186128438,
+  "metrics": {
+    "response_ms": {
+      "count": 1650000,
+      "max": 10.879169989493676,
+      "p50": 0.21285918576465065,
+      "p95": 0.30793593044700834,
+      "p99": 0.355047075928906
+    },
+    "latency_ms": {
+      "count": 1650000,
+      "max": 10.910808996413834,
+      "p50": 0.22607669139467845,
+      "p95": 0.3215029956047988,
+      "p99": 0.3688301959830323
+    },
+    "queue_ms": {
+      "count": 1650000,
+      "max": 9.226988186128438,
+      "p50": 0.43253152841449327,
+      "p95": 0.8119342500189832,
+      "p99": 0.9247324632201862
+    },
+    "total_ms": {
+      "count": 1650000,
+      "max": 11.371865912224166,
+      "p50": 0.7502133555415291,
+      "p95": 1.083100975964519,
+      "p99": 1.2078827503509977
+    }
+  },
+  "after": {
+    "peers": 10000,
+    "versions": 1815000,
+    "credit": 90752000,
+    "history_credit": 90752000,
+    "actual_credit": 90752000,
+    "user_credit": 90752000,
+    "endpoints": {
+      "n": 20000,
+      "v4": 10000,
+      "v6": 10000,
+      "invalid": 0
+    },
+    "over_limit": 0,
+    "bad_torrent_counts": 0,
+    "mismatches": 0
+  },
+  "drained": true,
+  "drain_seconds": 0.7482648239965783,
+  "accounting_passed": true,
+  "status": "passed"
+}

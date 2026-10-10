@@ -1,0 +1,287 @@
+{
+  "status": "passed",
+  "backend": "php",
+  "profile": "without-refund",
+  "target_rps": 1000,
+  "seconds": 20,
+  "warmup_seconds": 5,
+  "peers": 36,
+  "endpoints": 72,
+  "numwant": 0,
+  "event": "completed",
+  "source_offset": 0,
+  "real_source_addresses": 72,
+  "errors": {},
+  "drain_seconds": 0.0033684790032566525,
+  "before_metrics": {
+    "lock_deadlocks": 190,
+    "lock_timeouts": 55,
+    "lock_row_lock_time": 378523,
+    "lock_row_lock_waits": 11701
+  },
+  "after_metrics": {
+    "lock_deadlocks": 190,
+    "lock_timeouts": 55,
+    "lock_row_lock_time": 378523,
+    "lock_row_lock_waits": 11701
+  },
+  "persistence_samples": [
+    {
+      "at": -0.097,
+      "accepted_not_yet_persisted": 1
+    },
+    {
+      "at": 0.406,
+      "accepted_not_yet_persisted": 15
+    },
+    {
+      "at": 0.91,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 1.413,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 1.917,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 2.42,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 2.924,
+      "accepted_not_yet_persisted": 2
+    },
+    {
+      "at": 3.427,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 3.931,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 4.435,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 4.94,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 5.443,
+      "accepted_not_yet_persisted": 1
+    },
+    {
+      "at": 5.946,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 6.45,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 6.954,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 7.457,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 7.961,
+      "accepted_not_yet_persisted": 6
+    },
+    {
+      "at": 8.465,
+      "accepted_not_yet_persisted": 6
+    },
+    {
+      "at": 8.969,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 9.472,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 9.976,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 10.48,
+      "accepted_not_yet_persisted": 24
+    },
+    {
+      "at": 10.983,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 11.486,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 11.989,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 12.493,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 12.996,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 13.5,
+      "accepted_not_yet_persisted": 1
+    },
+    {
+      "at": 14.003,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 14.507,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 15.01,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 15.514,
+      "accepted_not_yet_persisted": 2
+    },
+    {
+      "at": 16.017,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 16.521,
+      "accepted_not_yet_persisted": 20
+    },
+    {
+      "at": 17.025,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 17.529,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 18.033,
+      "accepted_not_yet_persisted": 2
+    },
+    {
+      "at": 18.536,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 19.04,
+      "accepted_not_yet_persisted": 3
+    },
+    {
+      "at": 19.543,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 20.047,
+      "accepted_not_yet_persisted": 9
+    },
+    {
+      "at": 20.55,
+      "accepted_not_yet_persisted": 26
+    },
+    {
+      "at": 21.054,
+      "accepted_not_yet_persisted": 28
+    },
+    {
+      "at": 21.557,
+      "accepted_not_yet_persisted": 4
+    },
+    {
+      "at": 22.06,
+      "accepted_not_yet_persisted": 15
+    },
+    {
+      "at": 22.563,
+      "accepted_not_yet_persisted": 7
+    },
+    {
+      "at": 23.067,
+      "accepted_not_yet_persisted": 10
+    },
+    {
+      "at": 23.57,
+      "accepted_not_yet_persisted": 12
+    },
+    {
+      "at": 24.073,
+      "accepted_not_yet_persisted": 1
+    },
+    {
+      "at": 24.577,
+      "accepted_not_yet_persisted": 5
+    },
+    {
+      "at": 25.08,
+      "accepted_not_yet_persisted": 17
+    }
+  ],
+  "observed_peak_pending": 28,
+  "pending_note": "announces reconhecidos menos versoes persistidas, amostragem a cada 500 ms; nao e instrumentacao interna da fila",
+  "measured_requests": 4268,
+  "accepted_requests_including_warmup_and_setup": 5413,
+  "successful_measured_requests": 4268,
+  "attempted_rps": 213.4,
+  "achieved_rps": 213.4,
+  "not_offered_due_to_client_concurrency_limit": 15716,
+  "latency_ms": {
+    "p50": 163.13030799938133,
+    "p95": 211.91556800476974,
+    "p99": 223.1173139953171
+  },
+  "credits": [
+    {
+      "id": 12001,
+      "uploaded": 104900,
+      "downloaded": 1000104900
+    },
+    {
+      "id": 12002,
+      "uploaded": 104900,
+      "downloaded": 1000104900
+    },
+    {
+      "id": 12003,
+      "uploaded": 104500,
+      "downloaded": 1000104500
+    },
+    {
+      "id": 12004,
+      "uploaded": 104500,
+      "downloaded": 1000104500
+    },
+    {
+      "id": 12005,
+      "uploaded": 104200,
+      "downloaded": 1000104200
+    },
+    {
+      "id": 12006,
+      "uploaded": 103900,
+      "downloaded": 1000103900
+    }
+  ],
+  "refunds": {
+    "12001": 0,
+    "12002": 0,
+    "12003": 0,
+    "12004": 0,
+    "12005": 0,
+    "12006": 0
+  }
+}

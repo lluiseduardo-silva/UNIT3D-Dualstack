@@ -1,0 +1,76 @@
+{
+  "at": 1791645700.995292,
+  "lock_available": true,
+  "resources": {
+    "120": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-tracker",
+        "scsi0": "local-lvm:vm-120-disk-0,discard=on,size=24G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131772 kB",
+        "MemAvailable:    7638340 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "121": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-data",
+        "scsi0": "local-lvm:vm-121-disk-0,discard=on,size=32G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131772 kB",
+        "MemAvailable:    7219824 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "122": {
+      "configured": {
+        "balloon": "0",
+        "cores": "4",
+        "cpu": "host",
+        "memory": "8192",
+        "name": "unit3d-ds-clients",
+        "scsi0": "local-lvm:vm-122-disk-0,discard=on,size=12G"
+      },
+      "cpu_online": 4,
+      "memory": [
+        "MemTotal:        8131784 kB",
+        "MemAvailable:    7598164 kB",
+        "SwapTotal:             0 kB"
+      ]
+    },
+    "database": {
+      "database": "unit3d_dualstack_capacity_20261010",
+      "rows": [
+        "peers\t10000\t1815000\t90752000",
+        "history\t90752000\t90752000",
+        "users\t90752000",
+        "endpoints\t20000\t10000\t10000",
+        "owner\t2016\t0",
+        "settings\t8.0.46\t134217728\t1\t1\t200\t2000"
+      ]
+    }
+  },
+  "tracker_containers": [],
+  "data_containers": [
+    "unit3d-ds-redis",
+    "unit3d-ds-mysql"
+  ],
+  "archiver": "active",
+  "supervisor": [
+    "ExecMainStatus=0",
+    "ActiveState=inactive",
+    "SubState=dead"
+  ]
+}

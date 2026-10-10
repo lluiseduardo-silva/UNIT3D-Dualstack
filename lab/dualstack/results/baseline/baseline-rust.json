@@ -1,0 +1,1007 @@
+{
+  "mode": "rust",
+  "started_at": "2026-10-08T01:59:39.509594+00:00",
+  "steps": [
+    {
+      "label": "ipv4-ipv6/initial",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303031",
+      "event": "started",
+      "uploaded": 1000,
+      "downloaded": 0,
+      "left": 1000,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 1.042456,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 1908,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303031",
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "uploaded": 1000,
+            "downloaded": 0,
+            "left": 1000,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 01:59:40"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 1000,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12001,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 0,
+            "leechers": 1,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv4-ipv6/observer-before",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12002,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303032",
+      "event": "started",
+      "uploaded": 0,
+      "downloaded": 0,
+      "left": 2048,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.992854,
+      "body_bytes": 99,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 2,
+        "interval": 2411,
+        "min interval": 1800,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12002,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303032",
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "uploaded": 0,
+            "downloaded": 0,
+            "left": 2048,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 01:59:47"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12002,
+            "torrent_id": 12001,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 0,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12002,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv4-ipv6/second-started",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303031",
+      "event": "started",
+      "uploaded": 1000,
+      "downloaded": 0,
+      "left": 1000,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.988505,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 0,
+        "interval": 3248,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303031",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "uploaded": 1000,
+            "downloaded": 0,
+            "left": 1000,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 01:59:54"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 1000,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12001,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv4-ipv6/completed",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303031",
+      "event": "completed",
+      "uploaded": 1100,
+      "downloaded": 1000,
+      "left": 0,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.844015,
+      "body_bytes": 99,
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 2027,
+        "min interval": 1800,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303031",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "uploaded": 1100,
+            "downloaded": 1000,
+            "left": 0,
+            "seeder": 1,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:01"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "uploaded": 100,
+            "downloaded": 1000,
+            "actual_uploaded": 100,
+            "actual_downloaded": 1000,
+            "client_uploaded": 1100,
+            "client_downloaded": 1000,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 1
+          }
+        ],
+        "user": [
+          {
+            "id": 12001,
+            "uploaded": 100,
+            "downloaded": 1000
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 1,
+            "leechers": 1,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv4-ipv6/observer-after",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12003,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303033",
+      "event": "started",
+      "uploaded": 0,
+      "downloaded": 0,
+      "left": 2048,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.955954,
+      "body_bytes": 128,
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2563,
+        "min interval": 1800,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12003,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303033",
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "uploaded": 0,
+            "downloaded": 0,
+            "left": 2048,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:08"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12003,
+            "torrent_id": 12001,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 0,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12003,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 1,
+            "leechers": 2,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv4-ipv6/stop-original",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2d7142343530302d303030303030303132303031",
+      "event": "stopped",
+      "uploaded": 1200,
+      "downloaded": 1000,
+      "left": 0,
+      "port": 0,
+      "http_status": 200,
+      "latency_ms": 0.839335,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2311,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "peer_id_hex": "2D7142343530302D303030303030303132303031",
+            "ip": "172.29.92.30",
+            "port": 0,
+            "uploaded": 1200,
+            "downloaded": 1000,
+            "left": 0,
+            "seeder": 1,
+            "active": 0,
+            "visible": 0,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:15"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12001,
+            "torrent_id": 12001,
+            "uploaded": 200,
+            "downloaded": 1000,
+            "actual_uploaded": 200,
+            "actual_downloaded": 1000,
+            "client_uploaded": 1200,
+            "client_downloaded": 1000,
+            "active": 0,
+            "seedtime": 14,
+            "seeder": 1
+          }
+        ],
+        "user": [
+          {
+            "id": 12001,
+            "uploaded": 200,
+            "downloaded": 1000
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12001,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/initial",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12004,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303034",
+      "event": "started",
+      "uploaded": 1000,
+      "downloaded": 0,
+      "left": 1000,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.868881,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 2077,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303034",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "uploaded": 1000,
+            "downloaded": 0,
+            "left": 1000,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:22"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 1000,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12004,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 0,
+            "leechers": 1,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/observer-before",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12005,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303035",
+      "event": "started",
+      "uploaded": 0,
+      "downloaded": 0,
+      "left": 2048,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.845005,
+      "body_bytes": 122,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 2,
+        "interval": 3293,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12005,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303035",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "uploaded": 0,
+            "downloaded": 0,
+            "left": 2048,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:29"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12005,
+            "torrent_id": 12002,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 0,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12005,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/second-started",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12004,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303034",
+      "event": "started",
+      "uploaded": 1000,
+      "downloaded": 0,
+      "left": 1000,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.984246,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 0,
+        "interval": 3381,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303034",
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "uploaded": 1000,
+            "downloaded": 0,
+            "left": 1000,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:36"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 1000,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12004,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 0
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/completed",
+      "family": 4,
+      "source": "172.29.92.30",
+      "user_id": 12004,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303034",
+      "event": "completed",
+      "uploaded": 1100,
+      "downloaded": 1000,
+      "left": 0,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.977073,
+      "body_bytes": 122,
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 1,
+        "interval": 2034,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303034",
+            "ip": "172.29.92.30",
+            "port": 6881,
+            "uploaded": 1100,
+            "downloaded": 1000,
+            "left": 0,
+            "seeder": 1,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:43"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "uploaded": 100,
+            "downloaded": 1000,
+            "actual_uploaded": 100,
+            "actual_downloaded": 1000,
+            "client_uploaded": 1100,
+            "client_downloaded": 1000,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 1
+          }
+        ],
+        "user": [
+          {
+            "id": 12004,
+            "uploaded": 100,
+            "downloaded": 1000
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 1,
+            "leechers": 1,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/observer-after",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12006,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303036",
+      "event": "started",
+      "uploaded": 0,
+      "downloaded": 0,
+      "left": 2048,
+      "port": 6881,
+      "http_status": 200,
+      "latency_ms": 0.918503,
+      "body_bytes": 128,
+      "response": {
+        "complete": 1,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 3297,
+        "min interval": 1800,
+        "peers": [
+          {
+            "ip": "172.29.92.30",
+            "port": 6881
+          }
+        ],
+        "peers_bytes": 6,
+        "peers6": [
+          {
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881
+          }
+        ],
+        "peers6_bytes": 18
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12006,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303036",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 6881,
+            "uploaded": 0,
+            "downloaded": 0,
+            "left": 2048,
+            "seeder": 0,
+            "active": 1,
+            "visible": 1,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:50"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12006,
+            "torrent_id": 12002,
+            "uploaded": 0,
+            "downloaded": 0,
+            "actual_uploaded": 0,
+            "actual_downloaded": 0,
+            "client_uploaded": 0,
+            "client_downloaded": 0,
+            "active": 1,
+            "seedtime": 0,
+            "seeder": 0
+          }
+        ],
+        "user": [
+          {
+            "id": 12006,
+            "uploaded": 0,
+            "downloaded": 0
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 1,
+            "leechers": 2,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "ipv6-ipv4/stop-original",
+      "family": 6,
+      "source": "fd42:756e:6974:92::30",
+      "user_id": 12004,
+      "torrent_id": 12002,
+      "peer_id_hex": "2d7142343530302d303030303030303132303034",
+      "event": "stopped",
+      "uploaded": 1200,
+      "downloaded": 1000,
+      "left": 0,
+      "port": 0,
+      "http_status": 200,
+      "latency_ms": 0.925366,
+      "body_bytes": 93,
+      "response": {
+        "complete": 0,
+        "downloaded": 1,
+        "incomplete": 2,
+        "interval": 2529,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0
+      },
+      "database_after_flush": {
+        "peer": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "peer_id_hex": "2D7142343530302D303030303030303132303034",
+            "ip": "fd42:756e:6974:92::30",
+            "port": 0,
+            "uploaded": 1200,
+            "downloaded": 1000,
+            "left": 0,
+            "seeder": 1,
+            "active": 0,
+            "visible": 0,
+            "connectable": 0,
+            "updated_at": "2026-10-08 02:00:57"
+          }
+        ],
+        "history": [
+          {
+            "user_id": 12004,
+            "torrent_id": 12002,
+            "uploaded": 200,
+            "downloaded": 1000,
+            "actual_uploaded": 200,
+            "actual_downloaded": 1000,
+            "client_uploaded": 1200,
+            "client_downloaded": 1000,
+            "active": 0,
+            "seedtime": 14,
+            "seeder": 1
+          }
+        ],
+        "user": [
+          {
+            "id": 12004,
+            "uploaded": 200,
+            "downloaded": 1000
+          }
+        ],
+        "torrent": [
+          {
+            "id": 12002,
+            "seeders": 0,
+            "leechers": 2,
+            "times_completed": 1
+          }
+        ],
+        "failed_jobs": [
+          {
+            "count": 0
+          }
+        ]
+      }
+    }
+  ],
+  "database": {
+    "version": "8.0.46",
+    "isolation_level": "REPEATABLE-READ",
+    "lock_wait_timeout": 10
+  }
+}

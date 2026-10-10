@@ -1,0 +1,19 @@
+{
+  "completed_windows": 114,
+  "completed_window_requests": 54720000.0,
+  "completed_window_min_rps": 7998.933333333333,
+  "completed_window_max_rps": 7999.966666666666,
+  "interrupted_window": 114,
+  "interrupted_window_requests": 89665,
+  "interrupted_window_elapsed": 11.210448625999561,
+  "interrupted_window_planned_seconds": 60,
+  "max_observed_lag_before_observer_stopped": 77017.0,
+  "max_observed_lag_including_stale_sql": 226484,
+  "rust_max_rss_mib": 88.28125,
+  "rust_last_rss_mib": 31.83203125,
+  "collector_peak_rss_mib": 63.6484375,
+  "min_data_ssd_gib": 23.6392822265625,
+  "min_thin_pool_gib": 33.126568749547005,
+  "max_archive_age_seconds": 52.78755450248718,
+  "max_closed_binlog_gib": 1.0004105614498258
+}

@@ -1,0 +1,31 @@
+
+BON contention {"dualstack_query":true,"waiting":5,"before":{"lock_deadlocks":141,"lock_timeouts":55},"after":{"lock_deadlocks":168,"lock_timeouts":55},"credits":{"12001":{"uploaded":"800","bon_delta":100},"12002":{"uploaded":"800","bon_delta":100},"12003":{"uploaded":"800","bon_delta":100}}}
+
+   FAIL  Tests\Integration\DualstackBonContentionTest
+  ⨯ it preserva BON e upload com quatro gravadores e alocacao concorren… 0.44s
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackBonContentionTest > it preserva BON e…
+  Failed asserting that two arrays are identical.
+   Array &0 [
+  -    'lock_deadlocks' => 141,
+  +    'lock_deadlocks' => 168,
+       'lock_timeouts' => 55,
+   ]
+
+
+  at tests/Integration/DualstackBonContentionTest.php:192
+    188▕         fwrite(STDOUT, "\nBON contention ".json_encode([
+    189▕             'dualstack_query' => config('dualstack.enabled'), 'waiting' => $waiting,
+    190▕             'before'          => $beforeMetrics, 'after' => $afterMetrics, 'credits' => $credits,
+    191▕         ])."\n");
+  ➜ 192▕         expect($waiting)->toBeGreaterThanOrEqual(5)->and($afterMetrics)->toBe($beforeMetrics);
+    193▕     } finally {
+    194▕         if (DB::transactionLevel() > 0) {
+    195▕             DB::rollBack();
+    196▕         }
+
+  1   tests/Integration/DualstackBonContentionTest.php:192
+
+
+  Tests:    1 failed (50 assertions)
+  Duration: 0.56s

@@ -1,0 +1,79 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 17.13s
+  Executable tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+{
+    "status": "passed",
+    "backend": "rust",
+    "production": false,
+    "sql_writers": 9,
+    "unique_transitions": 480,
+    "persistence_attempts": 1920,
+    "refund_commands": 160,
+    "waiting": 9,
+    "before": {
+        "lock_deadlocks": 190,
+        "lock_timeouts": 55,
+        "lock_row_lock_time": 374013,
+        "lock_row_lock_waits": 11181
+    },
+    "after": {
+        "lock_deadlocks": 190,
+        "lock_timeouts": 55,
+        "lock_row_lock_time": 378373,
+        "lock_row_lock_waits": 11662
+    },
+    "credits": [
+        {
+            "id": 12001,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        },
+        {
+            "id": 12002,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        },
+        {
+            "id": 12003,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        }
+    ]
+}
+
+running 1 test
+PASS quatro gravadores Rust, 480 transicoes reentregues, credito unico, seis peers e doze endpoints
+test refund_and_rust_writer_contention ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.38s
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.11s
+     Running tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)

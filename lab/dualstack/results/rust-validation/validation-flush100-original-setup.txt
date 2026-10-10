@@ -1,0 +1,27 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"peers": 1000, "dual_percent": 50, "distribution": "popular", "torrents": 1, "seeders": 800, "leechers": 200, "created_at": "2026-10-08T20:03:31"}
+{"dependency_versions_verified": {"composer.lock": {"original": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2", "candidate": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2"}, "Cargo.lock": {"original": "5063cac010a332a09bbf43d0f17d2cae102a4a45146c3e03e034850f431d1668", "candidate": "6339fdcf4144d74bb42038892cf8c9814c4f7ba663afac9d9e641780f2f7378e"}}, "rust_change": "existing serde_json becomes direct"}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+6ad9953ce38a64f047e5a278e9eefceb2750f42c940d239f148dcc8d48533930
+Benchmark iniciado: rust original; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.0012968910014024004}
+{"dependency_versions_verified": {"composer.lock": {"original": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2", "candidate": "bc92aad82e7f3d5a0164f530da21b0c07468fd9564dc1162027d3ff92df43fd2"}, "Cargo.lock": {"original": "5063cac010a332a09bbf43d0f17d2cae102a4a45146c3e03e034850f431d1668", "candidate": "6339fdcf4144d74bb42038892cf8c9814c4f7ba663afac9d9e641780f2f7378e"}}, "rust_change": "existing serde_json becomes direct"}
+unit3d-ds-rust
+unit3d-ds-rust

@@ -1,0 +1,39 @@
+{
+  "peers": {
+    "n": 1000,
+    "uploaded": 6000000,
+    "versions": 90000
+  },
+  "history": {
+    "n": 1000,
+    "actual_uploaded": 6000000,
+    "uploaded": 6000000
+  },
+  "users": {
+    "n": 1000,
+    "uploaded": 6000000
+  },
+  "peer_ips": {
+    "n": 1500
+  },
+  "failed_jobs": {
+    "n": 0
+  },
+  "database": {
+    "version": "8.0.46",
+    "isolation": "REPEATABLE-READ"
+  },
+  "locks": {
+    "lock_deadlocks": 193,
+    "lock_timeouts": 70
+  },
+  "ownership": {
+    "backend": "rust",
+    "generation": 1176,
+    "live": 0,
+    "php_journal_drained": 0
+  },
+  "failures": [],
+  "mismatches": [],
+  "temporary_source_aliases_removed": true
+}

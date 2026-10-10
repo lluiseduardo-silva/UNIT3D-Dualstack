@@ -1,0 +1,1456 @@
+{
+  "case": {
+    "label": "qbit-transmission-v6",
+    "seeder": "qbit",
+    "downloader": "transmission",
+    "network": "ipv6",
+    "failure_family": null,
+    "torrent_id": 12102,
+    "info_hash": "b799d3e7fb6b67f759c0ee0911cc0852aaf0d38c"
+  },
+  "status": "passed",
+  "progress": [
+    {
+      "at": 1791471019.815924,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 2,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791471020.3500319,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791471020.8826554,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791471021.416119,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471021.949132,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471022.4813957,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471023.0139122,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471023.546588,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471024.0797799,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471024.6131043,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471025.1464968,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471025.6796525,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471026.2123308,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471026.744877,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471027.2778888,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471027.810748,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471028.3435874,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471028.877346,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471029.4123545,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471029.947674,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471030.482417,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471031.0157056,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471031.5490026,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471032.0813339,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471032.6138198,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471033.146606,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471033.6794102,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471034.2124636,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471034.745513,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471035.2792852,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471035.8130605,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471036.3455942,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471036.88139,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471037.4143047,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471037.9469478,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471038.4802632,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471039.0125701,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471039.5448139,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471040.0771072,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471040.6099746,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471041.1430333,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471041.675764,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471042.2086804,
+      "progress": 0.0312,
+      "downloaded": 524288,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471042.741303,
+      "progress": 0.0625,
+      "downloaded": 1048576,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471043.2743661,
+      "progress": 0.0938,
+      "downloaded": 1572864,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471043.8069816,
+      "progress": 0.125,
+      "downloaded": 2097152,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471044.340189,
+      "progress": 0.1562,
+      "downloaded": 2621440,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471044.874402,
+      "progress": 0.1875,
+      "downloaded": 3145728,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471045.407295,
+      "progress": 0.2188,
+      "downloaded": 3670016,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471045.9402366,
+      "progress": 0.25,
+      "downloaded": 4194304,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471046.4734757,
+      "progress": 0.2812,
+      "downloaded": 4718592,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471047.0066538,
+      "progress": 0.3125,
+      "downloaded": 5242880,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471047.5403998,
+      "progress": 0.3438,
+      "downloaded": 5767168,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471048.074434,
+      "progress": 0.375,
+      "downloaded": 6291456,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471048.6073081,
+      "progress": 0.4062,
+      "downloaded": 6815744,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471049.1401,
+      "progress": 0.4375,
+      "downloaded": 7340032,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471049.673187,
+      "progress": 0.4688,
+      "downloaded": 7864320,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471050.2064779,
+      "progress": 0.5,
+      "downloaded": 8388608,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471050.7396495,
+      "progress": 0.5625,
+      "downloaded": 9437184,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471051.2724626,
+      "progress": 0.5938,
+      "downloaded": 9961472,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471051.805305,
+      "progress": 0.625,
+      "downloaded": 10485760,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471052.3379698,
+      "progress": 0.6562,
+      "downloaded": 11010048,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471052.8716245,
+      "progress": 0.6875,
+      "downloaded": 11534336,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471053.4043388,
+      "progress": 0.7188,
+      "downloaded": 12058624,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471053.937218,
+      "progress": 0.75,
+      "downloaded": 12582912,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471054.469719,
+      "progress": 0.7812,
+      "downloaded": 13107200,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471055.004719,
+      "progress": 0.8125,
+      "downloaded": 13631488,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471055.5376098,
+      "progress": 0.8438,
+      "downloaded": 14155776,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471056.0705643,
+      "progress": 0.875,
+      "downloaded": 14680064,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471056.6033382,
+      "progress": 0.9062,
+      "downloaded": 15204352,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471057.1361136,
+      "progress": 0.9375,
+      "downloaded": 15728640,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471057.668995,
+      "progress": 0.9688,
+      "downloaded": 16252928,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "fd42:756e:6974:92::40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791471058.20179,
+      "progress": 1,
+      "downloaded": 16777216,
+      "state": 6,
+      "error": 0,
+      "peers": []
+    }
+  ],
+  "before_start": {
+    "peers": [],
+    "endpoints": [],
+    "history": [],
+    "torrent": [
+      {
+        "seeders": 0,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 0,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 16777216,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 16777216
+      }
+    ]
+  },
+  "before_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12102,
+        "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+        "state_version": 1,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 1
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 1,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 1,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 1,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 16777216,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 16777216
+      }
+    ]
+  },
+  "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+  "after_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12102,
+        "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+        "state_version": 1,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12102,
+        "peer_id": "2D5452343035302D747877367A37617768393135",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 1
+      },
+      {
+        "user_id": 12002,
+        "peer_id": "2D5452343035302D747877367A37617768393135",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::41",
+        "port": 6881,
+        "revision": 1
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 1,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 16777216,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 2,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 2,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 1
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 16777216,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 33554432
+      }
+    ]
+  },
+  "after_stop": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12102,
+        "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+        "state_version": 2,
+        "uploaded": 16777216,
+        "downloaded": 0,
+        "left": 0,
+        "active": 0,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12102,
+        "peer_id": "2D5452343035302D747877367A37617768393135",
+        "state_version": 3,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "left": 0,
+        "active": 0,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 2,
+        "actual_uploaded": 16777216,
+        "actual_downloaded": 0,
+        "uploaded": 16777216,
+        "downloaded": 0,
+        "seedtime": 40,
+        "active": 0,
+        "seeder": 0
+      },
+      {
+        "user_id": 12002,
+        "state_version": 3,
+        "actual_uploaded": 0,
+        "actual_downloaded": 16777216,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "seedtime": 1,
+        "active": 0,
+        "seeder": 0
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 0,
+        "leechers": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 0,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 1
+      }
+    ],
+    "users": [
+      {
+        "id": 12001,
+        "uploaded": 33554432,
+        "downloaded": 0
+      },
+      {
+        "id": 12002,
+        "uploaded": 0,
+        "downloaded": 33554432
+      }
+    ]
+  },
+  "seed_wire": {
+    "announces": [
+      {
+        "at": 1791471019.176137,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d7142343633302d68625f49712d4548306b4564",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471059.275303,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "2",
+        "user_id": 12001,
+        "peer_id": "2d7142343633302d68625f49712d4548306b4564",
+        "event": "stopped",
+        "uploaded": 16777216,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791471019.204959,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2045,
+          "min interval": 1712,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471059.293798,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "2",
+        "status": 200,
+        "body": {
+          "complete": 2,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 2647,
+          "min interval": 1790,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791471021.214346,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "peer_id": "2d5452343035302d747877367a37617768393135",
+        "info_hash": "b799d3e7fb6b67f759c0ee0911cc0852aaf0d38c"
+      },
+      {
+        "at": 1791471021.214465,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "peer_id": "2d7142343633302d36415441685f6f4c4e393457",
+        "info_hash": "b799d3e7fb6b67f759c0ee0911cc0852aaf0d38c"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 354,
+        "tcp_bytes": 16261132,
+        "first_at": 1791471041.715304,
+        "last_at": 1791471057.217124
+      }
+    }
+  },
+  "seed_capture": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n957 packets captured\n957 packets received by filter\n0 packets dropped by kernel\n",
+  "down_wire": {
+    "announces": [
+      {
+        "at": 1791471020.31656,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d747877367a37617768393135",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791471058.371887,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d747877367a37617768393135",
+        "event": "completed",
+        "uploaded": 0,
+        "downloaded": 16777216
+      },
+      {
+        "at": 1791471059.896684,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d747877367a37617768393135",
+        "event": "stopped",
+        "uploaded": 0,
+        "downloaded": 16777216
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791471020.336739,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2846,
+          "min interval": 1749,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791471058.39516,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 2269,
+          "min interval": 1771,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791471059.914476,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 1,
+          "incomplete": 0,
+          "interval": 3549,
+          "min interval": 1743,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791471021.214335,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "peer_id": "2d5452343035302d747877367a37617768393135",
+        "info_hash": "b799d3e7fb6b67f759c0ee0911cc0852aaf0d38c"
+      },
+      {
+        "at": 1791471021.214474,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "peer_id": "2d7142343633302d36415441685f6f4c4e393457",
+        "info_hash": "b799d3e7fb6b67f759c0ee0911cc0852aaf0d38c"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 354,
+        "tcp_bytes": 16261132,
+        "first_at": 1791471041.715306,
+        "last_at": 1791471057.217132
+      }
+    }
+  },
+  "down_capture": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n953 packets captured\n953 packets received by filter\n0 packets dropped by kernel\n",
+  "accounting": [
+    {
+      "user_id": 12001,
+      "peer_id": "2D7142343633302D68625F49712D4548306B4564",
+      "state_version": 2,
+      "uploaded": 16777216,
+      "downloaded": 0
+    },
+    {
+      "user_id": 12002,
+      "peer_id": "2D5452343035302D747877367A37617768393135",
+      "state_version": 3,
+      "uploaded": 0,
+      "downloaded": 16777216
+    }
+  ]
+}

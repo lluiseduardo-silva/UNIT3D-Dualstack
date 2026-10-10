@@ -1,0 +1,34 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 17.65s
+     Running tests/dualstack_bootstrap.rs (target/release/deps/dualstack_bootstrap-6dc4011313bd7683)
+
+running 1 test
+
+thread 'bootstrap_cancellation' (28) panicked at tests/dualstack_bootstrap.rs:38:5:
+assertion failed: matches!(Coordinator::open(pool.clone(),settings).await,Err(Error::Owned))
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test bootstrap_cancellation ... FAILED
+
+failures:
+
+failures:
+    bootstrap_cancellation
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.03s
+
+error: test failed, to rerun pass `--test dualstack_bootstrap`

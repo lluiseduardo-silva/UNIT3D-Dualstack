@@ -1,0 +1,13 @@
+{
+  "series": "density-throughput-reference-v1",
+  "status": "passed",
+  "accepted": 110000,
+  "measured_samples": 82500,
+  "phases": 2,
+  "sha256": {
+    "rate-1500-r1.json": "157852aba45a263aa02b55ea206bd7df560df98da8a85b97f2ac82845d95c972",
+    "rate-1500-r1-samples.json.gz": "2db79a5f04a6dd827db4f52d4bb92e435473659d2afb10ae9f378478233cee08",
+    "rate-4000-r2.json": "891718ece8039c20ab7e5662f046ae61b6c95748974e46ab2ae68e6e81bac3f1",
+    "rate-4000-r2-samples.json.gz": "c54cca990045de45e9ddb443aa1fc178ff7148193b0df15b70a482e357aa219b"
+  }
+}

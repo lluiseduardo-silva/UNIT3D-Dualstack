@@ -1,0 +1,8 @@
+﻿# project-quality 1.2.0 - arquivos gerenciados por este pacote. Nao edite a mao.
+agents/explorer.md
+agents/verifier.md
+rules/engineering.md
+rules/workflow.md
+skills/contention-test/SKILL.md
+skills/diag/SKILL.md
+skills/plan/SKILL.md

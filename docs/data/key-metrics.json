@@ -1,0 +1,1221 @@
+{
+  "format_version": 1,
+  "evidence_cutoff": "2026-10-10",
+  "notes": [
+    "Valores usam ponto decimal conforme JSON.",
+    "Medianas de percentis por janela não são percentis globais.",
+    "Sem aprovação global de performance original/candidato ou PHP."
+  ],
+  "records": [
+    {
+      "id": "six-hours-candidate-accepted",
+      "profile": "six-hours-candidate",
+      "metric": "accepted",
+      "value": 171427236,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "",
+      "json_pointer": "/load/accepted"
+    },
+    {
+      "id": "six-hours-candidate-errors",
+      "profile": "six-hours-candidate",
+      "metric": "errors",
+      "value": 0,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "",
+      "json_pointer": "/load/errors"
+    },
+    {
+      "id": "six-hours-candidate-main_accepted",
+      "profile": "six-hours-candidate",
+      "metric": "main_accepted",
+      "value": 170004515,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "",
+      "json_pointer": "/load/main_accepted"
+    },
+    {
+      "id": "six-hours-candidate-p95",
+      "profile": "six-hours-candidate",
+      "metric": "http_response",
+      "value": 0.24621176964669728,
+      "unit": "ms",
+      "statistic": "median_of_window_p95",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "Não é percentil global; perfis original/candidato distintos.",
+      "json_pointer": "/window_metrics_median/response_ms/p95"
+    },
+    {
+      "id": "six-hours-candidate-p99",
+      "profile": "six-hours-candidate",
+      "metric": "http_response",
+      "value": 0.3303247240449068,
+      "unit": "ms",
+      "statistic": "median_of_window_p99",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "Não é percentil global; perfis original/candidato distintos.",
+      "json_pointer": "/window_metrics_median/response_ms/p99"
+    },
+    {
+      "id": "six-hours-candidate-rps-min",
+      "profile": "six-hours-candidate",
+      "metric": "completed_rps",
+      "value": 7999.2,
+      "unit": "requests/s",
+      "statistic": "min_of_windows",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "Janelas com pausas entre elas.",
+      "json_pointer": "/completed_rps/min"
+    },
+    {
+      "id": "six-hours-candidate-rps-median",
+      "profile": "six-hours-candidate",
+      "metric": "completed_rps",
+      "value": 7999.95,
+      "unit": "requests/s",
+      "statistic": "median_of_windows",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "Janelas com pausas entre elas.",
+      "json_pointer": "/completed_rps/median"
+    },
+    {
+      "id": "six-hours-candidate-credit",
+      "profile": "six-hours-candidate",
+      "metric": "credit",
+      "value": 8500225800,
+      "unit": "bytes",
+      "statistic": "confirmed_total",
+      "source": "docs/dualstack-prolongado-v3.md",
+      "notes": "Oráculos de crédito diferem entre os perfis."
+    },
+    {
+      "id": "six-hours-candidate-rss-hourly",
+      "profile": "six-hours-candidate",
+      "metric": "rust_rss",
+      "value": [
+        32.15,
+        33.2
+      ],
+      "unit": "MiB",
+      "statistic": "range_of_hourly_medians",
+      "source": "docs/dualstack-prolongado-v3.md",
+      "notes": ""
+    },
+    {
+      "id": "six-hours-candidate-rss-peak",
+      "profile": "six-hours-candidate",
+      "metric": "rust_rss",
+      "value": 125.31,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "docs/dualstack-prolongado-v3.md",
+      "notes": ""
+    },
+    {
+      "id": "six-hours-original-accepted",
+      "profile": "six-hours-original",
+      "metric": "accepted",
+      "value": 175346000,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "",
+      "json_pointer": "/load/accepted"
+    },
+    {
+      "id": "six-hours-original-errors",
+      "profile": "six-hours-original",
+      "metric": "errors",
+      "value": 0,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "",
+      "json_pointer": "/load/errors"
+    },
+    {
+      "id": "six-hours-original-main_accepted",
+      "profile": "six-hours-original",
+      "metric": "main_accepted",
+      "value": 175200000,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "",
+      "json_pointer": "/load/main_accepted"
+    },
+    {
+      "id": "six-hours-original-p95",
+      "profile": "six-hours-original",
+      "metric": "http_response",
+      "value": 0.3522116508370812,
+      "unit": "ms",
+      "statistic": "median_of_window_p95",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "Não é percentil global; perfis original/candidato distintos.",
+      "json_pointer": "/window_metrics_median/response_ms/p95"
+    },
+    {
+      "id": "six-hours-original-p99",
+      "profile": "six-hours-original",
+      "metric": "http_response",
+      "value": 0.4752379169056416,
+      "unit": "ms",
+      "statistic": "median_of_window_p99",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "Não é percentil global; perfis original/candidato distintos.",
+      "json_pointer": "/window_metrics_median/response_ms/p99"
+    },
+    {
+      "id": "six-hours-original-rps-min",
+      "profile": "six-hours-original",
+      "metric": "completed_rps",
+      "value": 7999.933333333333,
+      "unit": "requests/s",
+      "statistic": "min_of_windows",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "Janelas com pausas entre elas.",
+      "json_pointer": "/completed_rps/min"
+    },
+    {
+      "id": "six-hours-original-rps-median",
+      "profile": "six-hours-original",
+      "metric": "completed_rps",
+      "value": 7999.993333333333,
+      "unit": "requests/s",
+      "statistic": "median_of_windows",
+      "source": "lab/dualstack/results/soak/rust-original-six-hours-v1/summary.json",
+      "notes": "Janelas com pausas entre elas.",
+      "json_pointer": "/completed_rps/median"
+    },
+    {
+      "id": "six-hours-original-credit",
+      "profile": "six-hours-original",
+      "metric": "credit",
+      "value": 17520000000,
+      "unit": "bytes",
+      "statistic": "confirmed_total",
+      "source": "docs/dualstack-rust-original-prolongado.md",
+      "notes": "Oráculos de crédito diferem entre os perfis."
+    },
+    {
+      "id": "six-hours-original-rss-hourly",
+      "profile": "six-hours-original",
+      "metric": "rust_rss",
+      "value": [
+        26.95,
+        27.92
+      ],
+      "unit": "MiB",
+      "statistic": "range_of_hourly_medians",
+      "source": "docs/dualstack-rust-original-prolongado.md",
+      "notes": ""
+    },
+    {
+      "id": "six-hours-original-rss-peak",
+      "profile": "six-hours-original",
+      "metric": "rust_rss",
+      "value": 38.61,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "docs/dualstack-rust-original-prolongado.md",
+      "notes": ""
+    },
+    {
+      "id": "candidate-expiry",
+      "profile": "six-hours-candidate",
+      "metric": "ipv6_expiry_elapsed",
+      "value": 7221,
+      "unit": "s",
+      "statistic": "observed",
+      "source": "docs/dualstack-prolongado-v3.md",
+      "notes": "TTL 7200; endpoints 20000→19999; peers 10000; restauração posterior."
+    },
+    {
+      "id": "candidate-lag-max",
+      "profile": "six-hours-candidate",
+      "metric": "observed_version_lag",
+      "value": 89007,
+      "unit": "versions",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/soak/six-hours-v3-summary.json",
+      "notes": "Inclui defasagem de observação; valor final zero.",
+      "json_pointer": "/max_observed_persistence_lag"
+    },
+    {
+      "id": "density-50",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.239,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "50 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-150",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.2454,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "150 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-250",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.2483,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "250 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-1000",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.2555,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "1000 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-2500",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.2745,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "2500 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-5000",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.3155,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "5000 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-10000",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.4038,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "10000 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-20000",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 0.5836,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "20000 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "density-40000",
+      "profile": "density-1000rps",
+      "metric": "http_response",
+      "value": 1.1346,
+      "unit": "ms",
+      "statistic": "median_of_repetition_p99",
+      "source": "docs/dualstack-densidade.md",
+      "notes": "40000 peers no torrent alvo; teste curto exploratório."
+    },
+    {
+      "id": "bootstrap-1000-distributed",
+      "profile": "bootstrap-distributed",
+      "metric": "bootstrap_seconds",
+      "value": [
+        0.045924644,
+        0.083420544
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "1000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "bootstrap-1000-concentrated",
+      "profile": "bootstrap-concentrated",
+      "metric": "bootstrap_seconds",
+      "value": [
+        0.048733306,
+        0.050225979
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "1000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "bootstrap-54000-distributed",
+      "profile": "bootstrap-distributed",
+      "metric": "bootstrap_seconds",
+      "value": [
+        1.707486651,
+        1.909083067
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "54000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "bootstrap-54000-concentrated",
+      "profile": "bootstrap-concentrated",
+      "metric": "bootstrap_seconds",
+      "value": [
+        1.685637207,
+        1.8783026390000002
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "54000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "bootstrap-100000-distributed",
+      "profile": "bootstrap-distributed",
+      "metric": "bootstrap_seconds",
+      "value": [
+        3.109381458,
+        3.379686077
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "100000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "bootstrap-100000-concentrated",
+      "profile": "bootstrap-concentrated",
+      "metric": "bootstrap_seconds",
+      "value": [
+        2.8073803809999998,
+        2.92123943
+      ],
+      "unit": "s",
+      "statistic": "range",
+      "source": "lab/dualstack/results/bootstrap/summary.json",
+      "notes": "100000 peers; carregamento, não throughput."
+    },
+    {
+      "id": "capacity-memory-4g-v1-accepted",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "accepted",
+      "value": 5550000,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-memory-4g-v1/accepted"
+    },
+    {
+      "id": "capacity-memory-4g-v1-credit_bytes",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "credit_bytes",
+      "value": 277523200,
+      "unit": "bytes",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-memory-4g-v1/credit_bytes"
+    },
+    {
+      "id": "capacity-memory-4g-v1-rss_mib",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "rss_mib",
+      "value": 1245.75,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-memory-4g-v1/memory_ranges/rss_mib/max"
+    },
+    {
+      "id": "capacity-memory-4g-v1-pss_mib",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "pss_mib",
+      "value": 1245.9375,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-memory-4g-v1/memory_ranges/pss_mib/max"
+    },
+    {
+      "id": "capacity-memory-4g-v1-Prepared_stmt_count",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "Prepared_stmt_count",
+      "value": 301,
+      "unit": "count",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-memory-4g-v1/memory_ranges/Prepared_stmt_count/max"
+    },
+    {
+      "id": "capacity-memory-4g-v1-prepared_mem_root_mib",
+      "profile": "capacity-memory-4g-v1",
+      "metric": "prepared_mem_root_mib",
+      "value": 488.13793182373047,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-memory-4g-v1/memory_ranges/prepared_mem_root_mib/max"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-p99",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "http_response",
+      "value": 0.3586236116071209,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-tracker-cpu",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "tracker_cpu",
+      "value": 36.46489564150761,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-data-cpu",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "data_cpu",
+      "value": 65.44286045954794,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-write_iops",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "write_iops",
+      "value": 1634.4877835284387,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-write_mib_s",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "write_mib_s",
+      "value": 26.10208644632229,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-1-flush_iops",
+      "profile": "capacity-memory-4g-v1-confirm-1",
+      "metric": "flush_iops",
+      "value": 522.8416143041499,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/7/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-p99",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "http_response",
+      "value": 0.3589832352187277,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-tracker-cpu",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "tracker_cpu",
+      "value": 36.45481014322266,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-data-cpu",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "data_cpu",
+      "value": 65.20097821562514,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-write_iops",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "write_iops",
+      "value": 1594.1506630946453,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-write_mib_s",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "write_mib_s",
+      "value": 25.793450336843033,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-memory-4g-v1-confirm-2-flush_iops",
+      "profile": "capacity-memory-4g-v1-confirm-2",
+      "metric": "flush_iops",
+      "value": 510.9708486809205,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-memory-4g-v1/trials/8/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "capacity-cache-b-v1-accepted",
+      "profile": "capacity-cache-b-v1",
+      "metric": "accepted",
+      "value": 5550000,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-cache-b-v1/accepted"
+    },
+    {
+      "id": "capacity-cache-b-v1-credit_bytes",
+      "profile": "capacity-cache-b-v1",
+      "metric": "credit_bytes",
+      "value": 277523200,
+      "unit": "bytes",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-cache-b-v1/credit_bytes"
+    },
+    {
+      "id": "capacity-cache-b-v1-rss_mib",
+      "profile": "capacity-cache-b-v1",
+      "metric": "rss_mib",
+      "value": 559.85546875,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-b-v1/memory_ranges/rss_mib/max"
+    },
+    {
+      "id": "capacity-cache-b-v1-pss_mib",
+      "profile": "capacity-cache-b-v1",
+      "metric": "pss_mib",
+      "value": 559.99609375,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-b-v1/memory_ranges/pss_mib/max"
+    },
+    {
+      "id": "capacity-cache-b-v1-Prepared_stmt_count",
+      "profile": "capacity-cache-b-v1",
+      "metric": "Prepared_stmt_count",
+      "value": 20,
+      "unit": "count",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-b-v1/memory_ranges/Prepared_stmt_count/max"
+    },
+    {
+      "id": "capacity-cache-b-v1-prepared_mem_root_mib",
+      "profile": "capacity-cache-b-v1",
+      "metric": "prepared_mem_root_mib",
+      "value": 8.178672790527344,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-b-v1/memory_ranges/prepared_mem_root_mib/max"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-p99",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "http_response",
+      "value": 0.3607867548288063,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-tracker-cpu",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "tracker_cpu",
+      "value": 39.90097781805539,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-data-cpu",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "data_cpu",
+      "value": 70.45553978873154,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-write_iops",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "write_iops",
+      "value": 1625.423429602348,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-write_mib_s",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "write_mib_s",
+      "value": 26.055509914580785,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-1-flush_iops",
+      "profile": "capacity-cache-b-v1-confirm-1",
+      "metric": "flush_iops",
+      "value": 522.4957597334264,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=False; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/7/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-p99",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "http_response",
+      "value": 0.36442094627153865,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-tracker-cpu",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "tracker_cpu",
+      "value": 40.17611679834775,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-data-cpu",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "data_cpu",
+      "value": 70.91453550460106,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-write_iops",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "write_iops",
+      "value": 1632.1013565552169,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-write_mib_s",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "write_mib_s",
+      "value": 26.08557992437381,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-cache-b-v1-confirm-2-flush_iops",
+      "profile": "capacity-cache-b-v1-confirm-2",
+      "metric": "flush_iops",
+      "value": 523.3193412178282,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-b-v1/trials/8/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-accepted",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "accepted",
+      "value": 5550000,
+      "unit": "count",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/accepted"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-credit_bytes",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "credit_bytes",
+      "value": 277523200,
+      "unit": "bytes",
+      "statistic": "total",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/credit_bytes"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-rss_mib",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "rss_mib",
+      "value": 1389.375,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/memory_ranges/rss_mib/max"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-pss_mib",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "pss_mib",
+      "value": 1389.515625,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/memory_ranges/pss_mib/max"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-Prepared_stmt_count",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "Prepared_stmt_count",
+      "value": 301,
+      "unit": "count",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/memory_ranges/Prepared_stmt_count/max"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-prepared_mem_root_mib",
+      "profile": "capacity-cache-a-repeat-v1",
+      "metric": "prepared_mem_root_mib",
+      "value": 490.31768798828125,
+      "unit": "MiB",
+      "statistic": "sampled_max",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "A1/A2 são candidato dualstack; B experimental.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/memory_ranges/prepared_mem_root_mib/max"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-p99",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "http_response",
+      "value": 0.36478636721781016,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-tracker-cpu",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "tracker_cpu",
+      "value": 36.5487463363748,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-data-cpu",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "data_cpu",
+      "value": 63.716968616528966,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-write_iops",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "write_iops",
+      "value": 1606.876248459068,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-write_mib_s",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "write_mib_s",
+      "value": 25.968590607980055,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-1-flush_iops",
+      "profile": "capacity-cache-a-repeat-v1-confirm-1",
+      "metric": "flush_iops",
+      "value": 512.383212634293,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/7/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-p99",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "http_response",
+      "value": 0.3575468949231198,
+      "unit": "ms",
+      "statistic": "window_p99",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/metrics/response_ms/p99"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-tracker-cpu",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "tracker_cpu",
+      "value": 36.35082301222762,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/resources/tracker/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-data-cpu",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "data_cpu",
+      "value": 62.98196674350991,
+      "unit": "percent_of_one_core",
+      "statistic": "process_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/resources/data/process/cpu_one_core_percent"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-write_iops",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "write_iops",
+      "value": 1580.1292970211232,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/resources/data/disk/write_iops"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-write_mib_s",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "write_mib_s",
+      "value": 25.860457516019867,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/resources/data/disk/write_mib_s"
+    },
+    {
+      "id": "capacity-cache-a-repeat-v1-confirm-2-flush_iops",
+      "profile": "capacity-cache-a-repeat-v1-confirm-2",
+      "metric": "flush_iops",
+      "value": 504.4966266304453,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "lab/dualstack/results/capacity/capacity-cache-ab-comparison.json",
+      "notes": "Janela de 300 s a 5500 req/s; estabilidade=True; não teto sustentado.",
+      "json_pointer": "/series/capacity-cache-a-repeat-v1/trials/8/resources/data/disk/flush_iops"
+    },
+    {
+      "id": "compact-4",
+      "profile": "protocol",
+      "metric": "compact_endpoint_bytes",
+      "value": 6,
+      "unit": "bytes",
+      "statistic": "representation_size",
+      "source": "docs/resultados-consolidados.md",
+      "notes": "Por peer selecionado; exclui envelope."
+    },
+    {
+      "id": "compact-6",
+      "profile": "protocol",
+      "metric": "compact_endpoint_bytes",
+      "value": 18,
+      "unit": "bytes",
+      "statistic": "representation_size",
+      "source": "docs/resultados-consolidados.md",
+      "notes": "Por peer selecionado; exclui envelope."
+    },
+    {
+      "id": "compact-dual",
+      "profile": "protocol",
+      "metric": "compact_endpoint_bytes",
+      "value": 24,
+      "unit": "bytes",
+      "statistic": "representation_size",
+      "source": "docs/resultados-consolidados.md",
+      "notes": "Por peer selecionado; exclui envelope."
+    },
+    {
+      "id": "initial-io-original-3s-writes",
+      "profile": "initial-io-original-3s",
+      "metric": "writes",
+      "value": [
+        118,
+        133
+      ],
+      "unit": "writes/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-original-3s-write_volume",
+      "profile": "initial-io-original-3s",
+      "metric": "write_volume",
+      "value": [
+        2.15,
+        2.28
+      ],
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-original-3s-redo",
+      "profile": "initial-io-original-3s",
+      "metric": "redo",
+      "value": [
+        0.157,
+        0.158
+      ],
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-original-100ms-writes",
+      "profile": "initial-io-original-100ms",
+      "metric": "writes",
+      "value": 476,
+      "unit": "writes/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-original-100ms-write_volume",
+      "profile": "initial-io-original-100ms",
+      "metric": "write_volume",
+      "value": 5.54,
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-original-100ms-redo",
+      "profile": "initial-io-original-100ms",
+      "metric": "redo",
+      "value": 0.524,
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-candidate-100ms-writes",
+      "profile": "initial-io-candidate-100ms",
+      "metric": "writes",
+      "value": [
+        432,
+        497
+      ],
+      "unit": "writes/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-candidate-100ms-write_volume",
+      "profile": "initial-io-candidate-100ms",
+      "metric": "write_volume",
+      "value": [
+        7.36,
+        7.69
+      ],
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "initial-io-candidate-100ms-redo",
+      "profile": "initial-io-candidate-100ms",
+      "metric": "redo",
+      "value": [
+        1.54,
+        1.55
+      ],
+      "unit": "MiB/s",
+      "statistic": "observed_value_or_range",
+      "source": "docs/dualstack-benchmarks.md",
+      "notes": "Controle intermediário, anterior às otimizações do escritor."
+    },
+    {
+      "id": "lease-io-8000-vm_write",
+      "profile": "load-8000-v1",
+      "metric": "vm_write",
+      "value": 33.24,
+      "unit": "MiB/s",
+      "statistic": "window_average",
+      "source": "docs/dualstack-lease-io.md",
+      "notes": "180 s; disco virtual; não requisito universal de SSD."
+    },
+    {
+      "id": "lease-io-8000-vm_writes",
+      "profile": "load-8000-v1",
+      "metric": "vm_writes",
+      "value": 2080,
+      "unit": "writes/s",
+      "statistic": "window_average",
+      "source": "docs/dualstack-lease-io.md",
+      "notes": "180 s; disco virtual; não requisito universal de SSD."
+    },
+    {
+      "id": "lease-io-8000-vm_flushes",
+      "profile": "load-8000-v1",
+      "metric": "vm_flushes",
+      "value": 691,
+      "unit": "flushes/s",
+      "statistic": "window_average",
+      "source": "docs/dualstack-lease-io.md",
+      "notes": "180 s; disco virtual; não requisito universal de SSD."
+    },
+    {
+      "id": "cache-rss-reduction",
+      "profile": "cache-A1-B-A2",
+      "metric": "mysql_peak_rss_reduction",
+      "value": [
+        55.1,
+        59.7
+      ],
+      "unit": "percent",
+      "statistic": "observed_comparison_range",
+      "source": "docs/dualstack-capacidade-recursos.md",
+      "notes": "B experimental; host compartilhado; confirmações de 300 s."
+    },
+    {
+      "id": "cache-mysql-cpu-cost",
+      "profile": "cache-A1-B-A2",
+      "metric": "mysql_cpu_increase",
+      "value": [
+        5.0,
+        7.9
+      ],
+      "unit": "percentage_points_of_one_core",
+      "statistic": "observed_comparison_range",
+      "source": "docs/dualstack-capacidade-recursos.md",
+      "notes": ""
+    },
+    {
+      "id": "cache-rust-cpu-cost",
+      "profile": "cache-A1-B-A2",
+      "metric": "rust_cpu_increase",
+      "value": [
+        3.4,
+        3.8
+      ],
+      "unit": "percentage_points_of_one_core",
+      "statistic": "observed_comparison_range",
+      "source": "docs/dualstack-capacidade-recursos.md",
+      "notes": ""
+    }
+  ]
+}

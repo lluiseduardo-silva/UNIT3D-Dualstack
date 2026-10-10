@@ -1,0 +1,67 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.09s
+  Executable tests/dualstack_bon.rs (target/release/deps/dualstack_bon-44befa2036ffd20f)
+{
+    "status": "passed",
+    "production": false,
+    "backend": "rust",
+    "waiting": 2,
+    "expected_sql_writers": 2,
+    "before": {
+        "lock_deadlocks": 190,
+        "lock_timeouts": 55
+    },
+    "after": {
+        "lock_deadlocks": 190,
+        "lock_timeouts": 55
+    },
+    "credits": {
+        "12001": {
+            "uploaded": "800",
+            "bon_delta": 100
+        },
+        "12002": {
+            "uploaded": "800",
+            "bon_delta": 100
+        },
+        "12003": {
+            "uploaded": "800",
+            "bon_delta": 100
+        }
+    }
+}
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.11s
+     Running tests/dualstack_bon.rs (target/release/deps/dualstack_bon-44befa2036ffd20f)
+
+running 1 test
+PASS quatro gravadores Rust, 24 transicoes reentregues, credito unico, seis peers e doze endpoints
+test bon_and_rust_writer_contention ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.47s

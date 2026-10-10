@@ -1,0 +1,1254 @@
+{
+  "status": "passed",
+  "backend": "php-standalone",
+  "started_at": "2026-10-08T03:58:58.410927+00:00",
+  "steps": [
+    {
+      "label": "preparacao-fixture-isolada",
+      "at": "2026-10-08T03:59:09.528233+00:00",
+      "result": "Banco exclusivo e fixtures sinteticas preparados; baseline preservado.\n0e3bf3477c6bda8706b05c92b54039f62abd7eee060dea0d25626da754a64e76\n9b8235b2d1eea8828432b223695bf5927d97055924257031b976b72ee38f4931\n1876814f4c3e7f55cb443f65063e10488c51e01834d4967f0a3d9fed8b520317"
+    },
+    {
+      "label": "entrada-pronta",
+      "at": "2026-10-08T03:59:10.044779+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 62,
+          "ready": "1",
+          "heartbeat_ms": 9460,
+          "backlog": 0,
+          "peer_version": null,
+          "uploaded": null,
+          "endpoints": []
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 62,
+            "lease_remaining_seconds": "29.4540"
+          },
+          "peers": [],
+          "endpoints": [],
+          "user": {
+            "uploaded": 0,
+            "downloaded": 0
+          },
+          "history": null,
+          "torrent": {
+            "seeders": 0,
+            "leechers": 0,
+            "seeders_ipv4": 0,
+            "seeders_ipv6": 0,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "baseline-ipv4",
+      "at": "2026-10-08T03:59:10.664462+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "started",
+        "uploaded": "1000",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 0,
+        "incomplete": 0,
+        "interval": 2631,
+        "duration_seconds": 0.24579
+      }
+    },
+    {
+      "label": "baseline-ipv6",
+      "at": "2026-10-08T03:59:10.934830+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "started",
+        "uploaded": "1000",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 3070,
+        "duration_seconds": 0.026678
+      }
+    },
+    {
+      "label": "credito-confirmado-inicial",
+      "at": "2026-10-08T03:59:11.218063+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "completed",
+        "uploaded": "1100",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 2911,
+        "duration_seconds": 0.021945
+      }
+    },
+    {
+      "label": "baseline-confirmado",
+      "at": "2026-10-08T03:59:11.739964+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 62,
+          "ready": "1",
+          "heartbeat_ms": 7765,
+          "backlog": 0,
+          "peer_version": 3,
+          "uploaded": "1100",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 1,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 2,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 62,
+            "lease_remaining_seconds": "27.7610"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 3,
+              "uploaded": 1100,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 100,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 3,
+            "actual_uploaded": 100,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 0
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "mysql-announce-pendente",
+      "at": "2026-10-08T03:59:12.222225+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "completed",
+        "uploaded": "1200",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 3487,
+        "duration_seconds": 0.023862
+      }
+    },
+    {
+      "label": "mysql-antes-da-falha",
+      "at": "2026-10-08T03:59:12.720314+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 62,
+          "ready": "1",
+          "heartbeat_ms": 6786,
+          "backlog": 1,
+          "peer_version": 4,
+          "uploaded": "1200",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 1,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 2,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431953
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 62,
+            "lease_remaining_seconds": "26.7820"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 3,
+              "uploaded": 1100,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 100,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 3,
+            "actual_uploaded": 100,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 0
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "mysql-servico-parado",
+      "at": "2026-10-08T03:59:16.938194+00:00",
+      "result": {
+        "running": false
+      }
+    },
+    {
+      "label": "mysql-coordenador-interrompido",
+      "at": "2026-10-08T03:59:17.373237+00:00",
+      "result": {
+        "running": false,
+        "exit_code": 1
+      }
+    },
+    {
+      "label": "mysql-recusa-durante-falha",
+      "at": "2026-10-08T03:59:17.650702+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "completed",
+        "uploaded": "1300",
+        "success": false,
+        "http_status": 200,
+        "protocol_failure": true,
+        "interval": 5400,
+        "duration_seconds": 0.02216
+      }
+    },
+    {
+      "label": "mysql-durante-falha",
+      "at": "2026-10-08T03:59:18.149800+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 62,
+          "ready": "0",
+          "heartbeat_ms": -2,
+          "backlog": 1,
+          "peer_version": 4,
+          "uploaded": "1200",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 1,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 2,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431953
+            }
+          ]
+        },
+        "mysql": {
+          "available": false,
+          "error_type": "Illuminate\\Database\\QueryException"
+        }
+      }
+    },
+    {
+      "label": "mysql-servico-restaurado-lease-vencida",
+      "at": "2026-10-08T03:59:40.545686+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 62,
+          "ready": "0",
+          "heartbeat_ms": -2,
+          "backlog": 1,
+          "peer_version": 4,
+          "uploaded": "1200",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 1,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "connectivity_checked_at": null,
+              "revision": 2,
+              "created_at": 1791431952,
+              "last_announced_at": 1791431953
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 62,
+            "lease_remaining_seconds": "0.0000"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 3,
+              "uploaded": 1100,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 100,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 3,
+            "actual_uploaded": 100,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 0
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "mysql-recuperado",
+      "at": "2026-10-08T03:59:41.496817+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 63,
+          "ready": "1",
+          "heartbeat_ms": 9682,
+          "backlog": 0,
+          "peer_version": 4,
+          "uploaded": "1200",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431952,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431953,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 63,
+            "lease_remaining_seconds": "29.6770"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 4,
+              "uploaded": 1200,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 200,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 4,
+            "actual_uploaded": 200,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 1
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "mysql-reenvio-sem-credito-extra",
+      "at": "2026-10-08T03:59:41.905727+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "completed",
+        "uploaded": "1200",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 3107,
+        "duration_seconds": 0.031975
+      }
+    },
+    {
+      "label": "mysql-depois-do-reenvio",
+      "at": "2026-10-08T03:59:42.461455+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 63,
+          "ready": "1",
+          "heartbeat_ms": 8720,
+          "backlog": 0,
+          "peer_version": 5,
+          "uploaded": "1200",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431983,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431953,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 63,
+            "lease_remaining_seconds": "28.7150"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 5,
+              "uploaded": 1200,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 200,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 5,
+            "actual_uploaded": 200,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 31
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "redis-announce-pendente",
+      "at": "2026-10-08T03:59:42.964431+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "completed",
+        "uploaded": "1300",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 2979,
+        "duration_seconds": 0.02238
+      }
+    },
+    {
+      "label": "redis-antes-da-falha",
+      "at": "2026-10-08T03:59:43.543122+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 63,
+          "ready": "1",
+          "heartbeat_ms": 7666,
+          "backlog": 1,
+          "peer_version": 6,
+          "uploaded": "1300",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431983,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431984,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 63,
+            "lease_remaining_seconds": "27.6610"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 5,
+              "uploaded": 1200,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 200,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 5,
+            "actual_uploaded": 200,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 31
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "redis-servico-parado",
+      "at": "2026-10-08T03:59:44.132330+00:00",
+      "result": {
+        "running": false
+      }
+    },
+    {
+      "label": "redis-coordenador-interrompido",
+      "at": "2026-10-08T03:59:44.536411+00:00",
+      "result": {
+        "running": false,
+        "exit_code": 1
+      }
+    },
+    {
+      "label": "redis-recusa-durante-falha",
+      "at": "2026-10-08T03:59:44.831676+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "completed",
+        "uploaded": "1400",
+        "success": false,
+        "http_status": 500,
+        "invalid_bencode": true,
+        "duration_seconds": 0.039754
+      }
+    },
+    {
+      "label": "redis-durante-falha",
+      "at": "2026-10-08T03:59:45.378226+00:00",
+      "result": {
+        "redis": {
+          "available": false,
+          "error_type": "RedisException"
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 63,
+            "lease_remaining_seconds": "25.8310"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 5,
+              "uploaded": 1200,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 200,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 5,
+            "actual_uploaded": 200,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 31
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "redis-servico-restaurado-lease-vencida",
+      "at": "2026-10-08T04:00:11.724686+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 63,
+          "ready": "1",
+          "heartbeat_ms": -2,
+          "backlog": 1,
+          "peer_version": 6,
+          "uploaded": "1300",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431983,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431984,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 63,
+            "lease_remaining_seconds": "0.0000"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 5,
+              "uploaded": 1200,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 200,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 5,
+            "actual_uploaded": 200,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 31
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "redis-recuperado",
+      "at": "2026-10-08T04:00:12.632591+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 64,
+          "ready": "1",
+          "heartbeat_ms": 9772,
+          "backlog": 0,
+          "peer_version": 6,
+          "uploaded": "1300",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431983,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431984,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 64,
+            "lease_remaining_seconds": "29.7680"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 6,
+              "uploaded": 1300,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 300,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 6,
+            "actual_uploaded": 300,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 32
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "redis-reenvio-sem-credito-extra",
+      "at": "2026-10-08T04:00:13.233557+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 4,
+        "event": "completed",
+        "uploaded": "1300",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 3497,
+        "duration_seconds": 0.024978
+      }
+    },
+    {
+      "label": "redis-depois-do-reenvio",
+      "at": "2026-10-08T04:00:13.807832+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 64,
+          "ready": "1",
+          "heartbeat_ms": 8587,
+          "backlog": 0,
+          "peer_version": 7,
+          "uploaded": "1300",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791432014,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791431984,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 64,
+            "lease_remaining_seconds": "28.5820"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 7,
+              "uploaded": 1300,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 300,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 7,
+            "actual_uploaded": 300,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 62
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "novo-delta-depois-das-falhas",
+      "at": "2026-10-08T04:00:14.087672+00:00",
+      "result": {
+        "user_id": 12001,
+        "torrent_id": 12001,
+        "peer_id_hex": "2d4453393230302d303030303030303030303931",
+        "source_family": 6,
+        "event": "completed",
+        "uploaded": "1400",
+        "success": true,
+        "http_status": 200,
+        "protocol_failure": false,
+        "complete": 1,
+        "incomplete": 0,
+        "interval": 3572,
+        "duration_seconds": 0.021802
+      }
+    },
+    {
+      "label": "estado-final-confirmado",
+      "at": "2026-10-08T04:00:14.646356+00:00",
+      "result": {
+        "redis": {
+          "available": true,
+          "generation": 64,
+          "ready": "1",
+          "heartbeat_ms": 7742,
+          "backlog": 0,
+          "peer_version": 8,
+          "uploaded": "1400",
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791432014,
+              "revision": 1,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "connectable": null,
+              "last_announced_at": 1791432015,
+              "revision": 2,
+              "connectivity_checked_at": null,
+              "created_at": 1791431952
+            }
+          ]
+        },
+        "mysql": {
+          "available": true,
+          "ownership": {
+            "generation": 64,
+            "lease_remaining_seconds": "27.7380"
+          },
+          "peers": [
+            {
+              "user_id": 12001,
+              "torrent_id": 12001,
+              "peer_id_hex": "2D4453393230302D303030303030303030303931",
+              "state_version": 8,
+              "uploaded": 1400,
+              "downloaded": 0,
+              "active": 1
+            }
+          ],
+          "endpoints": [
+            {
+              "family": 4,
+              "ip": "172.29.92.30",
+              "port": 6881,
+              "revision": 1
+            },
+            {
+              "family": 6,
+              "ip": "fd42:756e:6974:92::30",
+              "port": 6881,
+              "revision": 2
+            }
+          ],
+          "user": {
+            "uploaded": 400,
+            "downloaded": 0
+          },
+          "history": {
+            "state_version": 8,
+            "actual_uploaded": 400,
+            "actual_downloaded": 0,
+            "active": 1,
+            "seedtime": 63
+          },
+          "torrent": {
+            "seeders": 1,
+            "leechers": 0,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 1,
+            "leechers_ipv4": 0,
+            "leechers_ipv6": 0
+          }
+        }
+      }
+    },
+    {
+      "label": "encerramento-com-drenagem",
+      "at": "2026-10-08T04:00:15.295822+00:00",
+      "result": "unit3d-ds-nginx\nunit3d-ds-nginx\nunit3d-ds-php\nunit3d-ds-php\nunit3d-ds-coordinator\nunit3d-ds-coordinator"
+    }
+  ],
+  "cleanup": [],
+  "finished_at": "2026-10-08T04:00:15.296450+00:00"
+}

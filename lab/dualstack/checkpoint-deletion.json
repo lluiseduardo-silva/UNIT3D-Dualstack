@@ -1,0 +1,22 @@
+{
+  "unit3d_commit": "2e5b6ad2ba6d77132962ee2155781e9f3c5af20a",
+  "announce_commit": "4074ee4fba815a7e2dc9769f6d8f4e1cd41c9547",
+  "stage": 5,
+  "status": "coordinated_deletion_passed",
+  "php_tests": 57,
+  "php_assertions": 746,
+  "rust_blocks": 6,
+  "rust_regression_blocks": 22,
+  "preference_tests": 36,
+  "preference_assertions": 220,
+  "http_contract_steps_per_backend": 30,
+  "http_after_deletion_steps_per_backend": 4,
+  "mysql_real": true,
+  "redis_real": true,
+  "production": false,
+  "next": [
+    "telas locais de peers/endpoints",
+    "demais consumidores do site",
+    "rollback original, clientes reais e benchmarks"
+  ]
+}

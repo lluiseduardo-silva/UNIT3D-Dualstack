@@ -1,0 +1,18 @@
+{"product": "a0b448b667f756318200f17fda3e4fc6f2c3b75528c24a9ec9c0dfab80174659", "observed": "8cae998eb9ef751ab76193e8d0e010ef811a87cd64775cd1af3f954c4479ac93", "changed": ["src/dualstack_network.rs", "src/main.rs"], "product_binary": "8b825a1afb418f237803d5306abb0b57c2340ecb4b9f5871bc61dd290f3e4ace"}
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 36.99s
+f425b7dbea781695e3b4981bd4303c5e6fa95d1a9ca59c8a3341e92205027f5e  /opt/unit3d-dualstack/experiments/network-memory/target/release/unit3d-announce

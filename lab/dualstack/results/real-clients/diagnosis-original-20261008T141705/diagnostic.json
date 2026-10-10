@@ -1,0 +1,620 @@
+{
+  "variant": "original",
+  "diagnostic_only": true,
+  "samples": [
+    {
+      "elapsed": 0.03,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "checkingResumeData"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": -1,
+          "num_leeches": -1,
+          "num_peers": -1,
+          "num_seeds": -1,
+          "status": 1,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    },
+    {
+      "elapsed": 10.31,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 1,
+          "num_seeds": 1,
+          "status": 2,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    },
+    {
+      "elapsed": 20.85,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 1,
+          "num_seeds": 1,
+          "status": 2,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    },
+    {
+      "elapsed": 31.13,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 1,
+          "num_seeds": 1,
+          "status": 2,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    },
+    {
+      "elapsed": 41.4,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 1,
+          "num_seeds": 1,
+          "status": 2,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    },
+    {
+      "elapsed": 51.68,
+      "status": {
+        "progress": 0,
+        "downloaded": 0,
+        "state": "stalledDL"
+      },
+      "preferences": {
+        "current_network_interface": "bt0",
+        "current_interface_address": "",
+        "ip_filter_enabled": false,
+        "banned_IPs": "",
+        "proxy_type": "None",
+        "bittorrent_protocol": 1,
+        "encryption": 2,
+        "listen_port": 6881
+      },
+      "trackers": [
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "This torrent is private",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 0,
+          "num_seeds": 0,
+          "status": 0,
+          "tier": -1
+        },
+        {
+          "msg": "",
+          "num_downloaded": 0,
+          "num_leeches": 0,
+          "num_peers": 1,
+          "num_seeds": 1,
+          "status": 2,
+          "tier": 0
+        }
+      ],
+      "peers": {
+        "full_update": true,
+        "peers": {},
+        "rid": 1,
+        "show_flags": true
+      }
+    }
+  ],
+  "network": {
+    "seed": {
+      "routes": "fd42:756e:6974:92::/64 dev bt0 proto kernel metric 256 pref medium\nfe80::/64 dev bt0 proto kernel metric 256 pref medium",
+      "listeners": "State  Recv-Q Send-Q           Local Address:Port Peer Address:PortProcess\nLISTEN 0      4096                 127.0.0.1:6881      0.0.0.0:*          \nLISTEN 0      128                      [::1]:9091         [::]:*          \nLISTEN 0      4096   [fd42:756e:6974:92::40]:6881         [::]:*"
+    },
+    "down": {
+      "routes": "fd42:756e:6974:92::/64 dev bt0 proto kernel metric 256 pref medium\nfe80::/64 dev bt0 proto kernel metric 256 pref medium",
+      "listeners": "State  Recv-Q Send-Q               Local Address:Port Peer Address:PortProcess\nLISTEN 0      50                       127.0.0.1:8088      0.0.0.0:*          \nLISTEN 0      30     [fd42:756e:6974:92::41]%bt0:6881         [::]:*"
+    }
+  },
+  "manual_handshake": {
+    "at": 1791469047.3716445,
+    "diagnostic_only": true,
+    "tcp_connected": true,
+    "bittorrent_handshake": true,
+    "remote_peer_id": "2d5452343035302d327636656d6c366e3776796a"
+  },
+  "last": {
+    "status": {
+      "progress": 0,
+      "downloaded": 0,
+      "state": "stalledDL"
+    },
+    "preferences": {
+      "current_network_interface": "bt0",
+      "current_interface_address": "",
+      "ip_filter_enabled": false,
+      "banned_IPs": "",
+      "proxy_type": "None",
+      "bittorrent_protocol": 1,
+      "encryption": 2,
+      "listen_port": 6881
+    },
+    "trackers": [
+      {
+        "msg": "This torrent is private",
+        "num_downloaded": 0,
+        "num_leeches": 0,
+        "num_peers": 0,
+        "num_seeds": 0,
+        "status": 0,
+        "tier": -1
+      },
+      {
+        "msg": "This torrent is private",
+        "num_downloaded": 0,
+        "num_leeches": 0,
+        "num_peers": 0,
+        "num_seeds": 0,
+        "status": 0,
+        "tier": -1
+      },
+      {
+        "msg": "This torrent is private",
+        "num_downloaded": 0,
+        "num_leeches": 0,
+        "num_peers": 0,
+        "num_seeds": 0,
+        "status": 0,
+        "tier": -1
+      },
+      {
+        "msg": "",
+        "num_downloaded": 0,
+        "num_leeches": 0,
+        "num_peers": 1,
+        "num_seeds": 1,
+        "status": 2,
+        "tier": 0
+      }
+    ],
+    "peers": {
+      "full_update": true,
+      "peers": {},
+      "rid": 1,
+      "show_flags": true
+    }
+  },
+  "transmission": {
+    "torrents": [
+      {
+        "error": 0,
+        "leftUntilDone": 0,
+        "peersConnected": 0,
+        "percentDone": 1,
+        "rateUpload": 0,
+        "status": 6
+      }
+    ]
+  },
+  "seed_wire": {
+    "announces": [
+      {
+        "at": 1791469025.972577,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d5452343035302d327636656d6c366e3776796a",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791469025.994583,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 3368,
+          "min interval": 1750,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791469047.148246,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "peer_id": "2d4453444941472d303030303030303030303030",
+        "info_hash": "b964087b3f986cf5f4857ff1951f423d96d530e1"
+      },
+      {
+        "at": 1791469047.371602,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "peer_id": "2d5452343035302d327636656d6c366e3776796a",
+        "info_hash": "b964087b3f986cf5f4857ff1951f423d96d530e1"
+      }
+    ],
+    "piece_packets": 0
+  },
+  "down_wire": {
+    "announces": [
+      {
+        "at": 1791469027.936254,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d6b297150795a7a6d5f6c3850",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791469087.571808,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "3",
+        "user_id": 12002,
+        "peer_id": "2d7142343633302d6b297150795a7a6d5f6c3850",
+        "event": "stopped",
+        "uploaded": 0,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791469027.955237,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2886,
+          "min interval": 1772,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791469087.599776,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "3",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 2666,
+          "min interval": 1731,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791469047.148244,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "1",
+        "peer_id": "2d4453444941472d303030303030303030303030",
+        "info_hash": "b964087b3f986cf5f4857ff1951f423d96d530e1"
+      },
+      {
+        "at": 1791469047.371606,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "peer_id": "2d5452343035302d327636656d6c366e3776796a",
+        "info_hash": "b964087b3f986cf5f4857ff1951f423d96d530e1"
+      }
+    ],
+    "piece_packets": 0
+  }
+}

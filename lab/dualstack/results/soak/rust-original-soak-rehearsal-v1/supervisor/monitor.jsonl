@@ -1,0 +1,1 @@
+{"at": 1791587881.6771543, "progress": {"accepted": 2000, "elapsed_seconds": 0.14821688999654725, "error_details": [], "errors": 0, "expected_upload": 0, "main_accepted": 0, "phase": "warmup", "rss_peak_kib": 52452, "sample_count": 2000, "sample_queue": 1, "sequence": 2, "status": "running"}, "thin_free": 33140181984, "observed_persistence_lag": 0}

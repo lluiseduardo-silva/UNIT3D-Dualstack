@@ -1,0 +1,18 @@
+{
+    "production": false,
+    "source": "latest_deadlock_after_legacy_control",
+    "lock_excerpt": [
+        "*** (1) TRANSACTION:",
+        "*** (1) HOLDS THE LOCK(S):",
+        "RECORD LOCKS space id 4958 page no 4 n bits 96 index PRIMARY of table \"unit3d_dualstack_journal_test\".\"users\" trx id 138811 lock_mode X locks rec but not gap",
+        "*** (1) WAITING FOR THIS LOCK TO BE GRANTED:",
+        "RECORD LOCKS space id 4962 page no 4 n bits 72 index PRIMARY of table \"unit3d_dualstack_journal_test\".\"torrents\" trx id 138811 lock_mode X locks rec but not gap waiting",
+        "*** (2) TRANSACTION:",
+        "UPDATE users",
+        "*** (2) HOLDS THE LOCK(S):",
+        "RECORD LOCKS space id 4962 page no 4 n bits 72 index PRIMARY of table \"unit3d_dualstack_journal_test\".\"torrents\" trx id 138810 lock mode S locks rec but not gap",
+        "*** (2) WAITING FOR THIS LOCK TO BE GRANTED:",
+        "RECORD LOCKS space id 4958 page no 4 n bits 96 index PRIMARY of table \"unit3d_dualstack_journal_test\".\"users\" trx id 138810 lock_mode X locks rec but not gap waiting",
+        "*** WE ROLL BACK TRANSACTION (1)"
+    ]
+}

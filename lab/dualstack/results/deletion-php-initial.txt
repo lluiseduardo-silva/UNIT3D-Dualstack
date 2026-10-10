@@ -1,0 +1,67 @@
+
+   FAIL  Tests\Integration\DualstackDeletionTest
+  ✓ it confirma credito pendente antes de remover e ignora reentrega an… 5.12s
+  ✓ it confirma credito pendente antes de remover e ignora reentrega an… 5.07s
+  ✓ it preserva outros recursos e deduz peers logicos sem duplicar fami… 0.10s
+  ⨯ it retoma remocao selada depois de rollback SQL e restart sem recre… 0.04s
+  ✓ it remove no maximo duzentos peers por lote                          0.27s
+  ✓ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.10s
+  ⨯ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.03s
+  ⨯ it mantem peers e historico nos tres caminhos do site ate o coorden… 0.07s
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackDeletionTest > it reto…  QueryException
+  SQLSTATE[HY000]: General error: 3818 Check constraint 'dualstack_deletion_failure' cannot refer to an auto-increment column. (Connection: mysql, SQL: ALTER TABLE torrents ADD CONSTRAINT dualstack_deletion_failure CHECK (id<>12001 OR seeders>0))
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:570
+    566▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+    567▕
+    568▕             $this->recordsHaveBeenModified();
+    569▕
+  ➜ 570▕             return $statement->execute();
+    571▕         });
+    572▕     }
+    573▕
+    574▕     /**
+
+      +6 vendor frames
+  7   tests/Integration/DualstackDeletionTest.php:96
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackDeletionTest > it mant…  QueryException
+  SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails ("unit3d_dualstack_journal_test"."torrents", CONSTRAINT "torrents_user_id_foreign" FOREIGN KEY ("user_id") REFERENCES "users" ("id") ON UPDATE CASCADE) (Connection: mysql, SQL: update `torrents` set `user_id` = 1, `torrents`.`updated_at` = 2026-10-08 07:53:11 where `user_id` = 12001 and `torrents`.`deleted_at` is null)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:595
+    591▕             $statement = $this->getPdo()->prepare($query);
+    592▕
+    593▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+    594▕
+  ➜ 595▕             $statement->execute();
+    596▕
+    597▕             $this->recordsHaveBeenModified(
+    598▕                 ($count = $statement->rowCount()) > 0
+    599▕             );
+
+      +7 vendor frames
+  8   app/Http/Controllers/Staff/UserController.php:126
+  9   tests/Integration/DualstackDeletionTest.php:133
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  Tests\Integration\DualstackDeletionTest > it mantem peers e histo…
+  Expecting null not to be null .
+
+  at tests/Integration/DualstackDeletionTest.php:139
+    135▕         config(['pruning.user_pruning'=>true,'pruning.soft_delete'=>1]);
+    136▕         DB::table('users')->where('id',12001)->update(['group_id'=>20,'disabled_at'=>now()->subDays(3)]);
+    137▕         Illuminate\Support\Facades\Artisan::call('auto:softdelete_disabled_users');
+    138▕     }
+  ➜ 139▕     expect(DB::table($action==='torrent'?'torrents':'users')->where('id',12001)->value('deleted_at'))->not->toBeNull();
+    140▕     expect(DB::table('peers')->count())->toBe(1)->and(DB::table('peer_ips')->count())->toBe(2)->and(DB::table('history')->count())->toBe(1);
+    141▕     settleDeletions($this);
+    142▕     expect(DB::table('peers')->count())->toBe(0)->and(DB::table('history')->count())->toBe(0);
+    143▕ })->with(['torrent','user','automatic']);
+
+  1   tests/Integration/DualstackDeletionTest.php:139
+
+
+  Tests:    3 failed, 5 passed, 1 pending (59 assertions)
+  Duration: 10.92s

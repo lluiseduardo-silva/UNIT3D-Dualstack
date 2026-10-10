@@ -1,0 +1,9 @@
+test_guards (__main__.SoakTests.test_guards) ... ok
+test_percentile_bounds (__main__.SoakTests.test_percentile_bounds) ... ok
+test_segments_roundtrip_and_bound (__main__.SoakTests.test_segments_roundtrip_and_bound) ... ok
+test_writer_failure_visible (__main__.SoakTests.test_writer_failure_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.118s
+
+OK

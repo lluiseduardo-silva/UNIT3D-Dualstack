@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "gate": "stage-2-ddl-recovery",
+  "schemas": {
+    "unit3d_baseline": {
+      "constraints": [
+        {
+          "CONSTRAINT_NAME": "peer_ips_family_length",
+          "CONSTRAINT_TYPE": "CHECK"
+        },
+        {
+          "CONSTRAINT_NAME": "peer_ips_positive_revision",
+          "CONSTRAINT_TYPE": "CHECK"
+        },
+        {
+          "CONSTRAINT_NAME": "peer_ips_user_id_torrent_id_peer_id_foreign",
+          "CONSTRAINT_TYPE": "FOREIGN KEY"
+        },
+        {
+          "CONSTRAINT_NAME": "PRIMARY",
+          "CONSTRAINT_TYPE": "PRIMARY KEY"
+        }
+      ],
+      "index_names": [
+        "PRIMARY",
+        "peer_ips_expiration",
+        "peer_ips_torrent_family_live"
+      ],
+      "create_table": "CREATE TABLE `peer_ips` (\n  `user_id` int unsigned NOT NULL,\n  `torrent_id` int unsigned NOT NULL,\n  `peer_id` binary(20) NOT NULL,\n  `family` tinyint unsigned NOT NULL,\n  `ip` varbinary(16) NOT NULL,\n  `port` smallint unsigned NOT NULL,\n  `connectable` tinyint(1) DEFAULT NULL,\n  `last_announced_at` timestamp NOT NULL,\n  `connectivity_checked_at` timestamp NULL DEFAULT NULL,\n  `revision` bigint unsigned NOT NULL DEFAULT '1',\n  `created_at` timestamp NULL DEFAULT NULL,\n  `updated_at` timestamp NULL DEFAULT NULL,\n  PRIMARY KEY (`user_id`,`torrent_id`,`peer_id`,`family`),\n  KEY `peer_ips_torrent_family_live` (`torrent_id`,`family`,`last_announced_at`),\n  KEY `peer_ips_expiration` (`last_announced_at`),\n  CONSTRAINT `peer_ips_user_id_torrent_id_peer_id_foreign` FOREIGN KEY (`user_id`, `torrent_id`, `peer_id`) REFERENCES `peers` (`user_id`, `torrent_id`, `peer_id`) ON DELETE CASCADE ON UPDATE CASCADE,\n  CONSTRAINT `peer_ips_family_length` CHECK ((((`family` = 4) and (length(`ip`) = 4)) or ((`family` = 6) and (length(`ip`) = 16)))),\n  CONSTRAINT `peer_ips_positive_revision` CHECK ((`revision` > 0))\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci"
+    },
+    "unit3d_dualstack_schema_test": {
+      "constraints": [
+        {
+          "CONSTRAINT_NAME": "peer_ips_family_length",
+          "CONSTRAINT_TYPE": "CHECK"
+        },
+        {
+          "CONSTRAINT_NAME": "peer_ips_positive_revision",
+          "CONSTRAINT_TYPE": "CHECK"
+        },
+        {
+          "CONSTRAINT_NAME": "PRIMARY",
+          "CONSTRAINT_TYPE": "PRIMARY KEY"
+        }
+      ],
+      "index_names": [
+        "PRIMARY"
+      ],
+      "create_table": "CREATE TABLE `peer_ips` (\n  `user_id` int unsigned NOT NULL,\n  `torrent_id` int unsigned NOT NULL,\n  `peer_id` binary(20) NOT NULL,\n  `family` tinyint unsigned NOT NULL,\n  `ip` varbinary(16) NOT NULL,\n  `port` smallint unsigned NOT NULL,\n  `connectable` tinyint(1) DEFAULT NULL,\n  `last_announced_at` timestamp NOT NULL,\n  `connectivity_checked_at` timestamp NULL DEFAULT NULL,\n  `revision` bigint unsigned NOT NULL DEFAULT '1',\n  `created_at` timestamp NULL DEFAULT NULL,\n  `updated_at` timestamp NULL DEFAULT NULL,\n  PRIMARY KEY (`user_id`,`torrent_id`,`peer_id`,`family`),\n  CONSTRAINT `peer_ips_family_length` CHECK ((((`family` = 4) and (length(`ip`) = 4)) or ((`family` = 6) and (length(`ip`) = 16)))),\n  CONSTRAINT `peer_ips_positive_revision` CHECK ((`revision` > 0))\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci"
+    }
+  }
+}

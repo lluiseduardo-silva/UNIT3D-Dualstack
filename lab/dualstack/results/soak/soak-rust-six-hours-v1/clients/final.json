@@ -1,0 +1,1 @@
+{"accepted": 55270470, "audit": {"credit": 2740483300, "endpoints": 20000, "peers": 10000, "users": 250}, "elapsed_seconds": 6967.158131228, "errors": 0, "expiry_checked": false, "main_accepted": 54809665, "reason": "load_stopped_by_supervisor", "restored": false, "rss_peak_kib": 65176, "sample_count": 55270470, "sample_queue_peak": 2, "status": "failed", "windows": 115}

@@ -1,0 +1,18 @@
+.env file: verifying file exists                       ... [Finished] Path: "/app/.env"
+Loading config from env                                ... [Finished]
+Connecting to database                                 ... [Finished]
+Synchronizing peer counts                              ... [Finished]
+Loading entities from database into memory...
+Starting to load  1/11: blacklisted ports              ... [Finished] Records: 1032
+Starting to load  2/11: blacklisted user agents        ... [Finished] Records: 0
+Starting to load  3/11: torrents                       ... [Finished] Records: 2
+Starting to load  4/11: infohash to torrent id mappings... [Finished] Records: 2
+Starting to load  5/11: users                          ... [Finished] Records: 6
+Starting to load  6/11: passkey to user id mappings    ... [Finished] Records: 6
+Starting to load  7/11: connectable ports              ... [Finished] Records: 0
+Starting to load  8/11: freeleech tokens               ... [Finished] Records: 0
+Starting to load  9/11: personal freeleeches           ... [Finished] Records: 0
+Starting to load 10/11: featured torrents              ... [Finished] Records: 0
+Starting to load 11/11: groups                         ... [Finished] Records: 1
+All entities loaded into memory.
+Error: Inicializacao dualstack recusada: Outro backend possui o swarm

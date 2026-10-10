@@ -1,0 +1,1 @@
+{"fields": ["index", "family", "event_0_completed_1_started_2_stopped", "uploaded", "scheduled", "began", "received", "ended", "payload_bytes", "ok"], "histogram_error": "<=0.1% + 1 microsecond", "record_bytes": 51, "struct": "<IBBQddddI?", "time_unit": "seconds since monotonic origin"}

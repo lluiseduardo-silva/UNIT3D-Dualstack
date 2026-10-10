@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-08T14:01:22.459173+00:00",
+  "case": "transmission-qbit-v6",
+  "source": "private capture retained only in clients VM",
+  "pcap_sha256": "dcf27a44cfa9e7903306fc7bb6f2514271c90f8dc70ccea4bc3527bf217d83f1",
+  "tcp_peer_port_packets": 0,
+  "tcp_peer_port_syn_packets": 0,
+  "capture_diagnostics": {
+    "seed": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n9 packets captured\n21 packets received by filter\n0 packets dropped by kernel\n",
+    "down": "tcpdump: listening on bt0, link-type EN10MB (Ethernet), snapshot length 262144 bytes\n10 packets captured\n20 packets received by filter\n0 packets dropped by kernel\n"
+  },
+  "namespaces_after_cleanup": [],
+  "client_processes_after_cleanup": [],
+  "transmission_service_state": "masked",
+  "packages": [
+    "libtorrent-rasterbar2.0t64:amd64\t2.0.10-1.1build2",
+    "python3-libtorrent\t2.0.10-1.1build2",
+    "qbittorrent-nox\t4.6.3-1build2",
+    "tcpdump\t4.99.4-3ubuntu4.24.04.1",
+    "transmission-daemon\t4.0.5-1ubuntu0.1",
+    "tshark\t4.2.2-1.1build3"
+  ],
+  "root_cause": "not established"
+}

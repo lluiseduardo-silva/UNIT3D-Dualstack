@@ -1,0 +1,10 @@
+{
+    "status": "passed",
+    "backend": "rust",
+    "removed_logical_peers": 6,
+    "removal_state": 2,
+    "remaining_endpoints": 0,
+    "remaining_history": 0,
+    "credits_preserved": true,
+    "other_torrent_preserved": true
+}

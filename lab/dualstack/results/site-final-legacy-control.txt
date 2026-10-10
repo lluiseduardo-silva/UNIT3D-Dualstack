@@ -1,0 +1,11 @@
+
+BON contention {"command":"auto:bon_allocation","dualstack_query":false,"waiting":5,"before":{"lock_deadlocks":190,"lock_timeouts":55},"after":{"lock_deadlocks":190,"lock_timeouts":55},"credits":{"12001":{"uploaded":"800","bon_delta":100},"12002":{"uploaded":"800","bon_delta":100},"12003":{"uploaded":"800","bon_delta":100}}}
+
+BON contention {"command":"auto:highspeed_tag","dualstack_query":false,"waiting":5,"before":{"lock_deadlocks":190,"lock_timeouts":55},"after":{"lock_deadlocks":190,"lock_timeouts":55},"credits":{"12001":{"uploaded":"800","bon_delta":0},"12002":{"uploaded":"800","bon_delta":0},"12003":{"uploaded":"800","bon_delta":0}}}
+
+   PASS  Tests\Integration\DualstackBonContentionTest
+  ✓ it preserva creditos com quatro gravadores e consumidor concorrente… 0.46s
+  ✓ it preserva creditos com quatro gravadores e consumidor concorrente… 0.44s
+
+  Tests:    2 passed (101 assertions)
+  Duration: 1.02s

@@ -1,0 +1,24 @@
+{
+  "role": "clients",
+  "redirects": [
+    {
+      "directory": "results",
+      "files_verified": 25,
+      "backup": "/opt/unit3d-dualstack/results.before-zfs",
+      "destination": "/mnt/unit3d-archive/results"
+    },
+    {
+      "directory": "density-results",
+      "files_verified": 366,
+      "backup": "/opt/unit3d-dualstack/density-results.before-zfs",
+      "destination": "/mnt/unit3d-archive/density-results"
+    },
+    {
+      "directory": "benchmarks",
+      "files_verified": 74,
+      "backup": "/opt/unit3d-dualstack/benchmarks.before-zfs",
+      "destination": "/mnt/unit3d-archive/benchmarks"
+    }
+  ]
+}
+{"role":"clients","ssd_fallback_blocked":true,"remounted":true}

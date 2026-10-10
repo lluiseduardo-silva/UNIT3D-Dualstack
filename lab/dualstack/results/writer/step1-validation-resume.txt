@@ -1,0 +1,284 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+  Executable tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+{
+    "status": "passed",
+    "backend": "rust",
+    "production": false,
+    "sql_writers": 9,
+    "unique_transitions": 480,
+    "persistence_attempts": 1920,
+    "refund_commands": 160,
+    "waiting": 9,
+    "before": {
+        "lock_deadlocks": 195,
+        "lock_timeouts": 81,
+        "lock_row_lock_time": 627642,
+        "lock_row_lock_waits": 23637
+    },
+    "after": {
+        "lock_deadlocks": 195,
+        "lock_timeouts": 81,
+        "lock_row_lock_time": 629976,
+        "lock_row_lock_waits": 23879
+    },
+    "credits": [
+        {
+            "id": 12001,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        },
+        {
+            "id": 12002,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        },
+        {
+            "id": 12003,
+            "uploaded": 16000,
+            "downloaded": 1014000
+        }
+    ]
+}
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+
+running 1 test
+PASS quatro gravadores Rust, 480 transicoes reentregues, credito unico, seis peers e doze endpoints
+test refund_and_rust_writer_contention ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.38s
+
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+     Running tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+PASS preflight sem journal de handoff pendente
+PASS migracao aditiva reexecutada sem alterar proprietario ou geracao
+PASS schema aditivo de limpezas aplicado duas vezes
+PASS schema aditivo de remocao aplicado duas vezes
+PASS schema aditivo de reconciliacao aplicado duas vezes
+
+   PASS  Tests\Integration\DualstackJournalTest
+  ✓ it certifica drenagem somente depois de fechar produtores e reconhe… 0.11s  
+  ✓ it nao permite que uma geracao antiga certifique a nova como drenad… 0.03s  
+  ✓ it nao certifica drenagem enquanto houver filas legadas              0.02s  
+  ✓ it confirma referencias e credito juntos e tolera reentrega depois…  0.03s  
+  ✓ it recusa fila cheia antes de avancar a referencia e preserva uint6… 0.04s  
+  ✓ it aplica limites ao peer logico e ao endpoint separadamente         0.03s  
+  ✓ it deduplica conclusao por usuario torrent e preserva historico no…  0.03s  
+  ✓ it recusa dois proprietarios e recupera ambos endpoints e credito e… 0.12s  
+  ✓ it calcula credito com quatro processos disputando a mesma referenc… 0.07s  
+  ✓ it recupera um lote interrompido antes do commit sem avancar SQL pa… 0.04s  
+  ✓ it expira somente a familia vencida depois da recuperacao            0.10s  
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.05s  
+  ✓ it recupera o consumidor morto por SIGKILL na fronteira do commit w… 0.05s  
+  ✓ it persiste lotes sobrepostos em dois processos sem deadlock ou cre… 0.06s  
+  ✓ it limita peers logicos na resposta sem truncar contadores ou perde… 0.05s  
+  ✓ it retira somente peers confirmados e preserva uma reativacao pende… 0.08s  
+  ✓ it verifica TCP por familia sem desconectar o caminho valido         0.05s  
+  ✓ it limita o cache de conectividade durante rotacao de portas         0.12s  
+  ✓ it recupera mensagens nao confirmadas e bloqueia o proprietario ven… 0.08s  
+  ✓ it recusa announce sem heartbeat antes de alterar referencia ou jou… 0.02s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.04s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.05s  
+  ✓ it converge announce expiracao e stop sobrepostos sem perder credit… 0.07s  
+
+  Tests:    27 passed (474 assertions)
+  Duration: 1.66s
+
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+     Running tests/dualstack_mysql.rs (target/release/deps/dualstack_mysql-52949dc0059ff934)
+
+running 1 test
+PASS reconciliacao legada bloqueia aquisicao Rust sem alterar geracao
+PASS contabilidade 1000/1000/1100/1050/1200, reentrega, restart, geracao e stop parcial
+PASS backlog cheio sem avancar referencia
+PASS falha SQL entre endpoints e historico deixa zero efeitos parciais
+PASS quatro threads, 401 transicoes, credito 4000 e zero SQL durante publish
+PASS expiracao independente por familia
+PASS tres peers dualstack e quarto peer recusado
+PASS uint64 maximo exato em memoria e MySQL
+PASS TIMESTAMP e DATETIME preenchidos, probe e conclusao restaurados, seedtime 30 e credito 100/100 sem duplicacao
+PASS selecao por torrent, uniao de peers, numwant 0/1/2, ambos endpoints, payload, bencode, TTL, conectividade e restart sem SQL na leitura
+PASS retencao somente confirmada, lote limitado, preserva recente/ativo/historico e reconexao sem duplicar credito ou conclusao
+PASS retencao bloqueada no SQL recusa somente a identidade reservada e preserva announces de outros peers
+PASS cancelamento da retencao fecha entrada, rollback preserva referencia e bootstrap permite concluir limpeza
+PASS API logica com endpoints, identidade entre usuarios, uint64 exato, contadores correntes e inativos preservados apos restart
+PASS aquisicao bloqueada termina em 3 s sem abrir entrada
+PASS renovacao bloqueada termina em 3 s e fecha entrada
+PASS liberacao bloqueada termina em 3 s
+PASS lock wait 1205 repetido duas vezes, terceiro lote confirma credito 100 uma vez
+PASS retry esgotado em tres tentativas preserva fila, fecha entrada e permite drenagem
+PASS deadlock 1213 real, espera InnoDB observada, retry confirma credito 100 uma vez
+PASS supervisor renova por 12 s, encerra, drena e libera lease
+PASS supervisor interrompe escritor bloqueado quando renovacao falha, preserva duas transicoes e credito unico
+PASS supervisor falha fechada, sem retry de erro permanente, preserva fila e drena depois da correcao
+PASS 100 lotes de uma transicao drenados em menos de 3 s, encerramento e credito unico
+PASS lotes 500/500/1 confirmam 1001 versoes sem duplicar credito; limites 0/501 recusados antes da lease
+RUST_MYSQL_COORDINATOR_PASSED
+test mysql_coordinator_contract ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 31.40s
+
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+PASS PHP fecha entrada com duas transicoes pendentes e credito SQL zero
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 17.02s
+     Running tests/dualstack_handoff.rs (target/release/deps/dualstack_handoff-099b772371e4cf4c)
+
+running 1 test
+PASS Rust recusa journal PHP pendente sem alterar geracao ou credito
+test php_rust_handoff ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+PASS PHP recupera duas transicoes, confirma credito 100 e certifica drenagem
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.09s
+     Running tests/dualstack_handoff.rs (target/release/deps/dualstack_handoff-099b772371e4cf4c)
+
+running 1 test
+PASS PHP para Rust resume: endpoints e referencias restaurados, credito sem duplicacao
+test php_rust_handoff ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+PASS Rust para PHP restaura referencias, credita somente 100 e preserva IPv4 no stop IPv6
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+     Running tests/dualstack_handoff.rs (target/release/deps/dualstack_handoff-099b772371e4cf4c)
+
+running 1 test
+PASS PHP para Rust verify: endpoints e referencias restaurados, credito sem duplicacao
+test php_rust_handoff ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+DUALSTACK_HANDOFF_PASSED
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce" test) generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce --tests` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 7.30s
+     Running unittests src/main.rs (target/release/deps/unit3d_announce-eae060cb7f8df191)
+
+running 19 tests
+test utils::tests::hex_decode_invalid2 ... ok
+test dualstack_network::tests::proxies_explicit_and_family_scoped ... ok
+test utils::tests::hex_decode_invalid ... ok
+test utils::tests::hex_decode_invalid4 ... ok
+test utils::tests::hex_decode_invalid3 ... ok
+test utils::tests::hex_decode_invalid5 ... ok
+test utils::tests::hex_decode_invalid6 ... ok
+test utils::tests::hex_decode_invalid7 ... ok
+test utils::tests::hex_decode_lowercase ... ok
+test utils::tests::hex_decode_uppercase ... ok
+test utils::tests::hex_encode_letters ... ok
+test utils::tests::hex_encode_mixed ... ok
+test utils::tests::hex_encode_numbers ... ok
+test utils::tests::urlencoded_all_percents ... ok
+test utils::tests::urlencoded_incorrect_length ... ok
+test utils::tests::urlencoded_mixed_percents ... ok
+test utils::tests::urlencoded_too_many_percents ... ok
+test utils::tests::urlencoded_no_percents ... ok
+test dualstack_network::tests::connectivity_cache_is_bounded_and_expires ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+PASS DUALSTACK_BATCH_SIZE=0 recusado na configuracao
+PASS DUALSTACK_BATCH_SIZE=501 recusado na configuracao
+PASS DUALSTACK_BATCH_SIZE=invalid recusado na configuracao

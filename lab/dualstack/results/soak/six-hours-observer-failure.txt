@@ -1,0 +1,16 @@
+2026-10-09T02:32:37+00:00 unit3d-ds-data systemd[1]: Started unit3d-soak-observer-soak-rust-six-hours-v1.service - /usr/bin/python3 /opt/unit3d-dualstack/lab/soak-observer.py soak-rust-six-hours-v1.
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]: Traceback (most recent call last):
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:   File "/opt/unit3d-dualstack/lab/soak-observer.py", line 85, in <module>
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:     result=sample()
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:            ^^^^^^^^
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:   File "/opt/unit3d-dualstack/lab/soak-observer.py", line 65, in sample
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:     logs=archive.inventory()
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:          ^^^^^^^^^^^^^^^^^^^
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 117, in inventory
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:     require(logs and logs[-1][0] == active, 'rotation_during_inventory_retry_later')
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 22, in require
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]:     raise RuntimeError(message)
+2026-10-09T04:28:15+00:00 unit3d-ds-data python3[61616]: RuntimeError: rotation_during_inventory_retry_later
+2026-10-09T04:28:15+00:00 unit3d-ds-data systemd[1]: unit3d-soak-observer-soak-rust-six-hours-v1.service: Main process exited, code=exited, status=1/FAILURE
+2026-10-09T04:28:15+00:00 unit3d-ds-data systemd[1]: unit3d-soak-observer-soak-rust-six-hours-v1.service: Failed with result 'exit-code'.
+2026-10-09T04:28:15+00:00 unit3d-ds-data systemd[1]: unit3d-soak-observer-soak-rust-six-hours-v1.service: Consumed 2min 56.735s CPU time.

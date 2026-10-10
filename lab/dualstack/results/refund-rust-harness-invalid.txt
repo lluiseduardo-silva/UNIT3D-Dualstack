@@ -1,0 +1,61 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 17.22s
+  Executable tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+{
+    "status": "failed",
+    "backend": "rust",
+    "production": false,
+    "sql_writers": 9,
+    "unique_transitions": 600,
+    "persistence_attempts": 2400,
+    "refund_commands": 160,
+    "error_type": "RuntimeException",
+    "error": "Sinal ausente: ready",
+    "origin": "refund-rust-consumer.php:13"
+}
+
+running 1 test
+test refund_and_rust_writer_contention ... FAILED
+
+failures:
+
+failures:
+    refund_and_rust_writer_contention
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+     Running tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+
+thread 'refund_and_rust_writer_contention' (14) panicked at tests/dualstack_refund.rs:80:10:
+called `Result::unwrap()` on an `Err` value: Configuration
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+error: test failed, to rerun pass `--test dualstack_refund`

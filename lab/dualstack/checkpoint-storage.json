@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-08",
+  "status": "storage_prepared",
+  "six_hour_test_started": false,
+  "scope": "laboratorio Proxmox, VMs 120-122, sem mudanca nos produtos",
+  "storage": {
+    "dataset": "storage_pool/unit3d-dualstack",
+    "quota_bytes": 322122547200,
+    "reservation_bytes": 322122547200,
+    "mount": "/mnt/unit3d-archive",
+    "sharing": "virtiofs",
+    "new_packages_installed": false,
+    "ssd_data_free_bytes": 27915784192,
+    "archive_free_bytes": 319311052800,
+    "archived_binlog_count": 24,
+    "archived_binlog_bytes": 20752587259
+  },
+  "archiver": {
+    "timer": "unit3d-binlog-archive.timer",
+    "enabled": true,
+    "copy_limit_mib_s": 32,
+    "interval_after_completion_seconds": 15,
+    "automatic_mysql_expiry": false,
+    "sync_binlog": 1,
+    "innodb_flush_log_at_trx_commit": 1,
+    "row_image": "FULL"
+  },
+  "checks": {
+    "unit_tests": 8,
+    "real_fault_and_reentry_cases": 4,
+    "mounts_after_reboot": 3,
+    "accounting_state_unchanged": true,
+    "artifact_files_verified": 583,
+    "ssd_fallback_blocked": true,
+    "remaining_closed_binlogs": 0
+  },
+  "commit_probe": {
+    "commits": 30000,
+    "errors": 0,
+    "tps_each_run": 200,
+    "median_p95_change_percent": 12.443266806277475,
+    "formal_tracker_performance_approved": false
+  },
+  "pending": [
+    "coleta de amostras com RAM limitada",
+    "monitor durante carga de espaco, backlog e falhas de arquivo",
+    "ensaio curto da aplicacao com arquivo ativo",
+    "campanha prolongada de seis horas"
+  ],
+  "evidence": "lab/dualstack/results/storage",
+  "report": "docs/dualstack-armazenamento.md"
+}

@@ -1,0 +1,8 @@
+
+   INFO  Application cache cleared successfully.  
+
+5eeff9e0af6e031948e3562252f52f44a61c33147fdbaca7e7d804a893ec98fd
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.5021805089927511}
+unit3d-ds-rust
+unit3d-ds-rust

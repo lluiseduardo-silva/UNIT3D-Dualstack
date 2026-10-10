@@ -1,0 +1,13 @@
+{
+  "negative_checks": [
+    {
+      "synthetic_change": "credit",
+      "rejected": true
+    },
+    {
+      "synthetic_change": "binary",
+      "rejected": true
+    }
+  ],
+  "actual_evidence_modified": false
+}

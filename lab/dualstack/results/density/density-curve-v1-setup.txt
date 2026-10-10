@@ -1,0 +1,25 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"name": "density-curve-v1", "sizes": [50, 100, 150, 250, 500, 1000, 2500, 5000, 10000, 20000, 40000], "peers": 79550, "users": 40000, "torrents": 11, "dual_percent": 100, "created_at": "2026-10-08T20:31:49"}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+018fe4a5e735e3895bc0067859e4b1613966699d52db13d270c1f4b9123960da
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 2.755916496986174}
+unit3d-ds-rust
+unit3d-ds-rust

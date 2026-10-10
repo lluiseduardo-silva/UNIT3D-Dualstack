@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-09",
+  "status": "verification_complete_mechanism_confirmed",
+  "plan": "docs/plans/2026-10-09-verificacao-lease-io.md",
+  "report": "docs/dualstack-lease-io.md",
+  "evidence": "lab/dualstack/results/lease-probe",
+  "scope": "laboratorio Proxmox, banco separado, produto inalterado",
+  "database": "unit3d_dualstack_probe_20261009",
+  "rust_commit": "9e8b54626334db11940e3ebf939cbf40ba4426a3",
+  "rust_binary_sha256": "8b825a1afb418f237803d5306abb0b57c2340ecb4b9f5871bc61dd290f3e4ace",
+  "mechanism": {
+    "confirmed": true,
+    "chain": "users X bloqueia persistencia; persistencia mantem ownership S e bloqueia renovacao X",
+    "run": "control-long-v1",
+    "requests_per_second": 20,
+    "user_lock_seconds": 9,
+    "lease_timeout_seconds": 3,
+    "rust_exit_code": 1,
+    "accepted": 142,
+    "unpersisted_versions": 142,
+    "unpersisted_credit": 7100,
+    "ownership_wait_samples": 19,
+    "user_wait_samples": 35,
+    "lease_expired_at_process_exit": false,
+    "drained": false,
+    "interpretation": "falha esperada reproduzida; resiliencia nao aprovada"
+  },
+  "controls": [
+    {"run": "control-none-v1", "accepted": 200, "errors": 0, "drained": true},
+    {"run": "control-short-v1", "accepted": 200, "errors": 0, "drained": true},
+    {"run": "load-4000-v1", "accepted": 120000, "seconds": 30, "errors": 0, "drained": true},
+    {"run": "load-8000-v1", "accepted": 1440000, "seconds": 180, "errors": 0, "drained": true,
+     "persisted_credit": 72000000, "response_p95_ms": 0.36042532949930695,
+     "response_p99_ms": 0.5894058173101246, "data_write_mib_s": 33.24022801937643,
+     "nvme_write_mib_s": 35.1296492522224, "data_write_await_ms": 0.36820813261698515}
+  ],
+  "physical_io_cause": "not_confirmed_historical_pause_not_reproduced",
+  "instrumentation_limits": [
+    "carga curta nao reproduz seis horas nem concorrencia historica",
+    "quatro intervalos invalidos de tempo NVMe; espera e atividade fisicas nao estimadas",
+    "QEMU sem io.stat por VM; medicao do disco virtual dentro da VM",
+    "amostragem SQL nao mede backlog interno exato nem cada latencia individual"
+  ],
+  "cleanup": {
+    "probe_container_removed": true,
+    "probe_database_preserved": true,
+    "probe_lease_released": true,
+    "probe_connections": 0,
+    "probe_lock_waits": 0,
+    "original_database_aggregates_unchanged": true,
+    "original_container_preserved": true,
+    "six_hour_run_restarted": false,
+    "runtime_code_changed": false
+  },
+  "next": "corrigir recuperacao e renovacao com fencing preservado; repetir bloqueio e testar perda real da propriedade",
+  "six_hour_test_passed": false,
+  "php_approved": false,
+  "original_candidate_comparison_approved": false
+}

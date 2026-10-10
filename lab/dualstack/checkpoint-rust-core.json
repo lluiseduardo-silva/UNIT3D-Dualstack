@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-08",
+  "branch": "feat/dualstack",
+  "unit3d_base": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+  "unit3d_head": "c25e4c3a7e91e1dd9f452dad5b410b33a65740aa",
+  "announce_base": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "announce_core_commit": "ada2cfc6bff1d093e9f2c712f7c8e9df704d084a",
+  "announce_head": "d641fe1c6ae72518a3fb6c11d89925b1f6b6fe98",
+  "phase_3": "functional_and_failure_checks_passed",
+  "phase_4": "pure_peer_core_passed_http_and_persistence_pending",
+  "checks": {
+    "journal_php": {
+      "assertions": 449,
+      "skipped": 0,
+      "tests": 24
+    },
+    "service_outages": {
+      "status": "passed",
+      "steps": 29
+    },
+    "rust_core": {
+      "address_rotations": 10000,
+      "failed": 0,
+      "ignored": 0,
+      "tests": 5
+    },
+    "shared_contract": {
+      "operations": 51,
+      "full_snapshot_parity": "passed",
+      "cases": 12
+    }
+  },
+  "runtime": {
+    "redis": "7.2.16",
+    "mysql": "8.0.46",
+    "rust": "1.99.0",
+    "php": "8.4.26"
+  },
+  "dependency_versions_changed": false,
+  "rust_http_dualstack_enabled": false,
+  "performance_approved": false,
+  "production_changed": false,
+  "pushed": false
+}

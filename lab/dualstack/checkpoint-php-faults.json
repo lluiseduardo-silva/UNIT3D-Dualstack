@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-08",
+  "branch": "feat/dualstack",
+  "unit3d_base": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+  "unit3d_head": "c25e4c3a7e91e1dd9f452dad5b410b33a65740aa",
+  "announce_base_and_head": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "commits": [
+    "cf1f724064665955b895bd03623ee166c66f5337",
+    "646725e93f860b13f5e1cc0fa270aacd3161fba7",
+    "fe9139a4132757e81880ebcc0c4145f19a133474",
+    "c25e4c3a7e91e1dd9f452dad5b410b33a65740aa"
+  ],
+  "phase_2": "passed",
+  "phase_3": "functional_and_failure_checks_passed",
+  "phase_4_to_6": "pending",
+  "checks": {
+    "schema": {
+      "tests": 8,
+      "assertions": 38,
+      "ddl_boundaries": 7,
+      "backfill_peers": 54000
+    },
+    "peer_contract_php": {
+      "tests": 13,
+      "assertions": 251
+    },
+    "journal_php": {
+      "tests": 24,
+      "assertions": 449
+    },
+    "http_standalone": {
+      "steps": 30,
+      "confirmed_transitions": 27,
+      "status": "passed"
+    },
+    "restart": "references_endpoints_credit_backlog_preserved",
+    "graceful_shutdown": "passed_with_SIGTERM_and_APP_ENV_local",
+    "service_outages": {
+      "services": [
+        "mysql",
+        "redis"
+      ],
+      "steps": 29,
+      "pending_transitions_recovered": true,
+      "status": "passed",
+      "duplicate_credit": false
+    },
+    "consumer_sigkill": [
+      "before_commit",
+      "after_commit_before_ack"
+    ]
+  },
+  "performance_approved": false,
+  "feature_enabled_by_default": false,
+  "production_changed": false,
+  "pushed": false,
+  "lab": {
+    "vms": [
+      120,
+      121,
+      122
+    ],
+    "mysql": "8.0.46",
+    "redis": "7.2.16",
+    "php": "8.4.26"
+  }
+}

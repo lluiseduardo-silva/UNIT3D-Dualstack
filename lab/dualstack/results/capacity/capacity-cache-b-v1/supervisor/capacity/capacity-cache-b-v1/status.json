@@ -1,0 +1,96 @@
+{
+  "name": "capacity-cache-b-v1",
+  "status": "completed",
+  "started_at": 1791647570.187807,
+  "mode": "diagnostic",
+  "results": [
+    {
+      "trial": "capacity-cache-b-v1-500",
+      "rate": 500,
+      "accepted": 40000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-1000",
+      "rate": 1000,
+      "accepted": 80000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-2000",
+      "rate": 2000,
+      "accepted": 160000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-4000",
+      "rate": 4000,
+      "accepted": 320000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-6000",
+      "rate": 6000,
+      "accepted": 480000,
+      "accounting_passed": true,
+      "stable": false,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-5000",
+      "rate": 5000,
+      "accepted": 400000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-5500",
+      "rate": 5500,
+      "accepted": 440000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-confirm-1",
+      "rate": 5500,
+      "accepted": 1815000,
+      "accounting_passed": true,
+      "stable": false,
+      "reason": null
+    },
+    {
+      "trial": "capacity-cache-b-v1-confirm-2",
+      "rate": 5500,
+      "accepted": 1815000,
+      "accounting_passed": true,
+      "stable": true,
+      "reason": null
+    }
+  ],
+  "stage": "restore",
+  "resources": {
+    "tracker": [
+      4,
+      8192
+    ],
+    "data": [
+      1,
+      4096
+    ]
+  },
+  "trial": "capacity-cache-b-v1-confirm-2",
+  "rate": 5500,
+  "probe_failures": [],
+  "resources_restored": true,
+  "finished_at": 1791649256.2322526
+}

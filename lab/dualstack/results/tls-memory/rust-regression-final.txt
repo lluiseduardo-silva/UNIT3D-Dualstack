@@ -1,0 +1,45 @@
+unit3d-ds-nginx
+unit3d-ds-nginx
+unit3d-ds-rust
+unit3d-ds-rust
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce" test) generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce --tests` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 7.31s
+     Running unittests src/main.rs (target/release/deps/unit3d_announce-eae060cb7f8df191)
+
+running 19 tests
+test dualstack_network::tests::proxies_explicit_and_family_scoped ... ok
+test utils::tests::hex_decode_invalid ... ok
+test utils::tests::hex_decode_invalid2 ... ok
+test utils::tests::hex_decode_invalid4 ... ok
+test utils::tests::hex_decode_invalid5 ... ok
+test utils::tests::hex_decode_invalid7 ... ok
+test utils::tests::hex_decode_invalid6 ... ok
+test utils::tests::hex_decode_lowercase ... ok
+test utils::tests::hex_decode_uppercase ... ok
+test utils::tests::hex_decode_invalid3 ... ok
+test utils::tests::hex_encode_letters ... ok
+test utils::tests::hex_encode_mixed ... ok
+test utils::tests::hex_encode_numbers ... ok
+test utils::tests::urlencoded_all_percents ... ok
+test utils::tests::urlencoded_no_percents ... ok
+test utils::tests::urlencoded_incorrect_length ... ok
+test utils::tests::urlencoded_mixed_percents ... ok
+test utils::tests::urlencoded_too_many_percents ... ok
+test dualstack_network::tests::connectivity_cache_is_bounded_and_expires ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

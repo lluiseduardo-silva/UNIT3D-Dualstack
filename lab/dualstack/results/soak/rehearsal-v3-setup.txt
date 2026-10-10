@@ -1,0 +1,29 @@
+{"role": "clients", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 6462402560, "free_archive_bytes": 301863141376, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "data", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 26145849344, "free_archive_bytes": 301863141376, "storage_preflight": "passed", "six_hour_test_started": false}
+{"role": "tracker", "mount": "/mnt/unit3d-archive", "free_ssd_bytes": 4367790080, "free_archive_bytes": 301863141376, "storage_preflight": "passed", "six_hour_test_started": false}
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"name": "soak-rehearsal-v3", "sizes": [250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250], "peers": 10000, "users": 250, "torrents": 40, "dual_percent": 100, "created_at": "2026-10-09T15:03:48", "statistics_analyzed": true}
+{"action": "add", "addresses": 176}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.11s
+08ad6e3054be138510e8506d9791518e77289d75b8ac2885e51c604a626b3010
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"rust_binary_sha256": "25a9860c6caad0d78e2c3f8073f6ecd6822c05cbcd1b45773d0994a7df6d6833", "validated_candidate": true}
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.2518357150038355}
+Supervisor iniciado: soak-rehearsal-v3

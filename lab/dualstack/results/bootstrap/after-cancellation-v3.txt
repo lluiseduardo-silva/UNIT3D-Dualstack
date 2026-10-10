@@ -1,0 +1,28 @@
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 39.39s
+     Running tests/dualstack_bootstrap.rs (target/release/deps/dualstack_bootstrap-6dc4011313bd7683)
+
+running 1 test
+PASS usuario SQL sem SUPER ou CONNECTION_ADMIN nos grants diretos
+CANCELLED_BOOTSTRAP connection_gone=true elapsed_ms=2 rollback_modified=0 negative_control=false
+PASS timeout interno, rollback confirmado e consulta alheia preservada
+PASS falha da conexao de controle sinalizada, sem liberacao prematura nem commit parcial
+PASS contagem unica, familias, invisiveis/inativos, conectividade desconhecida e expiracao independente sem credito novo
+test bootstrap_cancellation ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.24s
+

@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "scope": "otimizacao do escritor Rust; validacao intermediaria em laboratorio",
+  "products": {
+    "UNIT3D": "6d8e7437daa652fb02519584c456b15dceacffa4",
+    "UNIT3D-Announce": "9446bfda2659426e6a13b30f04554c5facbdf00e"
+  },
+  "rust_cadence_commit": "3483869ce977a7650421173b4b9a4e1646b7c723",
+  "coordination_base": "89c8c60",
+  "accepted": 8720000,
+  "measured_samples": 7200000,
+  "phases": 40,
+  "series": 6,
+  "changes": [
+    "drenagem limitada sem espera entre lotes cheios",
+    "lote configuravel 1..500, padrao 200",
+    "persistencia somente das familias alteradas"
+  ],
+  "validation": {
+    "shared_contract": true,
+    "mysql_replay_rollback_retries": true,
+    "bon_refunds_contention": true,
+    "php_rust_handoff": true,
+    "cleanup_deletion": true,
+    "raw_samples_accounting": true,
+    "source_identity": true,
+    "restart": true,
+    "lab_stopped": true
+  },
+  "performance": {
+    "batch_200_p99_change_at_4000_percent": 0.8734473892125783,
+    "batch_500_sustained_rps": 8000,
+    "sustained_seconds": 180,
+    "warmup_seconds": 10,
+    "ceiling_at_12000": {
+      "before": 9842.102916617701,
+      "after": 10289.464775222608,
+      "change_percent": 4.5453889518831225
+    },
+    "endpoints_redo_change_at_8000_percent": -17.138686622912935
+  },
+  "excluded_series": {
+    "name": "density-throughput-writer-cadence200-v1",
+    "reason": "MySQL errno 28, binlog disk full; pending credits not certified"
+  },
+  "limits": [
+    "nao certifica seis horas nem producao",
+    "40 torrents de 250 peers, 100% dualstack",
+    "HTTP direto; probes e logs de announces desativados",
+    "12 mil requests/s acumulam backlog",
+    "janela assincrona nao confirmada continua sujeita a perda abrupta",
+    "thin pool compartilhado; campanhas longas exigem orcamento de binlogs"
+  ],
+  "report": "docs/dualstack-writer.md",
+  "results": "lab/dualstack/results/writer",
+  "manifest": "lab/dualstack/results/writer/manifest.json",
+  "push": false,
+  "production": false
+}

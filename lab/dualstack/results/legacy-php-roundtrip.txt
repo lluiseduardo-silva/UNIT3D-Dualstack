@@ -1,0 +1,7 @@
+PASS preflight do ensaio legado
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+PASS seed: PHP novo drenado com credito 100; retorno ao legado preparado
+PASS PHP 9.2.0 original: ProcessAnnounce e consumidores drenados; credito 100 -> 200
+PASS php-resume: credito 200, referencias e historico preservados; endpoints 2 -> 1
+PASS php-resume: PHP novo drenado com credito 300; retorno ao legado preparado
+LEGACY_PHP_ROUNDTRIP_PASSED

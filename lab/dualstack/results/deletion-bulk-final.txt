@@ -1,0 +1,19 @@
+PHP apos incluir exclusao em lote SimilarTorrent:
+Tests:    57 passed (746 assertions)
+Duration: 14.27s
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 38.35s
+     Running tests/dualstack_deletion.rs (target/release/deps/dualstack_deletion-f1e8d277758d1268)
+
+running 1 test
+PASS remocao users, dois endpoints, credito pendente 100, reentrega e restart sem ressurreicao
+PASS remocao torrents, dois endpoints, credito pendente 100, reentrega e restart sem ressurreicao
+PASS preserva outro usuario no torrent e contadores logicos por familia
+PASS falha CHECK reverte remocao, preserva credito e nova geracao retoma estado selado
+PASS remocao sob lock bloqueia alvo, preserva outro recurso e cancelamento fecha entrada
+PASS lotes de 200, contencao real sem aumento de deadlocks/timeouts
+RUST_DELETION_PASSED
+test deletion_contract ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.81s

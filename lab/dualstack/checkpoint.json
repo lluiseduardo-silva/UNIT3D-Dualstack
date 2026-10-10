@@ -1,0 +1,8 @@
+{
+  "stage": "2-schema-checkpoint-before-fixture-fix",
+  "UNIT3D": "55e192ef76844c6377b611c312563343f774213b",
+  "UNIT3D-Announce": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "schema_tests": {"passed": 7, "failed": 1, "assertions": 35},
+  "known_failure": "Fixture: chat_statuses.color duplicado antes do teste de FK/cascata",
+  "dualstack_runtime_enabled": false
+}

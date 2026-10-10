@@ -1,0 +1,34 @@
+   Compiling unit3d-announce v0.3.1 (/app)
+error: implementation of `Executor` is not general enough
+  --> src/dualstack/bootstrap.rs:21:17
+   |
+21 |       let cleanup=tokio::spawn(async move {
+   |  _________________^
+22 | |         if signal.await.is_ok() {return Ok(());}
+23 | |         let result=timeout(Duration::from_secs(5),terminate(&mut control,id)).await;
+24 | |         if !matches!(result,Ok(Ok(()))) {
+...  |
+31 | |         Ok(())
+32 | |     });
+   | |______^ implementation of `Executor` is not general enough
+   |
+   = note: `Executor<'0>` would have to be implemented for the type `&mut MySqlConnection`, for any lifetime `'0`...
+   = note: ...but `Executor<'1>` is actually implemented for the type `&'1 mut MySqlConnection`, for some specific lifetime `'1`
+
+error: implementation of `Executor` is not general enough
+  --> src/dualstack/bootstrap.rs:21:17
+   |
+21 |       let cleanup=tokio::spawn(async move {
+   |  _________________^
+22 | |         if signal.await.is_ok() {return Ok(());}
+23 | |         let result=timeout(Duration::from_secs(5),terminate(&mut control,id)).await;
+24 | |         if !matches!(result,Ok(Ok(()))) {
+...  |
+31 | |         Ok(())
+32 | |     });
+   | |______^ implementation of `Executor` is not general enough
+   |
+   = note: `Executor<'_>` would have to be implemented for the type `&'0 mut MySqlConnection`, for any lifetime `'0`...
+   = note: ...but `Executor<'1>` is actually implemented for the type `&'1 mut MySqlConnection`, for some specific lifetime `'1`
+
+error: could not compile `unit3d-announce` (lib) due to 2 previous errors

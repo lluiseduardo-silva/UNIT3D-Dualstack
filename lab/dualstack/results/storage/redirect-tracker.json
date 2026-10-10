@@ -1,0 +1,11 @@
+{
+  "role": "tracker",
+  "redirects": [
+    {
+      "directory": "results",
+      "files_verified": 114,
+      "backup": "/opt/unit3d-dualstack/results.before-zfs",
+      "destination": "/mnt/unit3d-archive/results"
+    }
+  ]
+}

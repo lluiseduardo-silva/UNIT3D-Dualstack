@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-08",
+  "branch": "feat/dualstack",
+  "unit3d_head": "c25e4c3a7e91e1dd9f452dad5b410b33a65740aa",
+  "announce_base": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+  "announce_head": "c40765532934b14bb365f118cb83ff3af310eb56",
+  "phase_4": "stopped_on_mysql_timestamp_decode_failure",
+  "checks": {
+    "cargo_check_lib": "passed",
+    "integration_release_build": "passed",
+    "mysql_coordinator": "failed_on_first_replay",
+    "initial_batch": {
+      "credited_upload": 200,
+      "transitions": 5,
+      "history_version": 5,
+      "peer_version": 5,
+      "uploaded_reference": 1200,
+      "endpoints": 2
+    },
+    "replay": "unapproved_timestamp_datetime_decode_error",
+    "remaining_mysql_cases": "not_reached"
+  },
+  "failure": {
+    "location": "src/dualstack/persistence.rs:53",
+    "column": "history.created_at",
+    "rust_type": "Option<NaiveDateTime>",
+    "sql_type": "TIMESTAMP"
+  },
+  "rust_http_integrated": false,
+  "schema_changed": false,
+  "dependency_versions_changed": false,
+  "performance_approved": false,
+  "production_changed": false,
+  "pushed": false
+}

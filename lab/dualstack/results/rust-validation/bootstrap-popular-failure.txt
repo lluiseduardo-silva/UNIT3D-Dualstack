@@ -1,0 +1,13 @@
+2026-10-08T19:55:56.779578857Z Starting to load  1/11: blacklisted ports              ... [Finished] Records: 1032
+2026-10-08T19:55:56.782062597Z Starting to load  2/11: blacklisted user agents        ... [Finished] Records: 0
+2026-10-08T19:55:56.786629570Z Starting to load  3/11: torrents                       ... [Finished] Records: 3
+2026-10-08T19:55:56.787315462Z Starting to load  4/11: infohash to torrent id mappings... [Finished] Records: 3
+2026-10-08T19:55:56.948215815Z Starting to load  5/11: users                          ... [Finished] Records: 54006
+2026-10-08T19:55:57.001057595Z Starting to load  6/11: passkey to user id mappings    ... [Finished] Records: 54006
+2026-10-08T19:55:57.001078534Z Starting to load  7/11: connectable ports              ... [Finished] Records: 0
+2026-10-08T19:55:57.001861980Z Starting to load  8/11: freeleech tokens               ... [Finished] Records: 0
+2026-10-08T19:55:57.002542011Z Starting to load  9/11: personal freeleeches           ... [Finished] Records: 0
+2026-10-08T19:55:57.003076218Z Starting to load 10/11: featured torrents              ... [Finished] Records: 0
+2026-10-08T19:55:57.003597881Z Starting to load 11/11: groups                         ... [Finished] Records: 1
+2026-10-08T19:55:57.003601748Z All entities loaded into memory.
+2026-10-08T19:58:00.020180310Z Error: Inicializacao dualstack recusada: Tempo limite de bootstrap excedido

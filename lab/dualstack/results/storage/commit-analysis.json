@@ -1,0 +1,115 @@
+{
+  "commit_probe": {
+    "purpose": "infraestrutura; nao representa carga do tracker",
+    "rate": 200,
+    "seconds_per_run": 25,
+    "repetitions": 3,
+    "control": {
+      "runs": [
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.99769953499998,
+          "throughput": 200.01840541364055,
+          "p50_ms": 3.1587479999757306,
+          "p95_ms": 4.0278529999966395,
+          "p99_ms": 4.694739000001391,
+          "max_ms": 11.261904999997796,
+          "errors": 0
+        },
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.998979306999985,
+          "throughput": 200.00816587739428,
+          "p50_ms": 3.1538499999896885,
+          "p95_ms": 4.550753000017949,
+          "p99_ms": 30.588657999999214,
+          "max_ms": 120.94541499999423,
+          "errors": 0
+        },
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.997401878999995,
+          "throughput": 200.02078712829902,
+          "p50_ms": 3.1696679999981825,
+          "p95_ms": 4.407693000018753,
+          "p99_ms": 24.82028999997965,
+          "max_ms": 45.8579239999608,
+          "errors": 0
+        }
+      ],
+      "median_p95_ms": 4.407693000018753,
+      "median_p99_ms": 24.82028999997965,
+      "total_commits": 15000,
+      "errors": 0,
+      "io_third_run": {
+        "observed_seconds": 26.96716594696045,
+        "read_mib_s": 0.008691124623958385,
+        "write_mib_s": 18.456037695206827,
+        "device_busy_pct": 67.0148284604484,
+        "average_io_ms": 0.4509249385692429,
+        "mysql_status_delta": {
+          "Innodb_buffer_pool_wait_free": 0,
+          "Innodb_log_waits": 0,
+          "Innodb_row_lock_waits": 0
+        }
+      }
+    },
+    "copy": {
+      "runs": [
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.998071626000012,
+          "throughput": 200.01542818205212,
+          "p50_ms": 3.335200999998733,
+          "p95_ms": 5.030338000011625,
+          "p99_ms": 6.347148000003244,
+          "max_ms": 70.40158099999871,
+          "errors": 0
+        },
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.99912555200001,
+          "throughput": 200.00699582869947,
+          "p50_ms": 3.2159279999746104,
+          "p95_ms": 4.4639189999884366,
+          "p99_ms": 5.573513999991064,
+          "max_ms": 17.088965000027656,
+          "errors": 0
+        },
+        {
+          "offered_tps": 200,
+          "commits": 5000,
+          "elapsed_seconds": 24.998221779000005,
+          "throughput": 200.01422677993432,
+          "p50_ms": 3.2701079999810645,
+          "p95_ms": 4.9561540000127025,
+          "p99_ms": 27.95159700002614,
+          "max_ms": 50.02824700000019,
+          "errors": 0
+        }
+      ],
+      "median_p95_ms": 4.9561540000127025,
+      "median_p99_ms": 6.347148000003244,
+      "total_commits": 15000,
+      "errors": 0,
+      "io_third_run": {
+        "observed_seconds": 26.9563729763031,
+        "read_mib_s": 31.939629387709918,
+        "write_mib_s": 18.137814309432873,
+        "device_busy_pct": 60.252913158154,
+        "average_io_ms": 0.4899884708595092,
+        "mysql_status_delta": {
+          "Innodb_buffer_pool_wait_free": 0,
+          "Innodb_log_waits": 0,
+          "Innodb_row_lock_waits": 0
+        }
+      }
+    },
+    "p95_median_change_percent": 12.443266806277475
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "tls": {
+    "php": {
+      "status": "passed",
+      "checks": 19,
+      "credit": 300
+    },
+    "rust": {
+      "status": "passed",
+      "checks": 19,
+      "credit": 300
+    }
+  },
+  "memory": {
+    "php": {
+      "status": "passed",
+      "rotations": 2048,
+      "maximum_request_rate": 20,
+      "rotation_seconds": 103.50911808013916,
+      "processes_after_first_batch": {
+        "unit3d-ds-php": {
+          "rss_kib": {
+            "first": 129004,
+            "last": 129004,
+            "minimum": 129004,
+            "maximum": 129004,
+            "growth": 0
+          },
+          "pss_kib": {
+            "first": 60316,
+            "last": 60316,
+            "minimum": 60316,
+            "maximum": 60316,
+            "growth": 0
+          }
+        },
+        "unit3d-ds-coordinator": {
+          "rss_kib": {
+            "first": 69160,
+            "last": 69312,
+            "minimum": 69160,
+            "maximum": 69312,
+            "growth": 152
+          },
+          "pss_kib": {
+            "first": 54547,
+            "last": 54699,
+            "minimum": 54547,
+            "maximum": 54699,
+            "growth": 152
+          }
+        },
+        "unit3d-ds-probe": {
+          "rss_kib": {
+            "first": 67120,
+            "last": 67120,
+            "minimum": 67120,
+            "maximum": 67120,
+            "growth": 0
+          },
+          "pss_kib": {
+            "first": 52416,
+            "last": 52416,
+            "minimum": 52416,
+            "maximum": 52416,
+            "growth": 0
+          }
+        }
+      },
+      "samples": 155,
+      "cache_entries_max": 9,
+      "cache_idle_entries_min": 1,
+      "cache_idle_live_min": 1,
+      "cache_idle_entries_max": 2,
+      "cache_idle_live_max": 2,
+      "sample_started_at": 1791507439.423215,
+      "sample_finished_at": 1791507593.4375546,
+      "cache_bytes_max": 1616,
+      "peer_json_bytes_min": 894,
+      "peer_json_bytes_max": 904,
+      "pending_max": 33,
+      "pending_final": 0
+    },
+    "rust": {
+      "status": "passed",
+      "rotations": 2048,
+      "maximum_request_rate": 20,
+      "rotation_seconds": 102.96428442001343,
+      "processes_after_first_batch": {
+        "unit3d-ds-rust": {
+          "rss_kib": {
+            "first": 9956,
+            "last": 10260,
+            "minimum": 9860,
+            "maximum": 10368,
+            "growth": 304
+          },
+          "pss_kib": {
+            "first": 9948,
+            "last": 10252,
+            "minimum": 9852,
+            "maximum": 10360,
+            "growth": 304
+          }
+        }
+      },
+      "samples": 145,
+      "cache_entries_max": 16,
+      "cache_idle_entries_min": 0,
+      "cache_idle_live_min": 0,
+      "cache_idle_entries_max": 0,
+      "cache_idle_live_max": 0,
+      "sample_started_at": 1791507811.2334619,
+      "sample_finished_at": 1791507955.2461329,
+      "probes_in_flight_sampled_max": 0
+    }
+  },
+  "throughput_tested": false,
+  "six_hours_tested": false,
+  "rust_product_control": {
+    "status": "passed",
+    "rotations": 256,
+    "peer_count": 1,
+    "endpoint_count": 2,
+    "credit": 256
+  },
+  "php_auxiliary_cache": {
+    "status": "passed",
+    "rotations": 512,
+    "natural_rate_limiter_ttl_seconds": 120,
+    "default_keys_before": 0,
+    "default_keys_max": 513,
+    "default_keys_after_expiry": 0,
+    "default_keys_final": 1,
+    "redis_used_memory_before": 2365600,
+    "redis_used_memory_max": 2524232,
+    "redis_used_memory_final": 2392752
+  }
+}

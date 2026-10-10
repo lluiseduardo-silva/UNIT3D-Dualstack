@@ -1,0 +1,44 @@
+{
+  "host": "unit3d-ds-tracker",
+  "kernel": "6.8.0-142-generic",
+  "python": "3.12.3",
+  "cpu_count": 4,
+  "architecture": "x86_64",
+  "memory": {
+    "MemTotal": "8131776 kB",
+    "SwapTotal": "0 kB"
+  },
+  "cpu_model": "AMD Ryzen 9 5900XT 16-Core Processor",
+  "disk": "Filesystem       1B-blocks        Used  Available Use% Mounted on\n/dev/sda1      23843045376 14774767616 9051500544  63% /",
+  "docker": "29.1.3",
+  "images": [
+    {
+      "Id": "sha256:90c16f9fa96be710231b1cb73b4cb2397b4b7fea80031f7167e27c96287899c4",
+      "RepoDigests": [
+        "unit3d-ds-php@sha256:90c16f9fa96be710231b1cb73b4cb2397b4b7fea80031f7167e27c96287899c4"
+      ],
+      "Architecture": "amd64",
+      "Os": "linux"
+    },
+    {
+      "Id": "sha256:9bf97bd7714f5e24c1ccd545ecb9eb5435cb6d109c97cebb15e7e455e0239edb",
+      "RepoDigests": [
+        "nginx@sha256:9bf97bd7714f5e24c1ccd545ecb9eb5435cb6d109c97cebb15e7e455e0239edb"
+      ],
+      "Architecture": "amd64",
+      "Os": "linux"
+    },
+    {
+      "Id": "sha256:114c7a4425406451c2866b6aafe69fe29b1b298832db1277d411ac73c82d04d6",
+      "RepoDigests": [
+        "rust@sha256:114c7a4425406451c2866b6aafe69fe29b1b298832db1277d411ac73c82d04d6"
+      ],
+      "Architecture": "amd64",
+      "Os": "linux"
+    }
+  ],
+  "source_sha256": {
+    "UNIT3D": "fb97be6b369b6f8cbef586b1298915afc47a56188a9db23646d9d7b0b8246c18",
+    "UNIT3D-Announce": "6c3efa6c62e402e160f2692ec9e946deef640afbebd9307a3bfb86739b1ab1fa"
+  }
+}

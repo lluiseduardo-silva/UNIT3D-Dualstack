@@ -1,0 +1,12 @@
+{
+  "queries": [],
+  "waits": {
+    "type": "OperationalError",
+    "code": 1142
+  },
+  "statements": {
+    "type": "OperationalError",
+    "code": 1142
+  },
+  "locks": []
+}

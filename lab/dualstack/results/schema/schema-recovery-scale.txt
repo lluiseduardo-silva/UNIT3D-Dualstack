@@ -1,0 +1,6 @@
+
+In validate-schema.php line 20:
+                                                     
+  PK, FK e dois CHECKs devem existir uma unica vez.  
+                                                     
+

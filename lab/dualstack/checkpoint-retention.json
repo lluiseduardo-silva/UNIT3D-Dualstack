@@ -1,0 +1,9 @@
+{
+  "unit3d_commit": "c4d1a266d30e9e9e26b5b598ede2f5bda51413df",
+  "announce_commit": "e5529f79a22623208a073b8361e39ad062a02ceb",
+  "stage": 4,
+  "status": "retention_passed",
+  "mysql_scenario_blocks": 21,
+  "production": false,
+  "next": "HTTP conectividade/proxy e API administrativa"
+}

@@ -1,0 +1,15 @@
+7.0.14-12-pve
+btime 1791422255
+66960.33 2103403.88
+  367429    95854 27884508   172105  8799077  1548834 202436251 1710339224        0  1267581 1711188845    18004     4786 12541440    15846  1611244   661669
+ 259       0 nvme0n1 367429 95854 27884508 172105 8799078 1548834 202436259 1710339224 0 1267582 1711188845 18004 4786 12541440 15846 1611244 661669
+SMART overall-health self-assessment test result: PASSED
+Critical Warning:                   0x00
+Temperature:                        39 Celsius
+Available Spare:                    100%
+Percentage Used:                    28%
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      0
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+0

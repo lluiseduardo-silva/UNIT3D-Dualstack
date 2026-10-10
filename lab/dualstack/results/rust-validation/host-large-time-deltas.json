@@ -1,0 +1,85 @@
+{
+  "threshold_ms": 60000,
+  "boot_epoch": 1791422255,
+  "interpretation": "diagnostic only; no samples discarded",
+  "events": [
+    {
+      "file": "validation-54k-distributed-original-host.jsonl",
+      "at": 1791488661.3812082,
+      "interval_seconds": 2.00077223777771,
+      "writes": 1444,
+      "write_ticks_ms": 66404197,
+      "weighted_ticks_ms": 66404319,
+      "busy_ms": 225,
+      "uptime_ms_at_end": 66406381.20818138,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": true
+    },
+    {
+      "file": "validation-54k-distributed-original-host.jsonl",
+      "at": 1791488667.384049,
+      "interval_seconds": 2.000958204269409,
+      "writes": 538,
+      "write_ticks_ms": 66409952,
+      "weighted_ticks_ms": 66409995,
+      "busy_ms": 75,
+      "uptime_ms_at_end": 66412384.04893875,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": false
+    },
+    {
+      "file": "validation-n0-candidate-host.jsonl",
+      "at": 1791487576.8056114,
+      "interval_seconds": 2.0008039474487305,
+      "writes": 1662,
+      "write_ticks_ms": 65320099,
+      "weighted_ticks_ms": 65320256,
+      "busy_ms": 270,
+      "uptime_ms_at_end": 65321805.611371994,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": false
+    },
+    {
+      "file": "validation-r2-candidate-host.jsonl",
+      "at": 1791487962.3927526,
+      "interval_seconds": 2.0007803440093994,
+      "writes": 1450,
+      "write_ticks_ms": 65706569,
+      "weighted_ticks_ms": 65706701,
+      "busy_ms": 216,
+      "uptime_ms_at_end": 65707392.7526474,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": true
+    },
+    {
+      "file": "validation-r3-candidate-host.jsonl",
+      "at": 1791488274.8598616,
+      "interval_seconds": 2.000771999359131,
+      "writes": 2124,
+      "write_ticks_ms": 66018227,
+      "weighted_ticks_ms": 66018404,
+      "busy_ms": 297,
+      "uptime_ms_at_end": 66019859.86161232,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": false
+    },
+    {
+      "file": "validation-r3-original-host.jsonl",
+      "at": 1791488222.701878,
+      "interval_seconds": 2.000856876373291,
+      "writes": 587,
+      "write_ticks_ms": 65965427,
+      "weighted_ticks_ms": 65965481,
+      "busy_ms": 92,
+      "uptime_ms_at_end": 65967701.87807083,
+      "in_flight_start": 0,
+      "in_flight_end": 0,
+      "during_measured_window": true
+    }
+  ]
+}

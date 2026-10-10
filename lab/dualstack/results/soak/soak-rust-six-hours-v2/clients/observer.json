@@ -1,0 +1,1 @@
+{"role": "clients", "at": 1791530530.5281086, "ssd_free": 6546747392, "archive_free": 302232109056, "memory_available": 7842267136, "swap_free": 0, "processes": {"12633": {"name": "python3", "rss": 14942208, "pss": 10291200, "cpu_ticks": 1088}}, "failures": [], "sequence": 1743}

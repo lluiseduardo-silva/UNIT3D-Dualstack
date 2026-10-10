@@ -1,0 +1,263 @@
+{
+  "series": "rust-original-formal-v1",
+  "status": "passed",
+  "scope": "baseline Rust original IPv4; não aprova candidato ou PHP",
+  "clock_ticks_per_second": 100,
+  "cpu_scope": "média do processo entre amostras; 100% = um núcleo lógico; inclui aquecimento",
+  "runs": [
+    {
+      "run": 1,
+      "status": "passed",
+      "load_started_at": 1791582446.182821,
+      "supervisor_finished_at": 1791583669.1737814,
+      "measurement": {
+        "accepted": 7200000,
+        "at": 1791583645.1122665,
+        "completed_rps": 7999.997777777778,
+        "elapsed": 900.0009380359843,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 7200000,
+            "max": 18.5384759970475,
+            "p50": 0.1455705176931341,
+            "p95": 0.21739542481174676,
+            "p99": 0.3326509665403946
+          },
+          "queue_ms": {
+            "count": 7200000,
+            "max": 28.398321985150687,
+            "p50": 0.0805160527057871,
+            "p95": 0.14367837245650197,
+            "p99": 1.201856427614071
+          },
+          "response_ms": {
+            "count": 7200000,
+            "max": 18.515272007789463,
+            "p50": 0.1309679548878844,
+            "p95": 0.19860736560190154,
+            "p99": 0.3113512682346205
+          },
+          "total_ms": {
+            "count": 7200000,
+            "max": 31.146162989898585,
+            "p50": 0.2322881341839317,
+            "p95": 0.3299937303145922,
+            "p99": 2.982940932334556
+          }
+        },
+        "phase": "measurement",
+        "seconds": 900,
+        "window": 1
+      },
+      "accepted_total": 9600000,
+      "credit_bytes": 960000000,
+      "individual_mismatches": 0,
+      "drain_seconds": 5.4683412029989995,
+      "backlog_estimated_credit_steps": {
+        "max": 70588,
+        "median": 36125,
+        "last": 0,
+        "above_80000": 0
+      },
+      "sample_compressed_bytes": 208937544,
+      "processes": {
+        "tracker": {
+          "rss_peak_mib": 37.296875,
+          "rss_last_mib": 26.49609375,
+          "cpu_one_core_percent": 31.10183949843669
+        },
+        "data": {
+          "rss_peak_mib": 1599.3828125,
+          "rss_last_mib": 1599.3828125,
+          "cpu_one_core_percent": 11.228837263368675
+        },
+        "clients": {
+          "rss_peak_mib": 53.00390625,
+          "rss_last_mib": 53.00390625,
+          "cpu_one_core_percent": 76.21332493363013
+        }
+      },
+      "storage": {
+        "data_ssd_min_gib": 23.640602111816406,
+        "archive_min_gib": 261.01904296875,
+        "thin_min_gib": 30.685952343046665,
+        "max_closed_binlog_bytes": 0,
+        "max_archive_age_seconds": 16.28843641281128
+      }
+    },
+    {
+      "run": 2,
+      "status": "passed",
+      "load_started_at": 1791583719.357911,
+      "supervisor_finished_at": 1791584942.254793,
+      "measurement": {
+        "accepted": 7200000,
+        "at": 1791584918.9056234,
+        "completed_rps": 7999.998888888889,
+        "elapsed": 900.0009705239936,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 7200000,
+            "max": 30.35042100236751,
+            "p50": 0.14763589635662747,
+            "p95": 0.2178324340567951,
+            "p99": 0.3326509665403946
+          },
+          "queue_ms": {
+            "count": 7200000,
+            "max": 35.706687995116226,
+            "p50": 0.07978606304390388,
+            "p95": 0.1455705176931341,
+            "p99": 1.3098242177534911
+          },
+          "response_ms": {
+            "count": 7200000,
+            "max": 30.33525300270412,
+            "p50": 0.133095352463491,
+            "p95": 0.19940699350713167,
+            "p99": 0.3119762831223577
+          },
+          "total_ms": {
+            "count": 7200000,
+            "max": 37.08859198377468,
+            "p50": 0.23533914329029718,
+            "p95": 0.3299937303145922,
+            "p99": 3.0830029071099743
+          }
+        },
+        "phase": "measurement",
+        "seconds": 900,
+        "window": 1
+      },
+      "accepted_total": 9600000,
+      "credit_bytes": 960000000,
+      "individual_mismatches": 0,
+      "drain_seconds": 3.6469059540104354,
+      "backlog_estimated_credit_steps": {
+        "max": 73151,
+        "median": 37575.5,
+        "last": 0,
+        "above_80000": 0
+      },
+      "sample_compressed_bytes": 209001124,
+      "processes": {
+        "tracker": {
+          "rss_peak_mib": 34.90625,
+          "rss_last_mib": 27.390625,
+          "cpu_one_core_percent": 31.72768449918701
+        },
+        "data": {
+          "rss_peak_mib": 1601.3828125,
+          "rss_last_mib": 1601.3828125,
+          "cpu_one_core_percent": 11.311519172113602
+        },
+        "clients": {
+          "rss_peak_mib": 53.25390625,
+          "rss_last_mib": 53.25390625,
+          "cpu_one_core_percent": 76.02157694124158
+        }
+      },
+      "storage": {
+        "data_ssd_min_gib": 23.543148040771484,
+        "archive_min_gib": 260.7022705078125,
+        "thin_min_gib": 30.576261717826128,
+        "max_closed_binlog_bytes": 1074491752,
+        "max_archive_age_seconds": 51.12412881851196
+      }
+    },
+    {
+      "run": 3,
+      "status": "passed",
+      "load_started_at": 1791584991.8259406,
+      "supervisor_finished_at": 1791586219.5495713,
+      "measurement": {
+        "accepted": 7200000,
+        "at": 1791586191.1768892,
+        "completed_rps": 7999.998888888889,
+        "elapsed": 900.0010590390011,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 7200000,
+            "max": 19.578387000365183,
+            "p50": 0.14897898282026809,
+            "p95": 0.2267586029260132,
+            "p99": 0.34075135627328745
+          },
+          "queue_ms": {
+            "count": 7200000,
+            "max": 31.268331003957428,
+            "p50": 0.08141722614553626,
+            "p95": 0.15003199051316604,
+            "p99": 1.1409359995733601
+          },
+          "response_ms": {
+            "count": 7200000,
+            "max": 19.552329002181068,
+            "p50": 0.1341718774718018,
+            "p95": 0.20758158917128594,
+            "p99": 0.3189345431536139
+          },
+          "total_ms": {
+            "count": 7200000,
+            "max": 35.150106996297836,
+            "p50": 0.23699848869548532,
+            "p95": 0.3448750034928172,
+            "p99": 2.8803599158221354
+          }
+        },
+        "phase": "measurement",
+        "seconds": 900,
+        "window": 1
+      },
+      "accepted_total": 9600000,
+      "credit_bytes": 960000000,
+      "individual_mismatches": 0,
+      "drain_seconds": 4.169824873009929,
+      "backlog_estimated_credit_steps": {
+        "max": 76161,
+        "median": 37124,
+        "last": 0,
+        "above_80000": 0
+      },
+      "sample_compressed_bytes": 209048860,
+      "processes": {
+        "tracker": {
+          "rss_peak_mib": 34.65625,
+          "rss_last_mib": 24.94921875,
+          "cpu_one_core_percent": 31.868012706812124
+        },
+        "data": {
+          "rss_peak_mib": 1601.3828125,
+          "rss_last_mib": 1601.3828125,
+          "cpu_one_core_percent": 11.381919613656471
+        },
+        "clients": {
+          "rss_peak_mib": 53.12109375,
+          "rss_last_mib": 53.12109375,
+          "cpu_one_core_percent": 77.17433312960453
+        }
+      },
+      "storage": {
+        "data_ssd_min_gib": 23.547164916992188,
+        "archive_min_gib": 260.385986328125,
+        "thin_min_gib": 30.576261717826128,
+        "max_closed_binlog_bytes": 1073770400,
+        "max_archive_age_seconds": 47.12921762466431
+      }
+    }
+  ],
+  "accepted_total": 28800000,
+  "measured_requests_total": 21600000,
+  "credit_sum_across_independent_runs": 2880000000,
+  "sample_compressed_bytes": 626987528,
+  "finished_at": 1791586229.4682217,
+  "response_percentile_medians_across_runs_ms": {
+    "p95": 0.19940699350713167,
+    "p99": 0.3119762831223577
+  },
+  "response_percentile_medians_are_not_global_percentiles": true,
+  "accounting_snapshots_sha256_rechecked_onsite": true
+}

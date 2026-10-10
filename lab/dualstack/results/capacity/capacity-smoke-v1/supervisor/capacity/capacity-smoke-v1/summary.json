@@ -1,0 +1,192 @@
+{
+  "series": "capacity-smoke-v1",
+  "status": {
+    "name": "capacity-smoke-v1",
+    "status": "completed",
+    "started_at": 1791616162.022373,
+    "results": [
+      {
+        "trial": "capacity-smoke-v1-reference-1000",
+        "profile": "reference",
+        "rate": 1000,
+        "stable": true,
+        "rps": 1000.0,
+        "drain_seconds": 0.7328645420057001,
+        "reason": null,
+        "errors": {}
+      }
+    ],
+    "mode": "smoke",
+    "profile": "reference",
+    "stage": "ramp",
+    "resources": {
+      "tracker": [
+        4,
+        8192
+      ],
+      "data": [
+        4,
+        8192
+      ]
+    },
+    "trial": "capacity-smoke-v1-reference-1000",
+    "rate": 1000,
+    "resources_restored": true,
+    "finished_at": 1791616206.6778412
+  },
+  "trials": [
+    {
+      "result": {
+        "name": "capacity-smoke-v1-reference-1000",
+        "start_epoch": 1791616175.3437517,
+        "measured_at": 1791616177.3437517,
+        "finish_epoch": 1791616187.3437517,
+        "rate": 1000,
+        "seconds": 10,
+        "warmup": 2,
+        "accepted": 12000,
+        "expected_credit": 601600,
+        "completed_rps": 1000.0,
+        "errors": {},
+        "stop_reason": null,
+        "max_generator_lag": 0.0030246110109146684,
+        "metrics": {
+          "response_ms": {
+            "count": 10000,
+            "max": 1.708818002953194,
+            "p50": 0.25120325829886475,
+            "p95": 0.3126025486648856,
+            "p99": 0.3483493594806239
+          },
+          "latency_ms": {
+            "count": 10000,
+            "max": 1.7207409982802346,
+            "p50": 0.2670583989410889,
+            "p95": 0.33131969252253846,
+            "p99": 0.36957022620519436
+          },
+          "queue_ms": {
+            "count": 10000,
+            "max": 1.1505449947435409,
+            "p50": 0.595336514717837,
+            "p95": 1.045832081358907,
+            "p99": 1.083100975964519
+          },
+          "total_ms": {
+            "count": 10000,
+            "max": 2.3023140092846006,
+            "p50": 0.8752161069764449,
+            "p95": 1.296787783461227,
+            "p99": 1.35107523538874
+          }
+        },
+        "after": {
+          "peers": 10000,
+          "versions": 12000,
+          "credit": 601600,
+          "history_credit": 601600,
+          "actual_credit": 601600,
+          "user_credit": 601600,
+          "endpoints": {
+            "n": 20000,
+            "v4": 10000,
+            "v6": 10000,
+            "invalid": 0
+          },
+          "over_limit": 0,
+          "bad_torrent_counts": 0,
+          "mismatches": 0
+        },
+        "drained": true,
+        "drain_seconds": 0.7328645420057001,
+        "accounting_passed": true,
+        "status": "passed",
+        "supervisor_reason": null,
+        "observed_lag_slope_per_second": 0.0,
+        "max_observed_lag": 678,
+        "stable": true
+      },
+      "resources": {
+        "tracker": {
+          "samples": 5,
+          "seconds_observed": 8.000348567962646,
+          "cpu_busy_percent": 2.4290220820189274,
+          "cpu_iowait_percent": 0.0,
+          "cpu_steal_percent": 0.031545741324921134,
+          "minimum_memory_available_mib": 7339.33203125,
+          "process": {
+            "cpu_one_core_percent": 9.62458064744155,
+            "rss_median_mib": 27.7109375,
+            "rss_max_mib": 27.8203125
+          }
+        },
+        "data": {
+          "samples": 5,
+          "seconds_observed": 8.000329971313477,
+          "cpu_busy_percent": 5.326189725811535,
+          "cpu_iowait_percent": 2.7734005672864797,
+          "cpu_steal_percent": 0.0,
+          "minimum_memory_available_mib": 5707.16015625,
+          "process": {
+            "cpu_one_core_percent": 17.87426275075534,
+            "rss_median_mib": 1601.3828125,
+            "rss_max_mib": 1601.3828125
+          },
+          "disk": {
+            "read_iops": 0.0,
+            "write_iops": 377.9844094984905,
+            "read_mib_s": 0.0,
+            "write_mib_s": 6.197010020557986,
+            "read_await_ms": 0,
+            "write_await_ms": 0.32572751322751325,
+            "average_queue": 0.18211748830664706,
+            "busy_percent": 11.612021045770426,
+            "flush_iops": 117.4951537462239,
+            "flush_await_ms": 0.502127659574468
+          },
+          "mysql_deltas": {
+            "versions": 7976,
+            "credit": 400800,
+            "Innodb_buffer_pool_pages_dirty": 53.0,
+            "Innodb_buffer_pool_read_requests": 549812.0,
+            "Innodb_buffer_pool_reads": 0.0,
+            "Innodb_buffer_pool_wait_free": 0.0,
+            "Innodb_data_fsyncs": 978.0,
+            "Innodb_data_reads": 0.0,
+            "Innodb_data_writes": 2723.0,
+            "Innodb_log_waits": 0.0,
+            "Innodb_os_log_written": 8954368.0,
+            "Innodb_redo_log_checkpoint_lsn": 2110446.0,
+            "Innodb_redo_log_current_lsn": 8550257.0,
+            "Innodb_row_lock_time": 0.0,
+            "Innodb_row_lock_waits": 0.0,
+            "Threads_running": 0.0
+          },
+          "confirmed_per_second": 996.9588790211509,
+          "redo_mib_s": 1.0673998212411226,
+          "write_ops_per_1000_confirmed": 379.1374122367101,
+          "redo_bytes_per_confirmed": 1122.6639919759277
+        },
+        "clients": {
+          "samples": 5,
+          "seconds_observed": 8.000332355499268,
+          "cpu_busy_percent": 5.26813880126183,
+          "cpu_iowait_percent": 0.0,
+          "cpu_steal_percent": 0.031545741324921134,
+          "minimum_memory_available_mib": 7334.25390625,
+          "process": {
+            "cpu_one_core_percent": 19.9991691457692,
+            "rss_median_mib": 171.890625,
+            "rss_max_mib": 171.890625
+          }
+        }
+      }
+    }
+  ],
+  "limits": [
+    "taxa confirmada e IOPS pertencem ao perfil observado",
+    "lat\u00eancia e fila do disco s\u00e3o m\u00e9dias por janela, n\u00e3o percentis de fsync",
+    "n\u00e3o estima ganho com SSD mais r\u00e1pido",
+    "CPU do gerador soma processos presentes; rein\u00edcios invalidam esse delta"
+  ]
+}

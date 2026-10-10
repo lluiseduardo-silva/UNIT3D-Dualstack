@@ -1,0 +1,72 @@
+{
+  "format_version": 1,
+  "evidence_cutoff": "2026-10-10",
+  "coordination_checkpoint": "70b1675af94c8ef7b9d043592df426ff2e5a96b1",
+  "products": [
+    {
+      "name": "UNIT3D",
+      "version": "9.2.0",
+      "base": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+      "candidate": "7c45115fc8b7ad83d12b0a44a5e656c12240ede4",
+      "upstream": "https://github.com/HDInnovations/UNIT3D.git",
+      "path": "repos/UNIT3D",
+      "candidate_tree": "972a82fde8f23846e3d0765b74ce570b53b785ab",
+      "source_files": 4258,
+      "source_bytes": 27023260,
+      "archives": [
+        {
+          "role": "original",
+          "path": "packages/UNIT3D-original-9.2.0.tar.gz",
+          "bytes": 9651722,
+          "sha256": "f726363405da85796003bf94041d619b52b7c5b8fe174574a76896b390aa4815",
+          "commit": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4"
+        },
+        {
+          "role": "dualstack",
+          "path": "packages/UNIT3D-dualstack-7c45115.tar.gz",
+          "bytes": 9739445,
+          "sha256": "87a24450093a31811902f173806bf78b46acff142bd325e4d68b99dfb8f45584",
+          "commit": "7c45115fc8b7ad83d12b0a44a5e656c12240ede4"
+        }
+      ],
+      "patch": {
+        "path": "packages/UNIT3D-dualstack.patch",
+        "bytes": 519931,
+        "sha256": "6f0531cacbcee474625f0a720f203a3134fec96f5932d08047ebc64db04401c1"
+      }
+    },
+    {
+      "name": "UNIT3D-Announce",
+      "version": "0.3.1",
+      "base": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+      "candidate": "36823b5fab72940c0dcb90b0ed456b28c18160cc",
+      "upstream": "https://github.com/Roardom/UNIT3D-Announce.git",
+      "path": "repos/UNIT3D-Announce",
+      "candidate_tree": "f0033aea1b3f33bc3eefbf104106d313730c6f6c",
+      "source_files": 95,
+      "source_bytes": 569958,
+      "archives": [
+        {
+          "role": "original",
+          "path": "packages/UNIT3D-Announce-original-0.3.1.tar.gz",
+          "bytes": 72839,
+          "sha256": "d8416670cfb23c4652171bd391a69a30880d413d6d9c0abd2cb820e845b84d11",
+          "commit": "fcd189e9aebf07a12a1f8cc39500819c3870925b"
+        },
+        {
+          "role": "dualstack",
+          "path": "packages/UNIT3D-Announce-dualstack-36823b5.tar.gz",
+          "bytes": 136346,
+          "sha256": "9357e31efd680d19ed04c44f6c5bef74f2f02f238b75e41150c9459c423eed08",
+          "commit": "36823b5fab72940c0dcb90b0ed456b28c18160cc"
+        }
+      ],
+      "patch": {
+        "path": "packages/UNIT3D-Announce-dualstack.patch",
+        "bytes": 289810,
+        "sha256": "136f09ec582292333a0772899a3b18183142c72a2aaaf8f555c1370513d2560f"
+      }
+    }
+  ],
+  "experimental_patch_in_product": false
+}

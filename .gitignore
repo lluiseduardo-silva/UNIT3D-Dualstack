@@ -1,0 +1,11 @@
+/.local/
+/repos/**/.git/
+/repos/**/vendor/
+/repos/**/node_modules/
+/repos/**/target/
+/repos/**/.env
+/repos/**/.env.local
+/lab/dualstack/results/raw/
+/lab/dualstack/results/capacity/**/public.tar.gz
+__pycache__/
+*.pyc

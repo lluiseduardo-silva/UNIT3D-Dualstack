@@ -1,0 +1,60 @@
+{
+    "status": "passed",
+    "database": {
+        "version": "8.0.46",
+        "isolation_level": "REPEATABLE-READ"
+    },
+    "ddl_recovery": [
+        {
+            "after_statement": 1,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 4,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 5,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 6,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 7,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 9,
+            "repeated_up": "passed",
+            "constraints": 4
+        },
+        {
+            "after_statement": 14,
+            "repeated_up": "passed",
+            "constraints": 4
+        }
+    ],
+    "backfill": [
+        {
+            "batch_size": 1000,
+            "peers": 54000,
+            "endpoints": 54000,
+            "seconds": 3.236739221
+        },
+        {
+            "batch_size": 137,
+            "peers": 54000,
+            "endpoints": 54000,
+            "seconds": 6.499924838
+        }
+    ],
+    "peak_memory_bytes": 109576192,
+    "scope": "Schema\/backfill; nao representa benchmark de announce ou validacao de limites por usuario."
+}

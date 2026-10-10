@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "scope": "controle curto de SIGKILL antes e depois do commit Rust",
+  "coordination_base": "51d19e4",
+  "products": {
+    "UNIT3D": "6d8e7437daa652fb02519584c456b15dceacffa4",
+    "UNIT3D-Announce": "9e8b54626334db11940e3ebf939cbf40ba4426a3"
+  },
+  "product_changes": false,
+  "runs": 2,
+  "sigkills": 4,
+  "restarts": 4,
+  "http_accepted": 218,
+  "validation": {
+    "confirmed_credit_preserved": true,
+    "references_and_endpoints_preserved": true,
+    "rollback_without_partial_effects": true,
+    "pending_transitions_lost_per_blocked_kill": 100,
+    "pending_bytes_recovered_once_per_run": 10000,
+    "family_replay_no_duplicate_credit": true,
+    "natural_lease_expiration": true,
+    "final_live_lease": false,
+    "final_active_queries": 0
+  },
+  "limits": [
+    "falha provocada com escritor bloqueado; nao mede janela normal de perda",
+    "rajada curta nao certifica throughput sustentado",
+    "recuperacao de bytes depende de novo contador cumulativo do cliente",
+    "nao compara tag original nem simula queda de banco/VM",
+    "campanha de seis horas nao executada"
+  ],
+  "report": "docs/dualstack-falha-abrupta.md",
+  "results": "lab/dualstack/results/rust-crash",
+  "push": false,
+  "production": false
+}

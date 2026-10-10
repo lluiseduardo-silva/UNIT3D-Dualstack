@@ -1,0 +1,36 @@
+{
+  "series": "capacity-cache-b-calibration-v1",
+  "status": {
+    "name": "capacity-cache-b-calibration-v1",
+    "status": "failed",
+    "started_at": 1791647015.3850734,
+    "mode": "calibration",
+    "results": [],
+    "stage": "trial",
+    "resources": {
+      "tracker": [
+        4,
+        8192
+      ],
+      "data": [
+        1,
+        4096
+      ]
+    },
+    "trial": "capacity-cache-b-calibration-v1-calibration",
+    "rate": 1000,
+    "error": "AssertionError",
+    "reason": "guest_failed_120",
+    "probe_failures": [],
+    "resources_restored": false,
+    "restore_error": "AssertionError",
+    "finished_at": 1791647082.0716279
+  },
+  "trials": [],
+  "limits": [
+    "taxa confirmada e IOPS pertencem ao perfil observado",
+    "lat\u00eancia e fila do disco s\u00e3o m\u00e9dias por janela, n\u00e3o percentis de fsync",
+    "n\u00e3o estima ganho com SSD mais r\u00e1pido",
+    "CPU do gerador soma processos presentes; rein\u00edcios invalidam esse delta"
+  ]
+}

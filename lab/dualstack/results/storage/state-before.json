@@ -1,0 +1,170 @@
+{
+  "runtime": [
+    {
+      "db": "unit3d_dualstack_journal_test",
+      "version": "8.0.46",
+      "isolation_level": "REPEATABLE-READ",
+      "lock_wait_seconds": 10
+    }
+  ],
+  "owner": [
+    {
+      "generation": 1941,
+      "backend": "php",
+      "php_journal_drained": 1,
+      "live": 0
+    }
+  ],
+  "peers": [
+    {
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2D4453393230302D303030303030303030303031",
+      "state_version": 3551,
+      "session_generation": 1,
+      "uploaded": 1512,
+      "downloaded": 0,
+      "active": 1,
+      "seeder": 1
+    }
+  ],
+  "endpoints": [
+    {
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2D4453393230302D303030303030303030303031",
+      "family": 4,
+      "ip": "172.29.92.30",
+      "port": 47000,
+      "revision": 1,
+      "last_announced_at": "2026-10-09 01:09:24",
+      "connectable": 0,
+      "connectivity_checked_at": "2026-10-09 01:12:44"
+    },
+    {
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "peer_id_hex": "2D4453393230302D303030303030303030303031",
+      "family": 6,
+      "ip": "fd42:756e:6974:92::30",
+      "port": 47000,
+      "revision": 2916,
+      "last_announced_at": "2026-10-09 01:12:00",
+      "connectable": 0,
+      "connectivity_checked_at": "2026-10-09 01:12:41"
+    }
+  ],
+  "history": [
+    {
+      "user_id": 12001,
+      "torrent_id": 12001,
+      "state_version": 3551,
+      "uploaded": 512,
+      "actual_uploaded": 512,
+      "downloaded": 0,
+      "actual_downloaded": 0,
+      "active": 1,
+      "seeder": 1,
+      "seedtime": 156,
+      "created_at": "2026-10-09 01:09:24",
+      "updated_at": "2026-10-09 01:12:44",
+      "swarm_updated_at": "2026-10-09 01:12:00",
+      "completed_at": null
+    }
+  ],
+  "user": [
+    {
+      "id": 12001,
+      "uploaded": 512,
+      "downloaded": 0
+    }
+  ],
+  "torrent": [
+    {
+      "id": 12001,
+      "seeders": 0,
+      "leechers": 0,
+      "seeders_ipv4": 0,
+      "seeders_ipv6": 0,
+      "leechers_ipv4": 0,
+      "leechers_ipv6": 0,
+      "times_completed": 0
+    }
+  ],
+  "timestamp_types": [
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "prewarned_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "created_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "updated_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "deleted_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "completed_at",
+      "DATA_TYPE": "datetime",
+      "COLUMN_TYPE": "datetime"
+    },
+    {
+      "TABLE_NAME": "history",
+      "COLUMN_NAME": "swarm_updated_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peer_ips",
+      "COLUMN_NAME": "last_announced_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peer_ips",
+      "COLUMN_NAME": "connectivity_checked_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peer_ips",
+      "COLUMN_NAME": "created_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peer_ips",
+      "COLUMN_NAME": "updated_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peers",
+      "COLUMN_NAME": "created_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    },
+    {
+      "TABLE_NAME": "peers",
+      "COLUMN_NAME": "updated_at",
+      "DATA_TYPE": "timestamp",
+      "COLUMN_TYPE": "timestamp"
+    }
+  ],
+  "test_triggers": [],
+  "test_constraints": []
+}

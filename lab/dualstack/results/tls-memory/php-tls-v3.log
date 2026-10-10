@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/network-client.py", line 241, in <module>
+    main()
+  File "/opt/unit3d-dualstack/network-client.py", line 153, in main
+    result = client.announce(family, version=version)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/network-client.py", line 80, in announce
+    assert response.status == 200 and not reason, 'announce_rejected: '+reason[:256]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: announce_rejected: Internal Server Error

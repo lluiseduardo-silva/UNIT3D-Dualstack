@@ -1,0 +1,192 @@
+.env file: verifying file exists                       ... [Finished] Path: "/app/.env"
+Loading config from env                                ... [Finished]
+Connecting to database                                 ... [Finished]
+Synchronizing peer counts                              ... [Finished]
+Loading entities from database into memory...
+Starting to load  1/11: blacklisted ports              ... [Finished] Records: 1032
+Starting to load  2/11: blacklisted user agents        ... [Finished] Records: 0
+Starting to load  3/11: torrents                       ... [Finished] Records: 2
+Starting to load  4/11: infohash to torrent id mappings... [Finished] Records: 2
+Starting to load  5/11: users                          ... [Finished] Records: 6
+Starting to load  6/11: passkey to user id mappings    ... [Finished] Records: 6
+Starting to load  7/11: connectable ports              ... [Finished] Records: 0
+Starting to load  8/11: freeleech tokens               ... [Finished] Records: 0
+Starting to load  9/11: personal freeleeches           ... [Finished] Records: 0
+Starting to load 10/11: featured torrents              ... [Finished] Records: 0
+Starting to load 11/11: groups                         ... [Finished] Records: 1
+All entities loaded into memory.
+UNIT3D Announce has started.
+2026-10-08T05:38:29.231049Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:29.231082Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:29.231086Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:29.231088Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:29.231091Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:29.231093Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:32.231308Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:32.231324Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:32.231328Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:32.231330Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:32.231333Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:32.231335Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:35.230642Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:35.230657Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:35.230661Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:35.230663Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:35.230666Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:35.230668Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:38.230551Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:38.230566Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:38.230570Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:38.230572Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:38.230575Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:38.230577Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:41.231073Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:41.231086Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:41.231090Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:41.231093Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:41.231095Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:41.231097Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:44.230427Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:44.230441Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:44.230445Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:44.230448Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:44.230450Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:44.230452Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:47.231378Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:47.231393Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:47.231396Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:47.231399Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:47.231401Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:47.231403Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:50.231483Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:50.231500Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:50.231505Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:50.231509Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:50.231512Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:50.231515Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:53.231247Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:53.231263Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:53.231266Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:53.231269Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:53.231271Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:53.231273Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:38:56.230575Z Upserted 0 announces in 0 ms.
+2026-10-08T05:38:56.230589Z Upserted 0 histories in 0 ms.
+2026-10-08T05:38:56.230593Z Upserted 0 peers in 0 ms.
+2026-10-08T05:38:56.230596Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:38:56.230598Z Upserted 0 users in 0 ms.
+2026-10-08T05:38:56.230600Z Upserted 0 unregistered info hashes in 0 ms.
+
+Signal received, starting graceful shutdown
+Graceful shutdown succeeded
+.env file: verifying file exists                       ... [Finished] Path: "/app/.env"
+Loading config from env                                ... [Finished]
+Connecting to database                                 ... [Finished]
+Synchronizing peer counts                              ... [Finished]
+Loading entities from database into memory...
+Starting to load  1/11: blacklisted ports              ... [Finished] Records: 1032
+Starting to load  2/11: blacklisted user agents        ... [Finished] Records: 0
+Starting to load  3/11: torrents                       ... [Finished] Records: 2
+Starting to load  4/11: infohash to torrent id mappings... [Finished] Records: 2
+Starting to load  5/11: users                          ... [Finished] Records: 6
+Starting to load  6/11: passkey to user id mappings    ... [Finished] Records: 6
+Starting to load  7/11: connectable ports              ... [Finished] Records: 0
+Starting to load  8/11: freeleech tokens               ... [Finished] Records: 0
+Starting to load  9/11: personal freeleeches           ... [Finished] Records: 0
+Starting to load 10/11: featured torrents              ... [Finished] Records: 0
+Starting to load 11/11: groups                         ... [Finished] Records: 1
+All entities loaded into memory.
+UNIT3D Announce has started.
+2026-10-08T05:39:08.165134Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:08.165153Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:08.165156Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:08.165159Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:08.165162Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:08.165164Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:11.164965Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:11.164981Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:11.164985Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:11.164989Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:11.164993Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:11.164995Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:14.165468Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:14.165483Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:14.165487Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:14.165490Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:14.165492Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:14.165495Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:17.165746Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:17.165766Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:17.165770Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:17.165772Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:17.165775Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:17.165777Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:20.165489Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:20.165505Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:20.165508Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:20.165511Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:20.165513Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:20.165515Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:23.165427Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:23.165442Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:23.165446Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:23.165449Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:23.165452Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:23.165454Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:26.165650Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:26.165670Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:26.165674Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:26.165677Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:26.165679Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:26.165681Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:29.165349Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:29.165364Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:29.165368Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:29.165370Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:29.165373Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:29.165375Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:32.165130Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:32.165146Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:32.165149Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:32.165152Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:32.165155Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:32.165157Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:35.165465Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:35.165480Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:35.165484Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:35.165486Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:35.165489Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:35.165491Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:38.164788Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:38.164802Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:38.164806Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:38.164809Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:38.164811Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:38.164813Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:41.164901Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:41.164916Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:41.164920Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:41.164923Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:41.164925Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:41.164927Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:44.165541Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:44.165557Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:44.165571Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:44.165575Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:44.165578Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:44.165581Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:47.165242Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:47.165257Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:47.165261Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:47.165264Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:47.165266Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:47.165268Z Upserted 0 unregistered info hashes in 0 ms.
+2026-10-08T05:39:50.165479Z Upserted 0 announces in 0 ms.
+2026-10-08T05:39:50.165495Z Upserted 0 histories in 0 ms.
+2026-10-08T05:39:50.165498Z Upserted 0 peers in 0 ms.
+2026-10-08T05:39:50.165501Z Upserted 0 torrents in 0 ms.
+2026-10-08T05:39:50.165503Z Upserted 0 users in 0 ms.
+2026-10-08T05:39:50.165505Z Upserted 0 unregistered info hashes in 0 ms.
+
+Signal received, starting graceful shutdown
+Graceful shutdown succeeded

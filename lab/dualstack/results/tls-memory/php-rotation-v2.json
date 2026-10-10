@@ -1,0 +1,518 @@
+{
+  "backend": "php",
+  "status": "passed",
+  "maximum_request_rate": 20,
+  "batches": [
+    {
+      "batch": 1,
+      "rotations": 256,
+      "at": 1791507498.1744943,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::100",
+            "port": 47000,
+            "connectable": null,
+            "revision": 564
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1256,
+            "state_version": 564,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 256
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 256,
+            "actual_uploaded": 256
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 2,
+      "rotations": 512,
+      "at": 1791507511.0742548,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::200",
+            "port": 47000,
+            "connectable": null,
+            "revision": 1137
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1512,
+            "state_version": 1137,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 512
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 512,
+            "actual_uploaded": 512
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 3,
+      "rotations": 768,
+      "at": 1791507523.969814,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::300",
+            "port": 47000,
+            "connectable": null,
+            "revision": 1598
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 1768,
+            "state_version": 1598,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 768
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 768,
+            "actual_uploaded": 768
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 4,
+      "rotations": 1024,
+      "at": 1791507536.8139813,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::400",
+            "port": 47000,
+            "connectable": null,
+            "revision": 2035
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 2024,
+            "state_version": 2035,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 1024
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 1024,
+            "actual_uploaded": 1024
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 5,
+      "rotations": 1280,
+      "at": 1791507549.6617615,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::500",
+            "port": 47000,
+            "connectable": null,
+            "revision": 2490
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 2280,
+            "state_version": 2490,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 1280
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 1280,
+            "actual_uploaded": 1280
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 6,
+      "rotations": 1536,
+      "at": 1791507562.5077138,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::600",
+            "port": 47000,
+            "connectable": null,
+            "revision": 2976
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 2536,
+            "state_version": 2976,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 1536
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 1536,
+            "actual_uploaded": 1536
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 7,
+      "rotations": 1792,
+      "at": 1791507575.4046106,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::700",
+            "port": 47000,
+            "connectable": null,
+            "revision": 3374
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 2792,
+            "state_version": 3374,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 1792
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 1792,
+            "actual_uploaded": 1792
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    },
+    {
+      "batch": 8,
+      "rotations": 2048,
+      "at": 1791507588.2501404,
+      "state": {
+        "endpoints": [
+          {
+            "family": 4,
+            "ip": "172.29.92.30",
+            "port": 47000,
+            "connectable": 1,
+            "revision": 1
+          },
+          {
+            "family": 6,
+            "ip": "fd42:756e:6974:92:d5::800",
+            "port": 47000,
+            "connectable": null,
+            "revision": 4022
+          }
+        ],
+        "peer": [
+          {
+            "uploaded": 3048,
+            "state_version": 4022,
+            "connectable": 1
+          }
+        ],
+        "user": [
+          {
+            "uploaded": 2048
+          }
+        ],
+        "history": [
+          {
+            "uploaded": 2048,
+            "actual_uploaded": 2048
+          }
+        ],
+        "counts": [
+          {
+            "seeders": 1,
+            "seeders_ipv4": 1,
+            "seeders_ipv6": 0
+          }
+        ]
+      }
+    }
+  ],
+  "started_at": 1791507484.8476663,
+  "before": {
+    "endpoints": [
+      {
+        "family": 4,
+        "ip": "172.29.92.30",
+        "port": 47000,
+        "connectable": 1,
+        "revision": 1
+      }
+    ],
+    "peer": [
+      {
+        "uploaded": 1000,
+        "state_version": 106,
+        "connectable": 1
+      }
+    ],
+    "user": [
+      {
+        "uploaded": 0
+      }
+    ],
+    "history": [
+      {
+        "uploaded": 0,
+        "actual_uploaded": 0
+      }
+    ],
+    "counts": [
+      {
+        "seeders": 1,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 0
+      }
+    ]
+  },
+  "rotation_finished_at": 1791507588.3567843,
+  "idle": {
+    "endpoints": [
+      {
+        "family": 4,
+        "ip": "172.29.92.30",
+        "port": 47000,
+        "connectable": 1,
+        "revision": 1
+      },
+      {
+        "family": 6,
+        "ip": "fd42:756e:6974:92:d5::800",
+        "port": 47000,
+        "connectable": 1,
+        "revision": 4022
+      }
+    ],
+    "peer": [
+      {
+        "uploaded": 3048,
+        "state_version": 4309,
+        "connectable": 1
+      }
+    ],
+    "user": [
+      {
+        "uploaded": 2048
+      }
+    ],
+    "history": [
+      {
+        "uploaded": 2048,
+        "actual_uploaded": 2048
+      }
+    ],
+    "counts": [
+      {
+        "seeders": 1,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 1
+      }
+    ]
+  },
+  "final": {
+    "endpoints": [
+      {
+        "family": 4,
+        "ip": "172.29.92.30",
+        "port": 47000,
+        "connectable": 1,
+        "revision": 1
+      },
+      {
+        "family": 6,
+        "ip": "fd42:756e:6974:92::30",
+        "port": 47000,
+        "connectable": 1,
+        "revision": 4310
+      }
+    ],
+    "peer": [
+      {
+        "uploaded": 3048,
+        "state_version": 4337,
+        "connectable": 1
+      }
+    ],
+    "user": [
+      {
+        "uploaded": 2048
+      }
+    ],
+    "history": [
+      {
+        "uploaded": 2048,
+        "actual_uploaded": 2048
+      }
+    ],
+    "counts": [
+      {
+        "seeders": 1,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 1
+      }
+    ]
+  },
+  "rotations": 2048,
+  "finished_at": 1791507600.7042313,
+  "aliases_remaining": 0
+}

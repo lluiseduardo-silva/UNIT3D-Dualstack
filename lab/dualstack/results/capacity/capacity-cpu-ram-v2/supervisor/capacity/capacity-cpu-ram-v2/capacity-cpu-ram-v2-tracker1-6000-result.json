@@ -1,0 +1,83 @@
+{
+  "name": "capacity-cpu-ram-v2-tracker1-6000",
+  "start_epoch": 1791619011.7583568,
+  "measured_at": 1791619031.7583568,
+  "finish_epoch": 1791619091.7583568,
+  "rate": 6000,
+  "seconds": 60,
+  "warmup": 20,
+  "accepted": 480000,
+  "expected_credit": 24000000,
+  "completed_rps": 6000.033333333334,
+  "errors": {},
+  "stop_reason": null,
+  "max_generator_lag": 0.00860633265983779,
+  "metrics": {
+    "response_ms": {
+      "count": 360000,
+      "max": 9.043974001542665,
+      "p50": 0.23205507910482706,
+      "p95": 0.45794760006636903,
+      "p99": 1.0078257451943795
+    },
+    "latency_ms": {
+      "count": 360000,
+      "max": 9.055636008270085,
+      "p50": 0.24522538975021008,
+      "p95": 0.4733377181090713,
+      "p99": 1.0251136715727969
+    },
+    "queue_ms": {
+      "count": 360000,
+      "max": 8.60633265983779,
+      "p50": 0.4101635247599914,
+      "p95": 1.0437415535103327,
+      "p99": 1.077696694731552
+    },
+    "total_ms": {
+      "count": 360000,
+      "max": 9.882377999019809,
+      "p50": 0.7071947928714747,
+      "p95": 1.3389671792309605,
+      "p99": 1.6768826908425376
+    }
+  },
+  "after": {
+    "peers": 10000,
+    "versions": 480000,
+    "credit": 24000000,
+    "history_credit": 24000000,
+    "actual_credit": 24000000,
+    "user_credit": 24000000,
+    "endpoints": {
+      "n": 20000,
+      "v4": 10000,
+      "v6": 10000,
+      "invalid": 0
+    },
+    "over_limit": 0,
+    "bad_torrent_counts": 0,
+    "mismatches": 0
+  },
+  "drained": true,
+  "drain_seconds": 0.7300226400111569,
+  "accounting_passed": true,
+  "status": "passed",
+  "supervisor_reason": null,
+  "aligned_lag_trend": {
+    "sufficient_samples": true,
+    "samples": 30,
+    "slope_per_second": 3.7175267833392187,
+    "growth": 74.36101117095677,
+    "comparison_seconds": 20.0028178691864,
+    "growth_tolerance": 1427.0691871643066,
+    "growing": false,
+    "minimum_lag": 553.3364544524229,
+    "maximum_lag": 1568.8919446871732,
+    "max_sql_span_seconds": 0.07117819786071777,
+    "max_progress_span_seconds": 1.003119945526123
+  },
+  "observed_lag_slope_per_second": 3.7175267833392187,
+  "max_observed_lag": 11623,
+  "stable": true
+}

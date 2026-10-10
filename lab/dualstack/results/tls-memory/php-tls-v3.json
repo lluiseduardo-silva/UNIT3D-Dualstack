@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "backend": "php",
+  "steps": [],
+  "error_type": "AssertionError",
+  "error": "announce_rejected: Internal Server Error",
+  "tcp_accepts": 0,
+  "final": {
+    "endpoints": [],
+    "peer": [],
+    "user": [
+      {
+        "uploaded": 0
+      }
+    ],
+    "history": [],
+    "counts": [
+      {
+        "seeders": 0,
+        "seeders_ipv4": 0,
+        "seeders_ipv6": 0
+      }
+    ]
+  }
+}

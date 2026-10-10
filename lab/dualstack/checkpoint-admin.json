@@ -1,0 +1,18 @@
+{
+  "unit3d_commit": "8cedf6404d7c65e2a0eb5fb9c1da51a7eaf678ac",
+  "announce_commit": "1fabed68f88ddd754074d4f3ae7bd185a9412225",
+  "stage": 5,
+  "status": "administrative_integration_passed",
+  "mysql_scenario_blocks": 22,
+  "php_tests": 13,
+  "php_assertions": 27,
+  "http_steps": 30,
+  "real_php_rust_api": true,
+  "production": false,
+  "next": [
+    "BON por familia",
+    "preferencia visual e resolucao auto",
+    "consumidores do site",
+    "rollback, clientes reais e benchmarks"
+  ]
+}

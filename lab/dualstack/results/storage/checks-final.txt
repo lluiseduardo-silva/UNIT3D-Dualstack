@@ -1,0 +1,13 @@
+test_copy_and_reentry (__main__.ArchiveTests.test_copy_and_reentry) ... ok
+test_existing_corruption_stops (__main__.ArchiveTests.test_existing_corruption_stops) ... ok
+test_manifest_atomic (__main__.ArchiveTests.test_manifest_atomic) ... ok
+test_no_mount_rejected (__main__.ArchiveTests.test_no_mount_rejected) ... ok
+test_partial_symlink_rejected (__main__.ArchiveTests.test_partial_symlink_rejected) ... ok
+test_restart_partial_copy (__main__.ArchiveTests.test_restart_partial_copy) ... ok
+test_write_failure_leaves_source (__main__.ArchiveTests.test_write_failure_leaves_source) ... ok
+test_wrong_size_stops (__main__.ArchiveTests.test_wrong_size_stops) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.037s
+
+OK

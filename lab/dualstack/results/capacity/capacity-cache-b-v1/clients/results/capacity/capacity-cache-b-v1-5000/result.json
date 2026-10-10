@@ -1,0 +1,66 @@
+{
+  "name": "capacity-cache-b-v1-5000",
+  "start_epoch": 1791648216.0828218,
+  "measured_at": 1791648236.0828218,
+  "finish_epoch": 1791648296.0828218,
+  "rate": 5000,
+  "seconds": 60,
+  "warmup": 20,
+  "accepted": 400000,
+  "expected_credit": 20006400,
+  "completed_rps": 4999.983333333334,
+  "errors": {},
+  "stop_reason": null,
+  "max_generator_lag": 0.008013905986445025,
+  "metrics": {
+    "response_ms": {
+      "count": 300000,
+      "max": 8.685125998454168,
+      "p50": 0.21158050974374196,
+      "p95": 0.2952355445756934,
+      "p99": 0.3554031230048349
+    },
+    "latency_ms": {
+      "count": 300000,
+      "max": 8.697100012796,
+      "p50": 0.22517065086241475,
+      "p95": 0.3097941862520017,
+      "p99": 0.3706830489650589
+    },
+    "queue_ms": {
+      "count": 300000,
+      "max": 8.013905986445025,
+      "p50": 0.546765678444386,
+      "p95": 1.045832081358907,
+      "p99": 1.0787753914262836
+    },
+    "total_ms": {
+      "count": 300000,
+      "max": 8.79647399415262,
+      "p50": 0.7517165334659678,
+      "p95": 1.2685621821438517,
+      "p99": 1.3429911020101586
+    }
+  },
+  "after": {
+    "peers": 10000,
+    "versions": 400000,
+    "credit": 20006400,
+    "history_credit": 20006400,
+    "actual_credit": 20006400,
+    "user_credit": 20006400,
+    "endpoints": {
+      "n": 20000,
+      "v4": 10000,
+      "v6": 10000,
+      "invalid": 0
+    },
+    "over_limit": 0,
+    "bad_torrent_counts": 0,
+    "mismatches": 0
+  },
+  "drained": true,
+  "drain_seconds": 0.7393252009933349,
+  "accounting_passed": true,
+  "status": "passed"
+}

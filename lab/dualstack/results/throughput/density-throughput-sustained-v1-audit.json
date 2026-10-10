@@ -1,0 +1,11 @@
+{
+  "series": "density-throughput-sustained-v1",
+  "status": "passed",
+  "accepted": 1520000,
+  "measured_samples": 1440000,
+  "phases": 1,
+  "sha256": {
+    "rate-8000-r1.json": "52be838fb06f71ae508ae5f24a04a47aff33125e3db5d4e8c4e5592e3bc9f19b",
+    "rate-8000-r1-samples.json.gz": "a92bd9c24ba416698d554cacde36f1005f409b53e5633adb16c05562b63a50b9"
+  }
+}

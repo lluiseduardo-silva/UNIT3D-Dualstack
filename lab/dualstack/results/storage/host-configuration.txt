@@ -1,0 +1,11 @@
+NAME                                         USED         AVAIL       REFER  MOUNTPOINT
+storage_pool/unit3d-dualstack          2454466560  319668080640      106496  /storage_pool/unit3d-dualstack
+storage_pool/unit3d-dualstack/clients   414437376  319668080640   414437376  /storage_pool/unit3d-dualstack/clients
+storage_pool/unit3d-dualstack/data     2038046720  319668080640  2038046720  /storage_pool/unit3d-dualstack/data
+storage_pool/unit3d-dualstack/tracker     1875968  319668080640     1875968  /storage_pool/unit3d-dualstack/tracker
+storage_pool/unit3d-dualstack	quota	322122547200	local
+storage_pool/unit3d-dualstack	reservation	322122547200	local
+storage_pool/unit3d-dualstack	sync	standard	local
+storage_pool/unit3d-dualstack	compression	lz4	local
+storage_pool/unit3d-dualstack	atime	off	local
+[{"description":"Arquivo exclusivo do laboratorio UNIT3D VM 120","digest":"4b7a2690b8bc1e130e02de3b4eae6469d20300d1","id":"unit3d-ds-tracker","map":["node=proxmox,path=/storage_pool/unit3d-dualstack/tracker"],"type":"dir"},{"description":"Arquivo exclusivo do laboratorio UNIT3D VM 122","digest":"4b7a2690b8bc1e130e02de3b4eae6469d20300d1","id":"unit3d-ds-clients","map":["node=proxmox,path=/storage_pool/unit3d-dualstack/clients"],"type":"dir"},{"description":"Arquivo exclusivo do laboratorio UNIT3D VM 121","digest":"4b7a2690b8bc1e130e02de3b4eae6469d20300d1","id":"unit3d-ds-data","map":["node=proxmox,path=/storage_pool/unit3d-dualstack/data"],"type":"dir"}]

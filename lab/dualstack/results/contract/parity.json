@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "cases": 12,
+  "operations": 51,
+  "php_sha256": "c323d78fadc2b9fa0a24f9959d498d658caed7cba4f1d24701064d5c685fca36",
+  "rust_sha256": "dd5310847ddc01e6ff7772e0bfd33d18f34e1c8d5830db6178d90973bb4f8ec8"
+}

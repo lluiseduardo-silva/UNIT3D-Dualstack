@@ -1,0 +1,22 @@
+unit3d-ds-nginx
+unit3d-ds-nginx
+unit3d-ds-php
+unit3d-ds-php
+unit3d-ds-coordinator
+unit3d-ds-coordinator
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+e157d2ce26d8d468452325edfdff8e40830cc885453fe564ae5cde85ead25c22
+af1f754f38fdf541a7148023940adbc857b4abf21a319fbe9c1ad017c25090cd
+a4e3412c9586b079f099901ea4ff085b5b90f6ed49a460c68c327d59e25e87be
+/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+/docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+/docker-entrypoint.sh: Configuration complete; ready for start up
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+132028780fc021e6cb27dca6c580f5ea158cd0f50819724b872a0d2e592607be

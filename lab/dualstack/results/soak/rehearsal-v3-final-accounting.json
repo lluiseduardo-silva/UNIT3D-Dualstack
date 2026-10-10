@@ -1,0 +1,76 @@
+{
+  "name": "soak-rehearsal-v3",
+  "status": "final_accounting_verified",
+  "snapshot": {
+    "peers": {
+      "n": 10000,
+      "uploaded": 118636200,
+      "versions": 2392759
+    },
+    "history": {
+      "n": 10000,
+      "actual_uploaded": 118636200,
+      "uploaded": 118636200
+    },
+    "users": {
+      "n": 250,
+      "uploaded": 118636200
+    },
+    "peer_ips": {
+      "n": 20000
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 3,
+      "lock_timeouts": 18
+    }
+  },
+  "checks": {
+    "families": [
+      {
+        "family": 4,
+        "n": 10000
+      },
+      {
+        "family": 6,
+        "n": 10000
+      }
+    ],
+    "peer_history_mismatches": [
+      {
+        "n": 0
+      }
+    ],
+    "user_credit_mismatches": [
+      {
+        "n": 0
+      }
+    ],
+    "torrents": [
+      {
+        "n": 40,
+        "seeders": "8000",
+        "leechers": "2000",
+        "seeders_ipv4": "8000",
+        "seeders_ipv6": "8000",
+        "leechers_ipv4": "2000",
+        "leechers_ipv6": "2000",
+        "times_completed": "0"
+      }
+    ],
+    "owner": [
+      {
+        "backend": "rust",
+        "generation": 1952,
+        "live": 0
+      }
+    ]
+  },
+  "aliases_removed": true
+}

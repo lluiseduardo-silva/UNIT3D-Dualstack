@@ -1,0 +1,794 @@
+{
+  "series": "capacity-cpu-ram-v2",
+  "series_status": "failed",
+  "profile_memory": [
+    {
+      "trial": "capacity-cpu-ram-v2-database1-500",
+      "rate": 500,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622415.7014387,
+        "memory_available_mib": 1196.40625,
+        "mysql_rss_mib": 467.7890625,
+        "mysql_pss_mib": 467.96875,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791622504.2073977,
+        "memory_available_mib": 1090.21484375,
+        "mysql_rss_mib": 550.6640625,
+        "mysql_pss_mib": 550.8125,
+        "major_faults": 150,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 1073.09765625,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-1000",
+      "rate": 1000,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622519.2484605,
+        "memory_available_mib": 1073.78125,
+        "mysql_rss_mib": 581.2890625,
+        "mysql_pss_mib": 581.4765625,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791622609.2541666,
+        "memory_available_mib": 917.28515625,
+        "mysql_rss_mib": 694.6640625,
+        "mysql_pss_mib": 694.83203125,
+        "major_faults": 150,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 917.26953125,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-2000",
+      "rate": 2000,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622622.1162171,
+        "memory_available_mib": 925.828125,
+        "mysql_rss_mib": 695.9140625,
+        "mysql_pss_mib": 696.10546875,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791622716.1254237,
+        "memory_available_mib": 696.35546875,
+        "mysql_rss_mib": 929.7890625,
+        "mysql_pss_mib": 929.88671875,
+        "major_faults": 150,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 685.98828125,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-4000",
+      "rate": 4000,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622730.592346,
+        "memory_available_mib": 733.71875,
+        "mysql_rss_mib": 911.9765625,
+        "mysql_pss_mib": 912.05859375,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791622822.5985947,
+        "memory_available_mib": 440.46875,
+        "mysql_rss_mib": 1168.8515625,
+        "mysql_pss_mib": 1169.0390625,
+        "major_faults": 150,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 440.46875,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-6000",
+      "rate": 6000,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622839.7812274,
+        "memory_available_mib": 478.5234375,
+        "mysql_rss_mib": 1137.69140625,
+        "mysql_pss_mib": 1137.78125,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791622929.7885633,
+        "memory_available_mib": 435.19140625,
+        "mysql_rss_mib": 1180.81640625,
+        "mysql_pss_mib": 1180.73828125,
+        "major_faults": 150,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 418.640625,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-refine-5000",
+      "rate": 5000,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791622943.0697339,
+        "memory_available_mib": 415.765625,
+        "mysql_rss_mib": 1185.81640625,
+        "mysql_pss_mib": 1185.70703125,
+        "major_faults": 150,
+        "failures": []
+      },
+      "last": {
+        "at": 1791623033.074675,
+        "memory_available_mib": 371.19921875,
+        "mysql_rss_mib": 1229.31640625,
+        "mysql_pss_mib": 1229.26953125,
+        "major_faults": 151,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 357.09375,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-refine-5500",
+      "rate": 5500,
+      "measured_seconds_requested": 60,
+      "first": {
+        "at": 1791623049.1661248,
+        "memory_available_mib": 372.5,
+        "mysql_rss_mib": 1233.69140625,
+        "mysql_pss_mib": 1233.6640625,
+        "major_faults": 151,
+        "failures": []
+      },
+      "last": {
+        "at": 1791623137.171667,
+        "memory_available_mib": 373.9609375,
+        "mysql_rss_mib": 1236.56640625,
+        "mysql_pss_mib": 1236.58203125,
+        "major_faults": 151,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 354.66796875,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-confirm-1",
+      "rate": 5500,
+      "measured_seconds_requested": 300,
+      "first": {
+        "at": 1791623152.3386343,
+        "memory_available_mib": 383.6875,
+        "mysql_rss_mib": 1240.81640625,
+        "mysql_pss_mib": 1240.83203125,
+        "major_faults": 151,
+        "failures": []
+      },
+      "last": {
+        "at": 1791623494.365318,
+        "memory_available_mib": 346.0078125,
+        "mysql_rss_mib": 1245.44140625,
+        "mysql_pss_mib": 1245.5078125,
+        "major_faults": 224,
+        "failures": []
+      },
+      "minimum_memory_available_mib": 343.6953125,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-confirm-2",
+      "rate": 5500,
+      "measured_seconds_requested": 300,
+      "first": {
+        "at": 1791623509.976526,
+        "memory_available_mib": 353.3515625,
+        "mysql_rss_mib": 1249.31640625,
+        "mysql_pss_mib": 1249.515625,
+        "major_faults": 294,
+        "failures": []
+      },
+      "last": {
+        "at": 1791623517.9768858,
+        "memory_available_mib": 251.421875,
+        "mysql_rss_mib": 1376.94140625,
+        "mysql_pss_mib": 1377.0546875,
+        "major_faults": 295,
+        "failures": [
+          "memory_low"
+        ]
+      },
+      "minimum_memory_available_mib": 251.421875,
+      "mysql_pid_set": [
+        "1290"
+      ]
+    }
+  ],
+  "long_confirmations": [
+    {
+      "trial": "capacity-cpu-ram-v2-reference-confirm-1",
+      "rate": 8000,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 1635497,
+      "measured_response_count": 1395497,
+      "stable_classifier": false,
+      "reason": "capacity_backlog",
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 7.5353235810034676,
+      "p99_response_ms": 0.4105746882847514,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 87,
+        "slope_per_second": 279.69000377121034,
+        "growth": 16782.470093030133,
+        "comparison_seconds": 60.003825187683105,
+        "growth_tolerance": 1525.1712799072266,
+        "growing": true,
+        "minimum_lag": 12510.258073889185,
+        "maximum_lag": 55984.00799268833,
+        "max_sql_span_seconds": 0.07597088813781738,
+        "max_progress_span_seconds": 1.0034759044647217
+      },
+      "data_vm_cpu_percent": 27.22654561175962,
+      "mysql_cpu_one_core_percent": 92.92674864981117,
+      "mysql_rss_max_mib": 1314.53515625,
+      "data_disk": {
+        "read_iops": 0.010637828246787382,
+        "write_iops": 2056.3081568463713,
+        "read_mib_s": 0.0010180734064308237,
+        "write_mib_s": 33.25004890693946,
+        "read_await_ms": 0.5,
+        "write_await_ms": 0.36601630095989945,
+        "average_queue": 1.0619424803920439,
+        "busy_percent": 62.2935265389499,
+        "flush_iops": 677.2626542458421,
+        "flush_await_ms": 0.4546653996277419
+      },
+      "mysql_counter_deltas": {
+        "versions": 1404180,
+        "credit": 70208000,
+        "Innodb_buffer_pool_pages_dirty": -978.0,
+        "Innodb_buffer_pool_read_requests": 60297314.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 137616.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 404664.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1242256896.0,
+        "Innodb_redo_log_checkpoint_lsn": 1208327315.0,
+        "Innodb_redo_log_current_lsn": 1165472476.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": -1.0
+      },
+      "tracker_rss_max_mib": 90.28125
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker1-confirm-1",
+      "rate": 6500,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 2145000,
+      "measured_response_count": 1950000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7363646129961126,
+      "p99_response_ms": 0.9868716673284569,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 0.19915872569726872,
+        "growth": 19.91579089872539,
+        "comparison_seconds": 99.99958992004395,
+        "growth_tolerance": 1440.8862590789795,
+        "growing": false,
+        "minimum_lag": 518.3810378250782,
+        "maximum_lag": 1628.8964627031237,
+        "max_sql_span_seconds": 0.07226896286010742,
+        "max_progress_span_seconds": 1.002882719039917
+      },
+      "data_vm_cpu_percent": 24.068601987550135,
+      "mysql_cpu_one_core_percent": 80.88863334164971,
+      "mysql_rss_max_mib": 1498.53125,
+      "data_disk": {
+        "read_iops": 0.0,
+        "write_iops": 1828.1381443678279,
+        "read_mib_s": 0.0,
+        "write_mib_s": 29.671003447294854,
+        "read_await_ms": 0,
+        "write_await_ms": 0.37376562924458345,
+        "average_queue": 0.9584561476772908,
+        "busy_percent": 56.06636601063172,
+        "flush_iops": 599.5040289327337,
+        "flush_await_ms": 0.4564230581940099
+      },
+      "mysql_counter_deltas": {
+        "versions": 1937000,
+        "credit": 96851300,
+        "Innodb_buffer_pool_pages_dirty": -90.0,
+        "Innodb_buffer_pool_read_requests": 83181686.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 194061.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 560868.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1713332224.0,
+        "Innodb_redo_log_checkpoint_lsn": 1595284742.0,
+        "Innodb_redo_log_current_lsn": 1609497306.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 29.96875
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker1-confirm-2",
+      "rate": 6500,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 2145000,
+      "measured_response_count": 1950000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.734913411011803,
+      "p99_response_ms": 0.9405964464169858,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 4.979538448660541,
+        "growth": 497.9696799328085,
+        "comparison_seconds": 100.00318002700806,
+        "growth_tolerance": 1497.8508949279785,
+        "growing": false,
+        "minimum_lag": 922.7834513753187,
+        "maximum_lag": 46014.14144713525,
+        "max_sql_span_seconds": 0.07659244537353516,
+        "max_progress_span_seconds": 1.0027148723602295
+      },
+      "data_vm_cpu_percent": 23.343631118033038,
+      "mysql_cpu_one_core_percent": 78.22818361829788,
+      "mysql_rss_max_mib": 1515.90625,
+      "data_disk": {
+        "read_iops": 0.0,
+        "write_iops": 1796.3221744019452,
+        "read_mib_s": 0.0,
+        "write_mib_s": 29.42291829300522,
+        "read_await_ms": 0,
+        "write_await_ms": 0.42546144692869964,
+        "average_queue": 1.0559479342044218,
+        "busy_percent": 59.322619798804375,
+        "flush_iops": 589.4109256175207,
+        "flush_await_ms": 0.49231434882608793
+      },
+      "mysql_counter_deltas": {
+        "versions": 1937000,
+        "credit": 96845600,
+        "Innodb_buffer_pool_pages_dirty": -87.0,
+        "Innodb_buffer_pool_read_requests": 82887131.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 190589.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 561084.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1713626624.0,
+        "Innodb_redo_log_checkpoint_lsn": 1596453989.0,
+        "Innodb_redo_log_current_lsn": 1609400830.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 79.71484375
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker1-confirm-3",
+      "rate": 6500,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 2145000,
+      "measured_response_count": 1950000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7469624780060258,
+      "p99_response_ms": 1.0159246548417156,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 0.4125369202361007,
+        "growth": 41.254001453053206,
+        "comparison_seconds": 100.00075006484985,
+        "growth_tolerance": 1564.5369291305542,
+        "growing": false,
+        "minimum_lag": 776.1486297861265,
+        "maximum_lag": 1866.1074078709353,
+        "max_sql_span_seconds": 0.15469956398010254,
+        "max_progress_span_seconds": 1.0028038024902344
+      },
+      "data_vm_cpu_percent": 23.991726110420675,
+      "mysql_cpu_one_core_percent": 80.55297242188979,
+      "mysql_rss_max_mib": 1500.09765625,
+      "data_disk": {
+        "read_iops": 0.0,
+        "write_iops": 1822.7366607717988,
+        "read_mib_s": 0.0,
+        "write_mib_s": 29.630710731077073,
+        "read_await_ms": 0,
+        "write_await_ms": 0.3694106991308958,
+        "average_queue": 0.9483681367014024,
+        "busy_percent": 55.86328168694757,
+        "flush_iops": 598.6274381431783,
+        "flush_await_ms": 0.4567152466367713
+      },
+      "mysql_counter_deltas": {
+        "versions": 1937000,
+        "credit": 96855200,
+        "Innodb_buffer_pool_pages_dirty": -90.0,
+        "Innodb_buffer_pool_read_requests": 82836550.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 193360.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 559417.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1712086528.0,
+        "Innodb_redo_log_checkpoint_lsn": 1591869925.0,
+        "Innodb_redo_log_current_lsn": 1608862601.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 30.0625
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker2-confirm-1",
+      "rate": 7000,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 2310000,
+      "measured_response_count": 2100000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7372041010094108,
+      "p99_response_ms": 0.3952358019485783,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 0.32685494107589097,
+        "growth": 32.68853658391163,
+        "comparison_seconds": 100.00930833816528,
+        "growth_tolerance": 1493.6928749084473,
+        "growing": false,
+        "minimum_lag": 483.0897752994206,
+        "maximum_lag": 1613.293093973305,
+        "max_sql_span_seconds": 0.0734865665435791,
+        "max_progress_span_seconds": 1.002748966217041
+      },
+      "data_vm_cpu_percent": 24.28443687460081,
+      "mysql_cpu_one_core_percent": 81.29828999617689,
+      "mysql_rss_max_mib": 1504.265625,
+      "data_disk": {
+        "read_iops": 0.0033555510151963386,
+        "write_iops": 1963.6550318888367,
+        "read_mib_s": 0.00022282955960288187,
+        "write_mib_s": 31.642085831274592,
+        "read_await_ms": 0.0,
+        "write_await_ms": 0.357299092953472,
+        "average_queue": 0.99646778502372,
+        "busy_percent": 58.789253786239854,
+        "flush_iops": 643.0913520623783,
+        "flush_await_ms": 0.4558257239759979
+      },
+      "mysql_counter_deltas": {
+        "versions": 2085500,
+        "credit": 104274200,
+        "Innodb_buffer_pool_pages_dirty": -93.0,
+        "Innodb_buffer_pool_read_requests": 89073753.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 207882.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 603440.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1845578240.0,
+        "Innodb_redo_log_checkpoint_lsn": 1714410817.0,
+        "Innodb_redo_log_current_lsn": 1732268131.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 30.3359375
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker2-confirm-2",
+      "rate": 7000,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 2310000,
+      "measured_response_count": 2100000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7392631590046221,
+      "p99_response_ms": 0.4188848524368415,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 0.13136135093043533,
+        "growth": 13.136875536525622,
+        "comparison_seconds": 100.00563669204712,
+        "growth_tolerance": 1498.8181591033936,
+        "growing": false,
+        "minimum_lag": 504.8124686111696,
+        "maximum_lag": 2010.8938526276033,
+        "max_sql_span_seconds": 0.07125973701477051,
+        "max_progress_span_seconds": 1.0028371810913086
+      },
+      "data_vm_cpu_percent": 25.772115220726096,
+      "mysql_cpu_one_core_percent": 86.98952359940529,
+      "mysql_rss_max_mib": 1507.140625,
+      "data_disk": {
+        "read_iops": 0.0,
+        "write_iops": 1938.6140814739863,
+        "read_mib_s": 0.0,
+        "write_mib_s": 31.511875439069712,
+        "read_await_ms": 0,
+        "write_await_ms": 0.3776526140148027,
+        "average_queue": 1.026928707889014,
+        "busy_percent": 60.32356363413165,
+        "flush_iops": 636.026163444132,
+        "flush_await_ms": 0.4607004178449331
+      },
+      "mysql_counter_deltas": {
+        "versions": 2086000,
+        "credit": 104295100,
+        "Innodb_buffer_pool_pages_dirty": -42.0,
+        "Innodb_buffer_pool_read_requests": 89540147.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 205555.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 602566.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1845009408.0,
+        "Innodb_redo_log_checkpoint_lsn": 1752715946.0,
+        "Innodb_redo_log_current_lsn": 1732363632.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 30.70703125
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-tracker2-confirm-3",
+      "rate": 7000,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 1487023,
+      "measured_response_count": 1277023,
+      "stable_classifier": false,
+      "reason": "capacity_backlog",
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 11.852289596994524,
+      "p99_response_ms": 0.3901206144126388,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 91,
+        "slope_per_second": 274.8736975814502,
+        "growth": 17042.020420073066,
+        "comparison_seconds": 61.99945855140686,
+        "growth_tolerance": 1450.167179107666,
+        "growing": true,
+        "minimum_lag": 794.6977071140427,
+        "maximum_lag": 60843.88121139305,
+        "max_sql_span_seconds": 0.06495428085327148,
+        "max_progress_span_seconds": 1.0026860237121582
+      },
+      "data_vm_cpu_percent": 23.005314040591585,
+      "mysql_cpu_one_core_percent": 77.1432106823991,
+      "mysql_rss_max_mib": 1507.890625,
+      "data_disk": {
+        "read_iops": 0.14645846872599502,
+        "write_iops": 1737.8256869824065,
+        "read_mib_s": 0.00850264008902261,
+        "write_mib_s": 28.94375624345865,
+        "read_await_ms": 0.4482758620689655,
+        "write_await_ms": 0.5009851672750099,
+        "average_queue": 1.1848591125773498,
+        "busy_percent": 62.94885991683766,
+        "flush_iops": 570.2032210864988,
+        "flush_await_ms": 0.5483459545635712
+      },
+      "mysql_counter_deltas": {
+        "versions": 1272523,
+        "credit": 63628800,
+        "Innodb_buffer_pool_pages_dirty": -990.0,
+        "Innodb_buffer_pool_read_requests": 54422714.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 122688.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 368364.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1125733376.0,
+        "Innodb_redo_log_checkpoint_lsn": 1098273722.0,
+        "Innodb_redo_log_current_lsn": 1057529233.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": -1.0
+      },
+      "tracker_rss_max_mib": 101.328125
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-confirm-1",
+      "rate": 5500,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 1815000,
+      "measured_response_count": 1650000,
+      "stable_classifier": true,
+      "reason": null,
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7482648239965783,
+      "p99_response_ms": 0.355047075928906,
+      "aligned_lag_trend": {
+        "sufficient_samples": true,
+        "samples": 150,
+        "slope_per_second": 0.08398023956813719,
+        "growth": 8.40039061033167,
+        "comparison_seconds": 100.0281810760498,
+        "growth_tolerance": 2480.917811393738,
+        "growing": false,
+        "minimum_lag": 667.5531540124211,
+        "maximum_lag": 15476.843499211362,
+        "max_sql_span_seconds": 0.2848198413848877,
+        "max_progress_span_seconds": 1.0025725364685059
+      },
+      "data_vm_cpu_percent": 79.78823846776369,
+      "mysql_cpu_one_core_percent": 65.64218799565488,
+      "mysql_rss_max_mib": 1245.19140625,
+      "data_disk": {
+        "read_iops": 19.904383744324733,
+        "write_iops": 1601.1284925121204,
+        "read_mib_s": 7.0706154135597235,
+        "write_mib_s": 25.966326811771573,
+        "read_await_ms": 1.4050910316925151,
+        "write_await_ms": 0.3877479169111607,
+        "average_queue": 0.8965327694306104,
+        "busy_percent": 46.34178083156927,
+        "flush_iops": 512.668743008747,
+        "flush_await_ms": 0.48001151922925883
+      },
+      "mysql_counter_deltas": {
+        "versions": 1639500,
+        "credit": 81971600,
+        "Innodb_buffer_pool_pages_dirty": -12.0,
+        "Innodb_buffer_pool_read_requests": 70088411.0,
+        "Innodb_buffer_pool_reads": 0.0,
+        "Innodb_buffer_pool_wait_free": 0.0,
+        "Innodb_data_fsyncs": 167081.0,
+        "Innodb_data_reads": 0.0,
+        "Innodb_data_writes": 442743.0,
+        "Innodb_log_waits": 0.0,
+        "Innodb_os_log_written": 1431472640.0,
+        "Innodb_redo_log_checkpoint_lsn": 1344956591.0,
+        "Innodb_redo_log_current_lsn": 1361835857.0,
+        "Innodb_row_lock_time": 0.0,
+        "Innodb_row_lock_waits": 0.0,
+        "Threads_running": 0.0
+      },
+      "tracker_rss_max_mib": 46.48046875
+    },
+    {
+      "trial": "capacity-cpu-ram-v2-database1-confirm-2",
+      "rate": 5500,
+      "requested_seconds": 300,
+      "accepted_including_warmup": 38646,
+      "measured_response_count": 0,
+      "stable_classifier": false,
+      "reason": "guard_data",
+      "http_errors": {},
+      "accounting_passed": true,
+      "drain_seconds": 0.7346791279996978,
+      "p99_response_ms": null,
+      "aligned_lag_trend": {
+        "sufficient_samples": false,
+        "samples": 0,
+        "growing": null
+      },
+      "data_vm_cpu_percent": null,
+      "mysql_cpu_one_core_percent": null,
+      "mysql_rss_max_mib": null,
+      "data_disk": null,
+      "mysql_counter_deltas": null,
+      "tracker_rss_max_mib": null
+    }
+  ],
+  "validation": {
+    "trials": 40,
+    "all_accounting_endpoints_counters_drain_checked": true,
+    "http_errors": 0
+  },
+  "limitations": [
+    "Interrupcao na confirmacao 2 do banco 1/2 durante aquecimento; sem janela medida nessa rodada.",
+    "Alocacoes por subsistema MySQL nao foram coletadas antes do restart da restauracao.",
+    "Pontos interrompidos usam denominador de duracao solicitada; completed_rps nao representa taxa durante a oferta.",
+    "Confirmacoes de 300 s nao sao teto sustentado de seis horas."
+  ],
+  "failure_samples": [
+    {
+      "at": 1791623509.976526,
+      "memory_available_mib": 353.3515625,
+      "mysql_rss_mib": 1249.31640625,
+      "mysql_pss_mib": 1249.515625,
+      "major_faults": 294,
+      "failures": []
+    },
+    {
+      "at": 1791623511.9766378,
+      "memory_available_mib": 381.265625,
+      "mysql_rss_mib": 1249.44140625,
+      "mysql_pss_mib": 1249.58984375,
+      "major_faults": 295,
+      "failures": []
+    },
+    {
+      "at": 1791623513.976744,
+      "memory_available_mib": 362.81640625,
+      "mysql_rss_mib": 1249.44140625,
+      "mysql_pss_mib": 1249.62890625,
+      "major_faults": 295,
+      "failures": []
+    },
+    {
+      "at": 1791623515.9767954,
+      "memory_available_mib": 300.25390625,
+      "mysql_rss_mib": 1328.19140625,
+      "mysql_pss_mib": 1328.296875,
+      "major_faults": 295,
+      "failures": []
+    },
+    {
+      "at": 1791623517.9768858,
+      "memory_available_mib": 251.421875,
+      "mysql_rss_mib": 1376.94140625,
+      "mysql_pss_mib": 1377.0546875,
+      "major_faults": 295,
+      "failures": [
+        "memory_low"
+      ]
+    }
+  ]
+}

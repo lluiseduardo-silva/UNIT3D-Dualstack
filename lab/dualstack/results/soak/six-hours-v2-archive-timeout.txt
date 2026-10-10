@@ -1,0 +1,52 @@
+2026-10-09T07:21:32+00:00 unit3d-ds-data python3[601808]: {"file": "binlog.000156", "bytes": 1073867127, "sha256": "fb89c808a187655686f3e47ad82730290fbf0ed9c536cacf72ec8944cbc0fbad", "elapsed_seconds": 34.822, "copied_bytes": 1073867127, "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6", "purged": true}
+2026-10-09T07:21:32+00:00 unit3d-ds-data python3[601808]: {"time": 1791530456.345166, "closed_files": 1, "closed_bytes": 1073867127, "active": "binlog.000157", "free_ssd_bytes": 25525751808, "purge_enabled": true, "files": [{"file": "binlog.000156", "bytes": 1073867127, "sha256": "fb89c808a187655686f3e47ad82730290fbf0ed9c536cacf72ec8944cbc0fbad", "elapsed_seconds": 34.822, "copied_bytes": 1073867127, "server_uuid": "478564f0-c2ba-11f1-88db-eef185cf44a6", "purged": true}], "remaining_closed_bytes": 0, "free_ssd_bytes_after": 26347401216}
+2026-10-09T07:21:32+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Deactivated successfully.
+2026-10-09T07:21:32+00:00 unit3d-ds-data systemd[1]: Finished unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D.
+2026-10-09T07:21:32+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Consumed 3.658s CPU time.
+2026-10-09T07:21:47+00:00 unit3d-ds-data systemd[1]: Starting unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D...
+2026-10-09T07:21:47+00:00 unit3d-ds-data python3[603210]: {"time": 1791530507.762284, "closed_files": 0, "closed_bytes": 0, "active": "binlog.000157", "free_ssd_bytes": 26234900480, "purge_enabled": true, "files": [], "remaining_closed_bytes": 0, "free_ssd_bytes_after": 26233675776}
+2026-10-09T07:21:47+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Deactivated successfully.
+2026-10-09T07:21:47+00:00 unit3d-ds-data systemd[1]: Finished unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D.
+2026-10-09T07:22:03+00:00 unit3d-ds-data systemd[1]: Starting unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D...
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]: Traceback (most recent call last):
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 121, in query
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     rows = mysql(sql, timeout=remaining)
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 26, in mysql
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     r = subprocess.run(['docker', 'exec', '-i', 'unit3d-ds-mysql', 'sh', '-c',
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/lib/python3.12/subprocess.py", line 550, in run
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     stdout, stderr = process.communicate(input, timeout=timeout)
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     stdout, stderr = self._communicate(input, endtime, timeout)
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     self._check_timeout(endtime, orig_timeout, stdout, stderr)
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     raise TimeoutExpired(
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]: subprocess.TimeoutExpired: Command '['docker', 'exec', '-i', 'unit3d-ds-mysql', 'sh', '-c', 'MYSQL_PWD="$MYSQL_ROOT_PASSWORD" exec mysql -uroot --batch --skip-column-names']' timed out after 0.03916588100037188 seconds
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]: The above exception was the direct cause of the following exception:
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]: Traceback (most recent call last):
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 205, in <module>
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     run(args)
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 162, in run
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     logs = inventory()
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:            ^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 131, in inventory
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     master = query('SHOW MASTER STATUS;')
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:   File "/usr/local/sbin/unit3d-archive-binlogs.py", line 123, in query
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]:     raise RuntimeError('binlog_inventory_timeout') from error
+2026-10-09T07:22:08+00:00 unit3d-ds-data python3[603743]: RuntimeError: binlog_inventory_timeout
+2026-10-09T07:22:08+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Main process exited, code=exited, status=1/FAILURE
+2026-10-09T07:22:08+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Failed with result 'exit-code'.
+2026-10-09T07:22:08+00:00 unit3d-ds-data systemd[1]: Failed to start unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D.
+2026-10-09T07:22:24+00:00 unit3d-ds-data systemd[1]: Starting unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D...
+2026-10-09T07:22:24+00:00 unit3d-ds-data python3[604020]: {"time": 1791530544.7104745, "closed_files": 0, "closed_bytes": 0, "active": "binlog.000157", "free_ssd_bytes": 26158104576, "purge_enabled": true, "files": [], "remaining_closed_bytes": 0, "free_ssd_bytes_after": 26158104576}
+2026-10-09T07:22:24+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Deactivated successfully.
+2026-10-09T07:22:24+00:00 unit3d-ds-data systemd[1]: Finished unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D.
+2026-10-09T07:22:40+00:00 unit3d-ds-data systemd[1]: Starting unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D...
+2026-10-09T07:22:40+00:00 unit3d-ds-data python3[604240]: {"time": 1791530560.720961, "closed_files": 0, "closed_bytes": 0, "active": "binlog.000157", "free_ssd_bytes": 26158104576, "purge_enabled": true, "files": [], "remaining_closed_bytes": 0, "free_ssd_bytes_after": 26158104576}
+2026-10-09T07:22:40+00:00 unit3d-ds-data systemd[1]: unit3d-binlog-archive.service: Deactivated successfully.
+2026-10-09T07:22:40+00:00 unit3d-ds-data systemd[1]: Finished unit3d-binlog-archive.service - Arquivo verificado dos binlogs do laboratorio UNIT3D.

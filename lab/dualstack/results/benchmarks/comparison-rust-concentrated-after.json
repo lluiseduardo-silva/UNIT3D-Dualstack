@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "latency_change_percent": {
+    "p95": 27.526978126862957,
+    "p99": 25.247535775657546
+  },
+  "accepted_throughput_ratio": 1,
+  "maximum_capacity_established": false,
+  "payload_p50_bytes": {
+    "reference": 249,
+    "candidate": 259
+  },
+  "drain_seconds": {
+    "reference": 1.008931821997976,
+    "candidate": 1.0090872920045513
+  },
+  "reference": "rust-original-20261008T155458.json",
+  "candidate": "rust-candidate-20261008T160804.json"
+}

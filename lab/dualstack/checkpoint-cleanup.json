@@ -1,0 +1,37 @@
+{
+  "unit3d_commit": "a8907d536d3d65e40e5da82c286c9a63ac3a4948",
+  "announce_commit": "1fabed68f88ddd754074d4f3ae7bd185a9412225",
+  "stage": 5,
+  "status": "standalone_manual_cleanup_passed",
+  "schema_migration": "2026_10_08_000004_add_dualstack_cleanup_requests.php",
+  "mysql_real": true,
+  "redis_real": true,
+  "cleanup_and_journal_tests": 42,
+  "cleanup_and_journal_assertions": 609,
+  "preference_and_admin_tests": 36,
+  "preference_and_admin_assertions": 220,
+  "skipped_tests": 0,
+  "blade_compilation": true,
+  "bon_legacy_regression": true,
+  "site_writer_diagnostic_exit_code": 0,
+  "rust_pending_handoff_test": "passed_with_unchanged_rust",
+  "coordinator_once": "passed",
+  "coordinator_sigterm_exit_code": 0,
+  "queue_empty_and_owner_released": true,
+  "tracker_containers_removed": true,
+  "raw_results": [
+    "results/cleanup-tests.txt",
+    "results/cleanup-lifecycle.txt",
+    "results/cleanup-preference-regression.txt"
+  ],
+  "initial_failure_evidence": [
+    "results/cleanup-initial.txt",
+    "results/cleanup-lifecycle-initial.txt"
+  ],
+  "production": false,
+  "next": [
+    "revisar exclusoes de torrents e usuarios que alteram o swarm",
+    "telas locais de endpoints e demais consumidores",
+    "rollback, clientes reais e benchmarks"
+  ]
+}

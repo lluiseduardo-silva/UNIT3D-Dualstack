@@ -1,0 +1,25 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"peers": 54000, "dual_percent": 50, "distribution": "popular", "torrents": 1, "seeders": 43200, "leechers": 10800, "created_at": "2026-10-08T19:55:44"}
+
+   INFO  Application cache cleared successfully.  
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+d427d58cdf36bc2609eb5bdf6caec2e9b8ba522a7a0e13345aee308b6deb6cc9
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "readiness_timeout", "seconds": 180}
+unit3d-ds-rust
+unit3d-ds-rust encerrou com codigo 1

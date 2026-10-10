@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "reference": "rust-original-20261008T184807.json",
+  "candidate": "rust-candidate-20261008T185727.json",
+  "latency_change_percent": {
+    "p95": 15.878125788873643,
+    "p99": 18.774412788469476
+  },
+  "auxiliary_response_read_change_percent": {
+    "p95": 12.852152373572356,
+    "p99": 15.37091086255753
+  },
+  "accepted_throughput_ratio": 1.0,
+  "maximum_capacity_established": false,
+  "payload_p50_bytes": {
+    "candidate": 495,
+    "reference": 249
+  },
+  "drain_seconds": {
+    "candidate": 1.0094304099984583,
+    "reference": 1.0088994019970414
+  },
+  "versions_confirmed": true
+}

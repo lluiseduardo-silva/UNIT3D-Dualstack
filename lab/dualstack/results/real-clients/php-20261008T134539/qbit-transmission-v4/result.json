@@ -1,0 +1,33 @@
+{
+  "case": {
+    "label": "qbit-transmission-v4",
+    "seeder": "qbit",
+    "downloader": "transmission",
+    "network": "ipv4",
+    "failure_family": null,
+    "torrent_id": 12101,
+    "info_hash": "7ea2ef35fc6a1f8d610ca1ee650a3ff1714d83f9"
+  },
+  "status": "failed",
+  "progress": [],
+  "error": "Cliente encerrou durante inicializacao",
+  "seed_wire": {
+    "announces": [],
+    "responses": [],
+    "handshakes": [],
+    "pieces_summary": {
+      "4": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      },
+      "6": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      }
+    }
+  }
+}

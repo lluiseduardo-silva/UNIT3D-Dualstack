@@ -1,0 +1,41 @@
+{
+    "dualstack": true,
+    "external_tracker": false,
+    "transaction_rolled_back": true,
+    "checks": [
+        {
+            "action": "user_flush",
+            "before": {
+                "peers": 1,
+                "endpoints": 2,
+                "history_active": true,
+                "own_flushes": 2
+            },
+            "after": {
+                "peers": 0,
+                "endpoints": 0,
+                "history_active": false,
+                "own_flushes": 1
+            },
+            "criterion": "site must not persist peer state outside the coordinator",
+            "passed": false
+        },
+        {
+            "action": "staff_flush",
+            "before": {
+                "peers": 1,
+                "endpoints": 2,
+                "history_active": true,
+                "own_flushes": 2
+            },
+            "after": {
+                "peers": 0,
+                "endpoints": 0,
+                "history_active": false,
+                "own_flushes": 2
+            },
+            "criterion": "site must not persist peer state outside the coordinator",
+            "passed": false
+        }
+    ]
+}

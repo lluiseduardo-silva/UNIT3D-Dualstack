@@ -1,0 +1,123 @@
+{
+  "name": "curve-n20000-r1",
+  "spec": {
+    "name": "curve-n20000-r1",
+    "warmup": 5,
+    "seconds": 15,
+    "groups": {
+      "target": {
+        "torrents": [
+          9
+        ],
+        "rate": 1000
+      }
+    }
+  },
+  "started_at_epoch": 1791491722.1426613,
+  "measured_at_epoch": 1791491727.1426613,
+  "sizes": [
+    50,
+    100,
+    150,
+    250,
+    500,
+    1000,
+    2500,
+    5000,
+    10000,
+    20000,
+    40000
+  ],
+  "users": 40000,
+  "after": {
+    "peers": {
+      "n": 79550,
+      "uploaded": 10000000,
+      "versions": 200000
+    },
+    "history": {
+      "n": 79550,
+      "actual_uploaded": 10000000,
+      "uploaded": 10000000
+    },
+    "users": {
+      "n": 40000,
+      "uploaded": 10000000
+    },
+    "peer_ips": {
+      "n": 159100
+    },
+    "failed_jobs": {
+      "n": 0
+    },
+    "database": {
+      "version": "8.0.46",
+      "isolation": "REPEATABLE-READ"
+    },
+    "locks": {
+      "lock_deadlocks": 193,
+      "lock_timeouts": 71
+    }
+  },
+  "expected_upload": 10000000,
+  "drain_seconds": 0.3857277249917388,
+  "accepted": 20000,
+  "cumulative_accepted": 200000,
+  "identities": {
+    "peers": 79550,
+    "users": 40000,
+    "endpoints": 159100,
+    "mismatches": 0
+  },
+  "status": "passed",
+  "groups": {
+    "target": {
+      "rate": 1000,
+      "accepted": 20000,
+      "measured_accepted": 15000,
+      "completed_in_window": 14999,
+      "completed_rps": 999.9333333333333,
+      "errors": {},
+      "dropped": 0,
+      "response_read_ms": {
+        "p50": 0.3652890009107068,
+        "p95": 0.48208799853455275,
+        "p99": 0.5835590127389878,
+        "max": 4.7393089917022735
+      },
+      "latency_ms": {
+        "p50": 0.39292000292334706,
+        "p95": 0.5108729965286329,
+        "p99": 0.6153089925646782,
+        "max": 20.987063995562494
+      },
+      "queue_wait_ms": {
+        "p50": 0.5502350104507059,
+        "p95": 1.048959995387122,
+        "p99": 1.0809759987751022,
+        "max": 20.763643988175318
+      },
+      "end_to_end_ms": {
+        "p50": 0.953914990532212,
+        "p95": 1.440702995751053,
+        "p99": 1.5089649969013408,
+        "max": 21.719080992625095
+      },
+      "validation_ms": {
+        "p50": 0.027090994990430772,
+        "p95": 0.03750000905711204,
+        "p99": 0.047559005906805396,
+        "max": 20.631072999094613
+      },
+      "payload_bytes": {
+        "p50": 353,
+        "p95": 353,
+        "p99": 353,
+        "max": 353
+      }
+    }
+  },
+  "finished_at_epoch": 1791491743.1581693,
+  "generator_cpu_percent": 16.807958154783048,
+  "generator_peak_rss_kib": 179624
+}

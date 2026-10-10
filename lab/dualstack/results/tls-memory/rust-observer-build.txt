@@ -1,0 +1,17 @@
+unit3d-ds-nginx
+unit3d-ds-nginx
+unit3d-ds-php
+unit3d-ds-php
+unit3d-ds-coordinator
+unit3d-ds-coordinator
+python3: can't open file '/opt/unit3d-dualstack/lab/bootstrap-source.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/lab/prepare-memory-observer.py", line 16, in <module>
+    identity = json.loads(subprocess.check_output(['python3',str(base/'lab/bootstrap-source.py'),str(source)]))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/opt/unit3d-dualstack/lab/bootstrap-source.py', '/opt/unit3d-dualstack/repos/UNIT3D-Announce']' returned non-zero exit status 2.

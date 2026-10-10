@@ -1,0 +1,247 @@
+{
+  "files": [
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/accounting-proof.json",
+      "bytes": 190,
+      "sha256": "08cc29b69603b6fc0dc3349268dd7830559cec27c309ed62f3a4d9cce18ac4ee"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/final.json",
+      "bytes": 1934,
+      "sha256": "5baffe59942f5fff824dbf64f6085e95791157b4812024c3d28d0c854f3e7e95"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/observer.json",
+      "bytes": 277,
+      "sha256": "d531f1f73e01cf7073b4a2800adef32db62ac1b8d633b491a8cb50494ad9916f"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/observer.jsonl",
+      "bytes": 87172,
+      "sha256": "c28b8c4f4a0c7c5fad7f28f5e9ca8c0ef67d5d567e00cd408d425f9850d9ae10"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/progress.json",
+      "bytes": 271,
+      "sha256": "1b2be82e70d0fa2e2996a2e71f96a887147bfd8944e318ea4e2f3bec01aa40d0"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/sample-accounting-audit.json",
+      "bytes": 261,
+      "sha256": "7b59e6ca8506792c2934d118fd48d45e7cb6f88e34e204cdf5e4bc4601fc6189"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/sample-format.json",
+      "bytes": 288,
+      "sha256": "c2f57d92a306a448a6d49c9f659f7d06dc23c08a6ecdf15478ec6193c86a2473"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/samples/manifest.jsonl",
+      "bytes": 285,
+      "sha256": "6cd74e015d9428be17065b735c36fd4d7162c222408e6691ea9f25eec077c4a0"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/clients/windows.jsonl",
+      "bytes": 1471,
+      "sha256": "d98f6b013c68460b0c0caa8f9fc34d34374611eb0a262d64dfbd0415b4475ceb"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/data/observer.json",
+      "bytes": 760,
+      "sha256": "2075263a6148dee3b18f4264c226d96a9eb97ac9342c62819ddff4854b3046a6"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/data/observer.jsonl",
+      "bytes": 174919,
+      "sha256": "29db40bb6f93d35f8da8ca0dd693ed44aa791cae78146118dd6a7a9d3f4c1979"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/supervisor/monitor.jsonl",
+      "bytes": 85624,
+      "sha256": "d58da500b7f0f2162d6920b7365cf08a2094d31ec80d8f3780f11241a4796449"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/supervisor/status.json",
+      "bytes": 3578,
+      "sha256": "b8fa3f67561195e69d6a2798c647d2a5a4d64db70951ceb14466f07ee87a7ea0"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/tracker/observer.json",
+      "bytes": 397,
+      "sha256": "9102a23a1c16460037bf3161a41e59ad91999f6010f7b18f3b78d4c400d0c46b"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/tracker/observer.jsonl",
+      "bytes": 95640,
+      "sha256": "36f78610311fbad6ed57b44da9e52e05041828da28fcdf97b7711e15d58e52d6"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r1-v1/tracker/provenance.json",
+      "bytes": 964,
+      "sha256": "9f40789650b3fd0acf8fd71216aaef48adbc2db24f407921d21c64fe35735334"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/accounting-proof.json",
+      "bytes": 190,
+      "sha256": "08cc29b69603b6fc0dc3349268dd7830559cec27c309ed62f3a4d9cce18ac4ee"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/final.json",
+      "bytes": 1933,
+      "sha256": "e62d70d76705eb563367e10900e8c1afa3bbb3ce98d9759728e19cc444f680c3"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/observer.json",
+      "bytes": 277,
+      "sha256": "b97a6af07f1d67f631d411be1ed9a25aa2de4815036f8533e2173e1e65012465"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/observer.jsonl",
+      "bytes": 87169,
+      "sha256": "d34ceb6e88dcd8d35d63f56c7b5f320543a7cc137c3c49cfe7dc2ec2327f273f"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/progress.json",
+      "bytes": 271,
+      "sha256": "3b805603ebb56f6713a00d454e8937595a232f0de03f28e607dcd36107735f82"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/sample-accounting-audit.json",
+      "bytes": 261,
+      "sha256": "07856dfc914c7c8e9f3e63bf84e2262059e14b33e473ce8212f189dbd63a5881"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/sample-format.json",
+      "bytes": 288,
+      "sha256": "c2f57d92a306a448a6d49c9f659f7d06dc23c08a6ecdf15478ec6193c86a2473"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/samples/manifest.jsonl",
+      "bytes": 285,
+      "sha256": "4271fa88ccd014d7c2a1c86b3d9f380af44f5bddfd4fb07df9025a66c89f5546"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/clients/windows.jsonl",
+      "bytes": 1470,
+      "sha256": "46b8ca94053edb75d2c5ca61e12db12c682460711bb483c2771e14490b4c5820"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/data/observer.json",
+      "bytes": 759,
+      "sha256": "cb9c2d260351bcdf502d3e2db601c33093dbd69292fce2ff0d6cf075c0255faf"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/data/observer.jsonl",
+      "bytes": 175496,
+      "sha256": "6ada48df9bfc17b2309db56a9d7754f0ef3ebe28f3620a7883d23b2ac97fc558"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/supervisor/monitor.jsonl",
+      "bytes": 85297,
+      "sha256": "4c76452dbf4573776fa68f4e8db4166c18bc01283513b2180fee3a94dc44cbe8"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/supervisor/status.json",
+      "bytes": 3577,
+      "sha256": "f1cb0933f73d00b1b86ed02195a2eebdebf8d7f95636b59a9a5f45efe3619ebc"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/tracker/observer.json",
+      "bytes": 397,
+      "sha256": "7617b3f21e3b873d4b45c9bec0f11a19bf3b001135a50fa4eb15067afbe44c88"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/tracker/observer.jsonl",
+      "bytes": 95627,
+      "sha256": "77283ce40b76d375589d551206c7ba66e09172b91456d3e7a605c8e4de48f2ba"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r2-v1/tracker/provenance.json",
+      "bytes": 964,
+      "sha256": "4e566833da0d67624a5281907d49b67b38445057113dc8023127b45d553aa2cf"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/accounting-proof.json",
+      "bytes": 190,
+      "sha256": "08cc29b69603b6fc0dc3349268dd7830559cec27c309ed62f3a4d9cce18ac4ee"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/final.json",
+      "bytes": 1941,
+      "sha256": "64f8504b4a647eb63c362e3eb04a63ffc8e3fb6a6c01dd197b492bbc0a73a7c9"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/observer.json",
+      "bytes": 277,
+      "sha256": "a750c58f07b1411b2e3d53f62654548e1e75c77dd1e6740b063e0085b71c54ed"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/observer.jsonl",
+      "bytes": 87445,
+      "sha256": "b93b5caa7ce3cb93ba3e7e9ed6ab7d2e4e57793326b913d9222cc7e02e5c240a"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/progress.json",
+      "bytes": 271,
+      "sha256": "9b93973c15d7f1fe640f96783b12f874c340637aca296cb6077ca932d4be9926"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/sample-accounting-audit.json",
+      "bytes": 261,
+      "sha256": "a381269dbbd7382ffba180e2d61d9c6d7b870b7773fb9d1b9d9e5d2f747ec375"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/sample-format.json",
+      "bytes": 288,
+      "sha256": "c2f57d92a306a448a6d49c9f659f7d06dc23c08a6ecdf15478ec6193c86a2473"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/samples/manifest.jsonl",
+      "bytes": 285,
+      "sha256": "9a7da56e4db5a24631277b34ab27ea1c0746433745a34c1cf43cd021a0380fe1"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/clients/windows.jsonl",
+      "bytes": 1478,
+      "sha256": "82a20ea638ac5b62ec8db4bc2ff691d19309f923cdc9a9c51d2820736ece2e59"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/data/observer.json",
+      "bytes": 761,
+      "sha256": "ad0124278bede946b6c08281cf33fa15dc0fac25775d93d25c73f7d318042dc7"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/data/observer.jsonl",
+      "bytes": 176079,
+      "sha256": "39a35882a16770de04b52d42acecb54c1866caa519ec684e221026ee18e76412"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/supervisor/monitor.jsonl",
+      "bytes": 85629,
+      "sha256": "28f7e3a70797ccfb8489c9f879e9c86db2a7c949a02ede3fdbc59d09af20e8c0"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/supervisor/status.json",
+      "bytes": 3587,
+      "sha256": "d299323a0c8cf98cc23488ca3b37cd5c5b9c7e2a5ea301c0a7cfc6e7c855f784"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/tracker/observer.json",
+      "bytes": 396,
+      "sha256": "be87e904d62471c73fefa979adb8dd09b09872ce3dcd5bb339b7589242ec92eb"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/tracker/observer.jsonl",
+      "bytes": 95649,
+      "sha256": "564e7c5d0dcfe700a6d2b07aa61b52e325214820b614b5ef2c67a3c21f3d5f0c"
+    },
+    {
+      "path": "lab/dualstack/results/soak/rust-original-formal-r3-v1/tracker/provenance.json",
+      "bytes": 964,
+      "sha256": "eddabad7aadd3a57ee89c8975c473ab4b766d512a157325371cf759427d8213e"
+    }
+  ],
+  "public_files": 48,
+  "total_bytes": 1363793,
+  "all_runs_same_provenance": true
+}

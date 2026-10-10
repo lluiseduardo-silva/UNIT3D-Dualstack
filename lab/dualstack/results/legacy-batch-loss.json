@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08",
+  "original_commit": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+  "observed_http_run": "php-original-20261008T151512",
+  "accepted_announces": 1800,
+  "peer_uploaded_sum": 180000,
+  "history_uploaded_sum": 180000,
+  "user_uploaded_sum": 180200,
+  "failed_jobs": 0,
+  "mismatched_rows": [
+    {"user_id": 20332, "reference": 200, "history": 300, "balance": 300},
+    {"user_id": 20333, "reference": 200, "history": 100, "balance": 200},
+    {"user_id": 20823, "reference": 200, "history": 300, "balance": 300},
+    {"user_id": 20824, "reference": 200, "history": 100, "balance": 200}
+  ],
+  "controlled_reproduction": {
+    "test": "tests/Integration/LegacyBatchQueueTest.php",
+    "method": "append to real Redis after the batch INSERT and before LTRIM",
+    "original": {"tests_failed": 2, "assertions": 8, "peers_expected_pending": 1, "peers_actual_pending": 0, "history_expected_pending": 1, "history_actual_pending": 0},
+    "corrected": {"tests_passed": 2, "assertions": 18, "peers_pending": 1, "history_pending": 1, "second_batch_persisted_once": true}
+  },
+  "cause": "LTRIM uses the maximum batch size instead of the number actually read; concurrently appended records can be removed before persistence",
+  "scope": "legacy peer and history consumers; original tag preserved; dualstack journal does not use this queue path"
+}

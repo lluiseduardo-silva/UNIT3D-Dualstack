@@ -1,0 +1,26 @@
+{
+  "name": "capacity-cache-b-calibration-v1",
+  "status": "failed",
+  "started_at": 1791647015.3850734,
+  "mode": "calibration",
+  "results": [],
+  "stage": "trial",
+  "resources": {
+    "tracker": [
+      4,
+      8192
+    ],
+    "data": [
+      1,
+      4096
+    ]
+  },
+  "trial": "capacity-cache-b-calibration-v1-calibration",
+  "rate": 1000,
+  "error": "AssertionError",
+  "reason": "guest_failed_120",
+  "probe_failures": [],
+  "resources_restored": false,
+  "restore_error": "AssertionError",
+  "finished_at": 1791647082.0716279
+}

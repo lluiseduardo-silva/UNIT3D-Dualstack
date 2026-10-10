@@ -1,0 +1,68 @@
+0
+{"refund_runs":262,"p95_ms":14.847993850708008,"max_ms":21.250009536743164}
+unit3d-ds-refund-http-job
+unit3d-ds-nginx
+unit3d-ds-nginx
+unit3d-ds-php
+unit3d-ds-php
+unit3d-ds-coordinator
+unit3d-ds-coordinator
+
+refund {"torrents":1,"families":[4],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":1,"families":[6],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":1,"families":[4,6],"expected_downloaded":9000,"actual_downloaded":9000,"history_refunded":1000}
+
+refund {"torrents":2,"families":[4],"expected_downloaded":8000,"actual_downloaded":8000,"history_refunded":2000}
+
+refund {"torrents":2,"families":[6],"expected_downloaded":8000,"actual_downloaded":8000,"history_refunded":2000}
+
+refund {"torrents":2,"families":[4,6],"expected_downloaded":8000,"actual_downloaded":8000,"history_refunded":2000}
+
+   PASS  Tests\Integration\DualstackSiteConsumersTest
+  ✓ it mantem estatisticas por peer e torrent independentemente das fam… 0.04s
+  ✓ it mantem estatisticas por peer e torrent independentemente das fam… 0.02s
+  ✓ it mantem estatisticas por peer e torrent independentemente das fam… 0.02s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.06s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.02s
+  ✓ it recompensa ressurreicao uma vez no limiar do historico sem multi… 0.02s
+  ✓ it agrupa versoes do mesmo cliente com SQL estrito e preserva suas…  0.01s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+  ✓ it reembolsa o historico sem multiplicar familias e sem reaplicar d… 0.02s
+
+   PASS  Tests\Integration\DownloadRefundTest
+  ✓ it usa os mesmos bytes inteiros nos dois lados e preserva timestamp… 0.11s
+  ✓ it usa os mesmos bytes inteiros nos dois lados e preserva timestamp… 0.04s
+  ✓ it usa os mesmos bytes inteiros nos dois lados e preserva timestamp… 0.04s
+  ✓ it usa os mesmos bytes inteiros nos dois lados e preserva timestamp… 0.04s
+  ✓ it usa os mesmos bytes inteiros nos dois lados e preserva timestamp… 0.04s
+  ✓ it soma deltas de usuarios separados e preserva correcao negativa d… 0.04s
+  ✓ it preserva filtros de elegibilidade with ('inactive')               0.03s
+  ✓ it preserva filtros de elegibilidade with ('leecher')                0.03s
+  ✓ it preserva filtros de elegibilidade with ('young')                  0.03s
+  ✓ it preserva filtros de elegibilidade with ('minimum')                0.03s
+  ✓ it preserva filtros de elegibilidade with ('maximum')                0.03s
+  ✓ it preserva filtros de elegibilidade with ('deleted')                0.03s
+  ✓ it preserva filtros de elegibilidade with ('uploader')               0.03s
+  ✓ it respeita configuracao e permissao de reembolso do grupo ou torre… 0.04s
+  ✓ it limita lotes mesmo para um usuario e retoma falha entre saldo e…  1.23s
+  ✓ it limita lotes mesmo para um usuario e retoma falha entre saldo e…  1.22s
+  ✓ it limita lotes mesmo para um usuario e retoma falha entre saldo e…  1.25s
+  ✓ it esgota o retry sem confirmar apenas o saldo                       0.42s
+
+  Tests:    31 passed (276 assertions)
+  Duration: 5.14s
+
+
+refund contention {"sql_writers":16,"waiting":16,"unique_transitions":600,"persistence_attempts":4800,"refund_commands":160,"before":{"lock_deadlocks":190,"lock_timeouts":55,"lock_row_lock_time":379223,"lock_row_lock_waits":11864},"after":{"lock_deadlocks":190,"lock_timeouts":55,"lock_row_lock_time":447548,"lock_row_lock_waits":20693},"credits":[{"id":12001,"uploaded":20000,"downloaded":1018000},{"id":12002,"uploaded":20000,"downloaded":1018000},{"id":12003,"uploaded":20000,"downloaded":1018000}],"workers":[{"worker":0,"seconds":9.565860986709595},{"worker":1,"seconds":9.574454069137573},{"worker":2,"seconds":9.585376024246216},{"worker":3,"seconds":9.598283052444458},{"worker":4,"seconds":9.605044841766357},{"worker":5,"seconds":9.593297004699707},{"worker":6,"seconds":9.592368841171265},{"worker":7,"seconds":9.570690870285034},{"worker":8,"seconds":1.2113211154937744},{"worker":9,"seconds":1.181082010269165},{"worker":10,"seconds":1.2188150882720947},{"worker":11,"seconds":1.2258079051971436},{"worker":12,"seconds":1.1913270950317383},{"worker":13,"seconds":1.2008819580078125},{"worker":14,"seconds":1.2638680934906006},{"worker":15,"seconds":1.236274003982544}]}
+
+   PASS  Tests\Integration\DownloadRefundContentionTest
+  ✓ it preserva reembolsos e trafego com dezesseis processos sobre as m… 9.96s
+
+  Tests:    1 passed (1138 assertions)
+  Duration: 10.08s

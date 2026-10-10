@@ -1,0 +1,1060 @@
+{
+  "active_queries": [
+    {
+      "ID": 20903,
+      "TIME": 221,
+      "STATE": "executing",
+      "statement": "UPDATE torrents t LEFT JOIN (SELECT p.torrent_id,SUM(p.active=1 AND p.visible=1 AND p.seeder=1 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p.torrent_id AND e.peer_id=p.peer_id)) AS seeders,SUM(p.active=1 AND p.visible=1 AND p.seeder=0 AND EXISTS(SELECT 1 FROM peer_ips e WHERE e.user_id=p.user_id AND e.torrent_id=p"
+    }
+  ],
+  "table_sizes": [
+    {
+      "peers": 54000,
+      "endpoints": 81000
+    }
+  ],
+  "endpoint_indexes": [
+    {
+      "Table": "peer_ips",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "user_id",
+      "Collation": "A",
+      "Cardinality": 53607,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 2,
+      "Column_name": "torrent_id",
+      "Collation": "A",
+      "Cardinality": 54488,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 3,
+      "Column_name": "peer_id",
+      "Collation": "A",
+      "Cardinality": 52929,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 4,
+      "Column_name": "family",
+      "Collation": "A",
+      "Cardinality": 77924,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 1,
+      "Key_name": "peer_ips_torrent_family_live",
+      "Seq_in_index": 1,
+      "Column_name": "torrent_id",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 1,
+      "Key_name": "peer_ips_torrent_family_live",
+      "Seq_in_index": 2,
+      "Column_name": "family",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 1,
+      "Key_name": "peer_ips_torrent_family_live",
+      "Seq_in_index": 3,
+      "Column_name": "last_announced_at",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peer_ips",
+      "Non_unique": 1,
+      "Key_name": "peer_ips_expiration",
+      "Seq_in_index": 1,
+      "Column_name": "last_announced_at",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    }
+  ],
+  "peers_indexes": [
+    {
+      "Table": "peers",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 1,
+      "Column_name": "user_id",
+      "Collation": "A",
+      "Cardinality": 49200,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 2,
+      "Column_name": "torrent_id",
+      "Collation": "A",
+      "Cardinality": 49200,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 0,
+      "Key_name": "PRIMARY",
+      "Seq_in_index": 3,
+      "Column_name": "peer_id",
+      "Collation": "A",
+      "Cardinality": 47949,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 1,
+      "Key_name": "peers_idx_seeder_user_id",
+      "Seq_in_index": 1,
+      "Column_name": "seeder",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 1,
+      "Key_name": "peers_idx_seeder_user_id",
+      "Seq_in_index": 2,
+      "Column_name": "user_id",
+      "Collation": "A",
+      "Cardinality": 50268,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 1,
+      "Key_name": "peers_torrent_id_foreign",
+      "Seq_in_index": 1,
+      "Column_name": "torrent_id",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    },
+    {
+      "Table": "peers",
+      "Non_unique": 1,
+      "Key_name": "peers_active_index",
+      "Seq_in_index": 1,
+      "Column_name": "active",
+      "Collation": "A",
+      "Cardinality": 1,
+      "Sub_part": null,
+      "Packed": null,
+      "Null": "",
+      "Index_type": "BTREE",
+      "Comment": "",
+      "Index_comment": "",
+      "Visible": "YES",
+      "Expression": null
+    }
+  ],
+  "update_plan": {
+    "query_block": {
+      "select_id": 1,
+      "cost_info": {
+        "query_cost": "551.26"
+      },
+      "nested_loop": [
+        {
+          "table": {
+            "update": true,
+            "table_name": "t",
+            "access_type": "ALL",
+            "rows_examined_per_scan": 3,
+            "rows_produced_per_join": 3,
+            "filtered": "100.00",
+            "cost_info": {
+              "read_cost": "0.25",
+              "eval_cost": "0.30",
+              "prefix_cost": "0.55",
+              "data_read_per_join": "9K"
+            },
+            "used_columns": [
+              "id",
+              "name",
+              "description",
+              "mediainfo",
+              "bdinfo",
+              "file_name",
+              "num_file",
+              "folder",
+              "size",
+              "nfo",
+              "leechers",
+              "seeders",
+              "times_completed",
+              "category_id",
+              "user_id",
+              "tmdb_movie_id",
+              "tmdb_tv_id",
+              "imdb",
+              "tvdb",
+              "mal",
+              "igdb",
+              "season_number",
+              "episode_number",
+              "free",
+              "doubleup",
+              "refundable",
+              "highspeed",
+              "status",
+              "moderated_at",
+              "moderated_by",
+              "anon",
+              "sticky",
+              "internal",
+              "created_at",
+              "updated_at",
+              "bumped_at",
+              "deleted_at",
+              "fl_until",
+              "du_until",
+              "type_id",
+              "resolution_id",
+              "distributor_id",
+              "region_id",
+              "personal_release",
+              "balance",
+              "balance_offset",
+              "balance_reset_at",
+              "info_hash",
+              "seeders_ipv4",
+              "seeders_ipv6",
+              "leechers_ipv4",
+              "leechers_ipv6",
+              "tracker_removal_state"
+            ]
+          }
+        },
+        {
+          "table": {
+            "table_name": "c",
+            "access_type": "ref",
+            "possible_keys": [
+              "<auto_key0>"
+            ],
+            "key": "<auto_key0>",
+            "used_key_parts": [
+              "torrent_id"
+            ],
+            "key_length": "4",
+            "ref": [
+              "unit3d_dualstack_journal_test.t.id"
+            ],
+            "rows_examined_per_scan": 524,
+            "rows_produced_per_join": 1573,
+            "filtered": "100.00",
+            "cost_info": {
+              "read_cost": "393.37",
+              "eval_cost": "157.35",
+              "prefix_cost": "551.26",
+              "data_read_per_join": "122K"
+            },
+            "used_columns": [
+              "torrent_id",
+              "seeders",
+              "leechers",
+              "seeders_ipv4",
+              "seeders_ipv6",
+              "leechers_ipv4",
+              "leechers_ipv6"
+            ],
+            "materialized_from_subquery": {
+              "using_temporary_table": true,
+              "dependent": false,
+              "cacheable": true,
+              "query_block": {
+                "select_id": 2,
+                "cost_info": {
+                  "query_cost": "5349.15"
+                },
+                "grouping_operation": {
+                  "using_filesort": false,
+                  "table": {
+                    "table_name": "p",
+                    "access_type": "index",
+                    "possible_keys": [
+                      "PRIMARY",
+                      "peers_idx_seeder_user_id",
+                      "peers_torrent_id_foreign",
+                      "peers_active_index"
+                    ],
+                    "key": "peers_torrent_id_foreign",
+                    "used_key_parts": [
+                      "torrent_id"
+                    ],
+                    "key_length": "4",
+                    "rows_examined_per_scan": 52449,
+                    "rows_produced_per_join": 52449,
+                    "filtered": "100.00",
+                    "cost_info": {
+                      "read_cost": "104.25",
+                      "eval_cost": "5244.90",
+                      "prefix_cost": "5349.15",
+                      "data_read_per_join": "18M"
+                    },
+                    "used_columns": [
+                      "peer_id",
+                      "seeder",
+                      "torrent_id",
+                      "user_id",
+                      "active",
+                      "visible"
+                    ]
+                  },
+                  "select_list_subqueries": [
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 8,
+                        "cost_info": {
+                          "query_cost": "0.35"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "eq_ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ],
+                          "key_length": "29",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id",
+                            "const"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.10",
+                            "prefix_cost": "0.35",
+                            "data_read_per_join": "80"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 7,
+                        "cost_info": {
+                          "query_cost": "0.35"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "eq_ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ],
+                          "key_length": "29",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id",
+                            "const"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.10",
+                            "prefix_cost": "0.35",
+                            "data_read_per_join": "80"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 6,
+                        "cost_info": {
+                          "query_cost": "0.35"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "eq_ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ],
+                          "key_length": "29",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id",
+                            "const"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.10",
+                            "prefix_cost": "0.35",
+                            "data_read_per_join": "80"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 5,
+                        "cost_info": {
+                          "query_cost": "0.35"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "eq_ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ],
+                          "key_length": "29",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id",
+                            "const"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.10",
+                            "prefix_cost": "0.35",
+                            "data_read_per_join": "80"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id",
+                            "family"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 4,
+                        "cost_info": {
+                          "query_cost": "0.40"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id"
+                          ],
+                          "key_length": "28",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.15",
+                            "prefix_cost": "0.40",
+                            "data_read_per_join": "117"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id"
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "dependent": true,
+                      "cacheable": false,
+                      "query_block": {
+                        "select_id": 3,
+                        "cost_info": {
+                          "query_cost": "0.40"
+                        },
+                        "table": {
+                          "table_name": "e",
+                          "access_type": "ref",
+                          "possible_keys": [
+                            "PRIMARY",
+                            "peer_ips_torrent_family_live"
+                          ],
+                          "key": "PRIMARY",
+                          "used_key_parts": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id"
+                          ],
+                          "key_length": "28",
+                          "ref": [
+                            "unit3d_dualstack_journal_test.p.user_id",
+                            "unit3d_dualstack_journal_test.p.torrent_id",
+                            "unit3d_dualstack_journal_test.p.peer_id"
+                          ],
+                          "rows_examined_per_scan": 1,
+                          "rows_produced_per_join": 1,
+                          "filtered": "100.00",
+                          "using_index": true,
+                          "cost_info": {
+                            "read_cost": "0.25",
+                            "eval_cost": "0.15",
+                            "prefix_cost": "0.40",
+                            "data_read_per_join": "117"
+                          },
+                          "used_columns": [
+                            "user_id",
+                            "torrent_id",
+                            "peer_id"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "select_plan": {
+    "query_block": {
+      "select_id": 1,
+      "cost_info": {
+        "query_cost": "5349.15"
+      },
+      "grouping_operation": {
+        "using_filesort": false,
+        "table": {
+          "table_name": "p",
+          "access_type": "index",
+          "possible_keys": [
+            "PRIMARY",
+            "peers_idx_seeder_user_id",
+            "peers_torrent_id_foreign",
+            "peers_active_index"
+          ],
+          "key": "peers_torrent_id_foreign",
+          "used_key_parts": [
+            "torrent_id"
+          ],
+          "key_length": "4",
+          "rows_examined_per_scan": 52449,
+          "rows_produced_per_join": 52449,
+          "filtered": "100.00",
+          "cost_info": {
+            "read_cost": "104.25",
+            "eval_cost": "5244.90",
+            "prefix_cost": "5349.15",
+            "data_read_per_join": "18M"
+          },
+          "used_columns": [
+            "peer_id",
+            "seeder",
+            "torrent_id",
+            "user_id",
+            "active",
+            "visible"
+          ]
+        },
+        "select_list_subqueries": [
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 7,
+              "cost_info": {
+                "query_cost": "0.35"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "eq_ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ],
+                "key_length": "29",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id",
+                  "const"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.10",
+                  "prefix_cost": "0.35",
+                  "data_read_per_join": "80"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ]
+              }
+            }
+          },
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 6,
+              "cost_info": {
+                "query_cost": "0.35"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "eq_ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ],
+                "key_length": "29",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id",
+                  "const"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.10",
+                  "prefix_cost": "0.35",
+                  "data_read_per_join": "80"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ]
+              }
+            }
+          },
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 5,
+              "cost_info": {
+                "query_cost": "0.35"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "eq_ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ],
+                "key_length": "29",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id",
+                  "const"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.10",
+                  "prefix_cost": "0.35",
+                  "data_read_per_join": "80"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ]
+              }
+            }
+          },
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 4,
+              "cost_info": {
+                "query_cost": "0.35"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "eq_ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ],
+                "key_length": "29",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id",
+                  "const"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.10",
+                  "prefix_cost": "0.35",
+                  "data_read_per_join": "80"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id",
+                  "family"
+                ]
+              }
+            }
+          },
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 3,
+              "cost_info": {
+                "query_cost": "0.40"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id"
+                ],
+                "key_length": "28",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.15",
+                  "prefix_cost": "0.40",
+                  "data_read_per_join": "117"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id"
+                ]
+              }
+            }
+          },
+          {
+            "dependent": true,
+            "cacheable": false,
+            "query_block": {
+              "select_id": 2,
+              "cost_info": {
+                "query_cost": "0.40"
+              },
+              "table": {
+                "table_name": "e",
+                "access_type": "ref",
+                "possible_keys": [
+                  "PRIMARY",
+                  "peer_ips_torrent_family_live"
+                ],
+                "key": "PRIMARY",
+                "used_key_parts": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id"
+                ],
+                "key_length": "28",
+                "ref": [
+                  "unit3d_dualstack_journal_test.p.user_id",
+                  "unit3d_dualstack_journal_test.p.torrent_id",
+                  "unit3d_dualstack_journal_test.p.peer_id"
+                ],
+                "rows_examined_per_scan": 1,
+                "rows_produced_per_join": 1,
+                "filtered": "100.00",
+                "using_index": true,
+                "cost_info": {
+                  "read_cost": "0.25",
+                  "eval_cost": "0.15",
+                  "prefix_cost": "0.40",
+                  "data_read_per_join": "117"
+                },
+                "used_columns": [
+                  "user_id",
+                  "torrent_id",
+                  "peer_id"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "select_result": [
+    {
+      "torrent_id": 20000,
+      "seeders": "43200",
+      "leechers": "10800",
+      "seeders_ipv4": "43200",
+      "seeders_ipv6": "21600",
+      "leechers_ipv4": "10800",
+      "leechers_ipv6": "5400"
+    }
+  ],
+  "select_seconds": 0.2913707109983079
+}

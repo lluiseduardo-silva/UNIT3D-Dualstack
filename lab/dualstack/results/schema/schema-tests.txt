@@ -1,0 +1,34 @@
+
+   FAIL  Tests\Integration\DualstackSchemaTest
+  ✓ it impoe um endpoint por familia e permite ambos sem duplicar o pee… 0.08s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (5, '… 0.05s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (6, '… 0.05s  
+  ✓ it rejeita familia e comprimento inconsistentes no MySQL with (4, '… 0.05s  
+  ⨯ it impoe FK composta e remove endpoints em cascata
+  ✓ it retoma backfill sem duplicar ou sobrescrever endpoints nem totai… 0.10s  
+  ✓ it normaliza IPv4 mapeado e limita enderecos de laboratorio por con… 0.05s  
+  ✓ it preserva auto como escolha separada da resolucao                  0.06s  
+  ────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Integration\DualstackSc…  UniqueConstraintViolationException   
+  SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'excepturi' for key 'chat_statuses.chat_statuses_color_unique' (Connection: mysql, SQL: insert into `chat_statuses` (`name`, `color`, `icon`, `updated_at`, `created_at`) values (Darrion Hoeger, excepturi, vitae, 2026-10-08 02:09:21, 2026-10-08 02:09:21))
+
+  at vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php:53
+     49▕             $this->bindValues($statement, $this->prepareBindings($bindings));
+     50▕ 
+     51▕             $this->recordsHaveBeenModified();
+     52▕ 
+  ➜  53▕             $result = $statement->execute();
+     54▕ 
+     55▕             $this->lastInsertId = $this->getPdo()->lastInsertId($sequence);
+     56▕ 
+     57▕             return $result;
+
+      [2m+25 vendor frames [22m
+  26  tests/Integration/DualstackSchemaTest.php:26
+      [2m+1 vendor frames [22m
+  28  tests/Integration/DualstackSchemaTest.php:25
+
+
+  Tests:    1 failed, 7 passed (35 assertions)
+  Duration: 0.62s
+

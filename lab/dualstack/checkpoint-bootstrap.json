@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "reconciliacao e cancelamento do bootstrap Rust em laboratorio",
+  "coordination_base": "d2df124",
+  "products": {
+    "UNIT3D": "6d8e7437daa652fb02519584c456b15dceacffa4",
+    "UNIT3D-Announce": "9e8b54626334db11940e3ebf939cbf40ba4426a3"
+  },
+  "rust_before": "9446bfda2659426e6a13b30f04554c5facbdf00e",
+  "source_fingerprint_lf": "a0b448b667f756318200f17fda3e4fc6f2c3b75528c24a9ec9c0dfab80174659",
+  "changes": [
+    "agrega endpoints por identidade e consulta peers pela chave primaria",
+    "reserva conexoes de trabalho e controle no bootstrap",
+    "cancela somente a propria conexao e confirma sua saida antes de liberar lease",
+    "sinaliza falha explicita quando o cancelamento nao pode ser confirmado"
+  ],
+  "validation": {
+    "cancellation_negative_control": true,
+    "cancellation_without_global_admin_privileges": true,
+    "timeout_rollback_unrelated_query_preserved": true,
+    "failed_cleanup_lease_not_released": true,
+    "unique_counts_connectivity_expiration": true,
+    "mysql_contention_replay_retries": true,
+    "php_rust_handoff": true,
+    "bon_refunds_history": true,
+    "cleanup_deletion": true,
+    "network": true,
+    "source_identity": true,
+    "lab_stopped": true
+  },
+  "scale": {
+    "populations": [1000, 54000, 100000],
+    "layouts": ["250 peers por torrent", "todos em um torrent"],
+    "cases": 6,
+    "opens": 18,
+    "dual_percent": 100,
+    "corrective_analyze": false,
+    "max_bootstrap_seconds": 3.379686077,
+    "max_reconciliation_seconds": 0.247248844,
+    "original_control": "indice desfavoravel forcado; interrompido em 2 s nas quatro maiores fixtures"
+  },
+  "limits": [
+    "carga de inicializacao; nao mede throughput de announce",
+    "limpeza da future cancelada requer runtime ativo; nao garante encerramento apos SIGKILL",
+    "Handler_read_* nao equivale a ROWS_EXAMINED",
+    "comparacao formal, falhas abruptas sob carga, proxy/TLS/probes e seis horas continuam pendentes",
+    "armazenamento compartilhado exige orcamento antes de campanhas extensas"
+  ],
+  "report": "docs/dualstack-bootstrap.md",
+  "results": "lab/dualstack/results/bootstrap",
+  "manifest": "lab/dualstack/results/bootstrap/manifest.json",
+  "push": false,
+  "production": false
+}

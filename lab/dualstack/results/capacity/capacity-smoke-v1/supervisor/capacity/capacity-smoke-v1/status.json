@@ -1,0 +1,34 @@
+{
+  "name": "capacity-smoke-v1",
+  "status": "completed",
+  "started_at": 1791616162.022373,
+  "results": [
+    {
+      "trial": "capacity-smoke-v1-reference-1000",
+      "profile": "reference",
+      "rate": 1000,
+      "stable": true,
+      "rps": 1000.0,
+      "drain_seconds": 0.7328645420057001,
+      "reason": null,
+      "errors": {}
+    }
+  ],
+  "mode": "smoke",
+  "profile": "reference",
+  "stage": "ramp",
+  "resources": {
+    "tracker": [
+      4,
+      8192
+    ],
+    "data": [
+      4,
+      8192
+    ]
+  },
+  "trial": "capacity-smoke-v1-reference-1000",
+  "rate": 1000,
+  "resources_restored": true,
+  "finished_at": 1791616206.6778412
+}

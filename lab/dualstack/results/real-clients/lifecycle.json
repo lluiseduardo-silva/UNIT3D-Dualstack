@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "fault": "before_link",
+      "status": "passed"
+    },
+    {
+      "fault": "after_link",
+      "status": "passed"
+    },
+    {
+      "fault": "after_move",
+      "status": "passed"
+    },
+    {
+      "fault": "after_hosts",
+      "status": "passed"
+    },
+    {
+      "fault": "existing_namespace_preserved",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "source_before": "859aa88f71f505e48401a4d7436a84d122af89a6",
+  "profile": {"peers": 1000, "distribution": "popular", "dual_percent": 0, "offered_rps": 1000, "warmup_seconds": 30, "measured_seconds": 60},
+  "reference": "rust-original-20261008T155458.json",
+  "candidate_before": "rust-candidate-20261008T155719.json",
+  "latency_change_percent_before": {"p95": 51.44472959706399, "p99": 50.65081755665008},
+  "functional_accounting": "passed; 90000 accepted, 9000000 bytes, 1000 identities without mismatches",
+  "cpu_profile": {
+    "load_run": "rust-candidate-20261008T160106.json",
+    "diagnostic_only": true,
+    "collector": "perf cpu-clock, 997 Hz, dwarf, 30 seconds",
+    "lost_samples": 0,
+    "selection_iterator_self_percent": 20.92,
+    "peer_counts_self_percent": 5.36,
+    "btree_set_iterator_self_percent": 1.92,
+    "raw_stack_data": "private on tracker VM; not exported"
+  },
+  "localized_change": "one peer lookup per selection pass; count and bounded reservoir sampling share the pass; same TTL, connectivity, seed priority and peer pairing",
+  "regression_suite": {"command": "run-rust-mysql.sh", "result": "RUST_MYSQL_COORDINATOR_PASSED", "tests": 1, "failed": 0, "ignored": 0, "seconds": 31.03, "new_case": "64 samples with two seeders, three leechers, three slots, dual endpoints and self exclusion"},
+  "source_after": "4cb05fc",
+  "performance_after": {"candidate": "rust-candidate-20261008T160804.json", "p95_change_percent": 27.526978126862957, "p99_change_percent": 25.247535775657546, "gate": "failed"},
+  "counts_only_control": {"reference": "rust-original-20261008T161402.json", "candidate": "rust-candidate-20261008T161624.json", "p95_change_percent": 24.581435557047836, "p99_change_percent": 24.02470914238153, "profiler": false},
+  "full_performance_acceptance": false
+}

@@ -1,0 +1,28 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+{"name": "density-throughput-writer-endpoints200-v1", "sizes": [250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250], "peers": 10000, "users": 250, "torrents": 40, "dual_percent": 100, "created_at": "2026-10-08T23:18:48"}
+
+   INFO  Application cache cleared successfully.  
+
+   Compiling unit3d-announce v0.3.1 (/app)
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 39.09s
+f980110886b0cd0d8240f431acb6cfe46eec4b7c5a07663ca6302cde4106d642
+Benchmark iniciado: rust candidate; verificar readiness antes da carga.
+{"status": "ready", "families": [4, 6], "waited_seconds": 0.5022018689924153}
+unit3d-ds-rust
+unit3d-ds-rust
+{"files": 12, "bytes": 17224699, "archive": "/tmp/density-export-unit3d-ds-clients.tar.gz"}
+{"files": 1, "bytes": 1588, "archive": "/tmp/density-export-unit3d-ds-tracker.tar.gz"}

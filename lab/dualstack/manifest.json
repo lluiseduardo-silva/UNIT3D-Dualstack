@@ -1,0 +1,36 @@
+{
+  "project": "unit3d-dualstack",
+  "phase": "baseline",
+  "repositories": {
+    "UNIT3D": {
+      "url": "https://github.com/HDInnovations/UNIT3D.git",
+      "tag": "v9.2.0",
+      "commit": "8b88f4c8182eb3d3912ffef425c3224dcfd596f4",
+      "path": "repos/UNIT3D",
+      "branch": "feat/dualstack"
+    },
+    "UNIT3D-Announce": {
+      "url": "https://github.com/Roardom/UNIT3D-Announce.git",
+      "tag": "v0.3.1",
+      "commit": "fcd189e9aebf07a12a1f8cc39500819c3870925b",
+      "path": "repos/UNIT3D-Announce",
+      "branch": "feat/dualstack"
+    }
+  },
+  "proxmox": {
+    "host": "10.0.1.4",
+    "node": "proxmox",
+    "storage": "local-lvm",
+    "management_bridge": "vmbr0",
+    "laboratory_bridge": "vmbr92",
+    "ipv4_network": "172.29.92.0/24",
+    "ipv6_network": "fd42:756e:6974:92::/64",
+    "vms": [
+      {"id": 120, "name": "unit3d-ds-tracker", "cores": 4, "memory_mib": 8192, "disk_gib": 24, "ipv4": "172.29.92.10", "ipv6": "fd42:756e:6974:92::10"},
+      {"id": 121, "name": "unit3d-ds-data", "cores": 4, "memory_mib": 8192, "disk_gib": 16, "ipv4": "172.29.92.20", "ipv6": "fd42:756e:6974:92::20"},
+      {"id": 122, "name": "unit3d-ds-clients", "cores": 4, "memory_mib": 8192, "disk_gib": 12, "ipv4": "172.29.92.30", "ipv6": "fd42:756e:6974:92::30"}
+    ]
+  },
+  "gates": {"latency_p95_ratio_max": 1.10, "latency_p99_ratio_max": 1.10, "throughput_ratio_min": 0.95},
+  "approved_workload": {"peer_counts": [1000, 54000, 100000], "dualstack_ratios": [0, 0.5, 1], "repetitions": 3, "warmup_seconds": 300, "measurement_seconds": 900, "soak_seconds": 21600}
+}

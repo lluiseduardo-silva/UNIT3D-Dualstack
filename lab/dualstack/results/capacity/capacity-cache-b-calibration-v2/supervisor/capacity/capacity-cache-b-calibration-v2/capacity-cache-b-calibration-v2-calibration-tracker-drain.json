@@ -1,0 +1,7 @@
+{
+  "action": "stop",
+  "binary_sha256": "93ed97a5a50c3633452ba9eab56169b6eadadce53d5ccd4e2422edf3958c6057",
+  "exit_code": 0,
+  "oom_killed": false,
+  "finished_at": "2026-10-10T15:50:05.855693025Z"
+}

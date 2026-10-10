@@ -1,0 +1,5 @@
+{"file": "00000.bin.gz", "records": 484007, "bytes": 11602847, "sha256": "4b8ccf873ce4eea7e09c319f2750df7e169d99100a52456e90b940ea3438a6c6"}
+{"file": "00001.bin.gz", "records": 484007, "bytes": 11959429, "sha256": "ffb90f8620409163341f4c5658d0fec1d162d301a660d594238ab1d53f03235e"}
+{"file": "00002.bin.gz", "records": 484007, "bytes": 11898485, "sha256": "7fe45af8eaa45db343d8a80d7f8f05696c23b6eb16e3038280b51ca0715ecbf0"}
+{"file": "00003.bin.gz", "records": 484007, "bytes": 11860941, "sha256": "5a09ac7173b499d246dc7f822c053a68036318f93212fa7d3bd501dc59f4967f"}
+{"file": "00004.bin.gz", "records": 453552, "bytes": 11031449, "sha256": "37a2efc703bb955d9f92e3297df5a06a5fa1903971c94b18ccc20ae0627ad1a6"}

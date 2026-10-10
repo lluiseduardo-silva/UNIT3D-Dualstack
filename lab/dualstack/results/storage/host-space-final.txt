@@ -1,0 +1,8 @@
+Name             Type     Status     Total (KiB)      Used (KiB) Available (KiB)        %
+local             dir     active        69573880        14337800        51656176   20.61%
+local-lvm     lvmthin     active       143773696       106464421        37309274   74.05%
+NAME                                         USED         AVAIL       REFER  MOUNTPOINT
+storage_pool/unit3d-dualstack          2811383808  319311163392      106496  /storage_pool/unit3d-dualstack
+storage_pool/unit3d-dualstack/clients   414437376  319311163392   414437376  /storage_pool/unit3d-dualstack/clients
+storage_pool/unit3d-dualstack/data     2394963968  319311163392  2394963968  /storage_pool/unit3d-dualstack/data
+storage_pool/unit3d-dualstack/tracker     1875968  319311163392     1875968  /storage_pool/unit3d-dualstack/tracker

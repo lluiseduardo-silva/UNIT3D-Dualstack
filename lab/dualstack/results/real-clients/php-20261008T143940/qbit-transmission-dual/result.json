@@ -1,0 +1,1400 @@
+{
+  "case": {
+    "label": "qbit-transmission-dual",
+    "seeder": "qbit",
+    "downloader": "transmission",
+    "network": "dual",
+    "failure_family": null,
+    "torrent_id": 12105,
+    "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+  },
+  "status": "passed",
+  "progress": [
+    {
+      "at": 1791470384.099208,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 2,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791470384.6323216,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791470385.166605,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": []
+    },
+    {
+      "at": 1791470385.7006483,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470386.2335644,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470386.7663438,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470387.2989786,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470387.832,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470388.3652043,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470388.8985095,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470389.4310555,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470389.966274,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470390.4993203,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470391.0320725,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470391.5648816,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470392.0980601,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470392.631342,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470393.16432,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470393.6978035,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470394.2311687,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470394.764728,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470395.2980237,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470395.831503,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470396.3643277,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470396.8968236,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470397.4303136,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470397.9628224,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470398.4954572,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470399.0284712,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470399.561332,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470400.095294,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470400.6281881,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470401.1605992,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470401.6933014,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470402.2262619,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470402.7593873,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470403.2924583,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470403.825515,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470404.358592,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470404.8917806,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470405.4252453,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470405.958437,
+      "progress": 0,
+      "downloaded": 0,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470406.491633,
+      "progress": 0.0312,
+      "downloaded": 524288,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470407.0246665,
+      "progress": 0.0625,
+      "downloaded": 1048576,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470407.5576475,
+      "progress": 0.0938,
+      "downloaded": 1572864,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470408.0905325,
+      "progress": 0.125,
+      "downloaded": 2097152,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470408.6232178,
+      "progress": 0.1562,
+      "downloaded": 2621440,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470409.156079,
+      "progress": 0.1875,
+      "downloaded": 3145728,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470409.6894498,
+      "progress": 0.2188,
+      "downloaded": 3670016,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470410.2229834,
+      "progress": 0.25,
+      "downloaded": 4194304,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470410.7561805,
+      "progress": 0.2812,
+      "downloaded": 4718592,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470411.2915213,
+      "progress": 0.3125,
+      "downloaded": 5242880,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470411.825227,
+      "progress": 0.3438,
+      "downloaded": 5767168,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470412.3589165,
+      "progress": 0.375,
+      "downloaded": 6291456,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470412.8917909,
+      "progress": 0.4062,
+      "downloaded": 6815744,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470413.424156,
+      "progress": 0.4375,
+      "downloaded": 7340032,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470413.95687,
+      "progress": 0.4688,
+      "downloaded": 7864320,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470414.4906201,
+      "progress": 0.5,
+      "downloaded": 8388608,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470415.0258203,
+      "progress": 0.5625,
+      "downloaded": 9437184,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470415.558694,
+      "progress": 0.5938,
+      "downloaded": 9961472,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470416.0943406,
+      "progress": 0.625,
+      "downloaded": 10485760,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470416.6279655,
+      "progress": 0.6562,
+      "downloaded": 11010048,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470417.1623912,
+      "progress": 0.6875,
+      "downloaded": 11534336,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470417.6957378,
+      "progress": 0.7188,
+      "downloaded": 12058624,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470418.2287564,
+      "progress": 0.75,
+      "downloaded": 12582912,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470418.7614484,
+      "progress": 0.7812,
+      "downloaded": 13107200,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470419.2942908,
+      "progress": 0.8125,
+      "downloaded": 13631488,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470419.8276145,
+      "progress": 0.8438,
+      "downloaded": 14155776,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470420.360636,
+      "progress": 0.875,
+      "downloaded": 14680064,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470420.8933508,
+      "progress": 0.9062,
+      "downloaded": 15204352,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470421.4257758,
+      "progress": 0.9375,
+      "downloaded": 15728640,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470421.9584656,
+      "progress": 0.9688,
+      "downloaded": 16252928,
+      "state": 4,
+      "error": 0,
+      "peers": [
+        {
+          "address": "172.29.92.40",
+          "port": 6881
+        }
+      ]
+    },
+    {
+      "at": 1791470422.4914086,
+      "progress": 1,
+      "downloaded": 16777216,
+      "state": 6,
+      "error": 0,
+      "peers": []
+    }
+  ],
+  "before_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12105,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "family": 4,
+        "ip": "172.29.92.40",
+        "port": 6881,
+        "revision": 1
+      },
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 2
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 1,
+        "leechers": 0,
+        "seeders_ipv4": 1,
+        "seeders_ipv6": 1,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 0
+      }
+    ]
+  },
+  "sha256": "1b59cea991e571857c66f57efa9bd1e6ba13ed3dbce7211b6aecb5494f47b020",
+  "after_download": {
+    "peers": [
+      {
+        "user_id": 12001,
+        "torrent_id": 12105,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "state_version": 2,
+        "uploaded": 0,
+        "downloaded": 0,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "torrent_id": 12105,
+        "peer_id": "2D5452343035302D6F6C6A7873396A77617A7474",
+        "state_version": 4,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "left": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "endpoints": [
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "family": 4,
+        "ip": "172.29.92.40",
+        "port": 6881,
+        "revision": 1
+      },
+      {
+        "user_id": 12001,
+        "peer_id": "2D7142343633302D3461785A766B387E55574552",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::40",
+        "port": 6881,
+        "revision": 2
+      },
+      {
+        "user_id": 12002,
+        "peer_id": "2D5452343035302D6F6C6A7873396A77617A7474",
+        "family": 4,
+        "ip": "172.29.92.41",
+        "port": 6881,
+        "revision": 1
+      },
+      {
+        "user_id": 12002,
+        "peer_id": "2D5452343035302D6F6C6A7873396A77617A7474",
+        "family": 6,
+        "ip": "fd42:756e:6974:92::41",
+        "port": 6881,
+        "revision": 2
+      }
+    ],
+    "history": [
+      {
+        "user_id": 12001,
+        "state_version": 2,
+        "actual_uploaded": 0,
+        "actual_downloaded": 0,
+        "uploaded": 0,
+        "downloaded": 0,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      },
+      {
+        "user_id": 12002,
+        "state_version": 4,
+        "actual_uploaded": 0,
+        "actual_downloaded": 16777216,
+        "uploaded": 0,
+        "downloaded": 16777216,
+        "seedtime": 0,
+        "active": 1,
+        "seeder": 1
+      }
+    ],
+    "torrent": [
+      {
+        "seeders": 2,
+        "leechers": 0,
+        "seeders_ipv4": 2,
+        "seeders_ipv6": 2,
+        "leechers_ipv4": 0,
+        "leechers_ipv6": 0,
+        "times_completed": 1
+      }
+    ]
+  },
+  "seed_wire": {
+    "announces": [
+      {
+        "at": 1791470383.442011,
+        "family": 6,
+        "source": "fd42:756e:6974:92::40",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "0",
+        "user_id": 12001,
+        "peer_id": "2d7142343633302d3461785a766b387e55574552",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791470383.442025,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.10",
+        "stream": "1",
+        "user_id": 12001,
+        "peer_id": "2d7142343633302d3461785a766b387e55574552",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791470383.679881,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.40",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 1861,
+          "min interval": 1714,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791470383.679938,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 0,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2792,
+          "min interval": 1745,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791470385.491776,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.40",
+        "stream": "2",
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      },
+      {
+        "at": 1791470385.49182,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "3",
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      },
+      {
+        "at": 1791470385.491906,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "2",
+        "peer_id": "2d7142343633302d4929652a5367474a51575a42",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 350,
+        "tcp_bytes": 16234432,
+        "first_at": 1791470405.992918,
+        "last_at": 1791470420.993696
+      },
+      "6": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      }
+    }
+  },
+  "down_wire": {
+    "announces": [
+      {
+        "at": 1791470384.692719,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791470384.69275,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "1",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "event": "started",
+        "uploaded": 0,
+        "downloaded": 0
+      },
+      {
+        "at": 1791470422.150975,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.10",
+        "stream": "0",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "event": "completed",
+        "uploaded": 0,
+        "downloaded": 16777216
+      },
+      {
+        "at": 1791470422.151029,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::10",
+        "stream": "1",
+        "user_id": 12002,
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "event": "completed",
+        "uploaded": 0,
+        "downloaded": 16777216
+      }
+    ],
+    "responses": [
+      {
+        "at": 1791470384.716003,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 3536,
+          "min interval": 1747,
+          "peers": [
+            {
+              "ip": "172.29.92.40",
+              "port": 6881
+            }
+          ],
+          "peers_bytes": 6,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791470384.716362,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 0,
+          "interval": 2335,
+          "min interval": 1770,
+          "peers": [
+            {
+              "ip": "172.29.92.40",
+              "port": 6881
+            }
+          ],
+          "peers_bytes": 6,
+          "peers6": [
+            {
+              "ip": "fd42:756e:6974:92::40",
+              "port": 6881
+            }
+          ],
+          "peers6_bytes": 18
+        }
+      },
+      {
+        "at": 1791470422.175062,
+        "family": 4,
+        "source": "172.29.92.10",
+        "destination": "172.29.92.41",
+        "stream": "0",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 1806,
+          "min interval": 1770,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      },
+      {
+        "at": 1791470422.175398,
+        "family": 6,
+        "source": "fd42:756e:6974:92::10",
+        "destination": "fd42:756e:6974:92::41",
+        "stream": "1",
+        "status": 200,
+        "body": {
+          "complete": 1,
+          "downloaded": 0,
+          "incomplete": 1,
+          "interval": 2426,
+          "min interval": 1763,
+          "peers": [],
+          "peers_bytes": 0,
+          "peers6": [],
+          "peers6_bytes": 0
+        }
+      }
+    ],
+    "handshakes": [
+      {
+        "at": 1791470385.491767,
+        "family": 4,
+        "source": "172.29.92.41",
+        "destination": "172.29.92.40",
+        "stream": "2",
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      },
+      {
+        "at": 1791470385.491818,
+        "family": 6,
+        "source": "fd42:756e:6974:92::41",
+        "destination": "fd42:756e:6974:92::40",
+        "stream": "3",
+        "peer_id": "2d5452343035302d6f6c6a7873396a77617a7474",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      },
+      {
+        "at": 1791470385.491909,
+        "family": 4,
+        "source": "172.29.92.40",
+        "destination": "172.29.92.41",
+        "stream": "2",
+        "peer_id": "2d7142343633302d4929652a5367474a51575a42",
+        "info_hash": "1df4d35a74d16d97d776ac4d5f776331e0cc17a8"
+      }
+    ],
+    "pieces_summary": {
+      "4": {
+        "packets": 350,
+        "tcp_bytes": 16234432,
+        "first_at": 1791470405.99292,
+        "last_at": 1791470420.99371
+      },
+      "6": {
+        "packets": 0,
+        "tcp_bytes": 0,
+        "first_at": null,
+        "last_at": null
+      }
+    }
+  }
+}

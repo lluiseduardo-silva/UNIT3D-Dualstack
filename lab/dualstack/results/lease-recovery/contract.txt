@@ -1,0 +1,27 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.11s
+     Running tests/dualstack_contract.rs (target/release/deps/dualstack_contract-3d352b4d03f6397b)
+
+running 5 tests
+test addresses_respect_origin_policy_including_mapped_ipv4 ... ok
+test rejected_input_leaves_the_reference_untouched ... ok
+test exact_financial_factors_and_overflow ... ok
+test rotating_addresses_remains_bounded_and_preserves_uint64 ... ok
+Contrato Rust: 12 casos, 51 operacoes verificadas
+test shared_peer_contract ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

@@ -1,0 +1,15 @@
+{
+  "series": "density-throughput-writer-reference200-v1",
+  "status": "passed",
+  "accepted": 300000,
+  "measured_samples": 240000,
+  "phases": 3,
+  "sha256": {
+    "rate-4000-r1.json": "94994f69d596294412a8f89095c689dba8f857ac95aba8953762394229251b80",
+    "rate-4000-r1-samples.json.gz": "f781041e10f989cafab460642c98c817107512de9b4321ccdd70f724ed710913",
+    "rate-4000-r2.json": "def22408cfafaa281a5ee3e49a3a29bfe92afcfbbd8976c5810a46d479182101",
+    "rate-4000-r2-samples.json.gz": "40776816bf2a31e36f0b4f80360344ca8c3e3ca12086f832095418f2de257d2c",
+    "rate-4000-r3.json": "669c15b979bd14f445e08d40d0a35112d85ba1216fe5b1d2d98fc48abad4e57e",
+    "rate-4000-r3-samples.json.gz": "dffa8e6863e7f2b5a9d8e58cc6e96d2e7eb17818ed8c5e20d29a8430c05a5f54"
+  }
+}

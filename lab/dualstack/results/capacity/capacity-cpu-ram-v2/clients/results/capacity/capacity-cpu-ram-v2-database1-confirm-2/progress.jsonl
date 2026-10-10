@@ -1,0 +1,13 @@
+{"at": 1791623511.5809987, "start_epoch": 1791623513.5717201, "elapsed": -1.9907195889973082, "accepted": 0, "expected_credit": 0, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623512.5832899, "start_epoch": 1791623513.5717201, "elapsed": -0.9884295480005676, "accepted": 0, "expected_credit": 0, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623513.5848584, "start_epoch": 1791623513.5717201, "elapsed": 0.013138744994648732, "accepted": 52, "expected_credit": 5200, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623514.586949, "start_epoch": 1791623513.5717201, "elapsed": 1.01522933699016, "accepted": 5583, "expected_credit": 281600, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623515.589054, "start_epoch": 1791623513.5717201, "elapsed": 2.0173345349903684, "accepted": 11094, "expected_credit": 559000, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623516.5912073, "start_epoch": 1791623513.5717201, "elapsed": 3.019487625992042, "accepted": 16607, "expected_credit": 832000, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623517.5928562, "start_epoch": 1791623513.5717201, "elapsed": 4.021136329989531, "accepted": 22115, "expected_credit": 1110700, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623518.594806, "start_epoch": 1791623513.5717201, "elapsed": 5.023086362998583, "accepted": 27624, "expected_credit": 1382400, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623519.5968363, "start_epoch": 1791623513.5717201, "elapsed": 6.025116737990174, "accepted": 33137, "expected_credit": 1662500, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623520.5984519, "start_epoch": 1791623513.5717201, "elapsed": 7.02673222598969, "accepted": 38646, "expected_credit": 1932800, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623520.6342635, "start_epoch": 1791623513.5717201, "elapsed": 7.062543929001549, "accepted": 38646, "expected_credit": 1932800, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623520.6366005, "start_epoch": 1791623513.5717201, "elapsed": 7.064880716992775, "accepted": 38646, "expected_credit": 1932800, "rate": 5500, "warmup": 30, "seconds": 300}
+{"at": 1791623520.6395576, "start_epoch": 1791623513.5717201, "elapsed": 7.067837744994904, "accepted": 38646, "expected_credit": 1932800, "rate": 5500, "warmup": 30, "seconds": 300}

@@ -1,0 +1,5 @@
+Banco exclusivo e fixtures sinteticas preparados; baseline preservado.
+71482bbccb352bcd0e585a5817e0c092fdd2bf0c696793c8cde06b8077cbb217
+docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/opt/unit3d-dualstack/network-validation/rust.env" to rootfs at "/app/.env": create mountpoint for /app/.env mount: make mountpoint "/app/.env": read-only file system
+
+Run 'docker run --help' for more information

@@ -1,0 +1,50 @@
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.10s
+  Executable tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)
+{
+    "status": "failed",
+    "backend": "rust",
+    "production": false,
+    "sql_writers": 9,
+    "unique_transitions": 480,
+    "persistence_attempts": 1920,
+    "refund_commands": 160,
+    "error_type": "Illuminate\\Database\\QueryException",
+    "sqlstate": "23000",
+    "driver_code": 1452,
+    "callsite": [
+        "refund-rust-consumer.php:36"
+    ],
+    "origin": "Connection.php:824"
+}
+
+warning: use of deprecated method `std::sync::atomic::Atomic::<u64>::fetch_update`: renamed to `try_update` for consistency
+running 1 test
+   --> src/stats.rs:226:30
+    |
+226 |         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+    |                              ^^^^^^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+help: replace the use of the deprecated method
+    |
+226 -         let _ = self.content.fetch_update(set_order, fetch_order, |num| {
+226 +         let _ = self.content.try_update(set_order, fetch_order, |num| {
+    |
+
+warning: `unit3d-announce` (bin "unit3d-announce") generated 1 warning (run `cargo fix --bin "unit3d-announce" -p unit3d-announce` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 0.12s
+     Running tests/dualstack_refund.rs (target/release/deps/dualstack_refund-235a0e54cca8ace1)

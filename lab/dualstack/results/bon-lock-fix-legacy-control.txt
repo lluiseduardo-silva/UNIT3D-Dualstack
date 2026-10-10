@@ -1,0 +1,8 @@
+
+BON contention {"dualstack_query":false,"waiting":5,"before":{"lock_deadlocks":190,"lock_timeouts":55},"after":{"lock_deadlocks":190,"lock_timeouts":55},"credits":{"12001":{"uploaded":"800","bon_delta":100},"12002":{"uploaded":"800","bon_delta":100},"12003":{"uploaded":"800","bon_delta":100}}}
+
+   PASS  Tests\Integration\DualstackBonContentionTest
+  ✓ it preserva BON e upload com quatro gravadores e alocacao concorren… 0.46s
+
+  Tests:    1 passed (50 assertions)
+  Duration: 0.58s

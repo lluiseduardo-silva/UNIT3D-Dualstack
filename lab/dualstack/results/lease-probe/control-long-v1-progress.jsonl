@@ -1,0 +1,9 @@
+{"at": 1791554117.8841362, "accepted": 0, "errors": {}, "elapsed": 0, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554118.885557, "accepted": 18, "errors": {}, "elapsed": 0.858306440000888, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554119.8874385, "accepted": 38, "errors": {}, "elapsed": 1.8601882889997796, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554120.8894024, "accepted": 58, "errors": {}, "elapsed": 2.8621519029984483, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554121.8912568, "accepted": 78, "errors": {}, "elapsed": 3.8640061789992615, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554122.8937306, "accepted": 98, "errors": {}, "elapsed": 4.866480244003469, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554123.8947656, "accepted": 118, "errors": {}, "elapsed": 5.867515129000822, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554124.8968444, "accepted": 138, "errors": {}, "elapsed": 6.869593732000794, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}
+{"at": 1791554125.89984, "accepted": 142, "errors": {"IncompleteReadError": 1}, "elapsed": 7.872589660000813, "blocker": {"connection": 32361, "acquired_at": 1791554117.8772311}}

@@ -1,0 +1,65 @@
+{
+  "reason": "instantes diferentes no classificador inicial",
+  "rows": [
+    {
+      "trial": "capacity-cpu-ram-v1-reference-1000",
+      "original_status_preserved": true,
+      "original_classification_valid": false,
+      "original_slope": 31.662095903642772,
+      "accounting_passed": true,
+      "reanalysis": {
+        "sufficient_samples": true,
+        "samples": 30,
+        "slope_per_second": 0.017773976169215243,
+        "growth": 0.3554615981411189,
+        "comparison_seconds": 19.9989914894104,
+        "growth_tolerance": 1056.4031600952148,
+        "growing": false,
+        "minimum_lag": 33.251767398971424,
+        "maximum_lag": 152.67319585715813,
+        "max_sql_span_seconds": 0.06067085266113281,
+        "max_progress_span_seconds": 1.0022368431091309
+      }
+    },
+    {
+      "trial": "capacity-cpu-ram-v1-reference-500",
+      "original_status_preserved": true,
+      "original_classification_valid": false,
+      "original_slope": 0.0,
+      "accounting_passed": true,
+      "reanalysis": {
+        "sufficient_samples": true,
+        "samples": 30,
+        "slope_per_second": 0.4340895699347135,
+        "growth": 8.682879545318428,
+        "comparison_seconds": 20.002506732940674,
+        "growth_tolerance": 1028.3639430999756,
+        "growing": false,
+        "minimum_lag": 16.81492411657746,
+        "maximum_lag": 71.14097952878001,
+        "max_sql_span_seconds": 0.05780839920043945,
+        "max_progress_span_seconds": 1.002195119857788
+      }
+    },
+    {
+      "trial": "capacity-cpu-ram-v1-reference-refine-700",
+      "original_status_preserved": true,
+      "original_classification_valid": false,
+      "original_slope": 0.0,
+      "accounting_passed": true,
+      "reanalysis": {
+        "sufficient_samples": true,
+        "samples": 17,
+        "slope_per_second": -3.1458049666894996,
+        "growth": -37.76543998636407,
+        "comparison_seconds": 12.005016326904297,
+        "growth_tolerance": 1040.0514841079712,
+        "growing": false,
+        "minimum_lag": 15.890599849193677,
+        "maximum_lag": 91.00240513883182,
+        "max_sql_span_seconds": 0.06044602394104004,
+        "max_progress_span_seconds": 1.0021090507507324
+      }
+    }
+  ]
+}

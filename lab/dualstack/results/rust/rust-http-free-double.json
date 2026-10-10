@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "profile": "free-double",
+  "responses": [
+    {
+      "family": 4,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 1872,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      }
+    },
+    {
+      "family": 6,
+      "response": {
+        "complete": 0,
+        "downloaded": 0,
+        "incomplete": 1,
+        "interval": 3431,
+        "min interval": 1800,
+        "peers": [],
+        "peers_bytes": 0,
+        "peers6": [],
+        "peers6_bytes": 0
+      }
+    }
+  ],
+  "before": {
+    "uploaded": 1000,
+    "downloaded": 100
+  },
+  "after": {
+    "uploaded": 1200,
+    "downloaded": 100
+  }
+}

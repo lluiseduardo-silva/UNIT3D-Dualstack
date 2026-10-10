@@ -1,0 +1,13 @@
+{
+  "host": "unit3d-ds-clients",
+  "kernel": "6.8.0-142-generic",
+  "python": "3.12.3",
+  "cpu_count": 4,
+  "architecture": "x86_64",
+  "memory": {
+    "MemTotal": "8131784 kB",
+    "SwapTotal": "0 kB"
+  },
+  "cpu_model": "AMD Ryzen 9 5900XT 16-Core Processor",
+  "disk": "Filesystem       1B-blocks       Used  Available Use% Mounted on\n/dev/sda1      11362635776 4336492544 7009366016  39% /"
+}

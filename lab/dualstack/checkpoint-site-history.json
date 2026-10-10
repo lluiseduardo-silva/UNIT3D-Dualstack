@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-08",
+  "status": "consumers_fixed_contention_and_short_load_passed",
+  "production": false,
+  "php_validated_commit": "b380d2f693da9b967300227fb27cfa363f015467",
+  "php_stats_commit": "c55e8a4fd",
+  "rust_commit": "cd524821762b338fb1c873ee25e64cf0e6cc1884",
+  "green": {
+    "site_functional_tests": 118,
+    "site_functional_assertions": 1215,
+    "site_extra_checks": 20,
+    "php_contention_tests": 4,
+    "php_contention_assertions": 202,
+    "new_deadlocks": 0,
+    "new_lock_timeouts": 0,
+    "rust_bon_contention": "passed_separate_earlier_gate",
+    "history_contract_operations_each_backend": 23,
+    "history_php_assertions": 258,
+    "history_final_seedtime": 251,
+    "history_completions": 1
+  },
+  "historical_failed_gate": {
+    "tests_passed": 6,
+    "tests_failed": 6,
+    "assertions": 108,
+    "sql_engine": "MySQL 8.0.46",
+    "stats_error": 1055,
+    "refund_two_torrents": {
+      "downloaded_before": 10000,
+      "downloaded_expected": 8000,
+      "downloaded_actual": 9000,
+      "history_refunded": 2000
+    },
+    "unchanged_from_9_2_0": {
+      "app/Http/Controllers/StatsController.php": "68d561ce1ad5a0da1c7762245439de8d51822f08",
+      "app/Console/Commands/AutoRefundDownload.php": "ef9cadfc9b8f9bf39c1a7f379457de1ab44badd9"
+    },
+    "evidence": "results/site-history-consumers.txt"
+  },
+  "resolved_gate": {
+    "functional_tests": 31,
+    "functional_assertions": 276,
+    "php_sql_writers": 16,
+    "php_forced_waits": 16,
+    "php_unique_transitions": 600,
+    "php_persistence_attempts": 4800,
+    "php_contention_assertions_final_run": 1138,
+    "rust_sql_writers_including_php_jobs": 9,
+    "rust_forced_waits": 9,
+    "rust_unique_transitions": 480,
+    "rust_persistence_attempts": 1920,
+    "refund_commands_each_contention_test": 160,
+    "new_deadlocks": 0,
+    "new_lock_timeouts": 0,
+    "evidence": ["results/refund-final-tests.txt", "results/refund-rust-contention.txt"]
+  },
+  "short_http_load": {
+    "warmup_seconds": 5,
+    "measurement_seconds": 20,
+    "population_peers": 36,
+    "endpoints": 72,
+    "numwant": 0,
+    "event": "completed",
+    "php_rps_control": 213.4,
+    "php_rps_with_refund": 209.4,
+    "php_throughput_retained_percent": 98.13,
+    "php_reached_target_1000_rps": false,
+    "rust_rps_control": 2000,
+    "rust_rps_with_refund": 1999.95,
+    "errors_in_approved_profiles": 0,
+    "accounting": "exact",
+    "persistence": "fully_confirmed_after_load",
+    "backlog_measurement": "accepted responses minus SQL versions sampled every 500ms, not internal queue instrumentation",
+    "php_creator_reported_rps_supplied_by_user": 250,
+    "external_reference_reproduced_in_lab": false,
+    "full_performance_acceptance_completed": false
+  },
+  "pending": [
+    "encerrar validacao dos demais consumidores",
+    "rollback para as versoes originais",
+    "clientes BitTorrent reais com transferencia",
+    "matriz de performance e ensaio de seis horas"
+  ]
+}

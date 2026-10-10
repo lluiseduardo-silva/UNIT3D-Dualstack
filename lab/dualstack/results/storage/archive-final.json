@@ -1,0 +1,149 @@
+{
+  "settings": {
+    "binlog_expire_logs_auto_purge": "OFF",
+    "binlog_expire_logs_seconds": "2592000",
+    "binlog_format": "ROW",
+    "binlog_row_image": "FULL",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_redo_log_capacity": "104857600",
+    "log_bin": "ON",
+    "max_binlog_size": "1073741824",
+    "sync_binlog": "1",
+    "version": "8.0.46"
+  },
+  "current_binlogs": [
+    [
+      "binlog.000025",
+      157
+    ]
+  ],
+  "archived_files": 24,
+  "archived_bytes": 20752587259,
+  "first_archived": "binlog.000001",
+  "last_archived": "binlog.000024",
+  "free_ssd_bytes": 27915784192,
+  "free_archive_bytes": 319311052800,
+  "timer_active": true,
+  "manifest": [
+    {
+      "file": "binlog.000001",
+      "bytes": 2998763,
+      "sha256": "15aa18c8cb05ed362d7c4e9f3f6332f98e4ebed007377bd29a842024fbca3240"
+    },
+    {
+      "file": "binlog.000002",
+      "bytes": 18630769,
+      "sha256": "08567660b87418e5e656f4eee1e35f852833ad4a54f61df6fc4a7c0787606d63"
+    },
+    {
+      "file": "binlog.000003",
+      "bytes": 1073870562,
+      "sha256": "1743b7f74d50778dee766cd37210e113ee294c4045bf4de8227cc7bb7eb57964"
+    },
+    {
+      "file": "binlog.000004",
+      "bytes": 1073776244,
+      "sha256": "d712f3bdf0ed1b25989397d9b900c53701751a29143139261f46c7077986c277"
+    },
+    {
+      "file": "binlog.000005",
+      "bytes": 1074555304,
+      "sha256": "721f5ce638b5203f8d18e0210459350cda5eec92ac30d89dcadebb2d3dab6a8d"
+    },
+    {
+      "file": "binlog.000006",
+      "bytes": 1109095262,
+      "sha256": "0dad221196d87320fc7fb5a8fa780920b23eaef0ba74b624ca5368d81fdfd6a4"
+    },
+    {
+      "file": "binlog.000007",
+      "bytes": 1073821945,
+      "sha256": "34e8ea79b73dd660b31dd387a86eecfddc79831cabbdd520e0bfcb4411b18b25"
+    },
+    {
+      "file": "binlog.000008",
+      "bytes": 1073804547,
+      "sha256": "e61e708caa12db9ac8ba52c3642c48d6412f8a5382952d9bdc75556024958d35"
+    },
+    {
+      "file": "binlog.000009",
+      "bytes": 1073914396,
+      "sha256": "3e9a2700ed2c2f15c3c4414b7f68634f0b6213306a637ebdf8d3f77f6cfd3363"
+    },
+    {
+      "file": "binlog.000010",
+      "bytes": 1073953539,
+      "sha256": "bcb018450a177a2269270610fdea5ba5d2fe1a3cac31c3734f303f8e405764a9"
+    },
+    {
+      "file": "binlog.000011",
+      "bytes": 1074116383,
+      "sha256": "d36043fdb6e038b5bd74fc74588c3cc1b658341c02ca526aea8b01f9d1cc07f4"
+    },
+    {
+      "file": "binlog.000012",
+      "bytes": 1073806740,
+      "sha256": "00404d52e36f5c6f5a69494a92989d4f3c69646e39f70945239ea0322f313c6a"
+    },
+    {
+      "file": "binlog.000013",
+      "bytes": 1073877024,
+      "sha256": "83543fb893b635c92cc0067cf39c1c352cfc0e57c3b54404221060c5960cbec9"
+    },
+    {
+      "file": "binlog.000014",
+      "bytes": 1073951624,
+      "sha256": "3b1f151db9e8f428d0ad1525078089a5d3dea0d3db01389043205dd60de6bf5b"
+    },
+    {
+      "file": "binlog.000015",
+      "bytes": 1074090038,
+      "sha256": "89e21f1262deee70bb35b04b978b20888dfb4d7c332f5d88ad7914eafc164e4d"
+    },
+    {
+      "file": "binlog.000016",
+      "bytes": 1073785504,
+      "sha256": "0a8ac72490001c1f7baed24511a5f969e687f1280f505ad188f1e994da14ab31"
+    },
+    {
+      "file": "binlog.000017",
+      "bytes": 1073771410,
+      "sha256": "1b49d3da07b0511d8b0938ae731c4a777781b6c78215da7c12cbf3b75da33650"
+    },
+    {
+      "file": "binlog.000018",
+      "bytes": 1074015031,
+      "sha256": "fe31568a9b8588fc1a5b7e661b17e0ff7f760677d2e24451b99e6ddf78ff54e1"
+    },
+    {
+      "file": "binlog.000019",
+      "bytes": 1073972327,
+      "sha256": "a03018acb9a2a6d8332d4346cf8788b555480f050629a5758e574953d7c8ecdf"
+    },
+    {
+      "file": "binlog.000020",
+      "bytes": 1074019697,
+      "sha256": "6cde75ab28281fc015fe46f7c1b5ef95a8b1468a43737b6e72faaf34f45ccee7"
+    },
+    {
+      "file": "binlog.000021",
+      "bytes": 370180489,
+      "sha256": "d23a89e6ed3d969a2c454c6cd8bfab19ed0c11d0417872115a09ed02252664d2"
+    },
+    {
+      "file": "binlog.000022",
+      "bytes": 180,
+      "sha256": "7c1c1450e487d32f97ada0ddcf42dc07dd8e8d031e5ffc36063a02694570f098"
+    },
+    {
+      "file": "binlog.000023",
+      "bytes": 994579301,
+      "sha256": "f9009111ea932dd6cd148127c4ef96ac0f710e81ce83f653bef97715eb715c91"
+    },
+    {
+      "file": "binlog.000024",
+      "bytes": 180,
+      "sha256": "ba8b1d71cf67a63a6dfd40cb8bb6d64a3da4a5ccc066ade7d832bc9f805f9386"
+    }
+  ]
+}

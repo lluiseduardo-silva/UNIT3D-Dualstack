@@ -1,0 +1,15 @@
+{
+  "series": "density-throughput-ceiling-v1",
+  "status": "passed",
+  "accepted": 576000,
+  "measured_samples": 480000,
+  "phases": 3,
+  "sha256": {
+    "rate-10000-r1.json": "438e02bf7bf4335470dd10f1127434749e5e8d4e9be3945f41d6009944a6f2d0",
+    "rate-10000-r1-samples.json.gz": "50028b04e46744f84451ae6db99a3bbd95e5e9f99ef75ed2c4e6318286dc2146",
+    "rate-10000-r3.json": "da420f156c7dc8b9a4b9aeca3762166500176df025bd1b1077104dd72d3614c2",
+    "rate-10000-r3-samples.json.gz": "450544b17b8bc0bb00a95380af57b7900e01632db3c97ae43d09fbeac5468083",
+    "rate-12000-r2.json": "1fd0f13598f1c204534796021c81ea8cc924d248ef75ba1c6d4b54170942c312",
+    "rate-12000-r2-samples.json.gz": "627862b13eacb3b5b761c533d42144e505e26b3e16e2948ae8620a6fb8a7d1a5"
+  }
+}

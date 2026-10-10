@@ -1,0 +1,15 @@
+[
+  "22977 socket(AF_INET6, SOCK_STREAM, IPPROTO_TCP) = 14",
+  "22977 setsockopt(14, SOL_SOCKET, SO_BINDTODEVICE, [3175522], 4) = 0",
+  "22977 bind(14, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::41\", &sin6_addr), sin6_scope_id=0}, 28) = 0",
+  "22977 connect(14, {sa_family=AF_INET6, sin6_port=htons(8080), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::10\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)",
+  "22977 socket(AF_INET6, SOCK_STREAM, IPPROTO_TCP) = 15",
+  "22977 bind(15, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::41\", &sin6_addr), sin6_scope_id=0}, 28) = 0",
+  "22977 setsockopt(15, SOL_TCP, TCP_NOTSENT_LOWAT, [16384], 4) = 0",
+  "22977 connect(15, {sa_family=AF_INET6, sin6_port=htons(6881), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::40\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)",
+  "22977 setsockopt(15, SOL_IPV6, IPV6_TCLASS, [4], 4) = 0",
+  "22977 socket(AF_INET6, SOCK_STREAM, IPPROTO_TCP) = 16",
+  "22977 setsockopt(16, SOL_SOCKET, SO_BINDTODEVICE, [3175522], 4) = 0",
+  "22977 bind(16, {sa_family=AF_INET6, sin6_port=htons(0), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::41\", &sin6_addr), sin6_scope_id=0}, 28) = 0",
+  "22977 connect(16, {sa_family=AF_INET6, sin6_port=htons(8080), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, \"fd42:756e:6974:92::10\", &sin6_addr), sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress)"
+]

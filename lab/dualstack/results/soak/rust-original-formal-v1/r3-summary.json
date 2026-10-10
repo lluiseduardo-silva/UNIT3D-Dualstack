@@ -1,0 +1,402 @@
+{
+  "name": "rust-original-formal-r3-v1",
+  "status": "passed",
+  "reason": null,
+  "load": {
+    "accepted": 9600000,
+    "audit": {
+      "credit": 960000000,
+      "mismatches": 0,
+      "peer_ips_role": "static_compatibility_fixture",
+      "peers": 10000,
+      "users": 250
+    },
+    "drain_seconds": 4.169824873009929,
+    "elapsed_seconds": 1207.4948187589907,
+    "error_details": [],
+    "errors": 0,
+    "numwant": 10,
+    "phases": [
+      {
+        "accepted": 2400000,
+        "at": 1791585290.8743823,
+        "completed_rps": 7999.993333333333,
+        "elapsed": 300.00098918199365,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 2400000,
+            "max": 18.35559299797751,
+            "p50": 0.14748740894767975,
+            "p95": 0.21980982234045718,
+            "p99": 0.3346578837821613
+          },
+          "queue_ms": {
+            "count": 2400000,
+            "max": 28.796061989851296,
+            "p50": 0.07970535768621767,
+            "p95": 0.14689494122141905,
+            "p99": 1.2030592840416852
+          },
+          "response_ms": {
+            "count": 2400000,
+            "max": 18.338741996558383,
+            "p50": 0.13296139107241858,
+            "p95": 0.2018251484796877,
+            "p99": 0.313858841729561
+          },
+          "total_ms": {
+            "count": 2400000,
+            "max": 32.540508997044526,
+            "p50": 0.2358120579160211,
+            "p95": 0.33331860212444203,
+            "p99": 2.953264985423043
+          }
+        },
+        "phase": "warmup",
+        "seconds": 300,
+        "window": 0
+      },
+      {
+        "accepted": 7200000,
+        "at": 1791586191.1768892,
+        "completed_rps": 7999.998888888889,
+        "elapsed": 900.0010590390011,
+        "errors": 0,
+        "metrics": {
+          "latency_ms": {
+            "count": 7200000,
+            "max": 19.578387000365183,
+            "p50": 0.14897898282026809,
+            "p95": 0.2267586029260132,
+            "p99": 0.34075135627328745
+          },
+          "queue_ms": {
+            "count": 7200000,
+            "max": 31.268331003957428,
+            "p50": 0.08141722614553626,
+            "p95": 0.15003199051316604,
+            "p99": 1.1409359995733601
+          },
+          "response_ms": {
+            "count": 7200000,
+            "max": 19.552329002181068,
+            "p50": 0.1341718774718018,
+            "p95": 0.20758158917128594,
+            "p99": 0.3189345431536139
+          },
+          "total_ms": {
+            "count": 7200000,
+            "max": 35.150106996297836,
+            "p50": 0.23699848869548532,
+            "p95": 0.3448750034928172,
+            "p99": 2.8803599158221354
+          }
+        },
+        "phase": "measurement",
+        "seconds": 900,
+        "window": 1
+      }
+    ],
+    "reason": null,
+    "sample_count": 9600000,
+    "sample_queue_peak": 1,
+    "source_families": [
+      4
+    ],
+    "status": "passed",
+    "variant": "original"
+  },
+  "windows": 1,
+  "roles": {
+    "tracker": {
+      "samples": 242,
+      "failures": [],
+      "processes": {
+        "109567": {
+          "name": "unit3d-announce",
+          "first_pss": 10539008,
+          "first_rss": 10092544,
+          "first_cpu_ticks": 14,
+          "first_at": 1791584989.050221,
+          "max_pss": 36614144,
+          "max_rss": 36339712,
+          "last_pss": 26370048,
+          "last_rss": 26161152,
+          "last_cpu_ticks": 38604,
+          "last_at": 1791586199.982335
+        },
+        "109634": {
+          "name": "python3",
+          "first_pss": 9865216,
+          "first_rss": 14548992,
+          "first_cpu_ticks": 2,
+          "first_at": 1791584989.050221,
+          "max_pss": 10065920,
+          "max_rss": 14680064,
+          "last_pss": 10065920,
+          "last_rss": 14680064,
+          "last_cpu_ticks": 161,
+          "last_at": 1791586199.982335
+        }
+      },
+      "min_ssd_free": 4366835712,
+      "min_archive_free": 279587323904,
+      "min_memory_available": 7673303040
+    },
+    "data": {
+      "samples": 230,
+      "failures": [],
+      "processes": {
+        "1502": {
+          "name": "mysqld",
+          "first_pss": 1679364096,
+          "first_rss": 1679171584,
+          "first_cpu_ticks": 3301963,
+          "first_at": 1791584989.865406,
+          "max_pss": 1679372288,
+          "max_rss": 1679171584,
+          "last_pss": 1679372288,
+          "last_rss": 1679171584,
+          "last_cpu_ticks": 3315751,
+          "last_at": 1791586201.2603612
+        },
+        "1581": {
+          "name": "redis-server",
+          "first_pss": 10858496,
+          "first_rss": 10616832,
+          "first_cpu_ticks": 7943,
+          "first_at": 1791584989.865406,
+          "max_pss": 10858496,
+          "max_rss": 10616832,
+          "last_pss": 10858496,
+          "last_rss": 10616832,
+          "last_cpu_ticks": 8064,
+          "last_at": 1791586201.2603612
+        },
+        "1830613": {
+          "name": "python3",
+          "first_pss": 11396096,
+          "first_rss": 18350080,
+          "first_cpu_ticks": 5,
+          "first_at": 1791584989.865406,
+          "max_pss": 11850752,
+          "max_rss": 18612224,
+          "last_pss": 11850752,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 679,
+          "last_at": 1791586201.2603612
+        },
+        "1834071": {
+          "name": "python3",
+          "first_pss": 10455040,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585100.8455198,
+          "max_pss": 10455040,
+          "max_rss": 18612224,
+          "last_pss": 10455040,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585100.8455198
+        },
+        "1834599": {
+          "name": "python3",
+          "first_pss": 10450944,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585116.7363214,
+          "max_pss": 10450944,
+          "max_rss": 18612224,
+          "last_pss": 10450944,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585116.7363214
+        },
+        "1835124": {
+          "name": "python3",
+          "first_pss": 10444800,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585132.6224155,
+          "max_pss": 10444800,
+          "max_rss": 18612224,
+          "last_pss": 10444800,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585132.6224155
+        },
+        "1835652": {
+          "name": "python3",
+          "first_pss": 10445824,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585148.4881575,
+          "max_pss": 10445824,
+          "max_rss": 18612224,
+          "last_pss": 10445824,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585148.4881575
+        },
+        "1836179": {
+          "name": "python3",
+          "first_pss": 10440704,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585164.3482919,
+          "max_pss": 10440704,
+          "max_rss": 18612224,
+          "last_pss": 10440704,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585164.3482919
+        },
+        "1838381": {
+          "name": "python3",
+          "first_pss": 12545024,
+          "first_rss": 20701184,
+          "first_cpu_ticks": 19,
+          "first_at": 1791585233.083347,
+          "max_pss": 12545024,
+          "max_rss": 20701184,
+          "last_pss": 12545024,
+          "last_rss": 20701184,
+          "last_cpu_ticks": 110,
+          "last_at": 1791585259.510576
+        },
+        "1842917": {
+          "name": "python3",
+          "first_pss": 10452992,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585375.8243277,
+          "max_pss": 10452992,
+          "max_rss": 18612224,
+          "last_pss": 10452992,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585375.8243277
+        },
+        "1843440": {
+          "name": "python3",
+          "first_pss": 10446848,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585391.6777961,
+          "max_pss": 10446848,
+          "max_rss": 18612224,
+          "last_pss": 10446848,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585391.6777961
+        },
+        "1843969": {
+          "name": "python3",
+          "first_pss": 10439680,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 2,
+          "first_at": 1791585407.5343583,
+          "max_pss": 10439680,
+          "max_rss": 18612224,
+          "last_pss": 10439680,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 2,
+          "last_at": 1791585407.5343583
+        },
+        "1844494": {
+          "name": "python3",
+          "first_pss": 10450944,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585423.4122627,
+          "max_pss": 10450944,
+          "max_rss": 18612224,
+          "last_pss": 10450944,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585423.4122627
+        },
+        "1845021": {
+          "name": "python3",
+          "first_pss": 10432512,
+          "first_rss": 18612224,
+          "first_cpu_ticks": 3,
+          "first_at": 1791585439.325313,
+          "max_pss": 10432512,
+          "max_rss": 18612224,
+          "last_pss": 10432512,
+          "last_rss": 18612224,
+          "last_cpu_ticks": 3,
+          "last_at": 1791585439.325313
+        }
+      },
+      "min_ssd_free": 25283575808,
+      "min_archive_free": 279587323904,
+      "min_memory_available": 5933518848,
+      "max_archive_age": 47.12921762466431,
+      "max_closed_binlog_bytes": 1073770400
+    },
+    "clients": {
+      "samples": 244,
+      "failures": [],
+      "processes": {
+        "29296": {
+          "name": "python3",
+          "first_pss": 45431808,
+          "first_rss": 53473280,
+          "first_cpu_ticks": 92,
+          "first_at": 1791584991.7769861,
+          "max_pss": 47711232,
+          "max_rss": 55701504,
+          "last_pss": 47711232,
+          "last_rss": 55701504,
+          "last_cpu_ticks": 92857,
+          "last_at": 1791586193.7957952
+        },
+        "29301": {
+          "name": "python3",
+          "first_pss": 8946688,
+          "first_rss": 14417920,
+          "first_cpu_ticks": 2,
+          "first_at": 1791584991.7769861,
+          "max_pss": 9899008,
+          "max_rss": 14548992,
+          "last_pss": 9899008,
+          "last_rss": 14548992,
+          "last_cpu_ticks": 141,
+          "last_at": 1791586208.8172493
+        }
+      },
+      "min_ssd_free": 6441152512,
+      "min_archive_free": 279587323904,
+      "min_memory_available": 7774318592
+    }
+  },
+  "metric_scope": "measurement_only_excludes_warmup",
+  "backlog_unit": "estimated_100_byte_credit_steps_including_observer_delay",
+  "completed_rps": {
+    "min": 7999.998888888889,
+    "median": 7999.998888888889
+  },
+  "window_metrics_median": {
+    "response_ms": {
+      "p95": 0.20758158917128594,
+      "p99": 0.3189345431536139
+    },
+    "latency_ms": {
+      "p95": 0.2267586029260132,
+      "p99": 0.34075135627328745
+    },
+    "queue_ms": {
+      "p95": 0.15003199051316604,
+      "p99": 1.1409359995733601
+    },
+    "total_ms": {
+      "p95": 0.3448750034928172,
+      "p99": 2.8803599158221354
+    }
+  },
+  "min_thin_free": 32831011028,
+  "max_observed_persistence_lag": 76161
+}

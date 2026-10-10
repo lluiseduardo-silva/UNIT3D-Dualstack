@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "case": "BlockingIOError",
+      "exit_code": 1,
+      "binlogs_unchanged": true
+    },
+    {
+      "case": "archive_not_mounted",
+      "exit_code": 1,
+      "binlogs_unchanged": true
+    },
+    {
+      "case": "existing_archive_hash_mismatch",
+      "exit_code": 1,
+      "binlogs_unchanged": true
+    },
+    {
+      "case": "reentry",
+      "copied_bytes": 0,
+      "binlogs_unchanged": true
+    }
+  ]
+}

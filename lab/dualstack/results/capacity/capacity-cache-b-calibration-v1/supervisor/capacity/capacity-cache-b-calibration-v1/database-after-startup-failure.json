@@ -1,0 +1,11 @@
+{
+  "database": "unit3d_dualstack_capacity_20261010",
+  "rows": [
+    "peers\t10000\t0\t0",
+    "history\t0\t0",
+    "users\t0",
+    "endpoints\t20000\t10000\t10000",
+    "owner\t2016\t0",
+    "settings\t8.0.46\t134217728\t1\t1\t200\t2000"
+  ]
+}

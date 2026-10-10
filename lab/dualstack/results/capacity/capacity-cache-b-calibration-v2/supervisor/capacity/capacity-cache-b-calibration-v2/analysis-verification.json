@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "series": "capacity-cache-b-calibration-v2",
+  "variant": "b",
+  "trials": 1,
+  "accepted": 40000,
+  "credit_bytes": 2003200,
+  "errors": 0,
+  "accounting_mismatches": 0,
+  "all_drains_exit_zero": true,
+  "max_drain_seconds": 0.7312348379928153,
+  "resources_restored": true,
+  "observer_samples": 107,
+  "memory_samples": 25,
+  "scope": "integridade e restauração; não aprova desempenho ou teto sustentado"
+}

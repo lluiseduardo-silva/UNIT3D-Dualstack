@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "source_files_matching_build": 77,
+  "source_hash_normalization": "CRLF to LF",
+  "mysql_pass_checks": 30,
+  "http_runs_verified": 3,
+  "accounting_endpoints_drain_ownership": "passed",
+  "short_latency_ratios": {
+    "4000": {
+      "p95": 1.0672755649867178,
+      "p99": 1.0758315480858056
+    },
+    "8000": {
+      "p95": 1.0492818464625908,
+      "p99": 1.027400351984019
+    }
+  },
+  "original_data_preserved": true,
+  "public_evidence_scan": "passed; source-manifest validated as paths and SHA256 hashes",
+  "scope": "targeted recovery gates only; no six-hour or PHP approval"
+}

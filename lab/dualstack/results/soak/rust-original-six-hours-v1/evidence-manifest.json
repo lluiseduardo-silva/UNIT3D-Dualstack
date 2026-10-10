@@ -1,0 +1,108 @@
+{
+  "name": "rust-original-six-hours-v1",
+  "files": [
+    {
+      "path": "analysis.json",
+      "bytes": 10975,
+      "sha256": "b4330f985de0084e73acbde055140e0d816299a2b194a11d0287f051d8203c45"
+    },
+    {
+      "path": "clients/accounting-proof.json",
+      "bytes": 190,
+      "sha256": "3362720ad0a36c0dd2e3af9215f1b58bd9a987c4d7475eaa36fe475c69fbc12b"
+    },
+    {
+      "path": "clients/final.json",
+      "bytes": 55957,
+      "sha256": "f9ba31fca87579948a3a2eea6a49ba0d70835fa3997a88a2b5c4e5918fabd6d0"
+    },
+    {
+      "path": "clients/observer.json",
+      "bytes": 279,
+      "sha256": "12e7b3cb49c15d957a9303a90802fcd981348013aa3fce887bd4e85dc49ba555"
+    },
+    {
+      "path": "clients/observer.jsonl",
+      "bytes": 1593579,
+      "sha256": "cb6d8e13667630499468b916e1da06c421cfe8cf8fd277e9cc9bfa0be5c103f7"
+    },
+    {
+      "path": "clients/progress.json",
+      "bytes": 281,
+      "sha256": "84f178d5cc95fcd7d661c2a7d4f2f51f891cb711f1eb7d8ae681ab1f68e4c304"
+    },
+    {
+      "path": "clients/sample-accounting-audit.json",
+      "bytes": 265,
+      "sha256": "c373f1aa23494026c6d08ab26c3a71fd08f7fdf24c589a1d5146fcdff3f76a0e"
+    },
+    {
+      "path": "clients/sample-format.json",
+      "bytes": 296,
+      "sha256": "2247051649d14f4c4ce2684b0c1d315d0f20cbafa99a2f79ad5a1bed2e566768"
+    },
+    {
+      "path": "clients/samples/manifest.jsonl",
+      "bytes": 10366,
+      "sha256": "52243b7df3b4f000e8813b0921f3252ee7bea65a98137d2e6d672ec1458cac56"
+    },
+    {
+      "path": "clients/windows.jsonl",
+      "bytes": 53617,
+      "sha256": "dafe402755c2c1e83fcd2ed02eb61995aeda38eba963369dd1b525374327f347"
+    },
+    {
+      "path": "data/observer.json",
+      "bytes": 849,
+      "sha256": "e9068ffca7d54575f5bfa2c28d485ffd27dfee809c61a7c71b5f8f151fff3c24"
+    },
+    {
+      "path": "data/observer.jsonl",
+      "bytes": 3197142,
+      "sha256": "0c4bbc68b90eba494025ffab65dcc3de633ef3c6ed47f20bec930358f35a47f2"
+    },
+    {
+      "path": "onsite-verification.json",
+      "bytes": 228,
+      "sha256": "b4651d52c37f77bf7a6c765c22ef31d22ddd903a12a4197d54c29f82992350e3"
+    },
+    {
+      "path": "sample-integrity.json",
+      "bytes": 112,
+      "sha256": "130bf22e4170f00f56783c0b58ab9cc1f4eeeed22afe93352ca868f7b8d4798d"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 237401,
+      "sha256": "a8d9d81259fe56ca9ceb5d6a5ad5188672b712f124403668b493c14992591b9d"
+    },
+    {
+      "path": "supervisor/monitor.jsonl",
+      "bytes": 1578197,
+      "sha256": "6fd6b81040fea8587d8772ddcf68be269b65ec03b686d49f67387d1cd78458b5"
+    },
+    {
+      "path": "supervisor/status.json",
+      "bytes": 57632,
+      "sha256": "d459fa4a05d3e8de0a339dd9b6eb80516cf41e5d776203ed72ba932ddc76c290"
+    },
+    {
+      "path": "tracker/observer.json",
+      "bytes": 400,
+      "sha256": "f2396a1ecd73749ddbc061b5664fc3455706c98d5957b3398ad97e28e7e6624d"
+    },
+    {
+      "path": "tracker/observer.jsonl",
+      "bytes": 1742959,
+      "sha256": "391729d944c2c7e57ae72f3bc3d5e3bb90f2c295f21a3b6ab961164dee77a5cf"
+    },
+    {
+      "path": "tracker/provenance.json",
+      "bytes": 1055,
+      "sha256": "f2cd83bab923fda0092d4f20d9400911820cc28358e18f109d7280e0c8275712"
+    }
+  ],
+  "total_bytes": 8541780,
+  "raw_samples_exported": false,
+  "credentials_or_private_fixtures_exported": false
+}

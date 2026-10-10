@@ -1,0 +1,1 @@
+{"role": "tracker", "at": 1791530527.9848716, "ssd_free": 6632865792, "archive_free": 302232502272, "memory_available": 7782621184, "swap_free": 0, "processes": {"27214": {"name": "python3", "rss": 14811136, "pss": 10373120, "cpu_ticks": 1287}}, "tracker_running": false, "failures": ["tracker_stopped"], "sequence": 1737}

@@ -1,0 +1,11 @@
+{
+  "status": "reproduced_without_io",
+  "first_inventory": "rotation_during_inventory_retry_later",
+  "next_inventory": "passed",
+  "queries": [
+    "SHOW BINARY LOGS;",
+    "SHOW MASTER STATUS;",
+    "SHOW BINARY LOGS;",
+    "SHOW MASTER STATUS;"
+  ]
+}

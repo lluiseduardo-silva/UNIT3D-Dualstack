@@ -1,0 +1,13 @@
+{
+  "series": "density-smoke-v1",
+  "status": "passed",
+  "accepted": 7000,
+  "measured_samples": 5000,
+  "phases": 2,
+  "sha256": {
+    "mixed-r1.json": "daacb1db9060c776e38074a07ee3c3c9d8440f943f99a40f26cc9913e030b998",
+    "mixed-r1-samples.json.gz": "775627f0fb55d485b62ff29cbccb3e5f20163b88d4d928ad7ff21c49816fa7db",
+    "mixed-r2.json": "fc82161e7f6015d7772c5456f99a5268c14964f832f156d2611a162126c877aa",
+    "mixed-r2-samples.json.gz": "b6166576f56d0f21a629cd46b4e0d4a42a4b9c28fdf2114ac362c020eeeeeb4f"
+  }
+}

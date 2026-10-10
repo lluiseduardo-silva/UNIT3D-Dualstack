@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/opt/unit3d-dualstack/network-client.py", line 238, in <module>
+    main()
+  File "/opt/unit3d-dualstack/network-client.py", line 150, in main
+    result = client.announce(family, version=version)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/unit3d-dualstack/network-client.py", line 77, in announce
+    assert response.status == 200 and b'failure reason' not in result, 'announce_rejected'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: announce_rejected

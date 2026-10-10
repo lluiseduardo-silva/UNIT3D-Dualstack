@@ -1,0 +1,7 @@
+NAME    MODEL               SIZE
+nvme0n1 KINGSTON SNVS250G 232.9G
+  /dev/nvme0n1p3 pve
+cores: 4
+memory: 8192
+name: unit3d-ds-data
+scsi0: local-lvm:vm-121-disk-0,discard=on,size=16G

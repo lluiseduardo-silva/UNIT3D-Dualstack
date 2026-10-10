@@ -1,0 +1,2 @@
+{"role": "clients", "at": 1791511784.2974648, "ssd_free": 6550499328, "archive_free": 319295062016, "memory_available": 7856304128, "swap_free": 0, "processes": {"4446": {"name": "python3", "rss": 14811136, "pss": 10093568, "cpu_ticks": 3}}, "failures": [], "sequence": 1}
+{"role": "clients", "at": 1791511789.305616, "ssd_free": 6550499328, "archive_free": 319295062016, "memory_available": 7863762944, "swap_free": 0, "processes": {"4446": {"name": "python3", "rss": 14811136, "pss": 10109952, "cpu_ticks": 4}}, "failures": [], "sequence": 2}

@@ -1,0 +1,4 @@
+{"at": 1791643585.97414, "phase": "before_trials", "trial": null}
+{"at": 1791643595.9752576, "phase": "before_reset_and_start", "trial": "capacity-memory-calibration-v1-calibration"}
+{"at": 1791643662.474667, "phase": "after_tracker_stop", "trial": "capacity-memory-calibration-v1-calibration"}
+{"at": 1791643672.4772868, "phase": "idle_after_trials", "trial": null}

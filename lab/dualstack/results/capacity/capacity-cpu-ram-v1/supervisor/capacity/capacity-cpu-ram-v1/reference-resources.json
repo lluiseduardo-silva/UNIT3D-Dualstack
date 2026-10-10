@@ -1,0 +1,61 @@
+{
+  "120": {
+    "configured": {
+      "balloon": "0",
+      "cores": "4",
+      "cpu": "host",
+      "memory": "8192",
+      "name": "unit3d-ds-tracker",
+      "scsi0": "local-lvm:vm-120-disk-0,discard=on,size=24G"
+    },
+    "cpu_online": 4,
+    "memory": [
+      "MemTotal:        8131772 kB",
+      "MemAvailable:    7656944 kB",
+      "SwapTotal:             0 kB"
+    ]
+  },
+  "121": {
+    "configured": {
+      "balloon": "0",
+      "cores": "4",
+      "cpu": "host",
+      "memory": "8192",
+      "name": "unit3d-ds-data",
+      "scsi0": "local-lvm:vm-121-disk-0,discard=on,size=32G"
+    },
+    "cpu_online": 4,
+    "memory": [
+      "MemTotal:        8131780 kB",
+      "MemAvailable:    7041364 kB",
+      "SwapTotal:             0 kB"
+    ]
+  },
+  "122": {
+    "configured": {
+      "balloon": "0",
+      "cores": "4",
+      "cpu": "host",
+      "memory": "8192",
+      "name": "unit3d-ds-clients",
+      "scsi0": "local-lvm:vm-122-disk-0,discard=on,size=12G"
+    },
+    "cpu_online": 4,
+    "memory": [
+      "MemTotal:        8131784 kB",
+      "MemAvailable:    7593196 kB",
+      "SwapTotal:             0 kB"
+    ]
+  },
+  "database": {
+    "database": "unit3d_dualstack_capacity_20261010",
+    "rows": [
+      "peers\t10000\t12000\t601600",
+      "history\t601600\t601600",
+      "users\t601600",
+      "endpoints\t20000\t10000\t10000",
+      "owner\t1962\t0",
+      "settings\t8.0.46\t134217728\t1\t1\t200\t2000"
+    ]
+  }
+}

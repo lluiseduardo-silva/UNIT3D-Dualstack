@@ -1,0 +1,66 @@
+{
+  "name": "capacity-alignment-smoke-v1-reference-1000",
+  "start_epoch": 1791617331.9046776,
+  "measured_at": 1791617351.9046776,
+  "finish_epoch": 1791617411.9046776,
+  "rate": 1000,
+  "seconds": 60,
+  "warmup": 20,
+  "accepted": 80000,
+  "expected_credit": 4006400,
+  "completed_rps": 1000.0,
+  "errors": {},
+  "stop_reason": null,
+  "max_generator_lag": 0.003047128993785009,
+  "metrics": {
+    "response_ms": {
+      "count": 60000,
+      "max": 2.0883609977317974,
+      "p50": 0.2469541468381581,
+      "p95": 0.3088636653550767,
+      "p99": 0.34383945027879054
+    },
+    "latency_ms": {
+      "count": 60000,
+      "max": 2.1038909908384085,
+      "p50": 0.26280570279948673,
+      "p95": 0.32702962700907645,
+      "p99": 0.36369119918197546
+    },
+    "queue_ms": {
+      "count": 60000,
+      "max": 2.8219700034242123,
+      "p50": 0.5923637563618588,
+      "p95": 1.0489757191460602,
+      "p99": 1.0820179580065123
+    },
+    "total_ms": {
+      "count": 60000,
+      "max": 3.0977480055298656,
+      "p50": 0.8725927072031211,
+      "p95": 1.3019867265142215,
+      "p99": 1.35107523538874
+    }
+  },
+  "after": {
+    "peers": 10000,
+    "versions": 80000,
+    "credit": 4006400,
+    "history_credit": 4006400,
+    "actual_credit": 4006400,
+    "user_credit": 4006400,
+    "endpoints": {
+      "n": 20000,
+      "v4": 10000,
+      "v6": 10000,
+      "invalid": 0
+    },
+    "over_limit": 0,
+    "bad_torrent_counts": 0,
+    "mismatches": 0
+  },
+  "drained": true,
+  "drain_seconds": 0.7384940460033249,
+  "accounting_passed": true,
+  "status": "passed"
+}

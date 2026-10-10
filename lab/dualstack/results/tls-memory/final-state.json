@@ -1,0 +1,36 @@
+{
+  "peers": [
+    {
+      "count": 1
+    }
+  ],
+  "endpoints": [
+    {
+      "family": 4,
+      "count": 1
+    },
+    {
+      "family": 6,
+      "count": 1
+    }
+  ],
+  "credit": [
+    {
+      "uploaded": 512
+    }
+  ],
+  "owner": [
+    {
+      "generation": 1941,
+      "live": null,
+      "php_journal_drained": 1
+    }
+  ],
+  "active_queries": [
+    {
+      "count": 0
+    }
+  ],
+  "rotation_aliases_remaining": 0,
+  "probe_firewall_rules_remaining": 0
+}

@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "scope": "levantamento e prototipos no laboratorio; produtos preservados",
+  "accepted": 4622000,
+  "measured_samples": 3821500,
+  "phases": 40,
+  "series": 12,
+  "experiments": {
+    "smoke-v1": {
+      "mode": "instrumented",
+      "batch": 200
+    },
+    "ramp-v1": {
+      "mode": "instrumented",
+      "batch": 200
+    },
+    "reference-v1": {
+      "mode": "reference",
+      "batch": 200
+    },
+    "unobserved-v1": {
+      "mode": "unobserved",
+      "batch": 200
+    },
+    "drain-v1": {
+      "mode": "drain",
+      "batch": 200
+    },
+    "mixed-reference-v1": {
+      "mode": "instrumented",
+      "batch": 200
+    },
+    "mixed-drain-v1": {
+      "mode": "drain",
+      "batch": 200
+    },
+    "mixed-batch500-v1": {
+      "mode": "drain",
+      "batch": 500
+    },
+    "fast-smoke-v1": {
+      "mode": "drain",
+      "batch": 500
+    },
+    "fast-ramp-v1": {
+      "mode": "drain",
+      "batch": 500
+    },
+    "ceiling-v1": {
+      "mode": "drain",
+      "batch": 500
+    },
+    "sustained-v1": {
+      "mode": "drain",
+      "batch": 500
+    }
+  },
+  "validations": {
+    "accounting": true,
+    "response_contract": true,
+    "raw_sample_audit": true,
+    "source_identity": true,
+    "restart_preserves_confirmed_state": true
+  },
+  "products": {
+    "UNIT3D": "6d8e7437daa652fb02519584c456b15dceacffa4",
+    "UNIT3D-Announce": "a9ab263de2fe6473c86eeabfd0b6ca1c019f6070"
+  },
+  "limits": [
+    "rampas curtas e um ensaio de 180 segundos; nao sao seis horas",
+    "fixture de 250 usuarios, 40 torrents e 10000 peers; 100% dualstack",
+    "HTTP direto, conexoes persistentes, probes e log de announces desativados",
+    "teto do HTTP nao encontrado; limite observado foi a confirmacao assincrona",
+    "nao isola SSD fisico de virtualizacao e outras cargas do host"
+  ],
+  "report": "docs/dualstack-throughput.md",
+  "results": "lab/dualstack/results/throughput",
+  "next": "implementar gravador com drenagem limitada e lote configuravel; otimizar SQL antes de dividir mutexes"
+}

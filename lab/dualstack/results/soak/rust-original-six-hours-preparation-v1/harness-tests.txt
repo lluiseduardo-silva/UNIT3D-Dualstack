@@ -1,0 +1,23 @@
+test_original_mapped_response_preserves_identity_and_bound (__main__.ComparisonTests.test_original_mapped_response_preserves_identity_and_bound) ... ok
+test_original_mapped_storage_does_not_relax_candidate (__main__.ComparisonTests.test_original_mapped_storage_does_not_relax_candidate) ... ok
+test_other_swarm_and_duplicates_rejected (__main__.ComparisonTests.test_other_swarm_and_duplicates_rejected) ... ok
+test_replay_separates_refresh_from_credit (__main__.ComparisonTests.test_replay_separates_refresh_from_credit) ... ok
+test_same_single_family_credit_in_both_variants (__main__.ComparisonTests.test_same_single_family_credit_in_both_variants) ... ok
+test_six_hours_are_measured_in_full_and_short_profile_unchanged (__main__.ComparisonTests.test_six_hours_are_measured_in_full_and_short_profile_unchanged) ... ok
+test_wrong_counts_and_family_rejected (__main__.ComparisonTests.test_wrong_counts_and_family_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+test_drain_failure_preserves_primary_reason (__main__.SoakTests.test_drain_failure_preserves_primary_reason) ... ok
+test_guards (__main__.SoakTests.test_guards) ... ok
+test_percentile_bounds (__main__.SoakTests.test_percentile_bounds) ... ok
+test_response_diagnostics_never_export_arbitrary_body (__main__.SoakTests.test_response_diagnostics_never_export_arbitrary_body) ... ok
+test_segments_roundtrip_and_bound (__main__.SoakTests.test_segments_roundtrip_and_bound) ... ok
+test_writer_failure_visible (__main__.SoakTests.test_writer_failure_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.119s
+
+OK

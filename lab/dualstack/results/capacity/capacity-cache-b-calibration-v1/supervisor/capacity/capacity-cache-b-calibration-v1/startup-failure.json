@@ -1,0 +1,14 @@
+{
+  "container": {
+    "Status": "created",
+    "Running": false,
+    "ExitCode": 128,
+    "OOMKilled": false,
+    "StartedAt": "0001-01-01T00:00:00Z",
+    "FinishedAt": "0001-01-01T00:00:00Z",
+    "Error": "failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting \"/opt/unit3d-dualstack/capacity.env\" to rootfs at \"/app/.env\": create mountpoint for /app/.env mount: make mountpoint \"/app/.env\": read-only file system"
+  },
+  "product_started": false,
+  "generator_started": false,
+  "cause": "missing_empty_env_mountpoint_in_read_only_candidate_directory"
+}
